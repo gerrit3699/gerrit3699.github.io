@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Warum das wichtig ist"
-permalink: /de/warum-das-wichtig-ist/
+permalink: /de/warum/
 lang: de
 ---
 
