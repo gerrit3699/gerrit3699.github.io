@@ -1,38 +1,117 @@
 ---
-title: Start
+layout: page
+title: Semantic Gravitation
 permalink: /de/
 ---
 
-<div class="sg-hero">
-  <h1>Semantic Gravitation</h1>
-  <p>Ein Forschungsraum für Semantische Gravitation, KI-Alignment und Veröffentlichungen – klar, offen, und mit innerer Integrität gebaut.</p>
-</div>
+# Bedeutung ist ein Raum
 
-## Aktuelles
-Hier kommt später dein „Newsletter-Strom“ hin: neue Texte, Updates, Paper, Kooperationen.
+Bedeutung ist nicht nur Inhalt.  
+Nicht nur etwas, das in Sätzen steckt.  
+Nicht nur etwas, das wir nachträglich hineinlesen.
 
-<div class="sg-grid">
-  <div class="sg-card">
-    <h3>Theorie</h3>
-    <p>Worum es geht, woher es kommt, und warum es mehr ist als Metapher: eine präzise Linse auf Sinn, Struktur und Physik.</p>
-    <p><a href="/de/theorie/">Zur Theorie →</a></p>
-  </div>
+Bedeutung hat Struktur.  
+Sie hat Richtung.  
+Spannung.  
+Nähe.  
+Distanz.  
+Gewicht.  
+Verdichtung.  
+Übergänge.
 
-  <div class="sg-card">
-    <h3>KI-Alignment</h3>
-    <p>Edge Alignment, Wahrheitsspiegel und semantische Navigationsräume – von Paper bis Vision.</p>
-    <p><a href="/de/ki-alignment/">Zu KI-Alignment →</a></p>
-  </div>
+Wenn sich Bedeutung verändert, verändert sich auch der Raum der Möglichkeiten.
 
-  <div class="sg-card">
-    <h3>Papers & Veröffentlichungen</h3>
-    <p>Alle Preprints, PDFs und begleitenden Materialien – sauber sortiert.</p>
-    <p><a href="/de/papers/">Zu den Papers →</a></p>
-  </div>
+Semantic Gravitation ist der Versuch, diesen Raum zu verstehen —  
+und Navigation darin möglich zu machen.
 
-  <div class="sg-card">
-    <h3>Blog</h3>
-    <p>Freie Gedanken, Musterbeobachtungen, kurze Notate – als lebendiges Journal der Arbeit.</p>
-    <p><a href="/de/blog/">Zum Blog →</a></p>
-  </div>
-</div>
+---
+
+## Der Kern meiner Arbeit
+
+Der Kern meiner Arbeit ist eigentlich einfach.
+
+Bedeutung ist nicht nur das, was etwas ist.  
+Bedeutung ist auch das, was dadurch mit dem Raum der Möglichkeiten passiert.
+
+Wenn etwas benannt wird, verändert sich der Raum.  
+Möglichkeiten werden enger.  
+Andere öffnen sich.  
+Neue Relationen entstehen.
+
+Deshalb beschreibe ich Bedeutung nicht als Wörterbuch, sondern als Raum.  
+Als Feld aus Wegen, Gewichten, Verdichtungen, Kopplungen und Zugkräften.
+
+---
+
+## Worum es hier geht
+
+Diese Seite ist ein offener Forschungsraum für:
+
+- Semantic Gravitation  
+- KI-Alignment  
+- Bedeutungsräume  
+- Denkraum-Navigation  
+- Zivilisatorische Perspektiven  
+
+---
+
+## Einstieg
+
+### Theorie
+
+Warum Bedeutung als Raum gedacht werden kann  
+und welche Struktur daraus entsteht.
+
+→ /de/theorie/
+
+---
+
+### KI-Alignment
+
+Die Edge-Idee und der technische Kern der Arbeit.
+
+→ /de/ki-alignment/
+
+---
+
+### Papers
+
+Alle wissenschaftlichen Dokumente und Preprints.
+
+→ /de/papers/
+
+---
+
+### Das Buch der Bedeutung
+
+Große Bilder.  
+Offene Räume.  
+Ein anderer Zugang zu Erkenntnis.
+
+→ /de/buch/
+
+---
+
+### Warum das wichtig ist
+
+Die größere Perspektive dieser Arbeit.
+
+→ /de/warum/
+
+---
+
+### Blog
+
+Gedanken, Notizen und neue Entwicklungen.
+
+→ /de/blog/
+
+---
+
+## Semantic Gravitation
+
+Ein Forschungsprogramm zur Navigation in Bedeutungsräumen.
+
+Klarheit ohne Verengung.  
+Verbindung ohne Verlust von Differenz.  
+Freiheit ohne Beliebigkeit.
