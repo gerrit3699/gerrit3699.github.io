@@ -8,7 +8,7 @@ permalink: /de/
 
 Bedeutung ist nicht nur Inhalt.  
 Nicht nur etwas, das in Sätzen steckt.  
-Nicht nur etwas, das wir nachträglich hineinlesen.
+Nicht nur etwas, das wir nachträglich in Sprache, Daten, Meinungen oder Theorien hineinlesen.
 
 Bedeutung hat Struktur.  
 Sie hat Richtung.  
@@ -112,6 +112,5 @@ Gedanken, Notizen und neue Entwicklungen.
 
 Ein Forschungsprogramm zur Navigation in Bedeutungsräumen.
 
-Klarheit ohne Verengung.  
-Verbindung ohne Verlust von Differenz.  
-Freiheit ohne Beliebigkeit.
+Ein Kompass im Nebel unserer Zeit.  
+Ein neuer Scheinwerfer für den gemeinsamen Bedeutungsraum.
