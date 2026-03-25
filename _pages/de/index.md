@@ -62,7 +62,7 @@ Diese Seite ist ein offener Forschungsraum für:
 Warum Bedeutung als Raum gedacht werden kann  
 und welche Struktur daraus entsteht.
 
-→ /de/theorie/
+[Zur Theorie →](/de/theorie/)
 
 ---
 
@@ -70,7 +70,7 @@ und welche Struktur daraus entsteht.
 
 Die Edge-Idee und der technische Kern der Arbeit.
 
-→ /de/ki-alignment/
+[Zu KI-Alignment →](/de/ki-alignment/)
 
 ---
 
@@ -78,7 +78,7 @@ Die Edge-Idee und der technische Kern der Arbeit.
 
 Alle wissenschaftlichen Dokumente und Preprints.
 
-→ /de/papers/
+[Zu den Papers →](/de/papers/)
 
 ---
 
@@ -88,7 +88,7 @@ Große Bilder.
 Offene Räume.  
 Ein anderer Zugang zu Erkenntnis.
 
-→ /de/buch/
+[Zum Buch →](/de/buch/)
 
 ---
 
@@ -96,7 +96,7 @@ Ein anderer Zugang zu Erkenntnis.
 
 Die größere Perspektive dieser Arbeit.
 
-→ /de/warum/
+[Warum das wichtig ist →](/de/warum/)
 
 ---
 
@@ -104,7 +104,7 @@ Die größere Perspektive dieser Arbeit.
 
 Gedanken, Notizen und neue Entwicklungen.
 
-→ /de/blog/
+[Zum Blog →](/de/blog/)
 
 ---
 
