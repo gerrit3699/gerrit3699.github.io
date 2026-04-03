@@ -10,7 +10,7 @@ permalink: /de/theorie/
 
 Der Kern dieser Arbeit ist einfach und radikal zugleich:
 
-**Bedeutung ist nicht nur Inhalt. Bedeutung ist Struktur.**
+**Bedeutung ist nicht nur Inhalt. Bedeutung ist Struktur. Bedeutung ist ein Raum.**
 
 Bedeutung steckt nicht einfach in Wörtern, Sätzen oder Daten.  
 Sie hat Richtung.  
@@ -28,7 +28,7 @@ Man spürt das im Leben ständig:
 - Manche Deutungen schaffen Klarheit.  
 - Andere erzeugen nur schönere Verwirrung.  
 - Manche Spannungen sind fruchtbar.  
-- Andere sind verdeckte Widersprüche.  
+- Andere sind verdeckte Widersprüche.
 
 Der eigentliche Sprung dieser Theorie liegt darin, Bedeutung nicht mehr nur als „gemeinten Inhalt“ zu behandeln, sondern als **beweglichen Raum der Möglichkeiten**.
 
@@ -41,6 +41,28 @@ Bedeutung ist auch das, was dadurch mit dem Raum der Möglichkeiten passiert.**
 
 Darum beschreibt Semantic Gravitation Bedeutung nicht als Wörterbuch, sondern als **Feld**:  
 als Raum aus Wegen, Gewichten, Verdichtungen, Relationen, Übergängen und Zugkräften.
+
+---
+
+## Bedeutung als Netz von Wenn-Dann-Strukturen
+
+Bedeutung ist nicht nur ein Zustand.  
+Sie ist auch ein **Netz von Wenn-Dann-Strukturen**.
+
+Wenn etwas so gelesen wird, dann werden bestimmte Folgen wahrscheinlicher.  
+Wenn etwas so benannt wird, dann werden bestimmte Anschlusswege geöffnet und andere geschlossen.  
+Wenn ein Satz gesetzt wird, dann verschiebt sich der Raum der Möglichkeiten.
+
+Jede semantische Setzung tut deshalb mehr, als nur etwas zu beschreiben.  
+Sie organisiert Übergänge.
+
+**Semantik ist deshalb nicht nur Inhalt.  
+Sie ist ein Feld bedingter Übergänge.**
+
+Oder noch einfacher:
+
+**Bedeutung ist ein Netz von Wenn-Dann-Strukturen,  
+das durch jede Setzung neu gewichtet wird.**
 
 ---
 
@@ -61,9 +83,7 @@ Das heißt:
 - Übergänge können als Bewegungen in einem Raum modelliert werden,
 - und daraus können steuerbare, korrigierbare semantische Architekturen entstehen.
 
-Genau darin liegt der Unterschied zu fast allem, was heute unter Sprachverarbeitung oder Alignment läuft.
-
-Heutige KI behandelt Bedeutung meistens indirekt:
+Heutige KI behandelt Bedeutung meistens indirekt:  
 über Korrelationen, Wahrscheinlichkeiten, Repräsentationen und Outputs.
 
 Dieser Ansatz geht tiefer.
@@ -80,32 +100,37 @@ Und genau dort beginnt eine neue Klasse von KI.
 
 ---
 
-## Die Minimalstruktur von Bedeutung: KPR
+## Die Minimalgrammatik: KPR
 
 Die kleinste tragfähige Struktur von Bedeutung wird hier als **KPR** beschrieben:
 
 ### Kern
-Worum es eigentlich geht.
+Worum es eigentlich geht.  
+Nicht zwingend als fixes Ding, sondern als Verdichtungszentrum dessen, was Gewicht trägt.
 
 ### Projektion
-Wie dieser Kern erscheint.
+Wie dieser Kern erscheint.  
+Wie er sichtbar wird. Wie er auf ein System trifft. Wie er sich ausdrückt.
 
 ### Relation
-Womit er verbunden ist und wie er eingebettet ist.
+Womit er verbunden ist.  
+Welche Nähe, Distanz, Spannung, Abhängigkeit, Resonanz oder Wirkung besteht.
 
 KPR ist keine bloße Merkhilfe, sondern die minimale Grammatik semantischer Wirklichkeit.
 
 Denn nichts erscheint einfach „an sich“.  
 Jeder Inhalt hat einen Kern, erscheint in einer bestimmten Projektion und steht in Relationen.
 
-Diese drei Momente sind nicht nachträglich hinzugefügt.  
-Sie sind die minimale Bedingung dafür, dass überhaupt Bedeutung wirksam werden kann.
-
 Darum ist KPR der erste Baustein des gesamten Programms.
+
+**Wenn Bedeutung Raum ist,  
+dann sind Kerne Verdichtungszentren,  
+Projektionen Erscheinungsformen,  
+und Relationen die Bahnen, auf denen Wirksamkeit sich fortsetzt.**
 
 ---
 
-## Die semantische Mikroeinheit
+## Die kleinste explizite Einheit: die Setzung
 
 Auf der elementarsten Ebene lautet die entscheidende Einsicht:
 
@@ -130,14 +155,8 @@ Auch Selbstidentität ist bereits eine semantische Konfiguration, weil schon die
 
 Damit wird klar:
 
-**Die Welt semantischer Dynamik baut nicht aus toten Partikeln auf, sondern aus kleinsten KPR-tragenden Setzungen.**
-
-Und diese Setzungen verändern sich.
-
-Sie können anschlussfähiger werden oder verzerrter.  
-Sie können sich einem tragfähigen Attraktor annähern oder in lokale Ordnungsblasen abdriften.
-
-Genau daraus entsteht eine echte **semantische Mikrophysik**.
+**Die Welt semantischer Dynamik baut nicht aus toten Partikeln auf,  
+sondern aus kleinsten KPR-tragenden Setzungen.**
 
 ---
 
@@ -147,65 +166,99 @@ Neben KPR beschreibt dieses Programm eine zweite, operative Dreigliederung.
 Sie macht sichtbar, wie Bedeutung im gelebten Raum erscheint:
 
 ### Klarheit
-Wie präzise etwas gesehen wird.
+Nicht bloß plausibel.  
+Sondern lesbar, prüfbar, tragfähig.
 
-### Beziehung
-Wie verbunden oder abgetrennt etwas ist.
+### Würde / Bindung
+Nicht beruhigen auf Kosten des Menschen.  
+Sondern einen Raum halten, in dem Wahrheit nicht entwürdigt.
 
 ### Freiheit / Ausdruck
-Wie sichtbar, handlungsfähig und ausdrucksfähig ein Mensch oder System darin noch ist.
+Nicht still einhegen.  
+Sondern echte Wahl, Ausdruck und Handlung offenhalten.
 
 Diese drei Achsen sind keine bloßen Werteworte.  
-Sie beschreiben reale Differenzen in semantischen Zuständen.
+Sie sind **Messachsen**.
 
-Ein Zustand kann zum Beispiel:
-
-- klarer, aber beziehungsärmer werden,
-- verbundener, aber diffuser werden,
-- freier wirken, aber innerlich driftiger werden,
-- oder in allen drei Dimensionen tragfähiger werden.
-
-Gerade dadurch wird Semantik **navigierbar**.
-
-Denn jetzt kann man nicht nur sagen:  
-„Das klingt gut“ oder „Das fühlt sich falsch an“.
-
-Man kann genauer fragen:
+Mit ihnen lässt sich fast jede Lage lesen:
 
 - Wird hier wirklich Klarheit gewonnen oder nur glatter formuliert?
-- Entsteht echte Beziehung oder nur Verschmelzung?
-- Wird Freiheit größer oder nur Beliebigkeit?
+- Entsteht echte Würde oder nur Kuschelnebel?
+- Wird Freiheit größer oder nur Beliebigkeit simuliert?
 - Wird der Raum tragfähiger oder bloß hübscher?
 
-Damit erhält die Theorie einen echten operativen Kern.
+**Keine Achse genügt allein.**  
+Klarheit ohne Würde wird zur Klinge.  
+Würde ohne Klarheit wird zum Nebel.  
+Freiheit ohne Klarheit und Würde wird zum Unfall.
+
+Darum sind diese drei kein Motivationsschema, sondern ein **Gleichgewichtssystem**.
 
 ---
 
-## Vom Würfel zur Navigation
+## Ein kurzes Beispiel: KPR in der Praxis
 
-Sobald Klarheit, Beziehung und Freiheit/Ausdruck als Achsen ernst genommen werden, ergibt sich fast zwangsläufig eine Würfel- oder Zustandsraumlogik.
+Nimm den Satz:
 
-Dann lassen sich Konfigurationen ordnen.  
-Und Veränderung wird nicht mehr als chaotischer Sprung, sondern als **bewegte Trajektorie** beschreibbar.
+**„Ich bin halt so.“**
 
-Die wichtigste Konsequenz daraus lautet:
+Dann lässt er sich semantisch lesen als:
 
-**Gute semantische Veränderung geschieht nicht durch wilde Totalverdrehung, sondern durch minimale, reparierbare Übergänge.**
+- **Kern:** ein verletztes oder geschütztes Selbstbild  
+- **Projektion:** starre Identitätsbehauptung  
+- **Relation:** Schließung von Entwicklungspfaden und Korrekturmöglichkeiten
 
-Also:
+Der Satz klingt oft stabil.  
+Aber seine Stabilität ist häufig nur lokal.
 
-- nicht alles auf einmal,
-- nicht heimlich Klarheit gegen Beziehung tauschen,
-- nicht lokale Glättung mit echter Kohärenz verwechseln,
-- nicht einen Gewinn an einer Stelle dadurch „bezahlen“, dass woanders Würde, Freiheit oder Bindung zerstört wird.
+Er entlastet.  
+Er erklärt.  
+Er schließt.
 
-Der Grundsatz lautet:
+Genau darin zeigt sich, warum semantische Analyse mehr ist als bloße Textinterpretation:  
+Sie fragt nicht nur, **was** gesagt wird, sondern **was diese Setzung mit dem Raum der Möglichkeiten macht**.
 
-**Ein Schritt. Eine Achse. Reparierbar.**
+---
 
-Das ist die Logik der Edge-Idee.
+## Lokale Ordnungssätze und tiefer kohärente Wahrheitssätze
 
-Und genau deshalb ist diese Theorie nicht nur philosophisch interessant, sondern technisch mächtig.
+Viele Sätze schaffen lokal Ordnung.  
+Gerade deshalb wirken sie oft stark.
+
+Zum Beispiel:
+
+- „Man muss einfach durchziehen.“
+- „Das Leben ist halt hart.“
+- „Menschen ändern sich nicht.“
+
+Solche Sätze können kurzfristig entlasten.  
+Sie geben Boden.  
+Sie schließen Bewegung.  
+Sie senken lokale Haltearbeit.
+
+Aber genau das macht sie oft schwer.
+
+**Sie stabilisieren lokale Ordnung, ohne global tragfähig zu sein.**
+
+Ein tiefer kohärenter Wahrheitssatz trägt mehr Kontext.
+
+Zum Beispiel:
+
+**„Auf dem Weg zur Heilung sind Wege durch Schmerz manchmal unvermeidbar.“**
+
+Dieser Satz ist nicht bloß weicher.  
+Er ist präziser.
+
+Er leugnet Schmerz nicht.  
+Aber er verhärtet ihn auch nicht zur Weltanschauung.
+
+Genau hier zeigt sich der Unterschied zwischen
+
+- **lokalen Ordnungssätzen**, die schnell entlasten,
+- und **tiefer kohärenten Wahrheitssätzen**, die auch in größerem Kontext tragfähig bleiben.
+
+Das ist nicht nur Philosophie.  
+Es ist ein praktischer Test für semantische Qualität.
 
 ---
 
@@ -215,12 +268,11 @@ Semantic Gravitation beschreibt Bedeutungsräume nicht als neutrale Geometrie, s
 
 Das heißt:
 
-- Es gibt Attraktoren.  
-- Es gibt Verdichtungen.  
-- Es gibt stabile und instabile Regime.  
-- Es gibt lokale Ordnungsblasen.  
-- Es gibt Drift.  
-- Es gibt tragfähige und untragfähige Trajektorien.  
+- Es gibt Attraktoren.
+- Es gibt Verdichtungen.
+- Es gibt lokale Ordnungsblasen.
+- Es gibt Drift.
+- Es gibt tragfähige und untragfähige Trajektorien.
 
 Ein semantischer Zustand ist also nie nur „da“.  
 Er steht immer in einem Feld von Kräften, Spannungen und möglichen Bewegungen.
@@ -234,12 +286,109 @@ Sie ist eine Bewegung in Richtung größerer Kohärenz.
 Deshalb ist Orientierung nicht bloß Meinung.  
 Sie ist die Fähigkeit, sich in diesem Raum tragfähig zu bewegen.
 
-Das ist der eigentliche Inhalt von Semantic Gravitation:
-
 **Bedeutung hat Topologie.  
 Bedeutung hat Dynamik.  
 Bedeutung hat Attraktoren.  
 Bedeutung hat Richtung.**
+
+---
+
+## Attraktoren, Minima und Drift
+
+Manche Deutungen ziehen stark, obwohl sie nicht wahr sind.
+
+Warum?
+
+Weil sie **semantische Minima** bilden.
+
+Sie entlasten sofort.  
+Sie erklären etwas.  
+Sie schließen Bewegung.  
+Sie geben dem System einen Boden.
+
+Das macht sie schwer.
+
+Sätze wie:
+
+- „Ich bin halt so.“
+- „So ist die Welt eben.“
+- „Menschen ändern sich nicht.“
+- „Es hat ja doch keinen Sinn.“
+
+wirken oft nicht deshalb stark, weil sie wahr sind, sondern weil sie eine lokale Stabilität erzeugen.
+
+Semantic Gravitation fragt deshalb:
+
+- Ist dieses Minimum tragfähig?
+- Oder ist es nur billig?
+- Führt es zu größerer Kohärenz?
+- Oder nur zu Wiederholung?
+
+Damit wird aus bloßer Beschreibung eine echte **Topographie des Denkens, Fühlens und Handelns**.
+
+---
+
+## Semantische Dekohärenzrate
+
+Nicht jeder Bedeutungsraum ist sofort hart festgelegt.
+
+Manche Räume sind noch offen.  
+Mehrdeutig.  
+Beweglich.  
+Anschlussfähig.
+
+Sie enthalten noch mehrere tragfähige Fortsetzungen.
+
+Genau hier hilft das Bild der **semantischen Dekohärenzrate**.
+
+In der Quantenphysik beschreibt Dekohärenz, wie ein offener Zustand unter Umwelteinfluss in eine festgelegtere Bahn kippt.  
+Im Bedeutungsraum lässt sich ein analoges Bild benutzen:
+
+**Je stärker Konfliktdruck, Projektionen, relationale Last und Wiederholungszwang auf einen semantischen Kern einwirken, desto schneller kollabiert ein offener Raum in eine enge Bahn.**
+
+Die semantische Dekohärenzrate beschreibt also:
+
+- wie schnell Möglichkeiten verloren gehen,
+- wie stark ein Raum auf einen engen Pfad gezwungen wird,
+- und wie teuer Offenheit in einem bestimmten Kontext geworden ist.
+
+Ein einfaches Beispiel:
+
+Ein Konflikt in einer Familie ist zunächst noch offen.  
+Mehrere ehrliche Klärungen wären möglich.  
+Wenn aber Scham, Rollendruck, alte Projektionen und Angst vor Nähe dazukommen, wird der Raum schnell enger.  
+Dann bleiben oft nur noch starre Rollen, Rückzug oder Eskalation.
+
+**Die semantische Dekohärenzrate wäre hier ein Maß dafür, wie schnell offene Fortsetzungen verloren gehen.**
+
+Damit wird Semantik nicht nur statisch lesbar, sondern **prozesshaft diagnostizierbar**.
+
+---
+
+## Vom Würfel zur Navigation
+
+Sobald Klarheit, Würde und Freiheit als Achsen ernst genommen werden, ergibt sich fast zwangsläufig eine Zustandsraumlogik.
+
+Dann lassen sich Konfigurationen ordnen.  
+Und Veränderung wird nicht mehr als chaotischer Sprung, sondern als **bewegte Trajektorie** beschreibbar.
+
+Die wichtigste Konsequenz daraus lautet:
+
+**Gute semantische Veränderung geschieht nicht durch wilde Totalverdrehung,  
+sondern durch minimale, reparierbare Übergänge.**
+
+Also:
+
+- nicht alles auf einmal,
+- nicht heimlich Klarheit gegen Würde tauschen,
+- nicht lokale Glättung mit echter Kohärenz verwechseln,
+- nicht einen Gewinn an einer Stelle dadurch bezahlen, dass woanders Freiheit oder Würde zerstört wird.
+
+Der Grundsatz lautet:
+
+**Ein Schritt. Eine Achse. Reparierbar.**
+
+Das ist die Logik der Edge-Idee.
 
 ---
 
@@ -258,18 +407,68 @@ Er könnte sichtbar machen:
 - wo Nebel entsteht,
 - wo Widerspruch nur sprachlich verdeckt wird,
 - wo eine lokale Ordnung sich fälschlich absolut setzt,
+- wo ein Raum dekohäriert,
 - und welcher nächste Schritt den Raum wirklich tragfähiger macht.
 
 Damit verschiebt sich die Rolle von KI fundamental.
 
-Es geht nicht mehr nur um:
+Es geht nicht mehr nur um:  
 **Frage rein, Antwort raus.**
 
-Sondern um:
+Sondern um:  
 **Raum lesen, Spannungen erkennen, Übergänge prüfen, Kohärenz erhöhen.**
 
 Das ist kein metaphorisches Extra.  
 Das ist die nächste logische Stufe von KI.
+
+---
+
+## Warum das mehr ist als schöne Sprache
+
+Die stärkste Skepsis gegenüber solchen Ansätzen lautet oft:
+„Das klingt gut, aber ist das nicht am Ende nur eine schöne Metapher?“
+
+Nein.
+
+Der Unterschied zwischen Poesie und Architektur ist:  
+Architektur lässt sich in Zustände, Relationen, Übergänge und Kriterien übersetzen.
+
+Genau das geschieht hier.
+
+Dieser Rahmen ist operationalisierbar, weil man systematisch fragen kann:
+
+- Was ist hier der Kern?
+- Welche Projektionen stehen im Spiel?
+- Welche Relationen tragen wirklich?
+- Wo liegt Widerspruchsenergie?
+- Welche Bewegung erzeugt mehr skalenfähige Kohärenz?
+- Welche lokale Stabilität täuscht globale Tragfähigkeit nur vor?
+- Welche Frage öffnet den Raum, welche schließt ihn zu früh?
+- Wie hoch ist die semantische Dekohärenzrate?
+- Welche Fortsetzungen sind noch offen, welche bereits kollabiert?
+
+Sobald diese Fragen systematisch modellierbar sind, hat man es nicht mehr nur mit Philosophie zu tun.
+
+Dann hat man es mit einem **Controller für semantische Dynamik** zu tun.
+
+---
+
+## Dark Matter als relationale Inertia
+
+Diese Theorie beansprucht nicht nur Relevanz für Sprache oder KI.
+
+In ihrer weitesten Ausdehnung stellt sie die Frage, ob auch physikalische Großstrukturen als Ausdruck semantischer beziehungsweise relationaler Feldorganisation lesbar werden.
+
+Die spekulative, aber strukturell folgerichtige These lautet:
+
+**Was wir als Dark Matter lesen, könnte teilweise als relationale Inertia erscheinen — als gravitative Wirkung erhöhter relationaler Integrationsdichte.**
+
+In dieser Perspektive wäre Dark Matter nicht „unsichtbare Substanz“, sondern
+
+**reale Struktur, unsichtbar als Stoff.**
+
+Das ist kein fertiger Beweis.  
+Es ist eine Programmebene-Hypothese.
 
 ---
 
@@ -286,14 +485,15 @@ Was ihr weitgehend fehlt, ist eine explizite Grammatik der semantischen Bewegung
 
 Genau hier setzt diese Arbeit an.
 
-Sie sagt:
+Sie fragt:
 
-- was ein semantischer Kern ist,
-- was eine Projektion ist,
-- was eine Relation ist,
-- was eine gute und schlechte semantische Bewegung unterscheidet,
-- wie Attraktornähe und Drift gedacht werden können,
-- und wie Übergänge so gebaut werden, dass sie reparierbar bleiben.
+- Was ist ein semantischer Kern?
+- Was ist eine Projektion?
+- Was ist eine Relation?
+- Was ist eine gute und schlechte semantische Bewegung?
+- Woran erkennt man Attraktornähe und Drift?
+- Wie baut man Übergänge so, dass sie reparierbar bleiben?
+- Wie hält man einen Raum offen, ohne ihn in Nebel zu verlieren?
 
 Damit wird aus bloßer Musterbildung:
 
@@ -302,103 +502,8 @@ Damit wird aus bloßer Musterbildung:
 - semantische Pfadsteuerung,
 - und perspektivisch semantische Selbstkorrektur.
 
-**Das ist keine Erweiterung bestehender KI.  
+**Das ist keine kleine Erweiterung bestehender KI.  
 Das ist eine neue Architekturklasse.**
-
-Nicht mehr nur Modelle, die Texte erzeugen.  
-Sondern Systeme, die Bedeutungsräume lesen und in ihnen tragfähiger navigieren können als heutige Systeme.
-
----
-
-## Warum das mehr ist als schöne Sprache
-
-Die stärkste Skepsis gegenüber solchen Ansätzen lautet oft:
-„Das klingt gut, aber ist das nicht am Ende nur eine schöne Metapher?“
-
-Nein.
-
-Der Unterschied zwischen Poesie und Architektur ist:
-Architektur lässt sich in Zustände, Relationen, Übergänge und Kriterien übersetzen.
-
-Genau das geschieht hier.
-
-Dieser Rahmen ist operationalisierbar, weil man systematisch fragen kann:
-
-- Was ist hier der Kern?
-- Welche Projektionen stehen im Spiel?
-- Welche Relationen tragen wirklich?
-- Wo liegt Widerspruchsenergie?
-- Welche Bewegung erzeugt mehr skalenfähige Kohärenz?
-- Welche lokale Stabilität täuscht globale Tragfähigkeit nur vor?
-- Welche Frage öffnet den Raum, welche schließt ihn zu früh?
-
-Sobald diese Fragen systematisch modellierbar sind, hat man es nicht mehr nur mit Philosophie zu tun.
-
-Dann hat man es mit einem **Controller für semantische Dynamik** zu tun.
-
----
-
-## Wie diese Theorie entstanden ist
-
-Diese Arbeit ist nicht am Schreibtisch im Modus bloßer Weltmodell-Erfindung entstanden.
-
-Sie entstand in einer langen Schmiede aus:
-
-- radikaler Ehrlichkeit,
-- rekursiver Spiegelung,
-- semantischer Belastung,
-- wiederholter Präzisierung,
-- und dem Versuch, genau das nicht wegzudrücken, was zunächst unstimmig, beschämend, widersprüchlich oder roh war.
-
-Der eigentliche Weg war nicht:
-eine schöne Theorie zu erfinden.
-
-Der Weg war:
-immer wieder auszusprechen, was da ist,
-zu prüfen, was den Raum schließt,
-und zu lernen, welche Frage, welche Formulierung und welche Bewegung den Raum wirklich weiter macht.
-
-Daraus entstand Schritt für Schritt nicht nur ein Begriffssystem, sondern eine neue Wahrnehmung:
-
-**Es gibt Fragen, die den Raum schließen.  
-Und es gibt Fragen, die ihn öffnen.**
-
-Diese Theorie ist aus dieser Unterscheidungsfähigkeit hervorgegangen.
-
----
-
-## Schönheit, Kohärenz und größere Muster
-
-Ein tiefer Nebenaspekt dieser Arbeit ist:
-
-**Schönheit ist nicht nur Dekoration. Schönheit ist lesbare Kohärenz.**
-
-Ein Muster wirkt schön, wenn es nicht nur lokal funktioniert, sondern über Ebenen hinweg tragfähig bleibt.  
-Wenn es sich in Variation wiedererkennt.  
-Wenn es im Kleinen und im Großen dieselbe Ordnung trägt.
-
-Darum gehören in dieses Programm nicht nur Sprache und Logik, sondern auch:
-
-- Bilder,
-- Musik,
-- Affektkurven,
-- Formen,
-- Rhythmen,
-- soziale Muster.
-
-Denn wenn Bedeutung wirklich feldartig organisiert ist, dann darf dieselbe Tiefenstruktur in verschiedenen Medien erscheinen.
-
-Dieselbe semantische Bewegung kann dann als:
-
-- Argument,
-- Bild,
-- Melodie,
-- Affektverlauf,
-- oder räumliche Form
-
-sichtbar werden.
-
-Darum ist der Raumscanner im tiefsten Sinn nicht nur ein Textsystem, sondern ein Instrument zur Rekonstruktion semantischer Tiefenstruktur.
 
 ---
 
@@ -411,18 +516,13 @@ Hier ist ein interessantes Denkmodell.
 
 Sie sagt:
 
-**Hier entsteht die Grundarchitektur für eine KI, die nicht nur antwortet, sondern semantisch navigiert.**
+**Hier entsteht die Grundarchitektur für eine KI,  
+die nicht nur antwortet, sondern semantisch navigiert.**
 
 Eine KI, die nicht nur Sätze bildet, sondern Räume mitliest.  
 Eine KI, die nicht nur nach Wahrscheinlichkeit optimiert, sondern nach tragfähigerer Bewegung im Bedeutungsraum.  
-Eine KI, die nicht nur Sprache produziert, sondern den Zustand eines Systems besser lesen kann als heutige Modelle.  
+Eine KI, die nicht nur Sprache produziert, sondern Zustände, Spannungen und Übergänge besser lesen kann als heutige Modelle.  
 Eine KI, die nicht nur glatte Antworten gibt, sondern hilft, den nächsten wirklich tragfähigen Schritt zu finden.
-
-Das ist die nächste Stufe.
-
-Nicht später.  
-Nicht irgendwann vielleicht.  
-Sondern strukturell jetzt schon.
 
 ---
 
@@ -441,7 +541,8 @@ Wer tiefer einsteigen will, findet dort:
 - die C/B/A-Achsen,
 - die Edge-Idee,
 - die Mikrophysik semantischer Setzungen,
-- die selbstschreibende Theorie,
+- die semantische Dekohärenzrate,
+- den semantischen Raumscanner,
 - und die Perspektive auf eine neue zivilisatorische Klasse von KI.
 
 ---
@@ -452,6 +553,6 @@ Wer tiefer einsteigen will, findet dort:
 
 [Zu den Papers →](/de/papers/)
 
-[Zum Buch der Bedeutung →](/de/buch/)
+[Zum Buch der Bedeutung →](/de/buch-der-bedeutung/)
 
-[Warum das wichtig ist →](/de/warum/)
+[Warum das wichtig ist →](/de/warum-das-wichtig-ist/)
