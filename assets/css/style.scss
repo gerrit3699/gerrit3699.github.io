@@ -821,3 +821,185 @@ th, td {
     border-radius: 18px;
   }
 }
+ /* =========================================================
+    FINAL NAV FIX — ONLY BURGER + SIDE DRAWER
+    ========================================================= */
+
+.hero-kicker {
+  display: none;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  background: rgba(3, 4, 7, 0.22);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 64px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.site-title {
+  margin-right: auto;
+  font-size: 1.02rem;
+  color: rgba(245,247,250,0.9);
+  letter-spacing: 0.02em;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: inline-flex !important;
+  margin-left: auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.04);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 220;
+}
+
+.nav-toggle-label span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #f4f6fa;
+  border-radius: 999px;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+
+/* obere Link-Leiste komplett unsichtbar, bis Menü geöffnet wird */
+.site-nav {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: min(84vw, 340px);
+  margin: 0 !important;
+  transform: translateX(-105%);
+  transition: transform 0.28s ease;
+  z-index: 215;
+  background: transparent !important;
+}
+
+/* alte horizontale Nav sicher neutralisieren */
+.site-nav .trigger {
+  height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  flex-wrap: nowrap !important;
+  gap: 0.45rem !important;
+  padding: 5.6rem 1rem 1rem !important;
+  background:
+    linear-gradient(180deg, rgba(8,10,14,0.97), rgba(4,5,8,0.98)),
+    url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat !important;
+  border-right: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 20px 0 60px rgba(0,0,0,0.45);
+}
+
+.site-nav .page-link {
+  display: flex !important;
+  width: 100% !important;
+  min-height: 48px;
+  padding: 0.8rem 0.9rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.03);
+  color: #eef2f8 !important;
+  justify-content: flex-start;
+  font-size: 1rem;
+}
+
+.site-nav .page-link:hover,
+.site-nav .page-link:focus {
+  background: rgba(255,255,255,0.08);
+  color: #fff !important;
+  opacity: 1;
+}
+
+.nav-overlay {
+  position: fixed;
+  inset: 0;
+  display: block !important;
+  background: rgba(0,0,0,0.42);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.24s ease;
+  z-index: 210;
+}
+
+.nav-toggle:checked + .nav-toggle-label + .nav-overlay + .site-nav {
+  transform: translateX(0);
+}
+
+.nav-toggle:checked + .nav-toggle-label + .nav-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav-toggle:checked + .nav-toggle-label span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.nav-toggle:checked + .nav-toggle-label span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle:checked + .nav-toggle-label span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* horizontale Desktop-Navigation bewusst nicht mehr zeigen */
+@media (min-width: 901px) {
+  .site-header .wrapper {
+    min-height: 68px;
+  }
+
+  .nav-toggle-label {
+    display: inline-flex !important;
+  }
+
+  .site-nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: min(420px, 36vw);
+    transform: translateX(-105%);
+  }
+}
+
+/* Mobil etwas kompakter */
+@media (max-width: 640px) {
+  .display-wordmark {
+    font-size: clamp(2.6rem, 14vw, 4.2rem);
+    line-height: 0.94;
+  }
+
+  .home-cta-row {
+    flex-direction: column;
+  }
+
+  .button,
+  .support-link {
+    width: 100%;
+  }
+}
