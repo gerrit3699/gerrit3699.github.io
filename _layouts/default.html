@@ -13,8 +13,167 @@
       <meta name="description" content="{{ site.description | escape }}">
     {% endif %}
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=9' | relative_url }}">
     {% include custom-header.html %}
+
+    <style>
+      .site-header,
+      .site-nav,
+      .page-link,
+      .nav-trigger,
+      .nav-toggle,
+      .nav-toggle-label,
+      .nav-overlay {
+        display: none !important;
+      }
+
+      .sg-header {
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        background: rgba(3, 4, 7, 0.24);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(255,255,255,0.06);
+      }
+
+      .sg-header-inner {
+        width: min(100% - 2rem, 1180px);
+        margin: 0 auto;
+        min-height: 64px;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        position: relative;
+      }
+
+      .sg-brand {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-size: 1.02rem;
+        color: rgba(245,247,250,0.9);
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        margin-right: auto;
+      }
+
+      .sg-menu-toggle {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .sg-menu-button {
+        width: 46px;
+        height: 46px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        border-radius: 14px;
+        border: 1px solid rgba(255,255,255,0.1);
+        background: rgba(255,255,255,0.04);
+        cursor: pointer;
+        z-index: 10001;
+      }
+
+      .sg-menu-button span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: #f4f6fa;
+        border-radius: 999px;
+        transition: transform 0.22s ease, opacity 0.22s ease;
+      }
+
+      .sg-menu-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.42);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.24s ease;
+        z-index: 10000;
+      }
+
+      .sg-drawer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: min(84vw, 340px);
+        transform: translateX(-105%);
+        transition: transform 0.28s ease;
+        z-index: 10002;
+      }
+
+      .sg-drawer-inner {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.45rem;
+        padding: 5.6rem 1rem 1rem;
+        background:
+          linear-gradient(180deg, rgba(8,10,14,0.97), rgba(4,5,8,0.98)),
+          url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
+        border-right: 1px solid rgba(255,255,255,0.08);
+        box-shadow: 20px 0 60px rgba(0,0,0,0.45);
+      }
+
+      .sg-drawer-link {
+        display: flex;
+        width: 100%;
+        min-height: 48px;
+        align-items: center;
+        padding: 0.8rem 0.9rem;
+        border-radius: 14px;
+        border: 1px solid rgba(255,255,255,0.06);
+        background: rgba(255,255,255,0.03);
+        color: #eef2f8;
+        text-decoration: none;
+        font-size: 1rem;
+      }
+
+      .sg-drawer-link:hover,
+      .sg-drawer-link:focus {
+        background: rgba(255,255,255,0.08);
+        color: #fff;
+        opacity: 1;
+      }
+
+      .sg-menu-toggle:checked + .sg-menu-button + .sg-menu-overlay {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .sg-menu-toggle:checked + .sg-menu-button + .sg-menu-overlay + .sg-drawer {
+        transform: translateX(0);
+      }
+
+      .sg-menu-toggle:checked + .sg-menu-button span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+      }
+
+      .sg-menu-toggle:checked + .sg-menu-button span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .sg-menu-toggle:checked + .sg-menu-button span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+      }
+
+      @media (min-width: 901px) {
+        .sg-drawer {
+          width: min(420px, 36vw);
+        }
+      }
+
+      @media (max-width: 640px) {
+        .sg-brand {
+          font-size: 0.98rem;
+        }
+      }
+    </style>
   </head>
 
   <body>
