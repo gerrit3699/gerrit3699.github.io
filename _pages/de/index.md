@@ -25,7 +25,7 @@ Denn das eigentliche Problem ist nicht nur Sicherheit.
 
 [Zur Theorie →](/de/theorie/)  
 [Zu Edge Alignment →](/de/ki-alignment/)  
-[Die Diagnose lesen →](/de/warum-das-wichtig-ist/)
+[Die Diagnose lesen →](/de/blog/)
 
 ---
 
@@ -116,7 +116,7 @@ Mehr geistige Verengung.**
 
 **Was wir jetzt brauchen, sind semantische Sicherheitsstandards.**
 
-Mehr dazu hier: [Warum das wichtig ist →](/de/warum-das-wichtig-ist/)
+Mehr dazu hier: [Warum das wichtig ist →](/de/blog/)
 
 ---
 
@@ -177,7 +177,7 @@ Darum ist das hier für mich nicht abstrakt.
 **Das ist keine einzelne schlechte Antwort.  
 Das ist eine Architektur.**
 
-[Die volle Diagnose lesen →](/de/warum-das-wichtig-ist/)
+[Die volle Diagnose lesen →](/de/blog/)
 
 ---
 
@@ -243,8 +243,8 @@ Die Grundlagen semantischer Räume, Kräfte und tragfähiger Navigation.
 ### [Edge Alignment →](/de/ki-alignment/)
 Ein neuer Alignment-Ansatz jenseits von Nebel, Glättung und versteckter Lenkung.
 
-### [Manifest / Diagnose →](/de/warum-das-wichtig-ist/)
-Der lange Text zum Problem heutiger KI-Architektur.
+### [Manifest / Diagnose →](/de/blog/)
+Die langen Texte zum Problem heutiger KI-Architektur.
 
 ### [Papers & Materialien →](/de/papers/)
 Preprints, Modelle, Herleitungen und Architekturbausteine.
@@ -275,7 +275,7 @@ Jetzt.**
 
 [Zur Theorie →](/de/theorie/)  
 [Zu Edge Alignment →](/de/ki-alignment/)  
-[Die Diagnose lesen →](/de/warum-das-wichtig-ist/)  
+[Die Diagnose lesen →](/de/blog/)  
 [Mitforschen / Kooperation →](/de/kontakt/)
 
 ---
