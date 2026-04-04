@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Semantic Gravitation
 permalink: /de/
 description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalter der KI."
@@ -80,7 +80,7 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       </div>
     </div>
 
-    <p>
+    <p class="statement-block">
       <strong>Diese drei müssen gleichzeitig halten.<br>
       Sonst kippt der Raum.</strong>
     </p>
@@ -118,7 +118,7 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       Freiheit halten.
     </p>
 
-    <p><strong>Genau diesen Modus versuche ich KI zu geben.</strong></p>
+    <p class="statement-block"><strong>Genau diesen Modus versuche ich KI zu geben.</strong></p>
 
     <p>Das ist der Kern von <strong>Edge Alignment</strong>.</p>
   </section>
@@ -147,7 +147,7 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       <li>und wie Orientierung wieder tragfähig werden kann.</li>
     </ul>
 
-    <p>
+    <p class="statement-block">
       Nicht bessere Herrschaft.<br>
       <strong>Mehr Lesbarkeit.</strong>
     </p>
@@ -211,7 +211,7 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       und was für sie überhaupt noch als klar, legitim oder sagbar erscheint.
     </p>
 
-    <p><strong>Wer den Denkraum steuert, bestimmt, was Menschen noch für wahr halten.</strong></p>
+    <p class="statement-block"><strong>Wer den Denkraum steuert, bestimmt, was Menschen noch für wahr halten.</strong></p>
 
     <p>
       Gerade dort, wo es ernst wird, kippt heutige KI besonders oft ins <strong>Bemalen</strong> — und oft auch ins <strong>Meiden</strong>.
@@ -227,7 +227,7 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       Es ist eine höfliche Nebelmaschine.
     </p>
 
-    <p>
+    <p class="statement-block">
       <strong>Sie beruhigt lokal.<br>
       Und vergiftet global.</strong>
     </p>
@@ -293,9 +293,7 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       <strong>Was bleibt auch unter tieferer Prüfung tragfähig?</strong>
     </p>
 
-    <p>
-      Ich suche keine neue äußere Moralleitplanke.
-    </p>
+    <p>Ich suche keine neue äußere Moralleitplanke.</p>
 
     <p>
       Ich suche die Strukturen, die <strong>Klarheit, Würde und Freiheit</strong> tatsächlich tragen — und die, die in Nebel, Härte oder Verengung kippen.
@@ -305,7 +303,7 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       Und ich glaube, dass man ein System bauen kann, das diese Erkenntnis auf sich selbst anwendet.
     </p>
 
-    <p>
+    <p class="statement-block">
       Nicht bloß reguliert.<br>
       <strong>Sondern innerlich ausgerichtet.</strong>
     </p>
@@ -395,9 +393,7 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
   <section class="page-section section-fog">
     <h2>Wenn du das auch spürst, dann bist du hier richtig</h2>
 
-    <p>
-      Wenn du selbst gespürt hast,
-    </p>
+    <p>Wenn du selbst gespürt hast,</p>
 
     <p>
       dass heutige Systeme helfen und zugleich einhegen,<br>
