@@ -6,19 +6,20 @@
 :root {
   --bg: #040507;
   --bg-soft: #090b0f;
-  --panel: rgba(10, 12, 18, 0.56);
-  --panel-soft: rgba(10, 12, 18, 0.34);
-  --panel-strong: rgba(8, 10, 15, 0.82);
+
+  --panel: rgba(10, 12, 18, 0.58);
+  --panel-soft: rgba(10, 12, 18, 0.38);
+  --panel-strong: rgba(8, 10, 15, 0.84);
 
   --text: #f5f7fa;
   --text-soft: #dbe1e8;
-  --text-dim: #96a0ad;
+  --text-dim: #98a2af;
 
   --line: rgba(255, 255, 255, 0.08);
   --line-strong: rgba(255, 255, 255, 0.14);
 
-  --shadow: 0 20px 70px rgba(0, 0, 0, 0.34);
-  --radius: 24px;
+  --shadow: 0 22px 80px rgba(0, 0, 0, 0.34);
+  --radius: 26px;
 
   --content-width: 760px;
   --section-width: 980px;
@@ -34,10 +35,10 @@ html {
 
 body {
   margin: 0;
-  background: #040507;
+  background: var(--bg);
   color: var(--text);
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.78;
+  line-height: 1.82;
   letter-spacing: 0.003em;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -51,7 +52,7 @@ body::before {
   inset: 0;
   z-index: -3;
   background:
-    linear-gradient(to bottom, rgba(0,0,0,0.78), rgba(0,0,0,0.9)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.92)),
     url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
   pointer-events: none;
 }
@@ -62,12 +63,12 @@ body::after {
   inset: 0;
   z-index: -2;
   background:
-    radial-gradient(circle at 22% 18%, rgba(255,255,255,0.035), transparent 16%),
-    radial-gradient(circle at 74% 24%, rgba(255,255,255,0.03), transparent 18%),
-    radial-gradient(circle at 68% 76%, rgba(255,255,255,0.025), transparent 16%),
+    radial-gradient(circle at 22% 18%, rgba(255,255,255,0.03), transparent 16%),
+    radial-gradient(circle at 74% 24%, rgba(255,255,255,0.025), transparent 18%),
+    radial-gradient(circle at 68% 76%, rgba(255,255,255,0.02), transparent 16%),
     url("/assets/images/design/bubbles.jpg.PNG") center center / cover no-repeat;
   mix-blend-mode: screen;
-  opacity: 0.12;
+  opacity: 0.1;
   pointer-events: none;
 }
 
@@ -77,8 +78,8 @@ body::after {
   background:
     linear-gradient(
       to bottom,
-      rgba(4, 5, 7, 0.38),
-      rgba(4, 5, 7, 0.58) 18%,
+      rgba(4, 5, 7, 0.34),
+      rgba(4, 5, 7, 0.56) 18%,
       rgba(4, 5, 7, 0.84) 100%
     );
 }
@@ -89,12 +90,12 @@ body::after {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.07;
+  opacity: 0.06;
   background:
     radial-gradient(circle at 74% 28%, rgba(255,255,255,0.12), transparent 12%),
     radial-gradient(circle at 74% 28%, rgba(255,255,255,0.04), transparent 24%),
-    linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
   background-size:
     auto,
     auto,
@@ -118,18 +119,18 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1 {
-  font-size: clamp(2.4rem, 7vw, 4.8rem);
+  font-size: clamp(2.4rem, 7vw, 4.9rem);
   margin-bottom: 1rem;
 }
 
 h2 {
-  font-size: clamp(1.95rem, 5vw, 3rem);
-  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  margin: 0 0 1rem;
 }
 
 h3 {
-  font-size: clamp(1.3rem, 3vw, 1.8rem);
-  margin: 0 0 0.45rem;
+  font-size: clamp(1.34rem, 3vw, 1.8rem);
+  margin: 0 0 0.4rem;
 }
 
 p,
@@ -151,7 +152,7 @@ a {
 
 a:hover,
 a:focus {
-  opacity: 0.9;
+  opacity: 0.92;
 }
 
 hr {
@@ -192,7 +193,7 @@ h1.page-title {
 }
 
 .page-content .wrapper {
-  padding-top: 0.5rem;
+  padding-top: 0.35rem;
   padding-bottom: 4rem;
 }
 
@@ -262,7 +263,7 @@ h1.page-title {
 .sg-menu-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.72);
+  background: rgba(0,0,0,0.8);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.24s ease;
@@ -284,13 +285,13 @@ h1.page-title {
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.65rem;
   padding: 5.8rem 1rem 1rem;
   background:
-    linear-gradient(180deg, rgba(4,6,10,0.995), rgba(2,3,6,0.995)),
+    linear-gradient(180deg, rgba(3,5,8,0.995), rgba(1,2,5,0.995)),
     url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
   border-right: 1px solid rgba(255,255,255,0.08);
-  box-shadow: 20px 0 60px rgba(0,0,0,0.45);
+  box-shadow: 20px 0 60px rgba(0,0,0,0.48);
 }
 
 .sg-drawer-link {
@@ -300,8 +301,8 @@ h1.page-title {
   align-items: center;
   padding: 0.85rem 0.95rem;
   border-radius: 14px;
-  border: 1px solid rgba(255,255,255,0.09);
-  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.085);
   color: #eef2f8;
   text-decoration: none;
   font-size: 1rem;
@@ -309,7 +310,7 @@ h1.page-title {
 
 .sg-drawer-link:hover,
 .sg-drawer-link:focus {
-  background: rgba(255,255,255,0.11);
+  background: rgba(255,255,255,0.13);
   color: #fff;
   opacity: 1;
 }
@@ -347,16 +348,26 @@ h1.page-title {
 .section-shell {
   max-width: var(--section-width);
   margin: 0 auto;
-  padding: 2.4rem 0 2.2rem;
+  padding: 3rem 0 2.8rem;
+}
+
+.section-shell-tight {
+  padding-top: 1.15rem;
+  padding-bottom: 1.2rem;
 }
 
 .section-shell + .section-shell {
-  padding-top: 1.8rem;
+  padding-top: 2rem;
 }
 
 .section-head {
   max-width: 760px;
-  margin: 0 auto 1.25rem;
+  margin: 0 auto 1.5rem;
+}
+
+.section-head h2 {
+  max-width: 15ch;
+  line-height: 1.06;
 }
 
 .section-body {
@@ -365,7 +376,7 @@ h1.page-title {
 }
 
 .section-body p + p {
-  margin-top: 1.05rem;
+  margin-top: 1.18rem;
 }
 
 .section-body ul,
@@ -384,9 +395,9 @@ h1.page-title {
 .hero {
   position: relative;
   overflow: hidden;
-  margin: 0.7rem auto 1rem;
+  margin: 0.95rem auto 1rem;
   border: 1px solid var(--line);
-  border-radius: 30px;
+  border-radius: 32px;
   background:
     linear-gradient(180deg, rgba(10,12,17,0.62), rgba(7,9,12,0.78)),
     url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
@@ -426,71 +437,109 @@ h1.page-title {
 .hero-inner {
   position: relative;
   z-index: 1;
-  padding: 3.4rem 1.45rem 3rem;
+  padding: 4.1rem 1.7rem 3.4rem;
   max-width: 920px;
 }
 
 .display-wordmark {
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(3.6rem, 11vw, 6.5rem);
+  font-size: clamp(3.7rem, 11vw, 6.6rem);
   line-height: 0.9;
   letter-spacing: 0.015em;
   color: #f7f8fb;
   text-wrap: balance;
-  margin: 0 0 1.4rem 0;
-  max-width: 7ch;
+  margin: 0 0 1.65rem 0;
+  max-width: 6.6ch;
   text-shadow:
     0 0 18px rgba(255,255,255,0.05),
     0 0 40px rgba(255,255,255,0.035);
 }
 
 .home-lead {
-  max-width: 30rem;
-  font-size: clamp(1.2rem, 2.4vw, 1.45rem);
-  line-height: 1.46;
+  display: inline-block;
+  max-width: 26rem;
+  font-size: clamp(1.24rem, 2.2vw, 1.5rem);
+  line-height: 1.42;
   color: #eef2f8;
-  margin: 0 0 1.65rem 0;
+  margin: 0 0 2rem 0;
+  padding: 0.72rem 0.95rem 0.8rem;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.035);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
 }
 
 .hero-subtitle {
   max-width: 32rem;
   font-size: 1.08rem;
-  line-height: 1.85;
+  line-height: 1.95;
   color: var(--text-soft);
-  margin: 0 0 1.7rem 0;
+  margin: 0 0 2rem 0;
+}
+
+.intro-copy p,
+.free-text-block p,
+.section-body p {
+  max-width: 38rem;
+}
+
+.statement-stage {
+  max-width: 760px;
+  margin: 0 auto;
 }
 
 .statement-block {
-  font-size: clamp(1.2rem, 2.5vw, 1.56rem);
-  line-height: 1.38;
+  font-size: clamp(1.24rem, 2.5vw, 1.62rem);
+  line-height: 1.34;
   color: #f4f7fb;
-  margin: 1.35rem 0;
-  max-width: 31rem;
+  margin: 1.8rem 0;
+  max-width: 30rem;
+  letter-spacing: 0.002em;
 }
 
 .statement-block strong {
   display: inline-block;
 }
 
+.statement-primary {
+  margin-top: 0.3rem;
+}
+
+.statement-secondary {
+  margin-top: 2.2rem;
+}
+
+.statement-inline {
+  margin-top: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.closing-line {
+  margin-top: 2rem;
+  max-width: 34rem;
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
 .home-cta-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-top: 1.8rem;
+  gap: 0.9rem;
+  margin-top: 2.2rem;
 }
 
 /* =========================================================
-   NUR WICHTIGE BLÖCKE ALS KARTEN
+   WICHTIGE BLÖCKE ALS KARTEN
    ========================================================= */
 
 .section-card {
   position: relative;
   max-width: 880px;
   margin: 0 auto;
-  padding: 1.3rem 1.1rem 1.15rem;
+  padding: 1.55rem 1.25rem 1.35rem;
   background: var(--panel-soft);
   border: 1px solid var(--line);
-  border-radius: 26px;
+  border-radius: 28px;
   box-shadow: var(--shadow);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -554,11 +603,11 @@ h1.page-title {
 }
 
 .free-text-block h2 {
-  margin-bottom: 1.15rem;
+  margin-bottom: 1.25rem;
 }
 
 .free-text-block p + p {
-  margin-top: 1.05rem;
+  margin-top: 1.15rem;
 }
 
 .free-text-block ul,
@@ -576,31 +625,32 @@ h1.page-title {
 
 .section-grid {
   display: grid;
-  gap: 0.8rem;
-  margin-top: 1.2rem;
+  gap: 0.9rem;
+  margin-top: 1.35rem;
+  margin-bottom: 1.2rem;
 }
 
 .axis-card {
-  padding: 0.8rem 0.9rem 0.72rem;
+  padding: 0.9rem 0.95rem 0.8rem;
   border: 1px solid rgba(255,255,255,0.08);
-  background: rgba(255,255,255,0.03);
+  background: rgba(255,255,255,0.028);
   border-radius: 18px;
   min-height: 0;
 }
 
 .axis-card h3 {
-  margin-bottom: 0.28rem;
+  margin-bottom: 0.38rem;
 }
 
 .axis-card p {
   margin: 0;
-  line-height: 1.62;
+  line-height: 1.58;
 }
 
 .link-list {
   display: grid;
-  gap: 0.55rem;
-  margin-top: 1.1rem;
+  gap: 0.72rem;
+  margin-top: 1.3rem;
 }
 
 .link-list a {
@@ -608,7 +658,7 @@ h1.page-title {
   align-items: center;
   gap: 0.5rem;
   width: fit-content;
-  font-weight: 620;
+  font-weight: 640;
 }
 
 .button,
@@ -617,11 +667,11 @@ h1.page-title {
   align-items: center;
   justify-content: center;
   gap: 0.45rem;
-  min-height: 46px;
-  padding: 0.8rem 1.04rem;
+  min-height: 48px;
+  padding: 0.82rem 1.08rem;
   border-radius: 999px;
   border: 1px solid rgba(255,255,255,0.14);
-  background: rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.05);
   color: var(--text);
   font-weight: 620;
   box-shadow: var(--shadow);
@@ -639,13 +689,14 @@ h1.page-title {
    ========================================================= */
 
 .section-divider {
-  height: 74px;
+  height: 96px;
   margin: 0 auto;
   max-width: 1000px;
   background:
     linear-gradient(to bottom, transparent, rgba(255,255,255,0.035), transparent),
     url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
-  opacity: 0.24;
+  opacity: 0.16;
+  filter: blur(1px);
   mask-image: linear-gradient(to bottom, transparent, black 25%, black 75%, transparent);
   -webkit-mask-image: linear-gradient(to bottom, transparent, black 25%, black 75%, transparent);
 }
@@ -721,38 +772,47 @@ th, td {
   }
 
   .hero {
-    border-radius: 22px;
-    margin-bottom: 0.75rem;
+    border-radius: 24px;
+    margin-bottom: 0.9rem;
   }
 
   .hero-inner {
-    padding: 2rem 1rem 1.8rem;
+    padding: 2.5rem 1.05rem 2.2rem;
   }
 
   .display-wordmark {
-    font-size: clamp(3.15rem, 15vw, 4.8rem);
+    font-size: clamp(3.25rem, 15vw, 5rem);
     line-height: 0.9;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
 
   .home-lead {
-    font-size: 1.08rem;
-    line-height: 1.5;
-    margin-bottom: 1.25rem;
-    max-width: 18rem;
+    max-width: 17.5rem;
+    font-size: 1.1rem;
+    line-height: 1.46;
+    margin-bottom: 1.35rem;
+    padding: 0.62rem 0.82rem 0.68rem;
+    border-radius: 16px;
   }
 
   .hero-subtitle {
     font-size: 1rem;
-    line-height: 1.78;
-    margin-bottom: 1.35rem;
+    line-height: 1.84;
+    margin-bottom: 1.45rem;
     max-width: 100%;
   }
 
   .statement-block {
-    font-size: 1.07rem;
-    line-height: 1.42;
-    margin: 1.1rem 0;
+    font-size: 1.12rem;
+    line-height: 1.38;
+    margin: 1.35rem 0;
+    max-width: 100%;
+  }
+
+  .closing-line {
+    margin-top: 1.35rem;
+    font-size: 1rem;
+    line-height: 1.78;
   }
 
   p,
@@ -762,31 +822,53 @@ th, td {
   }
 
   .section-shell {
-    padding: 1.8rem 0 1.5rem;
+    padding: 2rem 0 1.95rem;
+  }
+
+  .section-shell-tight {
+    padding-top: 0.95rem;
+    padding-bottom: 1rem;
+  }
+
+  .section-shell + .section-shell {
+    padding-top: 1.35rem;
   }
 
   .section-card {
-    padding: 1rem 0.92rem 0.95rem;
-    border-radius: 20px;
+    padding: 1.08rem 0.95rem 1rem;
+    border-radius: 22px;
+  }
+
+  .section-head {
+    margin-bottom: 1.05rem;
+  }
+
+  .section-head h2 {
+    max-width: 100%;
+    line-height: 1.08;
+  }
+
+  .section-grid {
+    gap: 0.72rem;
+  }
+
+  .axis-card {
+    padding: 0.78rem 0.82rem 0.7rem;
   }
 
   .section-divider {
-    height: 42px;
-    opacity: 0.18;
+    height: 48px;
+    opacity: 0.12;
   }
 
   .home-cta-row {
     flex-direction: column;
     gap: 0.65rem;
-    margin-top: 1.35rem;
+    margin-top: 1.5rem;
   }
 
   .button,
   .support-link {
     width: 100%;
-  }
-
-  .axis-card {
-    padding: 0.72rem 0.8rem 0.65rem;
   }
 }
