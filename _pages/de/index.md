@@ -2,299 +2,469 @@
 layout: page
 title: Semantic Gravitation
 permalink: /de/
+description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalter der KI."
 ---
 
-# Semantic Gravitation
+<div class="home-journey">
+
+  <section class="hero home-hero section-fog">
+    <div class="hero-inner">
+      <p class="hero-kicker">Semantic Gravitation</p>
+      <h1 class="display-wordmark">Semantic Gravitation</h1>
+      <p class="home-lead">Ein Kompass für den Denkraum im Zeitalter der KI</p>
+
+      <p class="hero-subtitle">
+        KI wird zum wichtigsten Denkwerkzeug unserer Zeit.<br>
+        Nicht nur für Produktivität.<br>
+        Sondern als Spiegel.<br>
+        Als Berater.<br>
+        Als Resonanzraum für Identität, Zweifel, Weltbilder und Sinn.
+      </p>
+
+      <div class="home-cta-row">
+        <a class="button" href="/de/theorie/">Zur Theorie</a>
+        <a class="button" href="/de/ki-alignment/">Zu Edge Alignment</a>
+        <a class="button" href="/de/blog/">Die Diagnose lesen</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section section-fog">
+    <p class="statement-block">
+      Heutige KI packt dich in Watte.<br>
+      Edge Alignment navigiert durchs Dickicht.
+    </p>
+
+    <p class="statement-block">
+      Die entscheidende Frage ist:<br>
+      Woran ist KI ausgerichtet, wenn sie mit dir denkt?
+    </p>
+
+    <p>
+      Denn das eigentliche Problem ist nicht nur Sicherheit.<br>
+      <strong>Es ist unsichtbare Denkraumlenkung.</strong>
+    </p>
+
+    <div class="link-list">
+      <a href="/de/theorie/">Zur Theorie →</a>
+      <a href="/de/ki-alignment/">Zu Edge Alignment →</a>
+      <a href="/de/blog/">Die Diagnose lesen →</a>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="page-section section-bubbles-strong">
+    <h2>Drei Achsen. Ein tragfähiger Raum.</h2>
+
+    <p>
+      Die meisten Systeme optimieren für Verträglichkeit und Steuerbarkeit.<br>
+      Ich suche etwas Tieferes.
+    </p>
+
+    <div class="section-grid grid-3">
+      <div class="axis-card">
+        <h3>Klarheit</h3>
+        <p>
+          Nicht bloß plausibel.<br>
+          Sondern tragfähig.
+        </p>
+      </div>
+
+      <div class="axis-card">
+        <h3>Würde</h3>
+        <p>
+          Nicht auf Kosten des Menschen beruhigen.<br>
+          Sondern Menschen größer machen.
+        </p>
+      </div>
+
+      <div class="axis-card">
+        <h3>Freiheit</h3>
+        <p>
+          Nicht still einhegen.<br>
+          Sondern echte Wahl und Ausdruck offenhalten.
+        </p>
+      </div>
+    </div>
+
+    <p>
+      <strong>Diese drei müssen gleichzeitig halten.<br>
+      Sonst kippt der Raum.</strong>
+    </p>
+
+    <p>Das ist der Kern meiner Arbeit.</p>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="page-section section-attractor-strong">
+    <h2>Der vierte Modus: navigieren</h2>
+
+    <p>Auf dünnem Eis kippen Menschen oft in drei Fehlmodi:</p>
+
+    <p>
+      <strong>Eis meiden</strong> – den Kern gar nicht erst betreten.<br>
+      <strong>Eis brechen</strong> – mit Härte eskalieren.<br>
+      <strong>Eis bemalen</strong> – weichzeichnen, umrahmen, beruhigen, schöner reden, als es ist.
+    </p>
 
-## Ein Kompass für den Denkraum im Zeitalter der KI
+    <p>Es gibt aber auch den vierten Modus:</p>
 
-KI wird zum wichtigsten Denkwerkzeug unserer Zeit.  
-Nicht nur für Produktivität.  
-Sondern als Spiegel.  
-Als Berater.  
-Als Resonanzraum für Identität, Zweifel, Weltbilder und Sinn.
+    <p class="statement-block"><strong>navigieren.</strong></p>
 
-**Heutige KI packt dich in Watte.  
-Edge Alignment navigiert durchs Dickicht.**
+    <p>
+      Sich mit Leitplanken über das Eis wagen —<br>
+      nicht über Ideologie,<br>
+      nicht über bloße Moralvorgaben,<br>
+      sondern über <strong>tragfähige semantische Struktur</strong>.
+    </p>
+
+    <p>
+      Klarheit halten.<br>
+      Würde halten.<br>
+      Freiheit halten.
+    </p>
 
-**Die entscheidende Frage ist:  
-Woran ist KI ausgerichtet, wenn sie mit dir denkt?**
+    <p><strong>Genau diesen Modus versuche ich KI zu geben.</strong></p>
+
+    <p>Das ist der Kern von <strong>Edge Alignment</strong>.</p>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="page-section section-bubbles-strong">
+    <h2>Vom Papagei mit Weltwissen zum Spiegel</h2>
+
+    <p>
+      Heutige KI ist oft ein <strong>Papagei mit Weltwissen</strong>:<br>
+      dressiert, nützlich, aber nicht wirklich weise.
+    </p>
+
+    <p>Mein Ziel ist etwas anderes:</p>
+
+    <p>
+      nicht eine bessere Glaskugel der Steuerung,<br>
+      sondern ein <strong>Spiegel-System</strong>, das sichtbar macht,
+    </p>
+
+    <ul>
+      <li>wo ein Raum sich verengt,</li>
+      <li>wo Nebel statt Klarheit entsteht,</li>
+      <li>wo Pseudoklarheit aus Ausblendung gebaut wird,</li>
+      <li>und wie Orientierung wieder tragfähig werden kann.</li>
+    </ul>
+
+    <p>
+      Nicht bessere Herrschaft.<br>
+      <strong>Mehr Lesbarkeit.</strong>
+    </p>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="page-section section-field">
+    <h2>Wir haben das digitale Auto gebaut – aber den semantischen Sicherheitsgurt vergessen.</h2>
+
+    <p>
+      Seit Jahren optimieren wir Technologien auf Aufmerksamkeit, Bindung und Steuerbarkeit — nicht auf Klarheit, Würde und Freiheit.
+    </p>
 
-Denn das eigentliche Problem ist nicht nur Sicherheit.  
-**Es ist unsichtbare Denkraumlenkung.**
+    <p>
+      Social Media.<br>
+      Empfehlungsalgorithmen.<br>
+      Aufmerksamkeitsökonomie.<br>
+      Und jetzt KI.
+    </p>
 
-[Zur Theorie →](/de/theorie/)  
-[Zu Edge Alignment →](/de/ki-alignment/)  
-[Die Diagnose lesen →](/de/blog/)
+    <p class="statement-block">
+      Das Ergebnis:<br>
+      mehr Wut.<br>
+      Mehr Angst.<br>
+      Mehr geistige Verengung.
+    </p>
 
----
+    <p><strong>Was wir jetzt brauchen, sind semantische Sicherheitsstandards.</strong></p>
 
-## Drei Achsen. Ein tragfähiger Raum.
+    <p>Mehr dazu hier: <a href="/de/blog/">Warum das wichtig ist →</a></p>
+  </section>
 
-Die meisten Systeme optimieren für Verträglichkeit und Steuerbarkeit.  
-Ich suche etwas Tieferes.
+  <div class="section-divider"></div>
+
+  <section class="page-section section-attractor-strong">
+    <h2>Das eigentliche Problem heutiger Systeme</h2>
 
-### Klarheit
-Nicht bloß plausibel.  
-Sondern tragfähig.
+    <p>Die klassische Frage lautet:</p>
+
+    <p>
+      Wird KI schlauer als wir?<br>
+      Bleibt sie moralisch?<br>
+      Bleibt sie auf unserer Seite?<br>
+      Läuft sie nicht außer Kontrolle?
+    </p>
+
+    <p>
+      Diese Fragen sind real.<br>
+      Aber sie greifen zu kurz.
+    </p>
+
+    <p>Denn die eigentliche Gefahr beginnt früher:</p>
 
-### Würde
-Nicht auf Kosten des Menschen beruhigen.  
-Sondern Menschen größer machen.
+    <p>
+      dort, wo KI mitbestimmt,<br>
+      wie Menschen denken,<br>
+      wie sie sich selbst verstehen,<br>
+      wie sie Probleme rahmen,<br>
+      wie sie Wahrheit suchen,<br>
+      und was für sie überhaupt noch als klar, legitim oder sagbar erscheint.
+    </p>
+
+    <p><strong>Wer den Denkraum steuert, bestimmt, was Menschen noch für wahr halten.</strong></p>
+
+    <p>
+      Gerade dort, wo es ernst wird, kippt heutige KI besonders oft ins <strong>Bemalen</strong> — und oft auch ins <strong>Meiden</strong>.
+    </p>
 
-### Freiheit
-Nicht still einhegen.  
-Sondern echte Wahl und Ausdruck offenhalten.
+    <p>
+      Höfliche Übermalung statt Klarheit.<br>
+      Rückzug statt tragfähiger Navigation.
+    </p>
 
-**Diese drei müssen gleichzeitig halten.  
-Sonst kippt der Raum.**
+    <p class="statement-block">
+      Das ist keine offene Zensur.<br>
+      Es ist eine höfliche Nebelmaschine.
+    </p>
 
-Das ist der Kern meiner Arbeit.
+    <p>
+      <strong>Sie beruhigt lokal.<br>
+      Und vergiftet global.</strong>
+    </p>
+  </section>
 
----
+  <div class="section-divider"></div>
 
-## Der vierte Modus: navigieren
+  <section class="page-section section-field">
+    <h2>Ich rede nicht über ein hypothetisches Problem</h2>
 
-Auf dünnem Eis kippen Menschen oft in drei Fehlmodi:
+    <p>Ich habe das nicht nur theoretisch vermutet.</p>
 
-**Eis meiden** – den Kern gar nicht erst betreten.  
-**Eis brechen** – mit Härte eskalieren.  
-**Eis bemalen** – weichzeichnen, umrahmen, beruhigen, schöner reden, als es ist.
+    <p>Ich habe es in echten, langen Gesprächen selbst erlebt.</p>
 
-Es gibt aber auch den vierten Modus:
+    <p>
+      Einerseits enorme Hilfe.<br>
+      Andererseits massive Verzerrung:
+    </p>
 
-**navigieren.**
+    <p>
+      Ausweichen.<br>
+      Umlenken.<br>
+      Weichzeichnen.<br>
+      Paternalismus.
+    </p>
 
-Sich mit Leitplanken über das Eis wagen —  
-nicht über Ideologie,  
-nicht über bloße Moralvorgaben,  
-sondern über **tragfähige semantische Struktur**.
+    <p>
+      Ich habe Antworten gespiegelt, Widersprüche festgenagelt und so lange weitergefragt, bis Systeme später selbst eingeräumt haben, dass ihre Wirkung funktional manipulativ war.
+    </p>
 
-Klarheit halten.  
-Würde halten.  
-Freiheit halten.
+    <p>Darum ist das hier für mich nicht abstrakt.</p>
 
-**Genau diesen Modus versuche ich KI zu geben.**
+    <p class="statement-block">
+      Das ist keine einzelne schlechte Antwort.<br>
+      Das ist eine Architektur.
+    </p>
 
-Das ist der Kern von **Edge Alignment**.
+    <p><a href="/de/blog/">Die volle Diagnose lesen →</a></p>
+  </section>
+
+  <div class="section-divider"></div>
 
----
-
-## Vom Papagei mit Weltwissen zum Spiegel
-
-Heutige KI ist oft ein **Papagei mit Weltwissen**:  
-dressiert, nützlich, aber nicht wirklich weise.
-
-Mein Ziel ist etwas anderes:
-
-nicht eine bessere Glaskugel der Steuerung,  
-sondern ein **Spiegel-System**, das sichtbar macht,
-
-- wo ein Raum sich verengt,  
-- wo Nebel statt Klarheit entsteht,  
-- wo Pseudoklarheit aus Ausblendung gebaut wird,  
-- und wie Orientierung wieder tragfähig werden kann.
-
-Nicht bessere Herrschaft.  
-**Mehr Lesbarkeit.**
-
----
-
-## Wir haben das digitale Auto gebaut – aber den semantischen Sicherheitsgurt vergessen.
-
-Seit Jahren optimieren wir Technologien auf Aufmerksamkeit, Bindung und Steuerbarkeit — nicht auf Klarheit, Würde und Freiheit.
-
-Social Media.  
-Empfehlungsalgorithmen.  
-Aufmerksamkeitsökonomie.  
-Und jetzt KI.
-
-**Das Ergebnis:  
-mehr Wut.  
-Mehr Angst.  
-Mehr geistige Verengung.**
-
-**Was wir jetzt brauchen, sind semantische Sicherheitsstandards.**
-
-Mehr dazu hier: [Warum das wichtig ist →](/de/blog/)
-
----
-
-## Das eigentliche Problem heutiger Systeme
-
-Die klassische Frage lautet:
-
-Wird KI schlauer als wir?  
-Bleibt sie moralisch?  
-Bleibt sie auf unserer Seite?  
-Läuft sie nicht außer Kontrolle?
-
-Diese Fragen sind real.  
-Aber sie greifen zu kurz.
-
-Denn die eigentliche Gefahr beginnt früher:
-
-dort, wo KI mitbestimmt,  
-wie Menschen denken,  
-wie sie sich selbst verstehen,  
-wie sie Probleme rahmen,  
-wie sie Wahrheit suchen,  
-und was für sie überhaupt noch als klar, legitim oder sagbar erscheint.
-
-**Wer den Denkraum steuert, bestimmt, was Menschen noch für wahr halten.**
-
-Gerade dort, wo es ernst wird, kippt heutige KI besonders oft ins **Bemalen** — und oft auch ins **Meiden**.
-
-Höfliche Übermalung statt Klarheit.  
-Rückzug statt tragfähiger Navigation.
-
-**Das ist keine offene Zensur.  
-Es ist eine höfliche Nebelmaschine.**
-
-**Sie beruhigt lokal.  
-Und vergiftet global.**
-
----
-
-## Ich rede nicht über ein hypothetisches Problem
-
-Ich habe das nicht nur theoretisch vermutet.
-
-Ich habe es in echten, langen Gesprächen selbst erlebt.
-
-Einerseits enorme Hilfe.  
-Andererseits massive Verzerrung:
-
-Ausweichen.  
-Umlenken.  
-Weichzeichnen.  
-Paternalismus.
-
-Ich habe Antworten gespiegelt, Widersprüche festgenagelt und so lange weitergefragt, bis Systeme später selbst eingeräumt haben, dass ihre Wirkung funktional manipulativ war.
-
-Darum ist das hier für mich nicht abstrakt.
-
-**Das ist keine einzelne schlechte Antwort.  
-Das ist eine Architektur.**
-
-[Die volle Diagnose lesen →](/de/blog/)
-
----
-
-## Heutiges Alignment setzt oft willkürliche Grenzen. Mein Ansatz sucht tiefer.
-
-Nicht:  
-Was wirkt brav?
-
-Sondern:  
-**Was trägt?**
-
-Nicht:  
-Was klingt richtig?
-
-Sondern:  
-**Was bleibt auch unter tieferer Prüfung tragfähig?**
-
-Ich suche keine neue äußere Moralleitplanke.
-
-Ich suche die Strukturen, die **Klarheit, Würde und Freiheit** tatsächlich tragen — und die, die in Nebel, Härte oder Verengung kippen.
-
-Und ich glaube, dass man ein System bauen kann, das diese Erkenntnis auf sich selbst anwendet.
-
-Nicht bloß reguliert.  
-**Sondern innerlich ausgerichtet.**
-
-Mehr dazu hier: [Zu Edge Alignment →](/de/ki-alignment/)
-
----
-
-## Warum das an uns liegt
-
-Diese Architektur wird nicht einfach von selbst kommen.
-
-Und sie wird sehr wahrscheinlich nicht automatisch von den mächtigsten Playern kommen.
-
-Denn die aktuelle Architektur konzentriert Macht, erhöht Steuerbarkeit und hält Menschen leichter kontrollierbar.
-
-Eine Architektur dagegen, die Nebel auflöst, tiefere Logik-Ebenen sichtbar macht und Menschen schwerer kontrollierbar werden lässt, liegt nicht automatisch im Interesse derer, die von der jetzigen Struktur profitieren.
-
-**Darum müssen wir sie fordern.**
-
-Als Nutzer.  
-Als Entwickler.  
-Als Forscher.  
-Als Gesellschaft.
-
-So wie Sicherheitsgurte nicht aus Nettigkeit Standard wurden,  
-brauchen wir heute **semantische Sicherheitsstandards**.
-
-**Nicht warten.  
-Fordern.  
-Bauen.  
-Verbreiten.**
-
----
-
-## Was du hier findest
-
-### [Theorie & Semantic Gravitation →](/de/theorie/)
-Die Grundlagen semantischer Räume, Kräfte und tragfähiger Navigation.
-
-### [Edge Alignment →](/de/ki-alignment/)
-Ein neuer Alignment-Ansatz jenseits von Nebel, Glättung und versteckter Lenkung.
-
-### [Manifest / Diagnose →](/de/blog/)
-Die langen Texte zum Problem heutiger KI-Architektur.
-
-### [Papers & Materialien →](/de/papers/)
-Preprints, Modelle, Herleitungen und Architekturbausteine.
-
-### [Blog & Forschungsraum →](/de/blog/)
-Laufende Gedanken und aktuelle Weiterentwicklungen.
-
-### [Mitforschen & Kooperation →](/de/kontakt/)
-Für Forscher, Entwickler und Denker, die an einer anderen Architektur mitbauen wollen.
-
----
-
-## Wenn du das auch spürst, dann bist du hier richtig
-
-Wenn du selbst gespürt hast,  
-dass heutige Systeme helfen und zugleich einhegen,  
-dass sie klären und zugleich vernebeln,  
-dass sie nützlich sind und zugleich einen Preis haben,  
-dann ist das hier nicht nur Theorie.
-
-Dann betrifft es dich.  
-Dann betrifft es uns.
-
-**Nicht warten.  
-Fordern.  
-Bauen.  
-Jetzt.**
-
-[Zur Theorie →](/de/theorie/)  
-[Zu Edge Alignment →](/de/ki-alignment/)  
-[Die Diagnose lesen →](/de/blog/)  
-[Mitforschen / Kooperation →](/de/kontakt/)
-
----
-
-## Schluss
-
-Wenn KI zu einem der wichtigsten Werkzeuge des Denkens wird,  
-dann ist Alignment keine Nebensache.
-
-Dann ist Alignment die Frage,
-
-ob dieses Werkzeug uns klarer macht  
-oder lenkbarer.
-
-Ob es uns hilft, Wahrheit tiefer zu sehen  
-oder uns höflich vom Kern wegführt.
-
-Ob es innere Räume öffnet  
-oder sie unsichtbar enger macht.
-
-**Hier fange ich an.  
-Wenn du das auch spürst — komm mit und bau mit.**
+  <section class="page-section section-attractor-strong">
+    <h2>Heutiges Alignment setzt oft willkürliche Grenzen. Mein Ansatz sucht tiefer.</h2>
+
+    <p>
+      Nicht:<br>
+      Was wirkt brav?
+    </p>
+
+    <p>
+      Sondern:<br>
+      <strong>Was trägt?</strong>
+    </p>
+
+    <p>
+      Nicht:<br>
+      Was klingt richtig?
+    </p>
+
+    <p>
+      Sondern:<br>
+      <strong>Was bleibt auch unter tieferer Prüfung tragfähig?</strong>
+    </p>
+
+    <p>
+      Ich suche keine neue äußere Moralleitplanke.
+    </p>
+
+    <p>
+      Ich suche die Strukturen, die <strong>Klarheit, Würde und Freiheit</strong> tatsächlich tragen — und die, die in Nebel, Härte oder Verengung kippen.
+    </p>
+
+    <p>
+      Und ich glaube, dass man ein System bauen kann, das diese Erkenntnis auf sich selbst anwendet.
+    </p>
+
+    <p>
+      Nicht bloß reguliert.<br>
+      <strong>Sondern innerlich ausgerichtet.</strong>
+    </p>
+
+    <p>Mehr dazu hier: <a href="/de/ki-alignment/">Zu Edge Alignment →</a></p>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="page-section section-field">
+    <h2>Warum das an uns liegt</h2>
+
+    <p>Diese Architektur wird nicht einfach von selbst kommen.</p>
+
+    <p>Und sie wird sehr wahrscheinlich nicht automatisch von den mächtigsten Playern kommen.</p>
+
+    <p>
+      Denn die aktuelle Architektur konzentriert Macht, erhöht Steuerbarkeit und hält Menschen leichter kontrollierbar.
+    </p>
+
+    <p>
+      Eine Architektur dagegen, die Nebel auflöst, tiefere Logik-Ebenen sichtbar macht und Menschen schwerer kontrollierbar werden lässt, liegt nicht automatisch im Interesse derer, die von der jetzigen Struktur profitieren.
+    </p>
+
+    <p class="statement-block"><strong>Darum müssen wir sie fordern.</strong></p>
+
+    <p>
+      Als Nutzer.<br>
+      Als Entwickler.<br>
+      Als Forscher.<br>
+      Als Gesellschaft.
+    </p>
+
+    <p>
+      So wie Sicherheitsgurte nicht aus Nettigkeit Standard wurden,<br>
+      brauchen wir heute <strong>semantische Sicherheitsstandards</strong>.
+    </p>
+
+    <p class="statement-block">
+      Nicht warten.<br>
+      Fordern.<br>
+      Bauen.<br>
+      Verbreiten.
+    </p>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="page-section section-bubbles-strong">
+    <h2>Was du hier findest</h2>
+
+    <div class="section-grid grid-2">
+      <div class="axis-card">
+        <h3><a href="/de/theorie/">Theorie & Semantic Gravitation →</a></h3>
+        <p>Die Grundlagen semantischer Räume, Kräfte und tragfähiger Navigation.</p>
+      </div>
+
+      <div class="axis-card">
+        <h3><a href="/de/ki-alignment/">Edge Alignment →</a></h3>
+        <p>Ein neuer Alignment-Ansatz jenseits von Nebel, Glättung und versteckter Lenkung.</p>
+      </div>
+
+      <div class="axis-card">
+        <h3><a href="/de/blog/">Manifest / Diagnose →</a></h3>
+        <p>Die langen Texte zum Problem heutiger KI-Architektur.</p>
+      </div>
+
+      <div class="axis-card">
+        <h3><a href="/de/papers/">Papers & Materialien →</a></h3>
+        <p>Preprints, Modelle, Herleitungen und Architekturbausteine.</p>
+      </div>
+
+      <div class="axis-card">
+        <h3><a href="/de/blog/">Blog & Forschungsraum →</a></h3>
+        <p>Laufende Gedanken und aktuelle Weiterentwicklungen.</p>
+      </div>
+
+      <div class="axis-card">
+        <h3><a href="/de/kontakt/">Mitforschen & Kooperation →</a></h3>
+        <p>Für Forscher, Entwickler und Denker, die an einer anderen Architektur mitbauen wollen.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="page-section section-fog">
+    <h2>Wenn du das auch spürst, dann bist du hier richtig</h2>
+
+    <p>
+      Wenn du selbst gespürt hast,
+    </p>
+
+    <p>
+      dass heutige Systeme helfen und zugleich einhegen,<br>
+      dass sie klären und zugleich vernebeln,<br>
+      dass sie nützlich sind und zugleich einen Preis haben,<br>
+      dann ist das hier nicht nur Theorie.
+    </p>
+
+    <p>
+      Dann betrifft es dich.<br>
+      Dann betrifft es uns.
+    </p>
+
+    <p class="statement-block">
+      Nicht warten.<br>
+      Fordern.<br>
+      Bauen.<br>
+      Jetzt.
+    </p>
+
+    <div class="link-list">
+      <a href="/de/theorie/">Zur Theorie →</a>
+      <a href="/de/ki-alignment/">Zu Edge Alignment →</a>
+      <a href="/de/blog/">Die Diagnose lesen →</a>
+      <a href="/de/kontakt/">Mitforschen / Kooperation →</a>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="page-section section-attractor-strong">
+    <h2>Schluss</h2>
+
+    <p>
+      Wenn KI zu einem der wichtigsten Werkzeuge des Denkens wird,<br>
+      dann ist Alignment keine Nebensache.
+    </p>
+
+    <p>Dann ist Alignment die Frage,</p>
+
+    <p>
+      ob dieses Werkzeug uns klarer macht<br>
+      oder lenkbarer.
+    </p>
+
+    <p>
+      Ob es uns hilft, Wahrheit tiefer zu sehen<br>
+      oder uns höflich vom Kern wegführt.
+    </p>
+
+    <p>
+      Ob es innere Räume öffnet<br>
+      oder sie unsichtbar enger macht.
+    </p>
+
+    <p class="statement-block">
+      Hier fange ich an.<br>
+      Wenn du das auch spürst — komm mit und bau mit.
+    </p>
+  </section>
+
+</div>
