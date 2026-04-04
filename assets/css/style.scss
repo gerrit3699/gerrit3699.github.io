@@ -816,3 +816,237 @@ th, td {
     font-size: 1.14rem;
   }
 }
+/* =========================================================
+   STEP 3B — CLEAN HEADER / DARK SIDE DRAWER / NO DUPLICATES FEEL
+   ========================================================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  background: rgba(3, 4, 7, 0.42);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.site-header .wrapper {
+  min-height: 66px;
+}
+
+.site-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.15rem;
+  color: rgba(245,247,250,0.88);
+  letter-spacing: 0.02em;
+}
+
+.nav-shell {
+  position: relative;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: none;
+  margin-left: auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.04);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 120;
+}
+
+.nav-toggle-label span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #f4f6fa;
+  border-radius: 999px;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+
+.nav-overlay {
+  display: none;
+}
+
+.site-nav .trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.page-link {
+  color: rgba(245,247,250,0.78);
+}
+
+.page-link:hover,
+.page-link:focus {
+  color: #fff;
+  background: rgba(255,255,255,0.05);
+}
+
+/* Desktop: nur ruhige obere Leiste */
+@media (min-width: 901px) {
+  .site-header .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .site-title {
+    margin-right: auto;
+  }
+}
+
+/* Mobile + iPad: echtes Side-Drawer-Menü */
+@media (max-width: 900px) {
+  .site-header .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    min-height: 64px;
+  }
+
+  .site-title {
+    margin-right: auto;
+    font-size: 1.02rem;
+  }
+
+  .nav-toggle-label {
+    display: inline-flex;
+  }
+
+  .nav-overlay {
+    display: none;
+  }
+
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: min(84vw, 340px);
+    transform: translateX(-105%);
+    transition: transform 0.28s ease;
+    z-index: 115;
+    margin: 0;
+  }
+
+  .site-nav .trigger {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.35rem;
+    padding: 5.6rem 1rem 1rem;
+    background:
+      linear-gradient(180deg, rgba(8,10,14,0.97), rgba(4,5,8,0.98)),
+      url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
+    border-right: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 20px 0 60px rgba(0,0,0,0.45);
+  }
+
+  .site-nav .page-link {
+    min-height: 48px;
+    padding: 0.8rem 0.9rem;
+    border-radius: 14px;
+    color: #eef2f8;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    justify-content: flex-start;
+    font-size: 1rem;
+  }
+
+  .site-nav .page-link:hover,
+  .site-nav .page-link:focus {
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    opacity: 1;
+  }
+
+  .nav-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.24s ease;
+    z-index: 110;
+  }
+
+  .nav-toggle:checked + .nav-toggle-label + .nav-overlay + .site-nav {
+    transform: translateX(0);
+  }
+
+  .nav-toggle:checked + .nav-toggle-label + .nav-overlay {
+    opacity: 1;
+    pointer-events: auto;
+    display: block;
+  }
+
+  .nav-toggle:checked + .nav-toggle-label span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .nav-toggle:checked + .nav-toggle-label span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle:checked + .nav-toggle-label span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}
+
+/* Hero schöner und klarer */
+.home-hero {
+  min-height: auto;
+}
+
+.home-hero .hero-inner {
+  max-width: 900px;
+}
+
+.display-wordmark {
+  margin-bottom: 0.7rem;
+  text-shadow:
+    0 0 18px rgba(255,255,255,0.06),
+    0 0 40px rgba(255,255,255,0.04);
+}
+
+.hero-kicker {
+  margin-bottom: 1rem;
+}
+
+.home-lead {
+  margin-bottom: 1rem;
+}
+
+/* Page spacing etwas eleganter */
+.page-section {
+  border-radius: 26px;
+}
+
+@media (max-width: 640px) {
+  .page-section {
+    border-radius: 18px;
+  }
+
+  .display-wordmark {
+    font-size: clamp(2.6rem, 14vw, 4.3rem);
+    line-height: 0.94;
+  }
+
+  .home-cta-row {
+    flex-direction: column;
+  }
+}
