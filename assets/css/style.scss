@@ -764,3 +764,19 @@ th, td {
     font-size: 0.98rem;
   }
 }
+/* dunkleres Drawer-Panel */
+.sg-drawer-inner {
+  background:
+    linear-gradient(180deg, rgba(4,6,10,0.995), rgba(2,3,6,0.995)),
+    url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat !important;
+}
+
+.sg-menu-overlay {
+  background: rgba(0,0,0,0.68) !important;
+}
+
+/* Links im Menü lesbarer */
+.sg-drawer-link {
+  background: rgba(255,255,255,0.06) !important;
+  border-color: rgba(255,255,255,0.1) !important;
+}
