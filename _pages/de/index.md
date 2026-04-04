@@ -7,10 +7,10 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
 
 <div class="home-journey">
 
-<section class="hero home-hero section-fog">
-  <div class="hero-inner">
-    <h1 class="display-wordmark">Semantic Gravitation</h1>
-    <p class="home-lead">Ein Kompass für den Denkraum im Zeitalter der KI</p>
+  <section class="hero home-hero section-fog">
+    <div class="hero-inner">
+      <p class="home-lead">Ein Kompass für den Denkraum im Zeitalter der KI</p>
+
       <p class="hero-subtitle">
         KI wird zum wichtigsten Denkwerkzeug unserer Zeit.<br>
         Nicht nur für Produktivität.<br>
@@ -19,34 +19,26 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
         Als Resonanzraum für Identität, Zweifel, Weltbilder und Sinn.
       </p>
 
+      <p class="statement-block">
+        Heutige KI packt dich in Watte.<br>
+        Edge Alignment navigiert durchs Dickicht.
+      </p>
+
+      <p class="statement-block">
+        Die entscheidende Frage ist:<br>
+        Woran ist KI ausgerichtet, wenn sie mit dir denkt?
+      </p>
+
+      <p>
+        Denn das eigentliche Problem ist nicht nur Sicherheit.<br>
+        <strong>Es ist unsichtbare Denkraumlenkung.</strong>
+      </p>
+
       <div class="home-cta-row">
         <a class="button" href="/de/theorie/">Zur Theorie</a>
         <a class="button" href="/de/ki-alignment/">Zu Edge Alignment</a>
         <a class="button" href="/de/blog/">Die Diagnose lesen</a>
       </div>
-    </div>
-  </section>
-
-  <section class="page-section section-fog">
-    <p class="statement-block">
-      Heutige KI packt dich in Watte.<br>
-      Edge Alignment navigiert durchs Dickicht.
-    </p>
-
-    <p class="statement-block">
-      Die entscheidende Frage ist:<br>
-      Woran ist KI ausgerichtet, wenn sie mit dir denkt?
-    </p>
-
-    <p>
-      Denn das eigentliche Problem ist nicht nur Sicherheit.<br>
-      <strong>Es ist unsichtbare Denkraumlenkung.</strong>
-    </p>
-
-    <div class="link-list">
-      <a href="/de/theorie/">Zur Theorie →</a>
-      <a href="/de/ki-alignment/">Zu Edge Alignment →</a>
-      <a href="/de/blog/">Die Diagnose lesen →</a>
     </div>
   </section>
 
