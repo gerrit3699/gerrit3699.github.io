@@ -55,7 +55,7 @@ description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Unterstützung,
   </p>
 </section>
 
-<section class="page-section">
+<section class="page-section section-field">
   <h2>Mitwirken</h2>
 
   <p>
@@ -77,10 +77,6 @@ description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Unterstützung,
     und die helfen wollen, daraus Schritt für Schritt etwas Tragfähiges zu machen.
   </p>
 
-  <p>
-    Das kann sehr unterschiedlich aussehen:
-  </p>
-
   <ul>
     <li>Menschen mit Kontakten, Reichweite oder strategischen Verbindungen</li>
     <li>Menschen, die inhaltlich tiefer einsteigen und beim Aufbau mitdenken wollen</li>
@@ -92,15 +88,10 @@ description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Unterstützung,
   <p>
     Wenn du dich hier ernsthaft angesprochen fühlst,
     schreib mir gern.
-    Gerade in der frühen Phase versuche ich für die Menschen da zu sein,
-    die echtes Interesse zeigen,
-    die etwas darin erkennen,
-    die mitdenken wollen
-    oder die spüren, dass sie Teil davon sein möchten.
   </p>
 </section>
 
-<section class="page-section">
+<section class="page-section section-bubbles">
   <h2>Unterstützen</h2>
 
   <p>
@@ -135,7 +126,12 @@ description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Unterstützung,
   </p>
 
   <p>
-    <strong>PayPal:</strong><br>
+    <a class="support-link" href="https://paypal.me/semanticgravitation" target="_blank" rel="noopener">
+      Meine Arbeit unterstützen
+    </a>
+  </p>
+
+  <p>
     <a href="https://paypal.me/semanticgravitation" target="_blank" rel="noopener">
       paypal.me/semanticgravitation
     </a>
@@ -147,7 +143,7 @@ description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Unterstützung,
   </p>
 </section>
 
-<section class="page-section">
+<section class="page-section section-attractor">
   <h2>Bevor du mich fragst</h2>
 
   <p>
@@ -184,23 +180,10 @@ description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Unterstützung,
   </p>
 
   <p>
-    Die Texte und PDFs auf dieser Website sind nicht bloß Begleitmaterial.
-    Sie sind der zugängliche Kontextrahmen,
-    mit dem du dir selbst ein ernsthaftes erstes Bild machen kannst.
-  </p>
-
-  <p>
     Wer wirklich einsteigen will, kann anfangen:
     mit den Dokumenten,
     mit den Fragen
     und mit KI als Arbeits- und Prüfraum.
-  </p>
-
-  <p>
-    Ich spreche gern mit Menschen,
-    die sich ernsthaft eingearbeitet haben,
-    bei denen die größeren Bilder bereits anklicken
-    oder die auf reale Weise mitbauen, unterstützen oder weitertragen wollen.
   </p>
 </section>
 
