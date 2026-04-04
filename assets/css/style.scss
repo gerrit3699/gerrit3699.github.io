@@ -2,7 +2,7 @@
 ---
 
 @import "minima";
-body { outline: 8px solid red !important; }
+
 :root {
   --bg: #040507;
   --bg-soft: #090b0f;
@@ -22,7 +22,9 @@ body { outline: 8px solid red !important; }
   --content-width: 760px;
 }
 
-/* Basis */
+/* =========================================================
+   BASIS
+   ========================================================= */
 
 html {
   scroll-behavior: smooth;
@@ -48,7 +50,7 @@ body::before {
   inset: 0;
   z-index: -3;
   background:
-    linear-gradient(to bottom, rgba(0,0,0,0.74), rgba(0,0,0,0.86)),
+    linear-gradient(to bottom, rgba(0,0,0,0.74), rgba(0,0,0,0.88)),
     url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
   pointer-events: none;
 }
@@ -65,7 +67,7 @@ body::after {
     radial-gradient(circle at 68% 76%, rgba(255,255,255,0.03), transparent 16%),
     url("/assets/images/design/bubbles.jpg.PNG") center center / cover no-repeat;
   mix-blend-mode: screen;
-  opacity: 0.16;
+  opacity: 0.15;
   pointer-events: none;
 }
 
@@ -75,8 +77,8 @@ body::after {
   background:
     linear-gradient(
       to bottom,
-      rgba(4, 5, 7, 0.52),
-      rgba(4, 5, 7, 0.72) 18%,
+      rgba(4, 5, 7, 0.50),
+      rgba(4, 5, 7, 0.70) 18%,
       rgba(4, 5, 7, 0.9) 100%
     );
 }
@@ -88,7 +90,7 @@ body::after {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.1;
+  opacity: 0.08;
   background:
     radial-gradient(circle at 74% 28%, rgba(255,255,255,0.12), transparent 12%),
     radial-gradient(circle at 74% 28%, rgba(255,255,255,0.04), transparent 24%),
@@ -103,7 +105,9 @@ body::after {
   -webkit-mask-image: radial-gradient(circle at 74% 28%, black 14%, transparent 42%);
 }
 
-/* Typografie */
+/* =========================================================
+   TYPOGRAFIE
+   ========================================================= */
 
 h1, h2, h3, h4, h5, h6,
 .site-title {
@@ -145,12 +149,12 @@ strong {
 a {
   color: #f3f6fb;
   text-decoration: none;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease, background 0.2s ease, border-color 0.2s ease;
 }
 
 a:hover,
 a:focus {
-  opacity: 0.86;
+  opacity: 0.88;
 }
 
 hr {
@@ -160,7 +164,9 @@ hr {
   margin: 2rem 0;
 }
 
-/* Wrapper */
+/* =========================================================
+   WRAPPER / PAGE LAYOUT
+   ========================================================= */
 
 .wrapper {
   width: min(100% - 2rem, 1180px);
@@ -170,6 +176,17 @@ hr {
 .page-content .wrapper {
   padding-top: 1rem;
   padding-bottom: 4rem;
+}
+
+.page-layout {
+  width: 100%;
+}
+
+/* automatische Minima-Titel unterdrücken */
+.page-layout .post-header,
+.page-layout .post-title,
+.page-layout .page-heading {
+  display: none !important;
 }
 
 /* Markdown-Seiten automatisch schöner */
@@ -195,33 +212,73 @@ hr {
   margin-top: 1rem;
 }
 
-/* Header */
+/* =========================================================
+   HEADER / NAVIGATION
+   ========================================================= */
 
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 40;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  background: rgba(5, 7, 10, 0.76);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  z-index: 100;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  background: rgba(3, 4, 7, 0.28);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .site-header .wrapper {
   display: flex;
   align-items: center;
   gap: 1rem;
-  min-height: 72px;
+  min-height: 66px;
   padding-top: 0.35rem;
   padding-bottom: 0.35rem;
 }
 
 .site-title {
-  color: var(--text);
-  font-size: 1.55rem;
+  color: rgba(245,247,250,0.88);
+  font-size: 1.15rem;
   line-height: 1;
+  letter-spacing: 0.02em;
   margin-right: auto;
   white-space: nowrap;
+}
+
+.nav-shell {
+  position: relative;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: none;
+  margin-left: auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.04);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 120;
+}
+
+.nav-toggle-label span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #f4f6fa;
+  border-radius: 999px;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+
+.nav-overlay {
+  display: none;
 }
 
 .site-nav {
@@ -242,7 +299,7 @@ hr {
   min-height: 40px;
   padding: 0.42rem 0.82rem;
   border-radius: 999px;
-  color: var(--text-soft);
+  color: rgba(245,247,250,0.78);
   font-size: 0.95rem;
   line-height: 1;
   border: 1px solid transparent;
@@ -250,13 +307,15 @@ hr {
 
 .page-link:hover,
 .page-link:focus {
-  color: var(--text);
+  color: #fff;
   border-color: rgba(255,255,255,0.11);
-  background: rgba(255,255,255,0.04);
+  background: rgba(255,255,255,0.05);
   opacity: 1;
 }
 
-/* Hero-Bereiche */
+/* =========================================================
+   HERO
+   ========================================================= */
 
 .hero {
   position: relative;
@@ -322,7 +381,9 @@ hr {
   margin-bottom: 0;
 }
 
-/* Page Sections */
+/* =========================================================
+   PAGE SECTIONS / VARIANTEN
+   ========================================================= */
 
 .page-section {
   position: relative;
@@ -331,7 +392,7 @@ hr {
   padding: 1.25rem 1.05rem 1.15rem;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: var(--radius);
+  border-radius: 26px;
   box-shadow: var(--shadow);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -360,11 +421,16 @@ hr {
   margin-top: 0.4rem;
 }
 
-/* Varianten */
-
-.section-bubbles {
+.section-fog {
   background:
-    linear-gradient(180deg, rgba(12,15,20,0.84), rgba(8,10,14,0.94)),
+    linear-gradient(180deg, rgba(10,12,16,0.8), rgba(6,8,12,0.93)),
+    url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
+}
+
+.section-bubbles,
+.section-bubbles-strong {
+  background:
+    linear-gradient(180deg, rgba(10,12,16,0.8), rgba(6,8,12,0.94)),
     url("/assets/images/design/bubbles.jpg.PNG") center center / cover no-repeat;
   background-blend-mode: normal;
 }
@@ -393,21 +459,25 @@ hr {
   opacity: 0.72;
 }
 
-.section-attractor {
+.section-attractor,
+.section-attractor-strong {
   overflow: hidden;
 }
 
-.section-attractor::after {
+.section-attractor::after,
+.section-attractor-strong::before {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: url("/assets/images/design/attractor.jpg.PNG") right center / cover no-repeat;
-  opacity: 0.16;
+  background: url("/assets/images/design/attractor.jpg.PNG") center right / cover no-repeat;
+  opacity: 0.18;
   mix-blend-mode: screen;
 }
 
-/* Buttons / Support */
+/* =========================================================
+   BUTTONS / LINKS
+   ========================================================= */
 
 .support-link,
 .button {
@@ -432,7 +502,102 @@ hr {
   opacity: 1;
 }
 
-/* Blockquotes / Tabellen / Code */
+.link-list {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1.2rem;
+}
+
+.link-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  font-weight: 600;
+}
+
+/* =========================================================
+   BLOCKS FÜR STARTSEITE
+   ========================================================= */
+
+.home-journey {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.display-wordmark {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(3rem, 11vw, 6.2rem);
+  line-height: 0.92;
+  letter-spacing: 0.015em;
+  color: #f7f8fb;
+  text-wrap: balance;
+  margin: 0 0 0.7rem 0;
+  text-shadow:
+    0 0 18px rgba(255,255,255,0.06),
+    0 0 40px rgba(255,255,255,0.04);
+}
+
+.home-hero {
+  min-height: auto;
+}
+
+.home-hero .hero-inner {
+  max-width: 900px;
+}
+
+.home-lead {
+  max-width: 43rem;
+  font-size: clamp(1.1rem, 2.6vw, 1.28rem);
+  color: #e6ebf2;
+  line-height: 1.62;
+  margin-bottom: 1rem;
+}
+
+.home-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.4rem;
+}
+
+.section-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.axis-card {
+  padding: 1rem 1rem 0.9rem;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  border-radius: 18px;
+}
+
+.axis-card h3 {
+  margin-bottom: 0.35rem;
+}
+
+.statement-block {
+  font-size: clamp(1.2rem, 3vw, 1.55rem);
+  line-height: 1.4;
+  color: #f3f6fb;
+}
+
+.section-divider {
+  height: 120px;
+  margin: 0 auto;
+  max-width: 1000px;
+  background:
+    linear-gradient(to bottom, transparent, rgba(255,255,255,0.04), transparent),
+    url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
+  opacity: 0.5;
+  mask-image: linear-gradient(to bottom, transparent, black 25%, black 75%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 25%, black 75%, transparent);
+}
+
+/* =========================================================
+   BLOCKQUOTE / CODE / TABELLEN / FOOTER
+   ========================================================= */
 
 blockquote {
   max-width: var(--content-width);
@@ -464,43 +629,134 @@ th, td {
   text-align: left;
 }
 
-/* Footer */
-
 .site-footer {
   border-top: 1px solid rgba(255,255,255,0.08);
   background: rgba(4, 5, 7, 0.72);
   color: var(--text-dim);
 }
 
-/* Mobile first Feinschliff */
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (min-width: 760px) {
+  .section-grid.grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .section-grid.grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
 @media (max-width: 900px) {
+  .site-header {
+    background: rgba(3, 4, 7, 0.22);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
   .site-header .wrapper {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0.7rem;
-    padding-top: 0.8rem;
-    padding-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.8rem;
+    min-height: 64px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .site-title {
-    margin-right: 0;
+    margin-right: auto;
+    font-size: 1.02rem;
+  }
+
+  .nav-toggle-label {
+    display: inline-flex;
+  }
+
+  .nav-overlay {
+    position: fixed;
+    inset: 0;
+    display: block;
+    background: rgba(0,0,0,0.42);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.24s ease;
+    z-index: 110;
   }
 
   .site-nav {
-    width: 100%;
-    margin-left: 0;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: min(84vw, 340px);
+    margin: 0;
+    transform: translateX(-105%);
+    transition: transform 0.28s ease;
+    z-index: 115;
+    background: transparent;
   }
 
   .site-nav .trigger {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     justify-content: flex-start;
+    flex-wrap: nowrap;
     gap: 0.45rem;
+    padding: 5.6rem 1rem 1rem;
+    border-radius: 0;
+    border: 0;
+    background:
+      linear-gradient(180deg, rgba(8,10,14,0.97), rgba(4,5,8,0.98)),
+      url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
+    border-right: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 20px 0 60px rgba(0,0,0,0.45);
   }
 
-  .page-link {
-    min-height: 38px;
-    font-size: 0.92rem;
-    padding: 0.4rem 0.72rem;
+  .site-nav .page-link {
+    display: flex;
+    width: 100%;
+    min-height: 48px;
+    padding: 0.8rem 0.9rem;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.06);
+    background: rgba(255,255,255,0.03);
+    color: #eef2f8;
+    justify-content: flex-start;
+    font-size: 1rem;
+  }
+
+  .site-nav .page-link:hover,
+  .site-nav .page-link:focus {
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    opacity: 1;
+  }
+
+  .nav-toggle:checked + .nav-toggle-label + .nav-overlay + .site-nav {
+    transform: translateX(0);
+  }
+
+  .nav-toggle:checked + .nav-toggle-label + .nav-overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-toggle:checked + .nav-toggle-label span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .nav-toggle:checked + .nav-toggle-label span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle:checked + .nav-toggle-label span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
   }
 }
 
@@ -510,7 +766,7 @@ th, td {
   }
 
   .page-content::before {
-    opacity: 0.08;
+    opacity: 0.06;
   }
 
   .hero {
@@ -551,494 +807,9 @@ th, td {
   .button {
     width: 100%;
   }
-}
 
-@media (min-width: 900px) {
-  .hero-inner {
-    padding: 4.4rem 2.2rem 4rem;
-  }
-
-  .page-section {
-    padding: 1.6rem 1.5rem 1.45rem;
-  }
-}
-/* =========================================================
-   STEP 3 — MOBILE MENU + HOMEPAGE JOURNEY
-   ========================================================= */
-
-.nav-shell {
-  position: relative;
-}
-
-.nav-toggle {
-  display: none;
-}
-
-.nav-toggle-label {
-  display: none;
-  margin-left: auto;
-  width: 48px;
-  height: 48px;
-  border-radius: 14px;
-  border: 1px solid rgba(255,255,255,0.1);
-  background: rgba(255,255,255,0.04);
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-}
-
-.nav-toggle-label span {
-  display: block;
-  width: 20px;
-  height: 2px;
-  background: #f5f7fa;
-  border-radius: 999px;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-.home-journey {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.display-wordmark {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(3rem, 11vw, 6.2rem);
-  line-height: 0.92;
-  letter-spacing: 0.015em;
-  color: #f7f8fb;
-  text-wrap: balance;
-  margin: 0 0 1rem 0;
-  text-shadow:
-    0 0 18px rgba(255,255,255,0.08),
-    0 0 40px rgba(255,255,255,0.04);
-}
-
-.home-hero {
-  min-height: 70svh;
-}
-
-.home-hero .hero-inner {
-  max-width: 980px;
-}
-
-.home-lead {
-  max-width: 43rem;
-  font-size: clamp(1.1rem, 2.6vw, 1.28rem);
-  color: #e6ebf2;
-  line-height: 1.62;
-}
-
-.home-cta-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-top: 1.4rem;
-}
-
-.section-fog {
-  background:
-    linear-gradient(180deg, rgba(10,12,16,0.8), rgba(6,8,12,0.93)),
-    url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
-}
-
-.section-bubbles-strong {
-  background:
-    linear-gradient(180deg, rgba(10,12,16,0.8), rgba(6,8,12,0.94)),
-    url("/assets/images/design/bubbles.jpg.PNG") center center / cover no-repeat;
-  background-blend-mode: normal;
-}
-
-.section-attractor-strong {
-  overflow: hidden;
-}
-
-.section-attractor-strong::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    url("/assets/images/design/attractor.jpg.PNG") center right / cover no-repeat;
-  opacity: 0.22;
-  mix-blend-mode: screen;
-}
-
-.section-grid {
-  display: grid;
-  gap: 1rem;
-}
-
-.axis-card {
-  padding: 1rem 1rem 0.9rem;
-  border: 1px solid rgba(255,255,255,0.08);
-  background: rgba(255,255,255,0.03);
-  border-radius: 18px;
-}
-
-.axis-card h3 {
-  margin-bottom: 0.35rem;
-}
-
-.statement-block {
-  font-size: clamp(1.2rem, 3vw, 1.55rem);
-  line-height: 1.4;
-  color: #f3f6fb;
-}
-
-.link-list {
-  display: grid;
-  gap: 0.65rem;
-  margin-top: 1.2rem;
-}
-
-.link-list a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  width: fit-content;
-  font-weight: 600;
-}
-
-.section-divider {
-  height: 120px;
-  margin: 0 auto;
-  max-width: 1000px;
-  background:
-    linear-gradient(to bottom, transparent, rgba(255,255,255,0.04), transparent),
-    url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
-  opacity: 0.5;
-  mask-image: linear-gradient(to bottom, transparent, black 25%, black 75%, transparent);
-  -webkit-mask-image: linear-gradient(to bottom, transparent, black 25%, black 75%, transparent);
-}
-
-@media (min-width: 760px) {
-  .section-grid.grid-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .section-grid.grid-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 900px) {
-  .site-header .wrapper {
-    align-items: center;
-    flex-direction: row;
-    gap: 0.75rem;
-    min-height: 70px;
-  }
-
-  .site-title {
-    margin-right: auto;
-    font-size: 1.3rem;
-  }
-
-  .nav-toggle-label {
-    display: inline-flex;
-  }
-
-  .site-nav {
-    position: absolute;
-    top: calc(100% + 10px);
-    left: 0;
-    right: 0;
-    margin-left: 0;
-    display: none;
-  }
-
-  .site-nav .trigger {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.65rem;
-    padding: 1rem;
-    border-radius: 18px;
-    border: 1px solid rgba(255,255,255,0.12);
-    background: rgba(245,245,248,0.97);
-    box-shadow: 0 20px 60px rgba(0,0,0,0.35);
-  }
-
-  .site-nav .page-link {
-    color: #111318;
-    background: transparent;
-    border: 0;
-    min-height: 46px;
-    border-radius: 12px;
-    padding: 0.6rem 0.7rem;
-    justify-content: flex-start;
-    font-size: 1.02rem;
-  }
-
-  .site-nav .page-link:hover,
-  .site-nav .page-link:focus {
-    color: #000;
-    background: rgba(0,0,0,0.05);
-  }
-
-  .nav-toggle:checked + .nav-toggle-label + .site-nav {
-    display: block;
-  }
-
-  .nav-toggle:checked + .nav-toggle-label span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-  }
-
-  .nav-toggle:checked + .nav-toggle-label span:nth-child(2) {
-    opacity: 0;
-  }
-
-  .nav-toggle:checked + .nav-toggle-label span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
-  }
-
-  .home-hero {
-    min-height: auto;
-  }
-}
-
-@media (max-width: 640px) {
-  .site-nav .trigger {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .display-wordmark {
-    font-size: clamp(2.7rem, 13vw, 4.2rem);
-  }
-
-  .home-lead {
-    font-size: 1.03rem;
-  }
-
-  .statement-block {
-    font-size: 1.14rem;
-  }
-}
-/* =========================================================
-   STEP 3B — CLEAN HEADER / DARK SIDE DRAWER / NO DUPLICATES FEEL
-   ========================================================= */
-
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-  background: rgba(3, 4, 7, 0.42);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
-.site-header .wrapper {
-  min-height: 66px;
-}
-
-.site-title {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 1.15rem;
-  color: rgba(245,247,250,0.88);
-  letter-spacing: 0.02em;
-}
-
-.nav-shell {
-  position: relative;
-}
-
-.nav-toggle {
-  display: none;
-}
-
-.nav-toggle-label {
-  display: none;
-  margin-left: auto;
-  width: 46px;
-  height: 46px;
-  border-radius: 14px;
-  border: 1px solid rgba(255,255,255,0.1);
-  background: rgba(255,255,255,0.04);
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-  z-index: 120;
-}
-
-.nav-toggle-label span {
-  display: block;
-  width: 20px;
-  height: 2px;
-  background: #f4f6fa;
-  border-radius: 999px;
-  transition: transform 0.22s ease, opacity 0.22s ease;
-}
-
-.nav-overlay {
-  display: none;
-}
-
-.site-nav .trigger {
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  flex-wrap: wrap;
-}
-
-.page-link {
-  color: rgba(245,247,250,0.78);
-}
-
-.page-link:hover,
-.page-link:focus {
-  color: #fff;
-  background: rgba(255,255,255,0.05);
-}
-
-/* Desktop: nur ruhige obere Leiste */
-@media (min-width: 901px) {
-  .site-header .wrapper {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .site-title {
-    margin-right: auto;
-  }
-}
-
-/* Mobile + iPad: echtes Side-Drawer-Menü */
-@media (max-width: 900px) {
-  .site-header .wrapper {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    min-height: 64px;
-  }
-
-  .site-title {
-    margin-right: auto;
-    font-size: 1.02rem;
-  }
-
-  .nav-toggle-label {
-    display: inline-flex;
-  }
-
-  .nav-overlay {
-    display: none;
-  }
-
-  .site-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: min(84vw, 340px);
-    transform: translateX(-105%);
-    transition: transform 0.28s ease;
-    z-index: 115;
-    margin: 0;
-  }
-
-  .site-nav .trigger {
-    height: 100%;
-    display: flex;
+  .home-cta-row {
     flex-direction: column;
-    align-items: stretch;
-    gap: 0.35rem;
-    padding: 5.6rem 1rem 1rem;
-    background:
-      linear-gradient(180deg, rgba(8,10,14,0.97), rgba(4,5,8,0.98)),
-      url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
-    border-right: 1px solid rgba(255,255,255,0.08);
-    box-shadow: 20px 0 60px rgba(0,0,0,0.45);
-  }
-
-  .site-nav .page-link {
-    min-height: 48px;
-    padding: 0.8rem 0.9rem;
-    border-radius: 14px;
-    color: #eef2f8;
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.06);
-    justify-content: flex-start;
-    font-size: 1rem;
-  }
-
-  .site-nav .page-link:hover,
-  .site-nav .page-link:focus {
-    background: rgba(255,255,255,0.08);
-    color: #fff;
-    opacity: 1;
-  }
-
-  .nav-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.4);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.24s ease;
-    z-index: 110;
-  }
-
-  .nav-toggle:checked + .nav-toggle-label + .nav-overlay + .site-nav {
-    transform: translateX(0);
-  }
-
-  .nav-toggle:checked + .nav-toggle-label + .nav-overlay {
-    opacity: 1;
-    pointer-events: auto;
-    display: block;
-  }
-
-  .nav-toggle:checked + .nav-toggle-label span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-  }
-
-  .nav-toggle:checked + .nav-toggle-label span:nth-child(2) {
-    opacity: 0;
-  }
-
-  .nav-toggle:checked + .nav-toggle-label span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
-  }
-}
-
-/* Hero schöner und klarer */
-.home-hero {
-  min-height: auto;
-}
-
-.home-hero .hero-inner {
-  max-width: 900px;
-}
-
-.display-wordmark {
-  margin-bottom: 0.7rem;
-  text-shadow:
-    0 0 18px rgba(255,255,255,0.06),
-    0 0 40px rgba(255,255,255,0.04);
-}
-
-.hero-kicker {
-  margin-bottom: 1rem;
-}
-
-.home-lead {
-  margin-bottom: 1rem;
-}
-
-/* Page spacing etwas eleganter */
-.page-section {
-  border-radius: 26px;
-}
-
-@media (max-width: 640px) {
-  .page-section {
-    border-radius: 18px;
   }
 
   .display-wordmark {
@@ -1046,121 +817,7 @@ th, td {
     line-height: 0.94;
   }
 
-  .home-cta-row {
-    flex-direction: column;
-  }
-}
-/* =========================================================
-   HARD FIX — MOBILE NAV REALLY AS SIDE DRAWER
-   ========================================================= */
-
-@media (max-width: 900px) {
-  .site-header {
-    background: rgba(3, 4, 7, 0.2) !important;
-    backdrop-filter: blur(8px) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
-  }
-
-  .site-header .wrapper {
-    display: flex !important;
-    align-items: center !important;
-    flex-direction: row !important;
-    gap: 0.8rem !important;
-    min-height: 64px !important;
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
-  }
-
-  .site-title {
-    margin-right: auto !important;
-    font-size: 1.02rem !important;
-  }
-
-  .nav-toggle-label {
-    display: inline-flex !important;
-  }
-
-  /* alte Dropdown-Logik komplett neutralisieren */
-  .site-nav {
-    display: block !important;
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    bottom: 0 !important;
-    width: min(84vw, 340px) !important;
-    margin: 0 !important;
-    transform: translateX(-105%) !important;
-    transition: transform 0.28s ease !important;
-    z-index: 115 !important;
-    background: transparent !important;
-  }
-
-  .site-nav .trigger {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: stretch !important;
-    justify-content: flex-start !important;
-    flex-wrap: nowrap !important;
-    gap: 0.45rem !important;
-    height: 100% !important;
-    padding: 5.6rem 1rem 1rem !important;
-    border-radius: 0 !important;
-    border: 0 !important;
-    background:
-      linear-gradient(180deg, rgba(8,10,14,0.97), rgba(4,5,8,0.98)),
-      url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat !important;
-    box-shadow: 20px 0 60px rgba(0,0,0,0.45) !important;
-  }
-
-  .site-nav .page-link {
-    display: flex !important;
-    width: 100% !important;
-    min-height: 48px !important;
-    padding: 0.8rem 0.9rem !important;
-    border-radius: 14px !important;
-    border: 1px solid rgba(255,255,255,0.06) !important;
-    background: rgba(255,255,255,0.03) !important;
-    color: #eef2f8 !important;
-    justify-content: flex-start !important;
-    font-size: 1rem !important;
-  }
-
-  .site-nav .page-link:hover,
-  .site-nav .page-link:focus {
-    background: rgba(255,255,255,0.08) !important;
-    color: #fff !important;
-    opacity: 1 !important;
-  }
-
-  .nav-overlay {
-    position: fixed !important;
-    inset: 0 !important;
-    display: block !important;
-    background: rgba(0,0,0,0.42) !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-    transition: opacity 0.24s ease !important;
-    z-index: 110 !important;
-  }
-
-  .nav-toggle:checked + .nav-toggle-label + .nav-overlay + .site-nav {
-    transform: translateX(0) !important;
-  }
-
-  .nav-toggle:checked + .nav-toggle-label + .nav-overlay {
-    opacity: 1 !important;
-    pointer-events: auto !important;
-  }
-
-  .nav-toggle:checked + .nav-toggle-label span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg) !important;
-  }
-
-  .nav-toggle:checked + .nav-toggle-label span:nth-child(2) {
-    opacity: 0 !important;
-  }
-
-  .nav-toggle:checked + .nav-toggle-label span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg) !important;
+  .page-section {
+    border-radius: 18px;
   }
 }
