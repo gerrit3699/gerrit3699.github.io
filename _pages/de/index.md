@@ -7,12 +7,10 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
 
 <div class="home-journey">
 
-  <section class="hero home-hero section-fog">
-    <div class="hero-inner">
-      <p class="hero-kicker">Semantic Gravitation</p>
-      <h1 class="display-wordmark">Semantic Gravitation</h1>
-      <p class="home-lead">Ein Kompass für den Denkraum im Zeitalter der KI</p>
-
+<section class="hero home-hero section-fog">
+  <div class="hero-inner">
+    <h1 class="display-wordmark">Semantic Gravitation</h1>
+    <p class="home-lead">Ein Kompass für den Denkraum im Zeitalter der KI</p>
       <p class="hero-subtitle">
         KI wird zum wichtigsten Denkwerkzeug unserer Zeit.<br>
         Nicht nur für Produktivität.<br>
