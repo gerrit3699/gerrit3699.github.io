@@ -776,3 +776,234 @@ th, td {
     font-size: 0.98rem;
   }
 }
+/* =========================================================
+   SG POLISH PASS — tighter layout, cleaner typography
+   ========================================================= */
+
+/* automatische Seitentitel wirklich komplett ausblenden */
+.post-header,
+.post-title,
+.page-heading,
+h1.page-title {
+  display: none !important;
+}
+
+/* oberer Bereich ruhiger */
+.page-content .wrapper {
+  padding-top: 0.35rem;
+  padding-bottom: 3rem;
+}
+
+/* weniger Luft zwischen den grossen Blöcken */
+.hero {
+  margin: 0.55rem auto 0.7rem;
+}
+
+.page-section {
+  margin: 0.7rem auto;
+  padding: 1.15rem 1rem 1.05rem;
+}
+
+.section-divider {
+  height: 54px;
+  margin: 0.15rem auto;
+  opacity: 0.32;
+}
+
+/* Hero optisch feiner */
+.home-hero .hero-inner {
+  padding-top: 1.55rem;
+  padding-bottom: 1.5rem;
+}
+
+.home-hero .display-wordmark {
+  margin: 0 0 0.85rem 0;
+  max-width: 7ch;
+}
+
+.home-lead {
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+  max-width: 28rem;
+}
+
+.hero-subtitle {
+  max-width: 30rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Text soll mehr atmen */
+.page-section p,
+.hero p,
+.page-section li {
+  line-height: 1.78;
+}
+
+.page-section p + p,
+.hero p + p {
+  margin-top: 1rem;
+}
+
+.page-section h2 + p,
+.page-section h3 + p {
+  margin-top: 0.45rem;
+}
+
+/* starke Aussagen freier und klarer */
+.statement-block {
+  font-size: clamp(1.18rem, 2.6vw, 1.48rem);
+  line-height: 1.36;
+  color: #f4f7fb;
+  margin: 1.3rem 0 1.3rem;
+  max-width: 30rem;
+}
+
+.statement-block strong,
+p strong:only-child {
+  display: inline-block;
+  line-height: 1.34;
+}
+
+/* generelle Hervorhebungen etwas stärker */
+strong {
+  font-weight: 700;
+  letter-spacing: 0.002em;
+}
+
+/* Buttons etwas kompakter und eleganter */
+.home-cta-row {
+  margin-top: 1.35rem;
+  gap: 0.7rem;
+}
+
+.button,
+.support-link {
+  min-height: 46px;
+  padding: 0.78rem 1rem;
+}
+
+/* Drei-Achsen-Bereich dichter */
+.section-grid {
+  gap: 0.75rem;
+}
+
+.axis-card {
+  padding: 0.82rem 0.9rem 0.7rem;
+  border-radius: 16px;
+  min-height: 0;
+}
+
+.axis-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.28rem;
+}
+
+.axis-card p {
+  margin: 0;
+  line-height: 1.62;
+}
+
+/* weniger riesige Karten auf Mobile */
+@media (max-width: 760px) {
+  .axis-card {
+    padding: 0.8rem 0.85rem 0.72rem;
+  }
+}
+
+/* Links unter Textblöcken etwas geordneter */
+.link-list {
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.link-list a {
+  font-weight: 600;
+}
+
+/* Header ruhiger */
+.sg-header-inner {
+  min-height: 60px;
+}
+
+.sg-brand {
+  opacity: 0.82;
+}
+
+/* Mobil: alles noch etwas straffer und sauberer */
+@media (max-width: 680px) {
+  .page-content .wrapper {
+    padding-top: 0.2rem;
+    padding-bottom: 2.4rem;
+  }
+
+  .hero {
+    margin-top: 0.35rem;
+    margin-bottom: 0.55rem;
+    border-radius: 20px;
+  }
+
+  .hero-inner {
+    padding: 1.45rem 0.95rem 1.25rem;
+  }
+
+  .page-section {
+    margin: 0.55rem auto;
+    padding: 0.95rem 0.9rem 0.92rem;
+    border-radius: 18px;
+  }
+
+  .section-divider {
+    height: 34px;
+    opacity: 0.22;
+  }
+
+  .display-wordmark {
+    font-size: clamp(3rem, 15vw, 4.5rem);
+    line-height: 0.9;
+    margin-bottom: 0.7rem;
+  }
+
+  .home-lead {
+    font-size: 1.02rem;
+    line-height: 1.48;
+    margin-bottom: 0.95rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    line-height: 1.72;
+    margin-bottom: 1.05rem;
+  }
+
+  .statement-block {
+    font-size: 1.06rem;
+    line-height: 1.4;
+    margin: 1.05rem 0;
+  }
+
+  p,
+  li {
+    font-size: 1rem;
+    line-height: 1.76;
+  }
+
+  .home-cta-row {
+    gap: 0.62rem;
+    margin-top: 1.1rem;
+  }
+
+  .button,
+  .support-link {
+    width: 100%;
+    min-height: 44px;
+    padding: 0.78rem 0.95rem;
+  }
+
+  .axis-card {
+    padding: 0.72rem 0.8rem 0.65rem;
+  }
+
+  .axis-card p {
+    line-height: 1.56;
+  }
+}
