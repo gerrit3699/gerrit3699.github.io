@@ -9,6 +9,8 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
 
   <section class="hero home-hero section-fog">
     <div class="hero-inner">
+      <h1 class="display-wordmark">Semantic<br>Gravitation</h1>
+
       <p class="home-lead">Ein Kompass für den Denkraum im Zeitalter der KI</p>
 
       <p class="hero-subtitle">
