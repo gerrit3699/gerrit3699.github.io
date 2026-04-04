@@ -51,7 +51,7 @@ description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Unterstützung,
 
   <p>
     <strong>Instagram:</strong><br>
-    <a href="https://instagram.com/gerritsgedanken" target="_blank" rel="noopener">@gerritsgedanken</a>
+    <a href="https://instagram.com/semanticgravitation" target="_blank" rel="noopener">@semanticgravitation</a>
   </p>
 </section>
 
