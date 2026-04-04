@@ -1,16 +1,16 @@
 ---
 layout: page
-title: "Kontakt"
+title: "Kontakt & Unterstützung"
 permalink: /de/kontakt/
-description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Spenden und soziale Kanäle."
+description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Unterstützung, Zusammenarbeit und PayPal-Link."
 ---
 
 <section class="hero hero-contact">
   <div class="hero-inner">
-    <p class="hero-kicker">Kontakt</p>
+    <p class="hero-kicker">Kontakt & Unterstützung</p>
     <h1>In Verbindung treten</h1>
     <p class="hero-subtitle">
-      Für Fragen, Resonanzen, Zusammenarbeit, Hinweise oder Unterstützung.
+      Für Kontakt, Resonanz, Zusammenarbeit, Mitwirken und Unterstützung von Semantic Gravitation.
     </p>
   </div>
 </section>
@@ -23,9 +23,24 @@ description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Spenden und soz
   </p>
 
   <p>
+    Semantic Gravitation ist aktuell noch ein Projekt im Aufbau.
+    Ich arbeite daran derzeit weitgehend allein:
+    an den Texten, an der theoretischen Ausarbeitung, an den Veröffentlichungen,
+    an der Übersetzung in Richtung Architektur und an der öffentlichen Zugänglichmachung.
+  </p>
+
+  <p>
+    Im Moment entsteht diese Arbeit noch ohne festes Team,
+    ohne institutionellen Rückhalt und unter realem Zeit-, Energie- und Finanzdruck.
+    Parallel halte ich mich mit Baustellenjobs über Wasser,
+    während ich diese Arbeit weiter ausbaue.
+  </p>
+
+  <p>
     Wenn dich die Arbeit auf <strong>semanticgravitation.org</strong> anspricht,
-    wenn du Fragen hast, etwas spiegeln möchtest,
-    Zusammenarbeit suchst oder einfach Kontakt aufnehmen willst,
+    wenn du Resonanz hast, eine ernsthafte Rückmeldung geben möchtest,
+    wenn du mitwirken willst, Kontakte einbringen kannst
+    oder das Gefühl hast, dass dieses Projekt für dich wichtig ist,
     kannst du dich hier melden.
   </p>
 
@@ -41,16 +56,151 @@ description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Spenden und soz
 </section>
 
 <section class="page-section">
-  <h2>Unterstützen</h2>
+  <h2>Mitwirken</h2>
 
   <p>
-    Wenn du diese Arbeit unterstützen möchtest,
-    wird hier in Kürze auch ein Spendenlink zu finden sein.
+    Ich versuche über die Zeit ein System aufzubauen,
+    das Menschen einen echten Rahmen gibt:
+    einen Ort, an dem sie Orientierung finden,
+    Zugang zu den Materialien bekommen,
+    Antworten finden,
+    tiefer einsteigen
+    und nach und nach auch sehen können,
+    wie sie dieses Projekt unterstützen oder daran mitbauen können.
   </p>
 
   <p>
-    <strong>Spendenlink:</strong><br>
-    <em>Platzhalter – wird in den nächsten Tagen eingerichtet.</em>
+    In der jetzigen Phase suche ich besonders Menschen,
+    die nicht nur kurz interessiert sind,
+    sondern wirklich andocken möchten.
+    Menschen, die spüren, dass hier etwas Reales entsteht,
+    und die helfen wollen, daraus Schritt für Schritt etwas Tragfähiges zu machen.
+  </p>
+
+  <p>
+    Das kann sehr unterschiedlich aussehen:
+  </p>
+
+  <ul>
+    <li>Menschen mit Kontakten, Reichweite oder strategischen Verbindungen</li>
+    <li>Menschen, die inhaltlich tiefer einsteigen und beim Aufbau mitdenken wollen</li>
+    <li>Menschen aus Technik, Forschung, Design, Medien oder Organisation</li>
+    <li>Menschen, die beim Sichtbarmachen, Vernetzen oder Strukturieren helfen können</li>
+    <li>Menschen, die diese Arbeit finanziell mittragen möchten</li>
+  </ul>
+
+  <p>
+    Wenn du dich hier ernsthaft angesprochen fühlst,
+    schreib mir gern.
+    Gerade in der frühen Phase versuche ich für die Menschen da zu sein,
+    die echtes Interesse zeigen,
+    die etwas darin erkennen,
+    die mitdenken wollen
+    oder die spüren, dass sie Teil davon sein möchten.
+  </p>
+</section>
+
+<section class="page-section">
+  <h2>Unterstützen</h2>
+
+  <p>
+    Wenn du meine Arbeit unterstützen möchtest,
+    kannst du das hier direkt tun.
+  </p>
+
+  <p>
+    Deine Unterstützung hilft mir,
+    Zeit, Energie und Infrastruktur für dieses Projekt tragfähiger zu machen:
+    für Forschung, Schreiben, Publikation, Website, Medien,
+    Weiterentwicklung der Architektur
+    und den langfristigen Aufbau von Semantic Gravitation.
+  </p>
+
+  <p>
+    Gerade in dieser Phase macht Unterstützung einen sehr realen Unterschied.
+    Sie nimmt Druck heraus,
+    schafft Freiraum für die weitere Ausarbeitung
+    und macht es realistischer,
+    diese Arbeit nicht nur neben allem anderen,
+    sondern mit mehr Kontinuität, Tiefe und öffentlicher Wirksamkeit in die Welt zu bringen.
+  </p>
+
+  <p>
+    Ich arbeite so oder so weiter daran.
+    Aber wenn dich diese Arbeit berührt,
+    wenn du sie wichtig findest
+    oder wenn du dazu beitragen möchtest,
+    dass daraus etwas Tragfähiges wachsen kann,
+    hilft mir dein Beitrag gerade jetzt ganz konkret.
+  </p>
+
+  <p>
+    <strong>PayPal:</strong><br>
+    <a href="https://paypal.me/semanticgravitation" target="_blank" rel="noopener">
+      paypal.me/semanticgravitation
+    </a>
+  </p>
+
+  <p>
+    Unterstützung ist hier im Moment am ehesten als freiwilliger Beitrag
+    zur Ermöglichung und Weiterentwicklung dieser Arbeit zu verstehen.
+  </p>
+</section>
+
+<section class="page-section">
+  <h2>Bevor du mich fragst</h2>
+
+  <p>
+    Ich freue mich über ernsthafte Nachrichten.
+    Was ich im Moment allerdings nicht leisten kann und auch nicht leisten möchte,
+    ist, jedem Menschen in Einzelgesprächen immer wieder
+    von Grund auf zu erklären, was Semantic Gravitation ist,
+    warum es funktionieren könnte
+    oder wie sich jeder Baustein im Detail herleitet.
+  </p>
+
+  <p>
+    Wenn du wirklich verstehen willst, worum es hier geht,
+    nutze bitte zuerst die Materialien auf dieser Website:
+    insbesondere die Dokumente, Papers und Patente auf der entsprechenden Seite.
+  </p>
+
+  <p>
+    Mein Vorschlag ist:
+    Nimm deine echte Frage,
+    lade die Dokumente in eine KI deiner Wahl,
+    arbeite dich damit selbst in das Material ein
+    und prüfe es an dem Punkt,
+    der dich wirklich interessiert, irritiert oder ruft.
+  </p>
+
+  <p>
+    Nicht vorschnell glauben.
+    Nicht vorschnell verwerfen.
+    Sondern präzise fragen,
+    sauber prüfen
+    und den eigenen Kurzschluss selbst zum Ausgangspunkt
+    der nächsten besseren Frage machen.
+  </p>
+
+  <p>
+    Die Texte und PDFs auf dieser Website sind nicht bloß Begleitmaterial.
+    Sie sind der zugängliche Kontextrahmen,
+    mit dem du dir selbst ein ernsthaftes erstes Bild machen kannst.
+  </p>
+
+  <p>
+    Wer wirklich einsteigen will, kann anfangen:
+    mit den Dokumenten,
+    mit den Fragen
+    und mit KI als Arbeits- und Prüfraum.
+  </p>
+
+  <p>
+    Ich spreche gern mit Menschen,
+    die sich ernsthaft eingearbeitet haben,
+    bei denen die größeren Bilder bereits anklicken
+    oder die auf reale Weise mitbauen, unterstützen oder weitertragen wollen.
   </p>
 </section>
 
@@ -59,11 +209,13 @@ description: "Kontakt zu Gerrit Klawitter, Semantic Gravitation, Spenden und soz
 
   <p>
     Ich lese Nachrichten so gut ich kann.
-    Gerade in intensiveren Phasen kann die Antwort etwas dauern.
+    Gerade in intensiveren Phasen kann eine Antwort etwas dauern.
   </p>
 
   <p>
-    Wenn es um die Inhalte dieser Website geht,
-    freue ich mich besonders über klare, konkrete und ehrliche Nachrichten.
+    Am meisten helfen klare, konkrete und ehrliche Nachrichten:
+    Was hat dich erreicht?
+    Worum geht es dir?
+    Was möchtest du beitragen, fragen oder in Bewegung bringen?
   </p>
 </section>
