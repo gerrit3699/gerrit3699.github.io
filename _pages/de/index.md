@@ -65,7 +65,7 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       </p>
 
       <p class="statement-block statement-inline">
-        Fast alles, was wir überhaupt beschreiben können,
+        Denn alles, was wir überhaupt beschreiben können,
         läuft implizit über<br>
         <strong>Kern, Projektion und Relation.</strong>
       </p>
@@ -92,7 +92,7 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       <p>
         Je länger ich darauf geschaut habe, desto absurder wurde es für mich,
         wie universell diese Grammatik ist.
-        Denn man kann fast nichts sinnvoll beschreiben,
+        Denn man kann nichts sinnvoll beschreiben,
         ohne implizit genau diese drei Tonspuren mitzuführen:
         <strong>Worum geht es?</strong>
         <strong>Wie zeigt es sich?</strong>
