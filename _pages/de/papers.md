@@ -49,6 +49,44 @@ description: "Technische und theoretische Grundlagen von Semantic Gravitation: P
     </div>
   </section>
 
+  <section class="section-shell section-shell-tight">
+    <div class="section-card section-fog">
+      <div class="section-head">
+        <h2>Gebündelte Downloads & KI-Prüfung</h2>
+      </div>
+
+      <div class="section-body">
+        <p>
+          Wenn man eine KI einfach nur fragt, was sie von dieser Website oder den großen Claims hält,
+          lädt sie sich die zugehörigen PDFs oft <strong>nicht automatisch</strong> als vollständigen Kontextrahmen.
+        </p>
+
+        <p>
+          Gerade deshalb gibt es jetzt eine eigene <strong>Downloads-Seite</strong> mit den wichtigsten gebündelten Dokumenten.
+          Dort kannst du die Dateien direkt herunterladen
+          und sie in einem eigenen KI-Chat als Kontext mitgeben.
+        </p>
+
+        <p>
+          Das beweist den Rahmen nicht.
+          Aber es verbessert oft die Qualität der Prüfung:
+          weg von einer bloßen Reaktion auf einzelne Aussagen —
+          hin zu einer genaueren Einschätzung von Struktur,
+          Kohärenz, offenen Stellen und möglicher Implementierbarkeit.
+        </p>
+
+        <p class="statement-block statement-inline">
+          Für eine fairere und klarere Einschätzung:<br>
+          <strong>Dokumente herunterladen, der eigenen KI geben und gezielt prüfen.</strong>
+        </p>
+
+        <p>
+          <a class="button" href="/de/downloads/">Zu den Downloads →</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
   <div class="section-divider"></div>
 
   <section class="section-shell">
