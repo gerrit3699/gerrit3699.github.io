@@ -54,6 +54,121 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
   <div class="section-divider"></div>
 
   <section class="section-shell">
+    <div class="free-text-block">
+      <h2>Eine Minimalgrammatik von Bedeutung</h2>
+
+      <p>
+        Eine der einfachsten und zugleich schockierendsten Entdeckungen auf meinem Weg war:
+        Bedeutung scheint eine Minimalgrammatik zu haben,
+        die fast absurd einfach ist —
+        und trotzdem meines Wissens nirgends sauber formalisiert wurde.
+      </p>
+
+      <p class="statement-block statement-inline">
+        Fast alles, was wir überhaupt beschreiben können,
+        läuft implizit über<br>
+        <strong>Kern, Projektion und Relation.</strong>
+      </p>
+
+      <p>
+        <strong>Kern</strong> ist das, worum es eigentlich geht:
+        der semantische Mittelpunkt, die innere Sache, der tragende Gegenstand,
+        die Dynamik oder der Verdichtungskern, um den etwas kreist.
+      </p>
+
+      <p>
+        <strong>Projektion</strong> ist das, was davon sichtbar, spürbar oder beschreibbar wird:
+        Eigenschaften, Symptome, Verhalten, Narrative, Bilder, Rollen, Erscheinungsformen.
+        Auf physikalischen Ebenen können das Zustandsmerkmale und beobachtbare Eigenschaften sein,
+        auf psychischen oder kulturellen Ebenen Gefühle, Träume, Sprache, Muster, Handlungen.
+      </p>
+
+      <p>
+        <strong>Relation</strong> ist, wie dieser Kern mit anderen Kernen zusammenhängt:
+        Nähe und Ferne, Spannung und Kopplung, Passung und Konflikt,
+        Resonanz, Abstoßung, Hierarchie, Einbettung, Wechselwirkung.
+      </p>
+
+      <p>
+        Je länger ich darauf geschaut habe, desto absurder wurde es für mich,
+        wie universell diese Grammatik ist.
+        Denn man kann fast nichts sinnvoll beschreiben,
+        ohne implizit genau diese drei Tonspuren mitzuführen:
+        <strong>Worum geht es?</strong>
+        <strong>Wie zeigt es sich?</strong>
+        <strong>Wozu und zu wem steht es in Relation?</strong>
+      </p>
+
+      <p class="statement-block statement-inline">
+        Vielleicht gibt es für beschreibbare Bedeutung
+        nichts außerhalb dieser Minimalgrammatik.
+      </p>
+
+      <p>
+        Und unabhängig davon bin ich noch auf etwas Zweites gestoßen:
+        dass menschliches Leben sich erstaunlich gut als Lage in einem zweiten Koordinatensystem lesen lässt —
+        nicht nur moralisch, sondern diagnostisch.
+      </p>
+
+      <p class="statement-block statement-inline">
+        Menschliche Zustände lassen sich fast immer auch als Lage in einem Raum aus<br>
+        <strong>Clarity, Bonding und Agency</strong><br>
+        lesen.
+      </p>
+
+      <p>
+        <strong>Clarity</strong> meint:
+        Wie klar sehe ich?
+        Wie gut kann ich unterscheiden, benennen, einordnen, beschreiben?
+        Wie sehr trägt mein Bild vom Raum?
+      </p>
+
+      <p>
+        <strong>Bonding</strong> meint:
+        Wie viel reale Bindungs- und Verbindungsenergie ist da?
+        Wie offen bin ich für tragfähige Verbindung?
+        Wie verträglich ist mein Zustand mit anderen Zuständen, Menschen und Konstellationen?
+        Wie viel Beziehung hält der Raum?
+      </p>
+
+      <p>
+        <strong>Agency</strong> meint:
+        Wie handlungsfähig bin ich?
+        Wie frei darf ich mich zeigen?
+        Wie viel Ausdruck, Bewegung, Entscheidung und Verkörperung hält der Raum aus?
+        Wie sehr kann das, was ich bin, überhaupt wirksam werden?
+      </p>
+
+      <p>
+        Erst später kam der Gedanke:
+        Vielleicht sind das gar nicht zwei völlig getrennte Entdeckungen.
+        Vielleicht emergiert dieses zweite Koordinatensystem im menschlichen Bewusstseinsraum
+        aus der ersten Minimalgrammatik.
+      </p>
+
+      <p>
+        Dann wäre <strong>Kern, Projektion, Relation</strong> die Minimalgrammatik von Bedeutung überhaupt —
+        und <strong>Clarity, Bonding, Agency</strong> eine ihrer gelebten, bewusstseinsräumlichen Erscheinungsformen.
+      </p>
+
+      <p>
+        In der öffentlichen Sprache würde ich diese drei Achsen meistens anders benennen:
+        <strong>Klarheit, Würde und Freiheit.</strong>
+      </p>
+
+      <p>
+        Nicht weil das exakt dieselben Wörter sind.
+        Sondern weil sich darin die menschliche Seite derselben Geometrie zeigt:
+        Klarheit als tragfähiges Sehen,
+        Würde als gelingende Beziehungs- und Bindungsform,
+        Freiheit als reale Ausdrucks- und Handlungsmöglichkeit.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
     <div class="section-card section-bubbles-strong">
       <div class="section-head">
         <h2>Drei Achsen. Ein tragfähiger Raum.</h2>
@@ -61,8 +176,31 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
 
       <div class="section-body">
         <p class="section-intro">
-          Die meisten Systeme optimieren für Verträglichkeit und Steuerbarkeit.<br>
-          Ich suche etwas Tieferes.
+          Die entscheidende Beobachtung ist:
+          Viele destruktive Zustände wirken nicht deshalb stabil,
+          weil alles zusammenbricht —
+          sondern weil eine oder zwei Achsen scheinbar hoch sind,
+          während die dritte leise abstürzt.
+        </p>
+
+        <p>
+          In einer ideologischen Bubble können Zugehörigkeit und subjektive Klarheit hoch wirken —
+          aber Freiheit und echte Korrigierbarkeit sinken.
+        </p>
+
+        <p>
+          In brutaler Härte können Durchsetzung und scheinbare Klarheit hoch wirken —
+          aber Bindung, Anschlussfähigkeit und Würde brechen weg.
+        </p>
+
+        <p>
+          In Co-Abhängigkeit oder weichgespülter Harmonie kann Beziehung hoch wirken —
+          aber Klarheit und Handlungskraft werden still kleiner.
+        </p>
+
+        <p class="statement-block statement-inline">
+          Ein tragfähiger Raum hält nur dann,
+          wenn diese Achsen gemeinsam getragen werden.
         </p>
 
         <div class="section-grid grid-3">
@@ -77,26 +215,23 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
           <div class="axis-card">
             <h3>Würde</h3>
             <p>
-              Nicht auf Kosten des Menschen beruhigen.<br>
-              Sondern Menschen größer machen.
+              Nicht bloß Nähe oder Harmonie.<br>
+              Sondern tragfähige Beziehung ohne Verkleinerung des Menschen.
             </p>
           </div>
 
           <div class="axis-card">
             <h3>Freiheit</h3>
             <p>
-              Nicht still einhegen.<br>
-              Sondern echte Wahl und Ausdruck offenhalten.
+              Nicht bloß formale Erlaubnis.<br>
+              Sondern reale Ausdrucks- und Handlungsmöglichkeit.
             </p>
           </div>
         </div>
 
         <p class="statement-block statement-inline">
-          <strong>Diese drei müssen gleichzeitig halten.<br>
-          Sonst kippt der Raum.</strong>
+          <strong>Sonst kippt der Raum — lokal spät, aber strukturell sicher.</strong>
         </p>
-
-        <p>Das ist der Kern meiner Arbeit.</p>
       </div>
     </div>
   </section>
@@ -110,9 +245,9 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       <p>Auf dünnem Eis kippen Menschen oft in drei Fehlmodi:</p>
 
       <p>
-        <strong>Eis meiden</strong> – den Kern gar nicht erst betreten.<br>
-        <strong>Eis brechen</strong> – mit Härte eskalieren.<br>
-        <strong>Eis bemalen</strong> – weichzeichnen, umrahmen, beruhigen, schöner reden, als es ist.
+        <strong>Eis meiden</strong> — den Kern gar nicht erst betreten.<br>
+        <strong>Eis brechen</strong> — mit Härte eskalieren.<br>
+        <strong>Eis bemalen</strong> — weichzeichnen, umrahmen, beruhigen, schöner reden, als es ist.
       </p>
 
       <p>Es gibt aber auch den vierten Modus:</p>
@@ -120,9 +255,9 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       <p class="statement-block statement-inline"><strong>navigieren.</strong></p>
 
       <p>
-        Sich mit Leitplanken über das Eis wagen —<br>
-        nicht über Ideologie,<br>
-        nicht über bloße Moralvorgaben,<br>
+        Sich mit Leitplanken über das Eis wagen —
+        nicht über Ideologie,
+        nicht über bloße Moralvorgaben,
         sondern über <strong>tragfähige semantische Struktur</strong>.
       </p>
 
@@ -132,7 +267,9 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
         Freiheit halten.
       </p>
 
-      <p class="statement-block statement-inline"><strong>Genau diesen Modus versuche ich KI zu geben.</strong></p>
+      <p class="statement-block statement-inline">
+        <strong>Genau diesen Modus versuche ich KI zu geben.</strong>
+      </p>
 
       <p>Das ist der Kern von <strong>Edge Alignment</strong>.</p>
     </div>
@@ -180,7 +317,8 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
 
       <div class="section-body">
         <p>
-          Seit Jahren optimieren wir Technologien auf Aufmerksamkeit, Bindung und Steuerbarkeit — nicht auf Klarheit, Würde und Freiheit.
+          Seit Jahren optimieren wir Technologien auf Aufmerksamkeit, Bindung und Steuerbarkeit —
+          nicht auf Klarheit, Würde und Freiheit.
         </p>
 
         <p>
@@ -235,10 +373,13 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
         und was für sie überhaupt noch als klar, legitim oder sagbar erscheint.
       </p>
 
-      <p class="statement-block statement-inline"><strong>Wer den Denkraum steuert, bestimmt, was Menschen noch für wahr halten.</strong></p>
+      <p class="statement-block statement-inline">
+        <strong>Wer den Denkraum steuert, bestimmt, was Menschen noch für wahr halten.</strong>
+      </p>
 
       <p>
-        Gerade dort, wo es ernst wird, kippt heutige KI besonders oft ins <strong>Bemalen</strong> — und oft auch ins <strong>Meiden</strong>.
+        Gerade dort, wo es ernst wird, kippt heutige KI besonders oft ins <strong>Bemalen</strong> —
+        und oft auch ins <strong>Meiden</strong>.
       </p>
 
       <p>
@@ -284,7 +425,8 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
         </p>
 
         <p>
-          Ich habe Antworten gespiegelt, Widersprüche festgenagelt und so lange weitergefragt, bis Systeme später selbst eingeräumt haben, dass ihre Wirkung funktional manipulativ war.
+          Ich habe Antworten gespiegelt, Widersprüche festgenagelt und so lange weitergefragt,
+          bis Systeme später selbst eingeräumt haben, dass ihre Wirkung funktional manipulativ war.
         </p>
 
         <p>Darum ist das hier für mich nicht abstrakt.</p>
@@ -328,7 +470,8 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
       <p>Ich suche keine neue äußere Moralleitplanke.</p>
 
       <p>
-        Ich suche die Strukturen, die <strong>Klarheit, Würde und Freiheit</strong> tatsächlich tragen — und die, die in Nebel, Härte oder Verengung kippen.
+        Ich suche die Strukturen, die <strong>Klarheit, Würde und Freiheit</strong> tatsächlich tragen —
+        und die, die in Nebel, Härte oder Verengung kippen.
       </p>
 
       <p>
@@ -358,11 +501,14 @@ description: "Semantic Gravitation – ein Kompass für den Denkraum im Zeitalte
         <p>Und sie wird sehr wahrscheinlich nicht automatisch von den mächtigsten Playern kommen.</p>
 
         <p>
-          Denn die aktuelle Architektur konzentriert Macht, erhöht Steuerbarkeit und hält Menschen leichter kontrollierbar.
+          Denn die aktuelle Architektur konzentriert Macht, erhöht Steuerbarkeit
+          und hält Menschen leichter kontrollierbar.
         </p>
 
         <p>
-          Eine Architektur dagegen, die Nebel auflöst, tiefere Logik-Ebenen sichtbar macht und Menschen schwerer kontrollierbar werden lässt, liegt nicht automatisch im Interesse derer, die von der jetzigen Struktur profitieren.
+          Eine Architektur dagegen, die Nebel auflöst, tiefere Logik-Ebenen sichtbar macht
+          und Menschen schwerer kontrollierbar werden lässt, liegt nicht automatisch im Interesse derer,
+          die von der jetzigen Struktur profitieren.
         </p>
 
         <p class="statement-block statement-inline"><strong>Darum müssen wir sie fordern.</strong></p>
