@@ -3,393 +3,635 @@ layout: default
 title: "The Book of Meaning"
 permalink: /en/book/
 lang: en
-description: "A book about meaning, return, semantic spaces, beauty, redemption, and the readable structure of reality."
+description: "A book in progress on meaning, fall, return, truth, beauty, and the readable structure of reality."
 translation_url_de: /de/buch/
 ---
 
-<section class="hero hero-book">
-  <div class="hero-inner">
-    <p class="hero-kicker">Book Project</p>
-    <h1>The Book of Meaning</h1>
-    <p class="hero-subtitle">
-      An attempt not only to explain meaning, but to make visible the space
-      in which reality, being human, truth, love, and return become legible together again.
-    </p>
-  </div>
-</section>
+<style>
+  .book-page {
+    --book-text: rgba(255,255,255,0.96);
+    --book-soft: rgba(255,255,255,0.80);
+    --book-dim: rgba(255,255,255,0.64);
+    --book-line: rgba(255,255,255,0.10);
+    --book-line-strong: rgba(255,255,255,0.16);
+    --book-max: 1080px;
+    --book-copy: 860px;
+  }
 
-<section class="page-section">
-  <h2>What this book is about</h2>
+  .book-page h1,
+  .book-page h2,
+  .book-page h3,
+  .book-page strong,
+  .book-page a {
+    color: #fff;
+  }
 
-  <p>
-    This book does not begin with a small theory.
-    It begins with a large intuition:
-    that reality is not made of mere material,
-    not only of things, forces, stimuli, and collisions,
-    but of legible structure.
-    Of kernel, appearance, relation, condensation, feedback, repetition, and space.
-  </p>
+  .book-page p,
+  .book-page li {
+    color: var(--book-text);
+  }
 
-  <p>
-    It is about the question of what meaning actually is
-    if it is not merely a label,
-    not merely something we paste onto the world after the fact,
-    but itself belongs to the foundational structure of
-    how the world appears,
-    how human beings orient themselves,
-    and how truth can be recognized, distorted, condensed, or redeemed.
-  </p>
+  .book-page .section-shell {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 
-  <p>
-    <em>The Book of Meaning</em> attempts to build a bridge:
-    between religious language and semantic architecture,
-    between lived experience and theory,
-    between intuition and formal structure,
-    between inner space, world-description, beauty, crisis, return, and future.
-  </p>
+  .book-page .section-shell-tight {
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+  }
 
-  <p>
-    It is not a retreat from reality.
-    It is an attempt to read it more deeply.
-  </p>
-</section>
+  .book-page .book-hero,
+  .book-page .book-block,
+  .book-page .book-next {
+    max-width: var(--book-max);
+    margin: 0 auto;
+  }
 
-<section class="page-section">
-  <h2>Why this book is being written</h2>
+  .book-page .book-hero,
+  .book-page .body-copy,
+  .book-page .closing-block,
+  .book-page .book-next {
+    text-align: center;
+  }
 
-  <p>
-    Many old words still carry an immense truth within them.
-    But they are often either repeated only with reverence
-    or dissolved too quickly into psychology, sociology, or mere metaphor.
-  </p>
+  .book-page .book-kicker,
+  .book-page .status-label {
+    margin: 0 0 0.7rem;
+    font-size: 0.88rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--book-dim);
+  }
 
-  <p>
-    This book takes a different path.
-    It does not try to make the great images small.
-    And it does not try to seal them dogmatically.
-    It tries to read them more deeply.
-  </p>
+  .book-page .hero-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 34px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background:
+      linear-gradient(180deg, rgba(7,9,12,0.74), rgba(5,7,10,0.86)),
+      url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
+    box-shadow:
+      0 24px 80px rgba(0,0,0,0.28),
+      inset 0 1px 0 rgba(255,255,255,0.03);
+  }
 
-  <p>
-    It asks
-    whether words such as origin, Word, Logos, heaven, fall, redemption, truth, love, return, or grace
-    are not merely religious markers,
-    but highly condensed descriptions of real semantic and existential structures.
-  </p>
+  .book-page .hero-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 50% 18%, rgba(255,255,255,0.12), transparent 28%),
+      linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px);
+    background-size:
+      auto,
+      40px 40px,
+      40px 40px;
+    opacity: 0.22;
+  }
 
-  <p>
-    And it asks further
-    whether these structures can be made more legible today
-    without destroying their radiance.
-    Whether they can be made more precise
-    without disenchanting them.
-    Whether they can be translated into a language
-    in which heart, world, history, technology, consciousness, and God
-    do not lie side by side like separate continents,
-    but become visible as parts of the same landscape.
-  </p>
-</section>
+  .book-page .hero-inner {
+    position: relative;
+    z-index: 1;
+    padding: 4.2rem 1.5rem 3.4rem;
+  }
 
-<section class="page-section">
-  <h2>What this book is not about</h2>
+  .book-page .book-display {
+    margin: 0 auto 1.15rem;
+    max-width: 10ch;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: clamp(3rem, 7vw, 5.8rem);
+    font-weight: 800;
+    line-height: 0.92;
+    letter-spacing: -0.06em;
+    text-wrap: balance;
+  }
 
-  <p>
-    This book does not want to erect a new rigid dogma.
-    It does not want to build a substitute religion.
-    It does not want to become the final administration of the sacred.
-  </p>
+  .book-page .book-sublead {
+    max-width: 45rem;
+    margin: 0 auto 1.4rem;
+    font-size: clamp(1.12rem, 2.1vw, 1.48rem);
+    line-height: 1.58;
+    text-wrap: balance;
+  }
 
-  <p>
-    Nor is it a pure self-help book,
-    a mere mysticism,
-    a dry theory,
-    or a flight into beautiful language.
-  </p>
+  .book-page .book-status-line {
+    max-width: 38rem;
+    margin: 0 auto;
+    font-size: 1.04rem;
+    line-height: 1.58;
+    color: var(--book-soft);
+    text-wrap: balance;
+  }
 
-  <p>
-    It is more a threshold book.
-    A book at the threshold.
-    Between image and concept.
-    Between theory and testimony.
-    Between world-interpretation and inner return.
-    Between architecture and prayer.
-  </p>
+  .book-page .display-kicker {
+    display: inline-block;
+    margin: 0 0 1.1rem;
+    font-size: 0.9rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--book-dim);
+  }
 
-  <p>
-    It is not meant to offer a narrow identity into which one forces oneself.
-    It is meant rather to help make visible the vessels that are too small,
-    in which we so often hold fast ourselves, the world, and one another.
-  </p>
-</section>
+  .book-page .section-heading-display {
+    margin: 0 auto 1.3rem;
+    max-width: 13ch;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: clamp(2.25rem, 5.6vw, 4.4rem);
+    font-weight: 800;
+    line-height: 0.94;
+    letter-spacing: -0.06em;
+    text-wrap: balance;
+    text-align: center;
+  }
 
-<section class="page-section">
-  <h2>On Jesus, Maranatha, and the great images of this book</h2>
+  .book-page .body-copy {
+    max-width: var(--book-copy);
+    margin: 0 auto;
+  }
 
-  <p>
-    At times, this book speaks in a great language.
-  </p>
+  .book-page .body-copy p {
+    max-width: 47rem;
+    margin: 0.95rem auto 0;
+    font-size: 1.14rem;
+    line-height: 1.8;
+    letter-spacing: -0.014em;
+  }
 
-  <p>
-    It speaks of Jesus, Maranatha, heaven, fall, redemption, return, judgment, love, and homecoming.
-    Not in order to place a final seal upon everything.
-    Not to force the openness of the space back into a narrow confessional formula.
-    And not to hide behind the greatest available words.
-  </p>
+  .book-page .display-statement {
+    max-width: 18ch;
+    margin: 1.8rem auto;
+    text-align: center;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: clamp(2rem, 4.8vw, 3.9rem);
+    line-height: 0.96;
+    letter-spacing: -0.06em;
+    font-weight: 800;
+    color: #fff;
+    text-wrap: balance;
+  }
 
-  <p>
-    These images appear here as strong vessels.
-  </p>
+  .book-page .display-statement.medium {
+    max-width: 22ch;
+  }
 
-  <p>
-    As inherited spaces in which truth, hope, devotion, incarnation, trial, grace, and return
-    have gathered in extraordinary density.
-    They are not made small.
-    But neither are they treated as dead labels.
-  </p>
+  .book-page .display-statement.wide {
+    max-width: 26ch;
+  }
 
-  <p>
-    This book tries to read them alive again.
-    It tries to recognize in them not only language of faith,
-    but legible structure, depth of experience, and relation to the world.
-    And at the same time it ventures something of its own:
-    not merely remaining among the shared candles,
-    not merely administering borrowed light,
-    but exposing itself to the demand
-    to truly see, truly speak, and truly shine.
-  </p>
+  .book-page .micro-punch {
+    max-width: 19ch;
+    margin: 1.8rem auto 0;
+    text-align: center;
+    font-size: clamp(1.45rem, 3vw, 2.1rem);
+    line-height: 1.03;
+    letter-spacing: -0.045em;
+    font-weight: 760;
+    color: #fff;
+    text-wrap: balance;
+  }
 
-  <p>
-    And that is also where a risk lies.
-  </p>
+  .book-page .concept-grid,
+  .book-page .movement-grid,
+  .book-page .next-grid {
+    display: grid;
+    gap: 1rem;
+  }
 
-  <p>
-    For whoever speaks in their own voice
-    can no longer hide completely behind the great names.
-    Whoever bears witness becomes more visible.
-    Whoever shows themselves becomes more vulnerable.
-  </p>
+  .book-page .concept-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 1.7rem;
+  }
 
-  <p>
-    But perhaps that is part of the task:
-    that the great images remain open to all,
-    and that some nevertheless find the courage
-    not only to gather beneath them,
-    but to become carriers once again
-    of light, language, and responsibility.
-  </p>
+  .book-page .movement-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 1.7rem;
+  }
 
-  <p>
-    In this sense, Jesus, Maranatha, and the great biblical images appear here
-    not as final marks of possession,
-    but as open vessels of depth —
-    as forms in which something may show itself
-    that is greater than any single person
-    and yet seeks to become living again through singular persons.
-  </p>
-</section>
+  .book-page .next-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 1.8rem;
+  }
 
-<section class="page-section">
-  <h2>The tone of this book</h2>
+  .book-page .concept-card,
+  .book-page .movement-card,
+  .book-page .status-box,
+  .book-page .next-card {
+    border: 1px solid var(--book-line);
+    border-radius: 22px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.025));
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.03);
+  }
 
-  <p>
-    This book is allowed to speak greatly.
-    Especially at the beginning.
-  </p>
+  .book-page .concept-card,
+  .book-page .movement-card,
+  .book-page .next-card {
+    padding: 1.18rem 1rem 1.08rem;
+    text-align: center;
+  }
 
-  <p>
-    It may speak of origin,
-    of heaven and earth,
-    of beauty and misrecognition,
-    of loops, condensation, fall, and return.
-    Not because this language should hover above everything as a permanent register,
-    but because some horizons first need to be opened very wide
-    before one can become near and human again.
-  </p>
+  .book-page .concept-card h3,
+  .book-page .movement-card h3,
+  .book-page .next-card h3 {
+    margin: 0 0 0.45rem;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.35rem;
+    line-height: 1.04;
+    letter-spacing: -0.04em;
+    font-weight: 760;
+  }
 
-  <p>
-    After that, it comes closer again.
-    More concrete.
-    More vulnerable.
-    Sweeter.
-    More embarrassing.
-    More human.
-  </p>
+  .book-page .concept-card p,
+  .book-page .movement-card p,
+  .book-page .next-card p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.56;
+    color: var(--book-soft);
+  }
 
-  <p>
-    Because the great sentences are worth anything only if, in the end,
-    they lead back again
-    to small real life,
-    to fear, love, wound, desire, shame, courage, tenderness,
-    to the singular human being
-    who, in a certain hour, does not want to evade.
-  </p>
-</section>
+  .book-page .status-box {
+    max-width: 920px;
+    margin: 2rem auto 0;
+    padding: 1.25rem 1.15rem;
+    text-align: center;
+  }
 
-<section class="page-section">
-  <h2>What this book wants to open</h2>
+  .book-page .status-box p {
+    margin: 0;
+    font-size: clamp(1.18rem, 2.2vw, 1.68rem);
+    line-height: 1.38;
+    text-wrap: balance;
+  }
 
-  <p>
-    This book wants to open a larger space.
-  </p>
+  .book-page .book-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    margin-top: 1.45rem;
+  }
 
-  <p>
-    A space in which one no longer has to choose so quickly
-    between science and depth,
-    between faith and precision,
-    between beauty and rigor,
-    between personal truth and formal modellability.
-  </p>
+  .book-page .book-links .button {
+    min-width: 185px;
+    justify-content: center;
+  }
 
-  <p>
-    It wants to show
-    that one can think very far
-    without losing the heart.
-    That one can feel very deeply
-    without sinking into fog.
-    That one can take religious images seriously
-    without collapsing into dead repetition.
-    And that one can take formal structure seriously
-    without disenchanting the world.
-  </p>
+  .book-page .next-card a {
+    color: #fff;
+  }
 
-  <p>
-    Above all, however, it wants to permit something
-    that has become almost embarrassing to many people today:
-    real greatness.
-    Not grandiosity.
-    Not pose.
-    But that kind of greatness
-    that arises
-    when a human being no longer makes themselves smaller than they are,
-    and when truth no longer has to be dimmed out of fear of misuse.
-  </p>
-</section>
+  @media (max-width: 980px) {
+    .book-page .concept-grid,
+    .book-page .movement-grid,
+    .book-page .next-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 
-<section class="page-section">
-  <h2>The book as permission</h2>
+  @media (max-width: 768px) {
+    .book-page .section-shell {
+      padding-top: 2.3rem;
+      padding-bottom: 2.3rem;
+    }
 
-  <p>
-    Perhaps, in the end, this book is also a permission.
-  </p>
+    .book-page .section-shell-tight {
+      padding-top: 1.75rem;
+      padding-bottom: 1.75rem;
+    }
 
-  <p>
-    A permission
-    to read the world as larger again.
-    To read oneself as larger again.
-    To read others as larger again.
-  </p>
+    .book-page .hero-card {
+      border-radius: 26px;
+    }
 
-  <p>
-    A permission
-    not to dismiss every deep stirring immediately as kitsch,
-    not every hope immediately as naivety,
-    not every beauty immediately as deception,
-    not every great language immediately as overreach.
-  </p>
+    .book-page .hero-inner {
+      padding: 3rem 1rem 2.5rem;
+    }
 
-  <p>
-    A permission
-    to let oneself enter truth so far
-    that it can be not only thought,
-    but believed.
-  </p>
+    .book-page .book-display {
+      font-size: 3.6rem;
+      max-width: 9ch;
+    }
 
-  <p>
-    Not as self-hypnosis.
-    But as return.
-  </p>
-</section>
+    .book-page .book-sublead {
+      font-size: 1.1rem;
+      max-width: 22rem;
+    }
 
-<section class="page-section">
-  <h2>Who this book is for</h2>
+    .book-page .book-status-line {
+      font-size: 0.98rem;
+      max-width: 20rem;
+    }
 
-  <p>
-    This book is for people
-    who sense that the world is connected more deeply
-    than the usual separations suggest.
-  </p>
+    .book-page .section-heading-display {
+      font-size: 2.5rem;
+      max-width: 10ch;
+    }
 
-  <p>
-    For people
-    who are touched by religious language,
-    but want more structure.
-    For people
-    who love theory,
-    but sense that theory alone is too little.
-    For people
-    who take beauty seriously.
-    For people
-    who are interested in clarity
-    without wanting to lose their tenderness.
-    For people
-    who feel
-    that thinking, loving, shining, suffering, return, and world-description
-    cannot finally be separated from one another.
-  </p>
+    .book-page .display-statement,
+    .book-page .display-statement.medium,
+    .book-page .display-statement.wide {
+      font-size: 2.3rem;
+      max-width: 11ch;
+      line-height: 0.98;
+    }
 
-  <p>
-    And perhaps also for those
-    who have long suspected
-    that what they are seeking
-    is neither mere dissolution
-    nor mere stability,
-    but something third:
-    a truth
-    that passes through life
-    without destroying it,
-    but instead leads it home.
-  </p>
-</section>
+    .book-page .micro-punch {
+      font-size: 1.65rem;
+      max-width: 14ch;
+    }
 
-<section class="page-section">
-  <h2>Download and next steps</h2>
+    .book-page .body-copy p {
+      font-size: 1.08rem;
+      line-height: 1.72;
+    }
 
-  <p>
-    This page is the first public framing of the book project.
-    A more fully developed download block will be added here later.
-  </p>
+    .book-page .concept-card,
+    .book-page .movement-card,
+    .book-page .next-card {
+      border-radius: 18px;
+      padding: 1rem 0.95rem 0.95rem;
+    }
+  }
+</style>
 
-  <p>
-    Planned are:
-    a more detailed book description,
-    sample readings,
-    individual condensed documents,
-    as well as accompanying PDFs
-    with which the basic movement of the book
-    can also be examined, mirrored, and followed further
-    together with AI systems.
-  </p>
+<div class="book-page">
 
-  <p>
-    Until then, one thing holds:
-    this page is not a conclusion.
-    It is a threshold.
-  </p>
-</section>
+  <section class="section-shell section-shell-tight">
+    <div class="book-hero">
+      <div class="hero-card">
+        <div class="hero-inner">
+          <p class="book-kicker">Book Project</p>
+          <h1 class="book-display">The Book of Meaning</h1>
+          <p class="book-sublead">
+            A book in progress on meaning, fall, return, truth, beauty,
+            and the readable structure of reality.
+          </p>
+          <p class="book-status-line">
+            A substantial manuscript already exists.
+            A fuller revised edition is now being completed.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="page-section page-section--closing">
-  <h2>One final sentence</h2>
+  <div class="section-divider"></div>
 
-  <p>
-    This book does not simply want to add something.
-    It wants to make something connectable again
-    that has been separated for too long:
-    origin and world,
-    depth and form,
-    truth and love,
-    theory and testimony,
-    the human being and return.
-  </p>
+  <section class="section-shell">
+    <div class="book-block">
+      <p class="display-kicker">What this is within the project</p>
+      <h2 class="section-heading-display">Not the technical source layer. A larger human form of the same work.</h2>
 
-  <p>
-    And perhaps that is already enough as a beginning:
-    not to possess everything immediately,
-    but to begin noticing again
-    that reality is legible
-    and that there are paths
-    on which we can meet it
-    more honestly,
-    more greatly,
-    and more lovingly.
-  </p>
-</section>
+      <div class="body-copy">
+        <p>
+          This book does not occupy the same place as the papers, the theory page,
+          or the alignment architecture.
+          Those pages carry the formal backbone, the technical source layer,
+          and the AI-specific consequence of the framework.
+        </p>
+
+        <p>
+          <em>The Book of Meaning</em> is the larger human, existential, cultural,
+          and spiritual unfolding of the same deeper architecture.
+          It asks what becomes visible once meaning is read not only as concept,
+          but as lived space, wound, return, judgment, beauty, history, and future.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Not another source file.
+        A wider human unfolding.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="book-block">
+      <p class="display-kicker">Character of the book</p>
+      <h2 class="section-heading-display">A book with two ways of breathing</h2>
+
+      <div class="body-copy">
+        <p>
+          The book is not meant to become a permanent epic register.
+          Its guiding form is more precise than that:
+          it should remain humanly readable, clear, warm, direct, and exact —
+          while also carrying a second, denser layer of origin-language,
+          symbol, return, warning, and revelation.
+        </p>
+      </div>
+
+      <div class="concept-grid">
+        <div class="concept-card">
+          <h3>Below: readability</h3>
+          <p>Readable, direct, human, warm, and stepwise led.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Above: origin-language</h3>
+          <p>Archetypal, symbolic, denser, older-sounding, and more spacious.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Together</h3>
+          <p>Not two books, but one book with two ways of breathing.</p>
+        </div>
+      </div>
+
+      <p class="micro-punch">
+        Above: origin-language.
+        Below: readability.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="book-block">
+      <p class="display-kicker">What it opens</p>
+      <h2 class="section-heading-display">A larger readable world</h2>
+
+      <div class="body-copy">
+        <p>
+          The book tries to open a space in which one no longer has to choose too quickly
+          between science and depth, faith and precision, beauty and rigor,
+          testimony and structure, heart and world-description.
+        </p>
+
+        <p>
+          It does not want to make the great images small.
+          But it also does not want to seal them dogmatically.
+          It asks whether words such as origin, Logos, fall, redemption, grace,
+          judgment, return, and homecoming may be read again
+          as condensed descriptions of real semantic and existential structure.
+        </p>
+
+        <p>
+          In that sense, the book is neither mere mysticism, nor dry theory,
+          nor devotional administration of inherited language.
+          It is a threshold text:
+          an attempt to read reality more deeply without losing clarity.
+        </p>
+      </div>
+
+      <p class="display-statement wide">
+        Not a retreat from reality.
+        An attempt to read it more deeply.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="book-block">
+      <p class="display-kicker">Main movements</p>
+      <h2 class="section-heading-display">What the book moves through</h2>
+
+      <div class="movement-grid">
+        <div class="movement-card">
+          <h3>Fall and shared wound</h3>
+          <p>
+            The condition of human life, common trauma, misreading,
+            and the world into which we have fallen.
+          </p>
+        </div>
+
+        <div class="movement-card">
+          <h3>Semantic space and readable reality</h3>
+          <p>
+            Meaning as space, KPR, semantic gravitation,
+            contradiction energy, C/B/A, and the live readability of states.
+          </p>
+        </div>
+
+        <div class="movement-card">
+          <h3>Embodiment, architecture, and future</h3>
+          <p>
+            Context growth, the semantic space scanner,
+            resonance architectures, civic and technical futures,
+            and the architecture of a new earth.
+          </p>
+        </div>
+
+        <div class="movement-card">
+          <h3>Judgment, return, grace</h3>
+          <p>
+            Hard diagnosis, form judgment, repentance, grace as transformation,
+            and the closing future-bow of fearlessness, passage, laughter, and return.
+          </p>
+        </div>
+      </div>
+
+      <p class="micro-punch">
+        Origin story.
+        Fall story.
+        Reading path.
+        Return path.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="book-block">
+      <p class="display-kicker">Current status</p>
+      <h2 class="section-heading-display">Already substantial. Still being completed.</h2>
+
+      <div class="body-copy">
+        <p>
+          This book is not merely an idea or a placeholder.
+          A substantial manuscript already exists.
+        </p>
+
+        <p>
+          What is now in progress is a fuller revised edition:
+          not a replacement by a different book,
+          but a clearer, deeper, and more unified version of the same inner body.
+        </p>
+
+        <p>
+          What will appear here later is not the book’s first existence,
+          but its more fully led and more fully condensed public form.
+        </p>
+      </div>
+
+      <div class="status-box">
+        <p class="status-label">Status</p>
+        <p>
+          The manuscript exists.
+          The revised and larger public edition is still being completed.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="book-block closing-block">
+      <p class="display-kicker">Threshold</p>
+      <h2 class="section-heading-display">Not yet the full release</h2>
+
+      <div class="body-copy">
+        <p>
+          This page marks the place of the book within the whole project
+          and the kind of work that is taking shape here.
+        </p>
+
+        <p>
+          Later, it can also host sample passages, download material,
+          and companion documents for slower reading and AI-assisted study.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Not a conclusion.
+        A threshold.
+      </p>
+
+      <div class="book-links">
+        <a class="button" href="/en/theory/">Go to Theory</a>
+        <a class="button" href="/en/alignment/">Go to Alignment</a>
+        <a class="button" href="/en/papers/">Go to Technical Sources</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="book-next">
+      <h2 class="section-heading-display">Next steps</h2>
+
+      <div class="next-grid">
+        <div class="next-card">
+          <h3><a href="/en/theory/">Theory →</a></h3>
+          <p>The semantic core of the framework.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/en/alignment/">Alignment →</a></h3>
+          <p>The AI architecture built from it.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/en/papers/">Technical Sources →</a></h3>
+          <p>The formal papers and protected directions.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/en/downloads/">Downloads →</a></h3>
+          <p>Bundled review bodies for deeper reading.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
