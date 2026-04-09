@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Contact & Support"
 permalink: /en/contact/
 description: "Contact Gerrit Klawitter, Semantic Gravitation, support, collaboration, and PayPal."
