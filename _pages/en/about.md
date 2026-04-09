@@ -546,7 +546,7 @@ translation_url_de: /de/ueber-mich/
           into trajectories,
           into architectural ideas,
           into patent families,
-          and into papers.
+          into papers.
         </p>
 
         <p>
@@ -651,16 +651,22 @@ translation_url_de: /de/ueber-mich/
         </p>
 
         <p>
-          I also cannot yet simply pay a team out of an already functioning larger system.
-          That infrastructure does not exist yet.
-          I first have to help create the conditions under which this work can become economically stable enough to support real collaboration.
+          I currently keep myself afloat with jobs in parallel while continuing to build this project.
+          In practice, that means that for many months I have been putting eight to ten hours a day into this work whenever I can,
+          while the larger infrastructure around it still does not exist.
         </p>
 
         <p>
-          That means the present phase is both fragile and important:
-          the architecture is becoming visible,
-          the public field is opening,
-          but the larger organizational body still has to be built.
+          I also cannot yet simply pay a team out of an already functioning system.
+          That base has not been built yet.
+          The work is visible now,
+          but the organizational body, the funding base, and the real team around it still have to be created.
+        </p>
+        <p>
+          Friends help me here and there with philosophical questions,
+          wording,
+          and feedback.
+          But the project itself — the website, papers, architecture, framing, and ongoing build-out — I am still carrying fundamentally on my own.
         </p>
       </div>
 
