@@ -2,6 +2,9 @@
 layout: default
 title: KI-Alignment
 permalink: /de/ki-alignment/
+lang: de
+description: "Edge Alignment als semantische Navigationsarchitektur: vom Antwortsystem zum tragfähig ausgerichteten KI-System."
+translation_url_en: /en/alignment/
 ---
 
 # KI-Alignment
