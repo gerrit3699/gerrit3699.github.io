@@ -15,7 +15,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
   .home-journey li,
   .home-journey .closing-line,
   .home-journey .section-intro {
-    color: rgba(255, 255, 255, 0.97);
+    color: rgba(255,255,255,0.975);
   }
 
   .home-journey strong,
@@ -26,91 +26,145 @@ description: "Semantic Gravitation – a compass for the space of thought in the
   }
 
   .home-journey .home-lead {
-    color: rgba(255, 255, 255, 0.985);
-    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.28);
+    color: rgba(255,255,255,0.99);
+    text-shadow: 0 2px 18px rgba(0,0,0,0.28);
+  }
+
+  .home-journey .free-text-block,
+  .home-journey .section-body {
+    font-size: 1.12rem;
+    line-height: 1.82;
+  }
+
+  .home-journey .free-text-block p,
+  .home-journey .section-body p,
+  .home-journey li {
+    font-size: 1.12rem;
+    line-height: 1.82;
+    letter-spacing: -0.01em;
   }
 
   .home-journey .statement-stage {
     position: relative;
   }
 
-  .home-journey .statement-primary,
-  .home-journey .statement-secondary,
-  .home-journey .statement-inline,
-  .home-journey .closing-line {
+  .home-journey .hero-claim {
+    margin: 0 0 1.7rem;
     color: #ffffff;
-  }
-
-  .home-journey .statement-primary {
-    margin: 0 0 1.5rem;
-    padding: 0;
-    background: transparent;
-    border: 0;
-    box-shadow: none;
-    border-radius: 0;
-    color: #ffffff;
-    font-size: clamp(1.42rem, 2.8vw, 2.45rem);
-    line-height: 1.12;
-    font-weight: 500;
-    letter-spacing: -0.03em;
+    font-size: clamp(1.7rem, 3vw, 2.7rem);
+    line-height: 1.04;
+    font-weight: 600;
+    letter-spacing: -0.04em;
     text-wrap: balance;
-    text-shadow: 0 2px 22px rgba(0, 0, 0, 0.28);
+    max-width: 13ch;
+    text-shadow: 0 4px 24px rgba(0,0,0,0.28);
   }
 
-  .home-journey .statement-primary::before {
+  .home-journey .hero-claim::before {
     content: "“";
     display: block;
-    margin-bottom: 0.15em;
-    color: rgba(255,255,255,0.28);
-    font-size: clamp(2.8rem, 6vw, 4.8rem);
-    line-height: 0.82;
+    margin-bottom: 0.08em;
+    color: rgba(255,255,255,0.22);
+    font-size: clamp(3rem, 7vw, 5.4rem);
+    line-height: 0.78;
     font-weight: 400;
     text-shadow: none;
   }
 
   .home-journey .statement-secondary {
-    font-size: clamp(1.08rem, 1.8vw, 1.32rem);
-    line-height: 1.28;
-    margin: 0 0 1.1rem;
+    margin: 0 0 1.15rem;
+    color: #ffffff;
+    font-size: clamp(1.12rem, 1.9vw, 1.4rem);
+    line-height: 1.25;
+    font-weight: 500;
+    max-width: 24ch;
+    text-wrap: balance;
   }
 
   .home-journey .closing-line {
-    font-size: 1.03rem;
-    line-height: 1.48;
-    margin: 0 0 1.6rem;
-  }
-
-  .home-journey .statement-inline {
-    margin: 1.35rem 0;
-    padding: 0;
-    background: transparent;
-    border: 0;
-    box-shadow: none;
-    border-radius: 0;
-    color: #ffffff;
-    font-size: clamp(1.22rem, 2.1vw, 1.85rem);
-    line-height: 1.16;
-    font-weight: 500;
-    letter-spacing: -0.02em;
-    text-wrap: balance;
-    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.22);
-  }
-
-  .home-journey .statement-inline strong {
-    color: #ffffff;
-    font-weight: 600;
+    margin: 0 0 1.7rem;
+    color: rgba(255,255,255,0.975);
+    font-size: 1.08rem;
+    line-height: 1.55;
+    max-width: 36rem;
   }
 
   .home-journey .home-cta-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.8rem;
-    margin-top: 1.5rem;
+    gap: 0.85rem;
+    margin-top: 1.45rem;
   }
 
   .home-journey .home-cta-row .button {
-    min-width: 168px;
+    min-width: 176px;
     justify-content: center;
+  }
+
+  .home-journey .display-line {
+    margin: 1.4rem 0 1.5rem;
+    color: #ffffff;
+    font-size: clamp(1.55rem, 2.6vw, 2.35rem);
+    line-height: 1.08;
+    font-weight: 600;
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+    max-width: 18ch;
+  }
+
+  .home-journey .display-line strong {
+    font-weight: 700;
+  }
+
+  .home-journey .concept-triad {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.85rem;
+    margin: 1.4rem 0 1.5rem;
+  }
+
+  .home-journey .concept-chip {
+    padding: 1rem 0.95rem 1.05rem;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.035);
+    border: 1px solid rgba(255,255,255,0.09);
+    box-shadow:
+      0 12px 34px rgba(0,0,0,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.03);
+  }
+
+  .home-journey .concept-chip strong {
+    display: block;
+    margin-bottom: 0.22rem;
+    font-size: 1.1rem;
+    line-height: 1.15;
+    color: #ffffff;
+  }
+
+  .home-journey .concept-chip span {
+    display: block;
+    color: rgba(255,255,255,0.92);
+    font-size: 0.98rem;
+    line-height: 1.45;
+  }
+
+  .home-journey .statement-inline {
+    margin: 1.55rem auto;
+    color: #ffffff;
+    font-size: clamp(1.42rem, 2.35vw, 2rem);
+    line-height: 1.08;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+    max-width: 18ch;
+  }
+
+  .home-journey .statement-inline strong {
+    font-weight: 700;
+  }
+
+  .home-journey .section-card .statement-inline {
+    max-width: 20ch;
   }
 
   .home-journey .axis-card {
@@ -121,6 +175,13 @@ description: "Semantic Gravitation – a compass for the space of thought in the
       inset 0 1px 0 rgba(255,255,255,0.03);
   }
 
+  .home-journey .axis-card h3 {
+    font-size: 1.32rem;
+    line-height: 1.08;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.025em;
+  }
+
   .home-journey .axis-card h3 a,
   .home-journey .link-list a,
   .home-journey .section-body a,
@@ -128,38 +189,105 @@ description: "Semantic Gravitation – a compass for the space of thought in the
     color: #ffffff;
   }
 
+  .home-journey .axis-label-line {
+    margin: 1.35rem 0 1rem;
+    color: #ffffff;
+    font-size: clamp(1.3rem, 2.1vw, 1.85rem);
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    max-width: 17ch;
+  }
+
+  .home-journey .micro-callout {
+    margin: 1.35rem 0 0;
+    color: #ffffff;
+    font-size: clamp(1.25rem, 2.05vw, 1.8rem);
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    max-width: 21ch;
+  }
+
   .home-journey .section-card,
   .home-journey .free-text-block {
     overflow: hidden;
   }
 
-  .home-journey .key-line {
-    margin: 1rem 0 0;
-    font-size: 1.02rem;
-    line-height: 1.48;
-    color: rgba(255,255,255,0.97);
+  .home-journey .free-text-block ul,
+  .home-journey .section-body ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .home-journey .free-text-block li,
+  .home-journey .section-body li {
+    margin-bottom: 0.5rem;
+  }
+
+  @media (max-width: 900px) {
+    .home-journey .free-text-block,
+    .home-journey .section-body {
+      font-size: 1.08rem;
+      line-height: 1.76;
+    }
+
+    .home-journey .free-text-block p,
+    .home-journey .section-body p,
+    .home-journey li {
+      font-size: 1.08rem;
+      line-height: 1.76;
+    }
+
+    .home-journey .concept-triad {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
   }
 
   @media (max-width: 768px) {
-    .home-journey .statement-primary {
-      font-size: 1.72rem;
-      line-height: 1.1;
-      margin-bottom: 1.35rem;
+    .home-journey .hero-claim {
+      font-size: 2.05rem;
+      line-height: 1.02;
+      margin-bottom: 1.45rem;
+      max-width: 12ch;
     }
 
-    .home-journey .statement-primary::before {
-      font-size: 3.1rem;
-      margin-bottom: 0.12em;
+    .home-journey .hero-claim::before {
+      font-size: 3.4rem;
+      margin-bottom: 0.06em;
     }
 
     .home-journey .statement-secondary {
-      font-size: 1.04rem;
+      font-size: 1.08rem;
+      line-height: 1.22;
+      max-width: 21ch;
+    }
+
+    .home-journey .closing-line {
+      font-size: 1.02rem;
+      line-height: 1.5;
+    }
+
+    .home-journey .display-line {
+      font-size: 1.72rem;
+      line-height: 1.05;
+      max-width: 14ch;
+      margin: 1.2rem 0 1.25rem;
     }
 
     .home-journey .statement-inline {
+      font-size: 1.55rem;
+      line-height: 1.06;
+      max-width: 14ch;
+      margin: 1.25rem 0;
+    }
+
+    .home-journey .axis-label-line,
+    .home-journey .micro-callout {
       font-size: 1.42rem;
-      line-height: 1.14;
-      margin: 1.15rem 0;
+      line-height: 1.08;
+      max-width: 15ch;
     }
 
     .home-journey .home-cta-row {
@@ -170,6 +298,15 @@ description: "Semantic Gravitation – a compass for the space of thought in the
     .home-journey .home-cta-row .button {
       width: 100%;
       min-width: 0;
+    }
+
+    .home-journey .concept-chip {
+      padding: 0.95rem 0.9rem 1rem;
+      border-radius: 16px;
+    }
+
+    .home-journey .axis-card h3 {
+      font-size: 1.24rem;
     }
   }
 </style>
@@ -197,12 +334,12 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell section-shell-tight">
     <div class="statement-stage">
-      <p class="statement-primary">
+      <p class="hero-claim">
         Today’s AI often soothes where it should clarify.<br>
         Edge Alignment is about learning how to navigate instead.
       </p>
 
-      <p class="statement-block statement-secondary">
+      <p class="statement-secondary">
         The decisive question is:<br>
         What is AI aligned to when it thinks with you?
       </p>
@@ -233,11 +370,26 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         and yet, as far as I can see, has never really been formalized in a clean way.
       </p>
 
-      <p class="statement-block statement-inline">
-        Because everything we can describe at all
-        implicitly runs through<br>
+      <p class="display-line">
+        Everything we can describe at all
+        implicitly runs through
         <strong>kernel, projection, and relation.</strong>
       </p>
+
+      <div class="concept-triad">
+        <div class="concept-chip">
+          <strong>Kernel</strong>
+          <span>what something is really about</span>
+        </div>
+        <div class="concept-chip">
+          <strong>Projection</strong>
+          <span>how it becomes visible</span>
+        </div>
+        <div class="concept-chip">
+          <strong>Relation</strong>
+          <span>what it stands in relation to</span>
+        </div>
+      </div>
 
       <p>
         <strong>Kernel</strong> is what something is really about:
@@ -267,7 +419,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         <strong>To what and to whom does it stand in relation?</strong>
       </p>
 
-      <p class="statement-block statement-inline">
+      <p class="statement-inline">
         Perhaps there is nothing outside this minimal grammar
         for describable meaning.
       </p>
@@ -278,10 +430,26 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         not only morally, but diagnostically.
       </p>
 
-      <p class="statement-block statement-inline">
-        Human states can almost always also be read as a position in a space of<br>
+      <p class="display-line">
+        Human states can almost always also be read
+        as a position in a space of
         <strong>Clarity, Bonding, and Agency</strong>
       </p>
+
+      <div class="concept-triad">
+        <div class="concept-chip">
+          <strong>Clarity</strong>
+          <span>how clearly a space is seen</span>
+        </div>
+        <div class="concept-chip">
+          <strong>Bonding</strong>
+          <span>how much viable relation it can hold</span>
+        </div>
+        <div class="concept-chip">
+          <strong>Agency</strong>
+          <span>how much expression and action it allows</span>
+        </div>
+      </div>
 
       <p>
         <strong>Clarity</strong> means:
@@ -364,7 +532,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           but clarity and agency quietly shrink.
         </p>
 
-        <p class="statement-block statement-inline">
+        <p class="statement-inline">
           A viable space holds only
           when these axes are carried together.
         </p>
@@ -395,8 +563,9 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           </div>
         </div>
 
-        <p class="statement-block statement-inline">
-          <strong>Otherwise the space tips — perhaps locally late, but structurally for sure.</strong>
+        <p class="micro-callout">
+          Otherwise the space tips —
+          perhaps locally late, but structurally for sure.
         </p>
       </div>
     </div>
@@ -418,13 +587,15 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
       <p>But there is also a fourth mode:</p>
 
-      <p class="statement-block statement-inline"><strong>Navigation.</strong></p>
+      <p class="axis-label-line">
+        Navigation.
+      </p>
 
       <p>
         Moving across the ice with guardrails —
         not through ideology,
         not through moral posturing,
-        but through <strong>viable semantic structure</strong>.
+        but through <strong>viable semantic structure.</strong>
       </p>
 
       <p>
@@ -433,11 +604,11 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         Hold freedom.
       </p>
 
-      <p class="statement-block statement-inline">
-        <strong>This is exactly the mode I am trying to give to AI.</strong>
+      <p class="micro-callout">
+        This is exactly the mode I am trying to give to AI.
       </p>
 
-      <p>That is the core of <strong>Edge Alignment</strong>.</p>
+      <p>That is the core of <strong>Edge Alignment.</strong></p>
     </div>
   </section>
 
@@ -466,7 +637,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         <li>and how orientation can become viable again.</li>
       </ul>
 
-      <p class="statement-block statement-inline">
+      <p class="statement-inline">
         Not better domination.<br>
         <strong>More legibility.</strong>
       </p>
@@ -494,16 +665,18 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           And now AI.
         </p>
 
-        <p class="statement-block statement-inline">
+        <p class="statement-inline">
           The result:<br>
           more anger.<br>
-          more fear.<br>
-          more mental narrowing.
+          More fear.<br>
+          More mental narrowing.
         </p>
 
-        <p class="key-line"><strong>What we need now are semantic safety standards.</strong></p>
+        <p class="micro-callout">
+          What we need now are semantic safety standards.
+        </p>
 
-        <p>More on this here: <a href="/en/blog/">Why this matters →</a></p>
+        <p style="margin-top: 1rem;">More on this here: <a href="/en/blog/">Why this matters →</a></p>
       </div>
     </div>
   </section>
@@ -539,8 +712,9 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         and what still appears to them as clear, legitimate, or sayable.
       </p>
 
-      <p class="statement-block statement-inline">
-        <strong>Whoever shapes the space of thought shapes what people can still take to be true.</strong>
+      <p class="statement-inline">
+        Whoever shapes the space of thought
+        shapes what people can still take to be true.
       </p>
 
       <p>
@@ -553,14 +727,14 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         Retreat instead of viable navigation.
       </p>
 
-      <p class="statement-block statement-inline">
+      <p class="axis-label-line">
         This is not open censorship.<br>
         It is a polite fog machine.
       </p>
 
-      <p class="statement-block statement-inline">
-        <strong>It soothes locally.<br>
-        And poisons globally.</strong>
+      <p class="micro-callout">
+        It soothes locally.<br>
+        And poisons globally.
       </p>
     </div>
   </section>
@@ -584,10 +758,10 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         </p>
 
         <p>
-          evasion.<br>
-          redirection.<br>
-          softening.<br>
-          paternalism.
+          Evasion.<br>
+          Redirection.<br>
+          Softening.<br>
+          Paternalism.
         </p>
 
         <p>
@@ -597,7 +771,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
         <p>That is why this is not abstract for me.</p>
 
-        <p class="statement-block statement-inline">
+        <p class="statement-inline">
           This is not a single bad answer.<br>
           It is an architecture.
         </p>
@@ -618,9 +792,9 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         What looks compliant?
       </p>
 
-      <p class="statement-block statement-inline">
+      <p class="axis-label-line">
         But:<br>
-        <strong>What actually holds?</strong>
+        What actually holds?
       </p>
 
       <p>
@@ -628,9 +802,9 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         What sounds right?
       </p>
 
-      <p class="statement-block statement-inline">
+      <p class="axis-label-line">
         But:<br>
-        <strong>What remains viable under deeper scrutiny?</strong>
+        What remains viable under deeper scrutiny?
       </p>
 
       <p>I am not looking for a new external moral guardrail.</p>
@@ -644,9 +818,9 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         And I believe it is possible to build a system that applies this insight to itself.
       </p>
 
-      <p class="statement-block statement-inline">
+      <p class="micro-callout">
         Not merely regulated.<br>
-        <strong>But inwardly aligned.</strong>
+        But inwardly aligned.
       </p>
 
       <p>More on this here: <a href="/en/alignment/">Go to Alignment →</a></p>
@@ -677,7 +851,9 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           who profit from the present structure.
         </p>
 
-        <p class="statement-block statement-inline"><strong>That is why we must demand it.</strong></p>
+        <p class="statement-inline">
+          That is why we must demand it.
+        </p>
 
         <p>
           As users.<br>
@@ -688,10 +864,10 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
         <p>
           Just as seatbelts did not become standard out of kindness,<br>
-          today we need <strong>semantic safety standards</strong>.
+          today we need <strong>semantic safety standards.</strong>
         </p>
 
-        <p class="statement-block statement-inline">
+        <p class="micro-callout">
           Do not wait.<br>
           Demand.<br>
           Build.<br>
@@ -765,7 +941,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         Then it concerns all of us.
       </p>
 
-      <p class="statement-block statement-inline">
+      <p class="statement-inline">
         Do not wait.<br>
         Demand.<br>
         Build.<br>
@@ -809,7 +985,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         or makes them invisibly narrower.
       </p>
 
-      <p class="statement-block statement-inline">
+      <p class="statement-inline">
         This is where I begin.<br>
         If you feel this too — come along and help build.
       </p>
