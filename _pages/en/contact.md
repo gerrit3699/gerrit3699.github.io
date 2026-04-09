@@ -2,7 +2,9 @@
 layout: default
 title: "Contact & Support"
 permalink: /en/contact/
+lang: en
 description: "Contact Gerrit Klawitter, Semantic Gravitation, support, collaboration, and PayPal."
+translation_url_de: /de/kontakt/
 ---
 
 <section class="hero hero-contact">
