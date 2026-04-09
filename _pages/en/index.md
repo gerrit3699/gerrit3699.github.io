@@ -47,6 +47,9 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
   .home-journey .section-divider {
     opacity: 0.42;
+    background:
+      linear-gradient(to bottom, transparent, rgba(255,255,255,0.035), transparent),
+      url("/assets/images/design/attractor.jpg.PNG") center center / cover no-repeat;
   }
 
   .home-journey .intro-copy,
@@ -329,6 +332,9 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
   .home-journey .section-card {
     padding: 2rem 1.4rem;
+    background:
+      linear-gradient(180deg, rgba(7,9,13,0.62), rgba(5,7,11,0.74)),
+      url("/assets/images/design/attractor.jpg.PNG") center center / cover no-repeat;
   }
 
   .home-journey .section-head {
