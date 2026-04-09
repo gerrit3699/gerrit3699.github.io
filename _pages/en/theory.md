@@ -549,10 +549,10 @@ Anyone who wants to go deeper will find there:
 
 ## Next steps
 
-[Go to AI Alignment →](/en/ai-alignment/)
+[Go to Alignment →](/en/alignment/)
 
 [Go to the Papers →](/en/papers/)
 
-[Go to The Book of Meaning →](/en/book-of-meaning/)
+[Go to the Blog →](/en/blog/)
 
-[Why this matters →](/en/blog/)
+[About me →](/en/about/)
