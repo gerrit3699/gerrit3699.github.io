@@ -555,4 +555,4 @@ Anyone who wants to go deeper will find there:
 
 [Go to The Book of Meaning →](/en/book-of-meaning/)
 
-[Why this matters →](/en/why-this-matters/)
+[Why this matters →](/en/blog/)
