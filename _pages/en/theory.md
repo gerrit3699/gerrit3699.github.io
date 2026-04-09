@@ -588,6 +588,21 @@ translation_url_de: /de/theorie/
         </div>
       </div>
 
+      <div class="example-grid">
+        <div class="example-card">
+          <h3>Absurd example: a joke</h3>
+          <p>Even a deliberately silly sentence can be read by whether it is internally coherent, how it bonds or misbonds the listeners, and what actions or permissions it opens.</p>
+        </div>
+        <div class="example-card">
+          <h3>Absurd example: a traffic jam</h3>
+          <p>A traffic jam is not “about psychology,” yet it can still be mapped through coordination coherence, coupling quality between agents, and the remaining freedom of movement in the system.</p>
+        </div>
+        <div class="example-card">
+          <h3>Counterexample test</h3>
+          <p>The more alien the case first seems, the clearer the point becomes: richer detail may be added indefinitely, but the coordinate logic is still read through coherence, bonding, and agency.</p>
+        </div>
+      </div>
+
       <div class="body-copy">
         <p>
           This is why the cube is not a decorative simplification.
@@ -603,33 +618,71 @@ translation_url_de: /de/theorie/
 
   <section class="section-shell">
     <div class="theory-block">
-      <h2 class="section-heading-display">Worked example</h2>
+      <h2 class="section-heading-display">Local ordering statements and deeper coherent truth-statements</h2>
 
-      <p class="display-statement narrow">“That’s just how I am.”</p>
+      <div class="body-copy">
+        <p>
+          One consequence of this coordinate logic is that statements can be distinguished
+          not only by how strong they sound,
+          but by how well they remain viable across larger context.
+        </p>
+
+        <p>
+          Many sentences sound convincing because they create local order.
+          They reduce tension, stabilize a moment, and close movement quickly.
+          But that does not yet make them deeply true.
+        </p>
+      </div>
 
       <div class="example-grid">
         <div class="example-card">
-          <h3>Kernel</h3>
-          <p>a wounded or defended self-image</p>
+          <h3>Local ordering statement</h3>
+          <p>“Sometimes you just have to push through.”</p>
         </div>
         <div class="example-card">
-          <h3>Projection</h3>
-          <p>a rigid identity claim</p>
+          <h3>Local ordering statement</h3>
+          <p>“Sometimes life just hurts.”</p>
         </div>
         <div class="example-card">
-          <h3>Relation</h3>
-          <p>closure of developmental and corrective paths</p>
+          <h3>Deeper coherent truth-statement</h3>
+          <p>“On the way to healing, passages through pain are sometimes unavoidable.”</p>
         </div>
       </div>
 
-      <p class="display-statement medium">
-        It stabilizes local order
-        without being globally viable.
+      <div class="body-copy">
+        <p>
+          The first kind of sentence may help situationally.
+          It may create temporary stability.
+          But it is often too coarse to count as deeper truth.
+        </p>
+
+        <p>
+          It creates local order,
+          but it also closes space.
+        </p>
+
+        <p>
+          The more coherent statement is not simply softer.
+          It is more precise.
+          It does not deny pain.
+          But it does not harden pain into a worldview either.
+          It keeps the path open.
+          It integrates process, context, and direction.
+        </p>
+      </div>
+
+      <p class="display-statement wide">
+        Clarity is not shown by how hard a sentence sounds.
+        It is shown by whether its inner logic still holds
+        in a larger space of context.
       </p>
 
       <div class="body-copy">
         <p>
-          Its force comes from local closure, not from global truth.
+          This is exactly where semantic diagnosis becomes possible:
+          local ordering statements may sound strong because they stabilize quickly,
+          while deeper coherent truth-statements remain viable across more context,
+          more relation, and more possible continuation.
         </p>
       </div>
     </div>
