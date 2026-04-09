@@ -8,6 +8,10 @@ translation_url_de: /de/downloads/
 ---
 
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
+
   .downloads-page {
     --dl-text: rgba(255,255,255,0.96);
     --dl-soft: rgba(255,255,255,0.82);
@@ -162,6 +166,26 @@ translation_url_de: /de/downloads/
     color: var(--dl-soft);
   }
 
+  .downloads-page .claim-card {
+    display: block;
+    text-decoration: none;
+    transition:
+      transform 0.18s ease,
+      border-color 0.18s ease;
+  }
+
+  .downloads-page .claim-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--dl-line-strong);
+  }
+
+  .downloads-page .claim-card strong {
+    display: block;
+    margin-top: 0.75rem;
+    font-size: 0.96rem;
+    color: #fff;
+  }
+
   .downloads-page .section-heading-display {
     margin: 0 auto 1.3rem;
     max-width: 14ch;
@@ -298,32 +322,34 @@ translation_url_de: /de/downloads/
       <p class="downloads-kicker">Downloads</p>
       <h1 class="downloads-display">Download bundles for reading, review, and AI-based examination.</h1>
       <p class="downloads-sublead">
-        This page does not only provide PDFs to read.
-        It provides <strong>review bundles</strong>:
-        larger context bodies that can be loaded into AI systems,
-        examined independently, and worked through more deliberately.
+        This page is for <strong>bundled review material</strong>.
+        If you want the clean technical source texts, use the individual Zenodo papers.
+        If you want larger context bodies for AI-assisted questioning, use the bundles here.
       </p>
 
       <div class="claim-grid">
-        <div class="claim-card">
-          <h3>For direct reading</h3>
-          <p>Download the bundled files and work through the material in one place.</p>
-        </div>
-        <div class="claim-card">
-          <h3>For independent review</h3>
-          <p>Use the bundles to test coherence, structure, and implementation questions yourself.</p>
-        </div>
-        <div class="claim-card">
-          <h3>For AI-assisted study</h3>
-          <p>Load larger documents into AI systems and ask sharper follow-up questions.</p>
-        </div>
+        <a class="claim-card" href="#direct-technical-reading">
+          <h3>Read technically</h3>
+          <p>Go to the clean individual papers and source texts.</p>
+          <strong>Best: Zenodo papers →</strong>
+        </a>
+        <a class="claim-card" href="#bundle-downloads">
+          <h3>See applications</h3>
+          <p>Use the applications bundle for selected technical examples and directions.</p>
+          <strong>Best: applications bundle →</strong>
+        </a>
+        <a class="claim-card" href="#ai-backbone-use">
+          <h3>Use as AI backbone</h3>
+          <p>Load the collected papers into AI, optionally together with the applications bundle.</p>
+          <strong>Best: collected papers →</strong>
+        </a>
       </div>
     </div>
   </section>
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="direct-technical-reading">
     <div class="downloads-block">
       <h2 class="section-heading-display">What these files are — and what they are not</h2>
 
@@ -334,9 +360,10 @@ translation_url_de: /de/downloads/
         </p>
 
         <p>
-          In several cases, the most precise version is still the <strong>individual Zenodo paper</strong> or the original standalone document.
-          The bundles are primarily there to make examination easier,
-          especially when you want to work through the material with AI.
+          If you want to read the work <strong>as precisely and technically as possible</strong>,
+          the best route is usually the <strong>individual Zenodo papers</strong> and the source layer on the Technical Sources page.
+          The bundles here are primarily there to make larger-context review easier,
+          especially with AI.
         </p>
       </div>
 
@@ -347,16 +374,25 @@ translation_url_de: /de/downloads/
 
       <div class="review-grid">
         <div class="review-card">
-          <h3>Best for exact citation</h3>
-          <p>Use the individual Zenodo papers and standalone documents.</p>
+          <h3>Best for exact technical reading</h3>
+          <p>Use the individual Zenodo papers and the Technical Sources page.</p>
+          <div class="review-links">
+            <a class="review-link" href="/en/papers/">Go to Technical Sources →</a>
+          </div>
         </div>
         <div class="review-card">
-          <h3>Best for AI analysis</h3>
-          <p>Use the larger bundles as context bodies for questioning and reconstruction.</p>
+          <h3>Best for AI-based reconstruction</h3>
+          <p>Use the larger bundles as context bodies and interrogate the system step by step.</p>
+          <div class="review-links">
+            <a class="review-link" href="#ai-backbone-use">Go to AI backbone use →</a>
+          </div>
         </div>
         <div class="review-card">
           <h3>Best for orientation</h3>
-          <p>Start here, then move to the individual papers when you want the clean source version.</p>
+          <p>Start with the Theory page, then return here once you know what you want to examine more deeply.</p>
+          <div class="review-links">
+            <a class="review-link" href="/en/theory/">Go to Theory →</a>
+          </div>
         </div>
       </div>
     </div>
@@ -364,26 +400,34 @@ translation_url_de: /de/downloads/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="bundle-downloads">
     <div class="downloads-block">
       <h2 class="section-heading-display">Download bundles</h2>
 
       <div class="bundle-grid">
 
-        <div class="bundle-card">
+        <div class="bundle-card" id="ai-backbone-use">
           <p class="file-label">Bundle 1</p>
           <h3>Semantic Gravitation I–VI — Collected Papers</h3>
 
           <div class="bundle-meta">
             <span class="bundle-tag">Collected volume</span>
             <span class="bundle-tag">6 papers in sequence</span>
-            <span class="bundle-tag">Best for full theoretical context</span>
+            <span class="bundle-tag">Best for AI backbone use</span>
           </div>
 
           <p>
             This is a <strong>single collected document</strong> in which all six papers are placed one after another.
-            It is useful when you want the entire theoretical line in one coherent file,
-            or when you want to load the full backbone into an AI system as one context body.
+            It is most useful when you want the whole theoretical backbone in one coherent file,
+            especially as a context body for AI-assisted reconstruction.
+          </p>
+
+          <p>
+            If your goal is to <strong>use the system with AI and ask it deeper questions</strong>,
+            this is usually the central file to load first.
+            In many cases it also makes sense to add the <strong>applications bundle</strong> alongside it,
+            because that gives the AI not only the formal backbone,
+            but also selected system directions and examples.
           </p>
 
           <p>
@@ -397,7 +441,7 @@ translation_url_de: /de/downloads/
               Download collected PDF →
             </a>
             <a class="bundle-link" href="/en/papers/">
-              Go to Papers / Zenodo links →
+              Go to Technical Sources / Zenodo links →
             </a>
           </div>
         </div>
@@ -409,18 +453,18 @@ translation_url_de: /de/downloads/
           <div class="bundle-meta">
             <span class="bundle-tag">Combined bundle</span>
             <span class="bundle-tag">Paper + patent material</span>
-            <span class="bundle-tag">Best for alignment review with AI</span>
+            <span class="bundle-tag">Best for alignment-specific review</span>
           </div>
 
           <p>
             This file is a <strong>combined alignment bundle</strong>.
             It brings together the alignment paper and the related patent material in one place.
-            That makes it useful for working through the broader Edge Alignment logic with AI.
+            That makes it useful when you want to work through the broader Edge Alignment logic with AI.
           </p>
 
           <p>
             It is <strong>not a perfectly cleaned standalone edition</strong>.
-            If you want the clean paper version,
+            If you want the clean source version of the alignment paper itself,
             it is better to go directly to the Zenodo paper
             <strong>Beyond Fog: Edge Alignment in Semantic Space</strong>.
           </p>
@@ -435,27 +479,29 @@ translation_url_de: /de/downloads/
           </div>
         </div>
 
-        <div class="bundle-card">
+        <div class="bundle-card" id="applications-bundle">
           <p class="file-label">Bundle 3</p>
           <h3>Technical applications / application examples</h3>
 
           <div class="bundle-meta">
             <span class="bundle-tag">Generated working document</span>
             <span class="bundle-tag">Selected examples only</span>
-            <span class="bundle-tag">Bridge from theory to systems</span>
+            <span class="bundle-tag">Best for application lines</span>
           </div>
 
           <p>
             This file is a <strong>generated working document</strong> assembled from patent filings,
             design principles, and selected application examples.
             It is not the full application universe.
-            It is a smaller, representative slice of a much larger body of technical directions.
+            It is a representative slice of a much larger body of technical directions.
           </p>
 
           <p>
-            Its purpose is not to function as a final catalog.
-            Its purpose is to make some of the application lines visible enough
-            that they can be tested, reconstructed, and questioned with AI.
+            If you want to <strong>see application examples and system directions</strong>,
+            this is the right bundle.
+            It is not meant as a final catalog.
+            It is meant as a workable review body for asking:
+            what kinds of systems, products, and architectures could actually emerge from this framework?
           </p>
 
           <div class="bundle-links">
@@ -481,15 +527,15 @@ translation_url_de: /de/downloads/
       <div class="work-grid">
         <div class="work-card">
           <h3>Ask structural questions</h3>
-          <p>Do the concepts cohere? Are the transitions clean? Where does the architecture actually begin to hold?</p>
+          <p>Do the concepts cohere? Are the transitions clean? Where does the architecture begin to hold?</p>
         </div>
         <div class="work-card">
           <h3>Separate core from frontier</h3>
-          <p>Which parts already look theoretically strong? Which parts remain speculative, open, or still under development?</p>
+          <p>Which parts look theoretically strong already? Which parts remain open, speculative, or still under development?</p>
         </div>
         <div class="work-card">
           <h3>Push toward implementation</h3>
-          <p>What would need to be formalized, modeled, or engineered to turn these ideas into robust systems?</p>
+          <p>What would need to be formalized, modeled, benchmarked, or engineered to turn these ideas into robust systems?</p>
         </div>
       </div>
 
@@ -515,8 +561,9 @@ translation_url_de: /de/downloads/
       <div class="status-box">
         <p class="status-label">Recommended workflow</p>
         <p>
-          Use the bundles to understand the larger structure.
-          Use the individual Zenodo papers and standalone sources when you want the cleanest exact version.
+          Use the Theory page for orientation.
+          Use the Zenodo papers for the clean technical source texts.
+          Use the collected papers — optionally together with the applications bundle — when you want an AI-readable backbone for deeper questioning.
         </p>
       </div>
     </div>
@@ -538,7 +585,7 @@ translation_url_de: /de/downloads/
           <p>The Edge Alignment architecture in web form.</p>
         </div>
         <div class="next-card">
-          <h3><a href="/en/papers/">Papers →</a></h3>
+          <h3><a href="/en/papers/">Technical Sources →</a></h3>
           <p>The individual papers and source links.</p>
         </div>
         <div class="next-card">
