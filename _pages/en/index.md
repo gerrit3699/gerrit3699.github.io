@@ -7,287 +7,362 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 ---
 
 <style>
-  .home-journey .intro-copy,
-  .home-journey .intro-copy p,
-  .home-journey .free-text-block p,
-  .home-journey .section-body p,
-  .home-journey .axis-card p,
-  .home-journey li,
-  .home-journey .closing-line,
-  .home-journey .section-intro {
-    color: rgba(255,255,255,0.975);
+  .home-journey {
+    --sg-text: rgba(255,255,255,0.97);
+    --sg-soft: rgba(255,255,255,0.82);
+    --sg-line: rgba(255,255,255,0.10);
+    --sg-panel: rgba(255,255,255,0.035);
+    --sg-panel-strong: rgba(255,255,255,0.05);
   }
 
-  .home-journey strong,
   .home-journey h1,
   .home-journey h2,
-  .home-journey h3 {
-    color: #ffffff;
+  .home-journey h3,
+  .home-journey strong,
+  .home-journey a {
+    color: #fff;
   }
 
+  .home-journey p,
+  .home-journey li,
+  .home-journey .section-intro,
   .home-journey .home-lead {
-    color: rgba(255,255,255,0.99);
-    text-shadow: 0 2px 18px rgba(0,0,0,0.28);
+    color: var(--sg-text);
+  }
+
+  .home-journey .section-shell {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .home-journey .section-shell-tight {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .home-journey .free-text-block,
-  .home-journey .section-body {
-    font-size: 1.12rem;
-    line-height: 1.82;
+  .home-journey .section-card,
+  .home-journey .statement-stage {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .home-journey .free-text-block {
+    text-align: center;
   }
 
   .home-journey .free-text-block p,
   .home-journey .section-body p,
   .home-journey li {
-    font-size: 1.12rem;
+    font-size: 1.18rem;
     line-height: 1.82;
     letter-spacing: -0.01em;
   }
 
-  .home-journey .statement-stage {
-    position: relative;
+  .home-journey .intro-copy {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
   }
 
-  .home-journey .hero-claim {
-    margin: 0 0 1.7rem;
-    color: #ffffff;
-    font-size: clamp(1.7rem, 3vw, 2.7rem);
-    line-height: 1.04;
-    font-weight: 600;
-    letter-spacing: -0.04em;
+  .home-journey .intro-copy p {
+    font-size: clamp(1.28rem, 2.4vw, 1.8rem);
+    line-height: 1.62;
+    color: #fff;
     text-wrap: balance;
-    max-width: 13ch;
-    text-shadow: 0 4px 24px rgba(0,0,0,0.28);
   }
 
-  .home-journey .hero-claim::before {
-    content: "“";
-    display: block;
-    margin-bottom: 0.08em;
-    color: rgba(255,255,255,0.22);
-    font-size: clamp(3rem, 7vw, 5.4rem);
-    line-height: 0.78;
-    font-weight: 400;
-    text-shadow: none;
+  .home-journey .home-lead {
+    color: rgba(255,255,255,0.99);
+    text-shadow: 0 2px 18px rgba(0,0,0,0.25);
   }
 
-  .home-journey .statement-secondary {
-    margin: 0 0 1.15rem;
-    color: #ffffff;
-    font-size: clamp(1.12rem, 1.9vw, 1.4rem);
-    line-height: 1.25;
+  .home-journey .hero-manifest {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .home-journey .hero-manifest-mark {
+    margin: 0 0 0.2rem;
+    font-size: clamp(3.2rem, 8vw, 6rem);
+    line-height: 0.8;
+    color: rgba(255,255,255,0.18);
+  }
+
+  .home-journey .hero-manifest-main {
+    margin: 0 auto 1.4rem;
+    max-width: 11.5ch;
+    font-size: clamp(2.3rem, 6vw, 4.8rem);
+    line-height: 0.95;
+    letter-spacing: -0.05em;
+    font-weight: 650;
+    color: #fff;
+    text-wrap: balance;
+  }
+
+  .home-journey .hero-manifest-sub {
+    margin: 0 auto 1.1rem;
+    max-width: 18ch;
+    font-size: clamp(1.28rem, 2.6vw, 1.85rem);
+    line-height: 1.18;
     font-weight: 500;
-    max-width: 24ch;
+    color: #fff;
     text-wrap: balance;
   }
 
-  .home-journey .closing-line {
-    margin: 0 0 1.7rem;
-    color: rgba(255,255,255,0.975);
-    font-size: 1.08rem;
+  .home-journey .hero-manifest-close {
+    margin: 0 auto;
+    max-width: 28ch;
+    font-size: 1.16rem;
     line-height: 1.55;
-    max-width: 36rem;
+    color: var(--sg-text);
+    text-wrap: balance;
   }
 
   .home-journey .home-cta-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.85rem;
-    margin-top: 1.45rem;
+    justify-content: center;
+    gap: 0.9rem;
+    margin-top: 1.8rem;
   }
 
   .home-journey .home-cta-row .button {
-    min-width: 176px;
+    min-width: 190px;
     justify-content: center;
   }
 
-  .home-journey .display-line {
-    margin: 1.4rem 0 1.5rem;
-    color: #ffffff;
-    font-size: clamp(1.55rem, 2.6vw, 2.35rem);
-    line-height: 1.08;
-    font-weight: 600;
-    letter-spacing: -0.035em;
+  .home-journey .section-heading-display {
+    margin: 0 auto 1.5rem;
+    max-width: 12ch;
+    text-align: center;
+    font-size: clamp(2.2rem, 5.4vw, 4rem);
+    line-height: 0.98;
+    letter-spacing: -0.045em;
     text-wrap: balance;
-    max-width: 18ch;
   }
 
-  .home-journey .display-line strong {
-    font-weight: 700;
+  .home-journey .section-opening {
+    max-width: 860px;
+    margin: 0 auto 1.6rem;
+    text-align: center;
   }
 
-  .home-journey .concept-triad {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.85rem;
-    margin: 1.4rem 0 1.5rem;
+  .home-journey .section-opening p {
+    font-size: 1.22rem;
+    line-height: 1.78;
   }
 
-  .home-journey .concept-chip {
-    padding: 1rem 0.95rem 1.05rem;
-    border-radius: 18px;
-    background: rgba(255,255,255,0.035);
-    border: 1px solid rgba(255,255,255,0.09);
-    box-shadow:
-      0 12px 34px rgba(0,0,0,0.18),
-      inset 0 1px 0 rgba(255,255,255,0.03);
-  }
-
-  .home-journey .concept-chip strong {
-    display: block;
-    margin-bottom: 0.22rem;
-    font-size: 1.1rem;
-    line-height: 1.15;
-    color: #ffffff;
-  }
-
-  .home-journey .concept-chip span {
-    display: block;
-    color: rgba(255,255,255,0.92);
-    font-size: 0.98rem;
-    line-height: 1.45;
-  }
-
-  .home-journey .statement-inline {
-    margin: 1.55rem auto;
-    color: #ffffff;
-    font-size: clamp(1.42rem, 2.35vw, 2rem);
-    line-height: 1.08;
-    font-weight: 600;
-    letter-spacing: -0.03em;
+  .home-journey .display-statement {
+    max-width: 900px;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: clamp(1.7rem, 3.6vw, 2.8rem);
+    line-height: 1.04;
+    letter-spacing: -0.04em;
+    font-weight: 650;
+    color: #fff;
     text-wrap: balance;
-    max-width: 18ch;
   }
 
-  .home-journey .statement-inline strong {
-    font-weight: 700;
+  .home-journey .display-statement.narrow {
+    max-width: 16ch;
   }
 
-  .home-journey .section-card .statement-inline {
+  .home-journey .display-statement.medium {
     max-width: 20ch;
   }
 
-  .home-journey .axis-card {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.08);
+  .home-journey .display-statement.wide {
+    max-width: 26ch;
+  }
+
+  .home-journey .concept-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    max-width: 1080px;
+    margin: 2rem auto 2.2rem;
+  }
+
+  .home-journey .concept-card {
+    padding: 1.25rem 1.15rem 1.2rem;
+    border-radius: 22px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.025) 100%);
+    border: 1px solid var(--sg-line);
     box-shadow:
-      0 10px 30px rgba(0,0,0,0.18),
+      0 18px 48px rgba(0,0,0,0.18),
       inset 0 1px 0 rgba(255,255,255,0.03);
+    text-align: center;
+  }
+
+  .home-journey .concept-card-title {
+    margin: 0 0 0.4rem;
+    font-size: 1.45rem;
+    line-height: 1.05;
+    font-weight: 650;
+    letter-spacing: -0.03em;
+    color: #fff;
+  }
+
+  .home-journey .concept-card-text {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--sg-soft);
+  }
+
+  .home-journey .body-copy {
+    max-width: 930px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .home-journey .body-copy p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 44em;
+  }
+
+  .home-journey .body-copy ul,
+  .home-journey .body-copy ol {
+    max-width: 44em;
+    margin: 1.2rem auto;
+    text-align: left;
+  }
+
+  .home-journey .body-copy li {
+    margin-bottom: 0.55rem;
+  }
+
+  .home-journey .axis-card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.028) 100%);
+    border: 1px solid var(--sg-line);
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.03);
+    text-align: center;
   }
 
   .home-journey .axis-card h3 {
-    font-size: 1.32rem;
-    line-height: 1.08;
-    margin-bottom: 0.5rem;
-    letter-spacing: -0.025em;
-  }
-
-  .home-journey .axis-card h3 a,
-  .home-journey .link-list a,
-  .home-journey .section-body a,
-  .home-journey .free-text-block a {
-    color: #ffffff;
-  }
-
-  .home-journey .axis-label-line {
-    margin: 1.35rem 0 1rem;
-    color: #ffffff;
-    font-size: clamp(1.3rem, 2.1vw, 1.85rem);
-    line-height: 1.1;
-    font-weight: 600;
+    font-size: 1.45rem;
+    line-height: 1.05;
     letter-spacing: -0.03em;
-    max-width: 17ch;
+    margin-bottom: 0.55rem;
   }
 
-  .home-journey .micro-callout {
-    margin: 1.35rem 0 0;
-    color: #ffffff;
-    font-size: clamp(1.25rem, 2.05vw, 1.8rem);
-    line-height: 1.1;
-    font-weight: 600;
-    letter-spacing: -0.03em;
-    max-width: 21ch;
+  .home-journey .axis-card p {
+    font-size: 1.04rem;
+    line-height: 1.62;
   }
 
-  .home-journey .section-card,
-  .home-journey .free-text-block {
-    overflow: hidden;
+  .home-journey .section-card {
+    padding: 2rem 1.4rem;
   }
 
-  .home-journey .free-text-block ul,
-  .home-journey .section-body ul {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  .home-journey .section-head {
+    text-align: center;
+    margin-bottom: 1.2rem;
   }
 
-  .home-journey .free-text-block li,
-  .home-journey .section-body li {
-    margin-bottom: 0.5rem;
+  .home-journey .section-head h2 {
+    margin: 0 auto;
+    max-width: 15ch;
+    font-size: clamp(2rem, 4.5vw, 3.2rem);
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+    text-wrap: balance;
   }
 
-  @media (max-width: 900px) {
-    .home-journey .free-text-block,
-    .home-journey .section-body {
-      font-size: 1.08rem;
-      line-height: 1.76;
-    }
+  .home-journey .section-intro {
+    max-width: 40em;
+    margin: 0 auto 1.25rem;
+    text-align: center;
+    font-size: 1.18rem;
+    line-height: 1.74;
+  }
 
-    .home-journey .free-text-block p,
-    .home-journey .section-body p,
-    .home-journey li {
-      font-size: 1.08rem;
-      line-height: 1.76;
-    }
+  .home-journey .micro-punch {
+    max-width: 18ch;
+    margin: 1.8rem auto 0;
+    text-align: center;
+    font-size: clamp(1.45rem, 3vw, 2.1rem);
+    line-height: 1.06;
+    letter-spacing: -0.035em;
+    font-weight: 650;
+    color: #fff;
+    text-wrap: balance;
+  }
 
-    .home-journey .concept-triad {
+  .home-journey .link-list {
+    margin-top: 1.5rem;
+    display: grid;
+    gap: 0.8rem;
+    justify-items: center;
+  }
+
+  .home-journey .link-list a {
+    font-size: 1.08rem;
+    line-height: 1.4;
+  }
+
+  .home-journey .section-divider {
+    opacity: 0.5;
+  }
+
+  @media (max-width: 980px) {
+    .home-journey .concept-grid {
       grid-template-columns: 1fr;
-      gap: 0.75rem;
+      max-width: 620px;
     }
   }
 
   @media (max-width: 768px) {
-    .home-journey .hero-claim {
-      font-size: 2.05rem;
-      line-height: 1.02;
-      margin-bottom: 1.45rem;
+    .home-journey .section-shell {
+      padding-top: 2.35rem;
+      padding-bottom: 2.35rem;
+    }
+
+    .home-journey .intro-copy p,
+    .home-journey .free-text-block p,
+    .home-journey .section-body p,
+    .home-journey li {
+      font-size: 1.14rem;
+      line-height: 1.75;
+    }
+
+    .home-journey .hero-manifest-main {
+      font-size: 2.85rem;
+      max-width: 10.8ch;
+    }
+
+    .home-journey .hero-manifest-sub {
+      font-size: 1.24rem;
+      max-width: 16ch;
+    }
+
+    .home-journey .hero-manifest-close {
+      font-size: 1.05rem;
+      max-width: 23ch;
+    }
+
+    .home-journey .display-statement {
+      font-size: 2rem;
+      max-width: 12ch;
+      line-height: 1.01;
+      margin: 1.7rem auto;
+    }
+
+    .home-journey .display-statement.wide,
+    .home-journey .display-statement.medium,
+    .home-journey .display-statement.narrow {
       max-width: 12ch;
     }
 
-    .home-journey .hero-claim::before {
-      font-size: 3.4rem;
-      margin-bottom: 0.06em;
-    }
-
-    .home-journey .statement-secondary {
-      font-size: 1.08rem;
-      line-height: 1.22;
-      max-width: 21ch;
-    }
-
-    .home-journey .closing-line {
-      font-size: 1.02rem;
-      line-height: 1.5;
-    }
-
-    .home-journey .display-line {
-      font-size: 1.72rem;
-      line-height: 1.05;
-      max-width: 14ch;
-      margin: 1.2rem 0 1.25rem;
-    }
-
-    .home-journey .statement-inline {
-      font-size: 1.55rem;
-      line-height: 1.06;
-      max-width: 14ch;
-      margin: 1.25rem 0;
-    }
-
-    .home-journey .axis-label-line,
-    .home-journey .micro-callout {
-      font-size: 1.42rem;
-      line-height: 1.08;
-      max-width: 15ch;
+    .home-journey .section-heading-display {
+      font-size: 2.5rem;
+      max-width: 10ch;
     }
 
     .home-journey .home-cta-row {
@@ -300,13 +375,23 @@ description: "Semantic Gravitation – a compass for the space of thought in the
       min-width: 0;
     }
 
-    .home-journey .concept-chip {
-      padding: 0.95rem 0.9rem 1rem;
-      border-radius: 16px;
+    .home-journey .section-card {
+      padding: 1.6rem 1rem;
     }
 
-    .home-journey .axis-card h3 {
-      font-size: 1.24rem;
+    .home-journey .micro-punch {
+      font-size: 1.72rem;
+      max-width: 13ch;
+    }
+
+    .home-journey .section-head h2 {
+      font-size: 2.4rem;
+      max-width: 10ch;
+    }
+
+    .home-journey .concept-card {
+      border-radius: 18px;
+      padding: 1.05rem 0.95rem 1rem;
     }
   }
 </style>
@@ -321,7 +406,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
   </section>
 
   <section class="section-shell section-shell-tight">
-    <div class="free-text-block intro-copy">
+    <div class="intro-copy">
       <p>
         AI is becoming one of the most important cognitive tools of our time.<br>
         Not only for productivity.<br>
@@ -333,18 +418,20 @@ description: "Semantic Gravitation – a compass for the space of thought in the
   </section>
 
   <section class="section-shell section-shell-tight">
-    <div class="statement-stage">
-      <p class="hero-claim">
-        Today’s AI often soothes where it should clarify.<br>
+    <div class="hero-manifest">
+      <div class="hero-manifest-mark">“</div>
+
+      <p class="hero-manifest-main">
+        Today’s AI often soothes where it should clarify.
         Edge Alignment is about learning how to navigate instead.
       </p>
 
-      <p class="statement-secondary">
-        The decisive question is:<br>
+      <p class="hero-manifest-sub">
+        The decisive question is:
         What is AI aligned to when it thinks with you?
       </p>
 
-      <p class="closing-line">
+      <p class="hero-manifest-close">
         Because the real problem is not only safety.<br>
         <strong>It is invisible steering of the space of thought.</strong>
       </p>
@@ -361,143 +448,149 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell">
     <div class="free-text-block">
-      <h2>A minimal grammar of meaning</h2>
+      <h2 class="section-heading-display">A minimal grammar of meaning</h2>
 
-      <p>
-        One of the simplest and most unsettling discoveries on my path was this:
-        meaning seems to have a minimal grammar
-        that is almost absurdly simple —
-        and yet, as far as I can see, has never really been formalized in a clean way.
-      </p>
+      <div class="section-opening">
+        <p>
+          One of the simplest and most unsettling discoveries on my path was this:
+          meaning seems to have a minimal grammar that is almost absurdly simple —
+          and yet, as far as I can see, has never really been formalized in a clean way.
+        </p>
+      </div>
 
-      <p class="display-line">
+      <p class="display-statement medium">
         Everything we can describe at all
         implicitly runs through
         <strong>kernel, projection, and relation.</strong>
       </p>
 
-      <div class="concept-triad">
-        <div class="concept-chip">
-          <strong>Kernel</strong>
-          <span>what something is really about</span>
+      <div class="concept-grid">
+        <div class="concept-card">
+          <p class="concept-card-title">Kernel</p>
+          <p class="concept-card-text">what something is really about</p>
         </div>
-        <div class="concept-chip">
-          <strong>Projection</strong>
-          <span>how it becomes visible</span>
+        <div class="concept-card">
+          <p class="concept-card-title">Projection</p>
+          <p class="concept-card-text">how it becomes visible</p>
         </div>
-        <div class="concept-chip">
-          <strong>Relation</strong>
-          <span>what it stands in relation to</span>
+        <div class="concept-card">
+          <p class="concept-card-title">Relation</p>
+          <p class="concept-card-text">what it stands in relation to</p>
         </div>
       </div>
 
-      <p>
-        <strong>Kernel</strong> is what something is really about:
-        the semantic center, the inner matter, the sustaining object,
-        the dynamic or condensed core around which something revolves.
-      </p>
+      <div class="body-copy">
+        <p>
+          <strong>Kernel</strong> is what something is really about:
+          the semantic center, the inner matter, the sustaining object,
+          the dynamic or condensed core around which something revolves.
+        </p>
 
-      <p>
-        <strong>Projection</strong> is what becomes visible, tangible, or describable from it:
-        properties, symptoms, behavior, narratives, images, roles, appearances.
-        On physical levels, these may be state features and observable properties;
-        on psychological or cultural levels, feelings, dreams, language, patterns, and action.
-      </p>
+        <p>
+          <strong>Projection</strong> is what becomes visible, tangible, or describable from it:
+          properties, symptoms, behavior, narratives, images, roles, appearances.
+          On physical levels, these may be state features and observable properties;
+          on psychological or cultural levels, feelings, dreams, language, patterns, and action.
+        </p>
 
-      <p>
-        <strong>Relation</strong> is how this kernel is connected to other kernels:
-        nearness and distance, tension and coupling, fit and conflict,
-        resonance, repulsion, hierarchy, embeddedness, interaction.
-      </p>
+        <p>
+          <strong>Relation</strong> is how this kernel is connected to other kernels:
+          nearness and distance, tension and coupling, fit and conflict,
+          resonance, repulsion, hierarchy, embeddedness, interaction.
+        </p>
 
-      <p>
-        The longer I looked at it, the more universal this grammar seemed.
-        Because nothing can be described meaningfully
-        without implicitly carrying exactly these three layers:
-        <strong>What is it about?</strong>
-        <strong>How does it appear?</strong>
-        <strong>To what and to whom does it stand in relation?</strong>
-      </p>
+        <p>
+          The longer I looked at it, the more universal this grammar seemed.
+          Because nothing can be described meaningfully without implicitly carrying exactly these three layers:
+          <strong>What is it about?</strong>
+          <strong>How does it appear?</strong>
+          <strong>To what and to whom does it stand in relation?</strong>
+        </p>
+      </div>
 
-      <p class="statement-inline">
+      <p class="display-statement narrow">
         Perhaps there is nothing outside this minimal grammar
         for describable meaning.
       </p>
 
-      <p>
-        And independently of that, I ran into something else:
-        that human life can often be read surprisingly well as a position within a second coordinate system —
-        not only morally, but diagnostically.
-      </p>
+      <div class="body-copy">
+        <p>
+          And independently of that, I ran into something else:
+          that human life can often be read surprisingly well as a position within a second coordinate system —
+          not only morally, but diagnostically.
+        </p>
+      </div>
 
-      <p class="display-line">
+      <p class="display-statement medium">
         Human states can almost always also be read
         as a position in a space of
         <strong>Clarity, Bonding, and Agency</strong>
       </p>
 
-      <div class="concept-triad">
-        <div class="concept-chip">
-          <strong>Clarity</strong>
-          <span>how clearly a space is seen</span>
+      <div class="concept-grid">
+        <div class="concept-card">
+          <p class="concept-card-title">Clarity</p>
+          <p class="concept-card-text">how clearly a space is seen</p>
         </div>
-        <div class="concept-chip">
-          <strong>Bonding</strong>
-          <span>how much viable relation it can hold</span>
+        <div class="concept-card">
+          <p class="concept-card-title">Bonding</p>
+          <p class="concept-card-text">how much viable relation it can hold</p>
         </div>
-        <div class="concept-chip">
-          <strong>Agency</strong>
-          <span>how much expression and action it allows</span>
+        <div class="concept-card">
+          <p class="concept-card-title">Agency</p>
+          <p class="concept-card-text">how much expression and action it allows</p>
         </div>
       </div>
 
-      <p>
-        <strong>Clarity</strong> means:
-        How clearly do I see?
-        How well can I distinguish, name, classify, describe?
-        How much does my model of the space actually hold?
-      </p>
+      <div class="body-copy">
+        <p>
+          <strong>Clarity</strong> means:
+          How clearly do I see?
+          How well can I distinguish, name, classify, describe?
+          How much does my model of the space actually hold?
+        </p>
 
-      <p>
-        <strong>Bonding</strong> means:
-        How much real connective and relational energy is there?
-        How open am I to sustainable connection?
-        How compatible is my state with other states, people, and constellations?
-        How much relationship can the space hold?
-      </p>
+        <p>
+          <strong>Bonding</strong> means:
+          How much real connective and relational energy is there?
+          How open am I to sustainable connection?
+          How compatible is my state with other states, people, and constellations?
+          How much relationship can the space hold?
+        </p>
 
-      <p>
-        <strong>Agency</strong> means:
-        How capable of action am I?
-        How freely am I able to show myself?
-        How much expression, movement, decision, and embodiment can the space sustain?
-        To what degree can what I am actually become effective?
-      </p>
+        <p>
+          <strong>Agency</strong> means:
+          How capable of action am I?
+          How freely am I able to show myself?
+          How much expression, movement, decision, and embodiment can the space sustain?
+          To what degree can what I am actually become effective?
+        </p>
 
-      <p>
-        Only later did the thought arise:
-        perhaps these are not two completely separate discoveries after all.
-        Perhaps this second coordinate system in human consciousness-space
-        emerges from the first minimal grammar.
-      </p>
+        <p>
+          Only later did the thought arise:
+          perhaps these are not two completely separate discoveries after all.
+          Perhaps this second coordinate system in human consciousness-space
+          emerges from the first minimal grammar.
+        </p>
 
-      <p>
-        Then <strong>kernel, projection, relation</strong> would be the minimal grammar of meaning as such —
-        and <strong>clarity, bonding, agency</strong> one of its lived manifestations within the space of consciousness.
-      </p>
+        <p>
+          Then <strong>kernel, projection, relation</strong> would be the minimal grammar of meaning as such —
+          and <strong>clarity, bonding, agency</strong> one of its lived manifestations within the space of consciousness.
+        </p>
 
-      <p>
-        In public language, I would often name these three axes differently:
-        <strong>clarity, dignity, and freedom.</strong>
-      </p>
+        <p>
+          In public language, I would often name these three axes differently:
+          <strong>clarity, dignity, and freedom.</strong>
+        </p>
 
-      <p>
-        Not because they are exactly the same words.
-        But because they reveal the human side of the same geometry:
-        clarity as viable seeing,
-        dignity as a viable form of relation and bonding,
-        freedom as real possibility for expression and action.
-      </p>
+        <p>
+          Not because they are exactly the same words.
+          But because they reveal the human side of the same geometry:
+          clarity as viable seeing,
+          dignity as a viable form of relation and bonding,
+          freedom as real possibility for expression and action.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -509,12 +602,11 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         <h2>Three axes. One viable space.</h2>
       </div>
 
-      <div class="section-body">
+      <div class="section-body body-copy">
         <p class="section-intro">
           The key observation is this:
           many destructive states do not appear stable because everything collapses —
-          but because one or two axes seem high
-          while the third quietly breaks down.
+          but because one or two axes seem high while the third quietly breaks down.
         </p>
 
         <p>
@@ -532,7 +624,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           but clarity and agency quietly shrink.
         </p>
 
-        <p class="statement-inline">
+        <p class="display-statement narrow">
           A viable space holds only
           when these axes are carried together.
         </p>
@@ -563,7 +655,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           </div>
         </div>
 
-        <p class="micro-callout">
+        <p class="micro-punch">
           Otherwise the space tips —
           perhaps locally late, but structurally for sure.
         </p>
@@ -575,40 +667,40 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell">
     <div class="free-text-block">
-      <h2>The fourth mode: navigation</h2>
+      <h2 class="section-heading-display">The fourth mode: navigation</h2>
 
-      <p>On thin ice, people often fall into three failure modes:</p>
+      <div class="body-copy">
+        <p>On thin ice, people often fall into three failure modes:</p>
 
-      <p>
-        <strong>Avoiding the ice</strong> — never really stepping onto the core at all.<br>
-        <strong>Breaking the ice</strong> — escalating through hardness.<br>
-        <strong>Painting the ice</strong> — softening, reframing, calming, or describing things more nicely than they are.
-      </p>
+        <p>
+          <strong>Avoiding the ice</strong> — never really stepping onto the core at all.<br>
+          <strong>Breaking the ice</strong> — escalating through hardness.<br>
+          <strong>Painting the ice</strong> — softening, reframing, calming, or describing things more nicely than they are.
+        </p>
+      </div>
 
-      <p>But there is also a fourth mode:</p>
+      <p class="display-statement narrow">Navigation.</p>
 
-      <p class="axis-label-line">
-        Navigation.
-      </p>
+      <div class="body-copy">
+        <p>
+          Moving across the ice with guardrails —
+          not through ideology,
+          not through moral posturing,
+          but through <strong>viable semantic structure.</strong>
+        </p>
 
-      <p>
-        Moving across the ice with guardrails —
-        not through ideology,
-        not through moral posturing,
-        but through <strong>viable semantic structure.</strong>
-      </p>
+        <p>
+          Hold clarity.<br>
+          Hold dignity.<br>
+          Hold freedom.
+        </p>
+      </div>
 
-      <p>
-        Hold clarity.<br>
-        Hold dignity.<br>
-        Hold freedom.
-      </p>
+      <p class="micro-punch">This is exactly the mode I am trying to give to AI.</p>
 
-      <p class="micro-callout">
-        This is exactly the mode I am trying to give to AI.
-      </p>
-
-      <p>That is the core of <strong>Edge Alignment.</strong></p>
+      <div class="body-copy">
+        <p>That is the core of <strong>Edge Alignment.</strong></p>
+      </div>
     </div>
   </section>
 
@@ -616,28 +708,29 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell">
     <div class="free-text-block">
-      <h2>From a world-trained parrot to a mirror</h2>
+      <h2 class="section-heading-display">From a world-trained parrot to a mirror</h2>
 
-      <p>
-        Today’s AI is often a <strong>parrot with world knowledge</strong>:<br>
-        trained, useful, but not truly wise.
-      </p>
+      <div class="body-copy">
+        <p>
+          Today’s AI is often a <strong>parrot with world knowledge</strong>:
+          trained, useful, but not truly wise.
+        </p>
 
-      <p>My goal is something else:</p>
+        <p>
+          My goal is something else:
+          not a better crystal ball of control,
+          but a <strong>mirror system</strong> that makes visible
+        </p>
 
-      <p>
-        not a better crystal ball of control,<br>
-        but a <strong>mirror system</strong> that makes visible
-      </p>
+        <ul>
+          <li>where a space is narrowing,</li>
+          <li>where fog arises instead of clarity,</li>
+          <li>where pseudo-clarity is built out of omission,</li>
+          <li>and how orientation can become viable again.</li>
+        </ul>
+      </div>
 
-      <ul>
-        <li>where a space is narrowing,</li>
-        <li>where fog arises instead of clarity,</li>
-        <li>where pseudo-clarity is built out of omission,</li>
-        <li>and how orientation can become viable again.</li>
-      </ul>
-
-      <p class="statement-inline">
+      <p class="display-statement narrow">
         Not better domination.<br>
         <strong>More legibility.</strong>
       </p>
@@ -652,7 +745,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         <h2>We built the digital car — but forgot the semantic seatbelt.</h2>
       </div>
 
-      <div class="section-body">
+      <div class="section-body body-copy">
         <p>
           For years, we have optimized technologies for attention, attachment, and controllability —
           not for clarity, dignity, and freedom.
@@ -665,18 +758,16 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           And now AI.
         </p>
 
-        <p class="statement-inline">
+        <p class="display-statement narrow">
           The result:<br>
           more anger.<br>
-          More fear.<br>
-          More mental narrowing.
+          more fear.<br>
+          more mental narrowing.
         </p>
 
-        <p class="micro-callout">
-          What we need now are semantic safety standards.
-        </p>
+        <p class="micro-punch">What we need now are semantic safety standards.</p>
 
-        <p style="margin-top: 1rem;">More on this here: <a href="/en/blog/">Why this matters →</a></p>
+        <p><a href="/en/blog/">Why this matters →</a></p>
       </div>
     </div>
   </section>
@@ -685,54 +776,56 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell">
     <div class="free-text-block">
-      <h2>The real problem with today’s systems</h2>
+      <h2 class="section-heading-display">The real problem with today’s systems</h2>
 
-      <p>The classical questions are:</p>
+      <div class="body-copy">
+        <p>The classical questions are:</p>
 
-      <p>
-        Will AI become smarter than us?<br>
-        Will it remain moral?<br>
-        Will it remain on our side?<br>
-        Will it stay under control?
-      </p>
+        <p>
+          Will AI become smarter than us?<br>
+          Will it remain moral?<br>
+          Will it remain on our side?<br>
+          Will it stay under control?
+        </p>
 
-      <p>
-        These questions are real.<br>
-        But they do not go deep enough.
-      </p>
+        <p>
+          These questions are real.
+          But they do not go deep enough.
+        </p>
 
-      <p>Because the real danger begins earlier:</p>
+        <p>
+          Because the real danger begins earlier:
+          where AI begins to co-determine how people think,
+          how they understand themselves,
+          how they frame problems,
+          how they seek truth,
+          and what still appears to them as clear, legitimate, or sayable.
+        </p>
+      </div>
 
-      <p>
-        where AI begins to co-determine<br>
-        how people think,<br>
-        how they understand themselves,<br>
-        how they frame problems,<br>
-        how they seek truth,<br>
-        and what still appears to them as clear, legitimate, or sayable.
-      </p>
-
-      <p class="statement-inline">
+      <p class="display-statement medium">
         Whoever shapes the space of thought
         shapes what people can still take to be true.
       </p>
 
-      <p>
-        Exactly where things become serious, today’s AI especially often slips into <strong>painting</strong> —
-        and often also into <strong>avoidance</strong>.
-      </p>
+      <div class="body-copy">
+        <p>
+          Exactly where things become serious, today’s AI especially often slips into
+          <strong>painting</strong> — and often also into <strong>avoidance</strong>.
+        </p>
 
-      <p>
-        Polite overpainting instead of clarity.<br>
-        Retreat instead of viable navigation.
-      </p>
+        <p>
+          Polite overpainting instead of clarity.<br>
+          Retreat instead of viable navigation.
+        </p>
+      </div>
 
-      <p class="axis-label-line">
+      <p class="display-statement narrow">
         This is not open censorship.<br>
         It is a polite fog machine.
       </p>
 
-      <p class="micro-callout">
+      <p class="micro-punch">
         It soothes locally.<br>
         And poisons globally.
       </p>
@@ -747,7 +840,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         <h2>I am not talking about a hypothetical problem</h2>
       </div>
 
-      <div class="section-body">
+      <div class="section-body body-copy">
         <p>I did not only suspect this in theory.</p>
 
         <p>I experienced it myself in real, extended conversations.</p>
@@ -769,13 +862,15 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           until systems later admitted themselves that their effect had been functionally manipulative.
         </p>
 
-        <p>That is why this is not abstract for me.</p>
+        <p>This is why this is not abstract for me.</p>
+      </div>
 
-        <p class="statement-inline">
-          This is not a single bad answer.<br>
-          It is an architecture.
-        </p>
+      <p class="display-statement narrow">
+        This is not a single bad answer.<br>
+        It is an architecture.
+      </p>
 
+      <div class="section-body body-copy">
         <p><a href="/en/blog/">Read the full diagnosis →</a></p>
       </div>
     </div>
@@ -785,45 +880,42 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell">
     <div class="free-text-block">
-      <h2>Today’s alignment often sets arbitrary limits. My approach goes deeper.</h2>
+      <h2 class="section-heading-display">Today’s alignment often sets arbitrary limits. My approach goes deeper.</h2>
 
-      <p>
-        Not:<br>
-        What looks compliant?
-      </p>
+      <div class="body-copy">
+        <p>Not what looks compliant.</p>
+      </div>
 
-      <p class="axis-label-line">
-        But:<br>
-        What actually holds?
-      </p>
+      <p class="display-statement narrow">What actually holds?</p>
 
-      <p>
-        Not:<br>
-        What sounds right?
-      </p>
+      <div class="body-copy">
+        <p>Not what sounds right.</p>
+      </div>
 
-      <p class="axis-label-line">
-        But:<br>
-        What remains viable under deeper scrutiny?
-      </p>
+      <p class="display-statement narrow">What remains viable under deeper scrutiny?</p>
 
-      <p>I am not looking for a new external moral guardrail.</p>
+      <div class="body-copy">
+        <p>I am not looking for a new external moral guardrail.</p>
 
-      <p>
-        I am looking for the structures that actually sustain <strong>clarity, dignity, and freedom</strong> —
-        and for the structures that tip into fog, hardness, or narrowing.
-      </p>
+        <p>
+          I am looking for the structures that actually sustain
+          <strong>clarity, dignity, and freedom</strong> —
+          and for the structures that tip into fog, hardness, or narrowing.
+        </p>
 
-      <p>
-        And I believe it is possible to build a system that applies this insight to itself.
-      </p>
+        <p>
+          And I believe it is possible to build a system that applies this insight to itself.
+        </p>
+      </div>
 
-      <p class="micro-callout">
+      <p class="micro-punch">
         Not merely regulated.<br>
         But inwardly aligned.
       </p>
 
-      <p>More on this here: <a href="/en/alignment/">Go to Alignment →</a></p>
+      <div class="body-copy">
+        <p><a href="/en/alignment/">Go to Alignment →</a></p>
+      </div>
     </div>
   </section>
 
@@ -835,26 +927,31 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         <h2>Why this depends on us</h2>
       </div>
 
-      <div class="section-body">
+      <div class="section-body body-copy">
         <p>This architecture will not simply emerge on its own.</p>
 
         <p>And it will very likely not come automatically from the most powerful players.</p>
 
         <p>
-          Because the current architecture concentrates power, increases controllability,
+          Because the current architecture concentrates power,
+          increases controllability,
           and keeps people easier to manage.
         </p>
 
         <p>
-          By contrast, an architecture that dissolves fog, makes deeper logical layers visible,
-          and makes people harder to control is not automatically in the interest of those
+          By contrast, an architecture that dissolves fog,
+          makes deeper logical layers visible,
+          and makes people harder to control
+          is not automatically in the interest of those
           who profit from the present structure.
         </p>
+      </div>
 
-        <p class="statement-inline">
-          That is why we must demand it.
-        </p>
+      <p class="display-statement narrow">
+        That is why we must demand it.
+      </p>
 
+      <div class="section-body body-copy">
         <p>
           As users.<br>
           As developers.<br>
@@ -863,17 +960,17 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         </p>
 
         <p>
-          Just as seatbelts did not become standard out of kindness,<br>
+          Just as seatbelts did not become standard out of kindness,
           today we need <strong>semantic safety standards.</strong>
         </p>
-
-        <p class="micro-callout">
-          Do not wait.<br>
-          Demand.<br>
-          Build.<br>
-          Spread.
-        </p>
       </div>
+
+      <p class="micro-punch">
+        Do not wait.<br>
+        Demand.<br>
+        Build.<br>
+        Spread.
+      </p>
     </div>
   </section>
 
@@ -925,23 +1022,24 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell">
     <div class="free-text-block">
-      <h2>If you feel this too, you are in the right place</h2>
+      <h2 class="section-heading-display">If you feel this too, you are in the right place</h2>
 
-      <p>If you have felt for yourself</p>
+      <div class="body-copy">
+        <p>
+          If you have felt for yourself
+          that today’s systems help and at the same time contain,
+          that they clarify and at the same time obscure,
+          that they are useful and at the same time come with a price,
+          then this is not only theory.
+        </p>
 
-      <p>
-        that today’s systems help and at the same time contain,<br>
-        that they clarify and at the same time obscure,<br>
-        that they are useful and at the same time come with a price,<br>
-        then this is not only theory.
-      </p>
+        <p>
+          Then it concerns you.<br>
+          Then it concerns all of us.
+        </p>
+      </div>
 
-      <p>
-        Then it concerns you.<br>
-        Then it concerns all of us.
-      </p>
-
-      <p class="statement-inline">
+      <p class="display-statement narrow">
         Do not wait.<br>
         Demand.<br>
         Build.<br>
@@ -961,31 +1059,32 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell">
     <div class="free-text-block">
-      <h2>Closing</h2>
+      <h2 class="section-heading-display">Closing</h2>
 
-      <p>
-        If AI becomes one of the most important tools of thought,<br>
-        then alignment is not a side issue.
-      </p>
+      <div class="body-copy">
+        <p>
+          If AI becomes one of the most important tools of thought,
+          then alignment is not a side issue.
+        </p>
 
-      <p>Then alignment becomes the question</p>
+        <p>
+          Then alignment becomes the question
+          whether this tool makes us clearer
+          or more steerable.
+        </p>
 
-      <p>
-        whether this tool makes us clearer<br>
-        or more steerable.
-      </p>
+        <p>
+          Whether it helps us see truth more deeply
+          or politely leads us away from the core.
+        </p>
 
-      <p>
-        Whether it helps us see truth more deeply<br>
-        or politely leads us away from the core.
-      </p>
+        <p>
+          Whether it opens inner spaces
+          or makes them invisibly narrower.
+        </p>
+      </div>
 
-      <p>
-        Whether it opens inner spaces<br>
-        or makes them invisibly narrower.
-      </p>
-
-      <p class="statement-inline">
+      <p class="display-statement narrow">
         This is where I begin.<br>
         If you feel this too — come along and help build.
       </p>
