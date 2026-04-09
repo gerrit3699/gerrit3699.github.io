@@ -4,9 +4,14 @@ title: Implications
 permalink: /en/implications/
 lang: en
 description: "The implications of Semantic Gravitation: from semantic diagnosis and AI architecture to epistemic infrastructure, civilizational consequences, and speculative physical extensions."
+translation_url_de: /de/implikationen/
 ---
 
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
+
   .implications-page {
     --imp-text: rgba(255,255,255,0.96);
     --imp-soft: rgba(255,255,255,0.82);
@@ -128,6 +133,26 @@ description: "The implications of Semantic Gravitation: from semantic diagnosis 
     text-align: center;
   }
 
+  .implications-page .claim-card {
+    display: block;
+    text-decoration: none;
+    transition:
+      transform 0.18s ease,
+      border-color 0.18s ease;
+  }
+
+  .implications-page .claim-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--imp-line-strong);
+  }
+
+  .implications-page .claim-card strong {
+    display: block;
+    margin-top: 0.75rem;
+    font-size: 0.98rem;
+    color: #fff;
+  }
+
   .implications-page .claim-card h3,
   .implications-page .concept-card h3,
   .implications-page .domain-card h3,
@@ -243,25 +268,28 @@ description: "The implications of Semantic Gravitation: from semantic diagnosis 
       </p>
 
       <div class="claim-grid">
-        <div class="claim-card">
+        <a class="claim-card" href="#direct-consequences">
           <h3>Immediate consequence</h3>
-          <p>Semantic states become diagnosable and navigable.</p>
-        </div>
-        <div class="claim-card">
+          <p>Semantic states become diagnosable, comparable, and navigable.</p>
+          <strong>Go to direct consequences →</strong>
+        </a>
+        <a class="claim-card" href="#architectural-consequence">
           <h3>Architectural consequence</h3>
           <p>AI can be built around viable semantic movement, not only output control.</p>
-        </div>
-        <div class="claim-card">
+          <strong>Go to AI architecture →</strong>
+        </a>
+        <a class="claim-card" href="#programme-horizon">
           <h3>Programme horizon</h3>
-          <p>The theory opens a larger epistemic and civilizational design space.</p>
-        </div>
+          <p>The theory opens a larger epistemic, institutional, and civilizational design space.</p>
+          <strong>Go to the wider horizon →</strong>
+        </a>
       </div>
     </div>
   </section>
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="direct-consequences">
     <div class="imp-block">
       <h2 class="section-heading-display">What follows directly from the theory</h2>
 
@@ -303,7 +331,7 @@ description: "The implications of Semantic Gravitation: from semantic diagnosis 
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="architectural-consequence">
     <div class="imp-block">
       <h2 class="section-heading-display">Architectural consequence for AI</h2>
 
@@ -356,7 +384,7 @@ description: "The implications of Semantic Gravitation: from semantic diagnosis 
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="programme-horizon">
     <div class="imp-block">
       <h2 class="section-heading-display">Why this matters beyond AI safety</h2>
 
