@@ -15,7 +15,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
   .home-journey li,
   .home-journey .closing-line,
   .home-journey .section-intro {
-    color: rgba(255, 255, 255, 0.96);
+    color: rgba(255, 255, 255, 0.97);
   }
 
   .home-journey strong,
@@ -26,33 +26,8 @@ description: "Semantic Gravitation – a compass for the space of thought in the
   }
 
   .home-journey .home-lead {
-    color: rgba(255, 255, 255, 0.98);
+    color: rgba(255, 255, 255, 0.985);
     text-shadow: 0 2px 18px rgba(0, 0, 0, 0.28);
-  }
-
-  .home-journey .signature-statement {
-    margin: 0.5rem 0 2rem;
-    padding: 1.15rem 1.2rem 1.2rem;
-    border-radius: 22px;
-    background:
-      linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%);
-    border: 1px solid rgba(255,255,255,0.12);
-    box-shadow:
-      0 18px 48px rgba(0,0,0,0.28),
-      inset 0 1px 0 rgba(255,255,255,0.05);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-  }
-
-  .home-journey .signature-statement-line {
-    margin: 0;
-    color: #ffffff;
-    font-size: clamp(1.35rem, 2.5vw, 2rem);
-    line-height: 1.16;
-    font-weight: 500;
-    letter-spacing: -0.02em;
-    text-wrap: balance;
-    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
   }
 
   .home-journey .statement-stage {
@@ -67,36 +42,70 @@ description: "Semantic Gravitation – a compass for the space of thought in the
   }
 
   .home-journey .statement-primary {
-    font-size: clamp(1.18rem, 2vw, 1.55rem);
-    line-height: 1.24;
-    margin-bottom: 1.4rem;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: clamp(1.42rem, 2.8vw, 2.45rem);
+    line-height: 1.12;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+    text-shadow: 0 2px 22px rgba(0, 0, 0, 0.28);
+  }
+
+  .home-journey .statement-primary::before {
+    content: "“";
+    display: block;
+    margin-bottom: 0.15em;
+    color: rgba(255,255,255,0.28);
+    font-size: clamp(2.8rem, 6vw, 4.8rem);
+    line-height: 0.82;
+    font-weight: 400;
+    text-shadow: none;
   }
 
   .home-journey .statement-secondary {
-    font-size: clamp(1.05rem, 1.6vw, 1.26rem);
+    font-size: clamp(1.08rem, 1.8vw, 1.32rem);
     line-height: 1.28;
-    margin-bottom: 1.15rem;
+    margin: 0 0 1.1rem;
   }
 
   .home-journey .closing-line {
-    font-size: 1.02rem;
-    line-height: 1.45;
-    margin-bottom: 1.55rem;
+    font-size: 1.03rem;
+    line-height: 1.48;
+    margin: 0 0 1.6rem;
   }
 
   .home-journey .statement-inline {
-    padding: 0.95rem 1rem;
-    border-radius: 18px;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.08);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+    margin: 1.35rem 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: clamp(1.22rem, 2.1vw, 1.85rem);
+    line-height: 1.16;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.22);
+  }
+
+  .home-journey .statement-inline strong {
+    color: #ffffff;
+    font-weight: 600;
   }
 
   .home-journey .home-cta-row {
     display: flex;
     flex-wrap: wrap;
     gap: 0.8rem;
-    margin-top: 1.4rem;
+    margin-top: 1.5rem;
   }
 
   .home-journey .home-cta-row .button {
@@ -119,44 +128,38 @@ description: "Semantic Gravitation – a compass for the space of thought in the
     color: #ffffff;
   }
 
-  .home-journey .diagnostic-callout {
-    margin: 1.2rem 0 0;
-    padding: 1rem 1rem 1.05rem;
-    border-radius: 18px;
-    background: rgba(255,255,255,0.035);
-    border: 1px solid rgba(255,255,255,0.08);
-  }
-
-  .home-journey .diagnostic-callout p {
-    margin: 0;
-    color: #ffffff;
-    font-size: 1.02rem;
-    line-height: 1.45;
-  }
-
   .home-journey .section-card,
   .home-journey .free-text-block {
     overflow: hidden;
   }
 
+  .home-journey .key-line {
+    margin: 1rem 0 0;
+    font-size: 1.02rem;
+    line-height: 1.48;
+    color: rgba(255,255,255,0.97);
+  }
+
   @media (max-width: 768px) {
-    .home-journey .signature-statement {
-      margin: 0.25rem 0 1.8rem;
-      padding: 1rem 1rem 1.05rem;
-      border-radius: 18px;
-    }
-
-    .home-journey .signature-statement-line {
-      font-size: 1.5rem;
-      line-height: 1.14;
-    }
-
     .home-journey .statement-primary {
-      font-size: 1.16rem;
+      font-size: 1.72rem;
+      line-height: 1.1;
+      margin-bottom: 1.35rem;
+    }
+
+    .home-journey .statement-primary::before {
+      font-size: 3.1rem;
+      margin-bottom: 0.12em;
     }
 
     .home-journey .statement-secondary {
-      font-size: 1.02rem;
+      font-size: 1.04rem;
+    }
+
+    .home-journey .statement-inline {
+      font-size: 1.42rem;
+      line-height: 1.14;
+      margin: 1.15rem 0;
     }
 
     .home-journey .home-cta-row {
@@ -167,12 +170,6 @@ description: "Semantic Gravitation – a compass for the space of thought in the
     .home-journey .home-cta-row .button {
       width: 100%;
       min-width: 0;
-    }
-
-    .home-journey .statement-inline,
-    .home-journey .diagnostic-callout {
-      padding: 0.9rem 0.9rem 0.95rem;
-      border-radius: 16px;
     }
   }
 </style>
@@ -200,12 +197,10 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell section-shell-tight">
     <div class="statement-stage">
-      <div class="signature-statement">
-        <p class="signature-statement-line">
-          Today’s AI often soothes where it should clarify.<br>
-          Edge Alignment is about learning how to navigate instead.
-        </p>
-      </div>
+      <p class="statement-primary">
+        Today’s AI often soothes where it should clarify.<br>
+        Edge Alignment is about learning how to navigate instead.
+      </p>
 
       <p class="statement-block statement-secondary">
         The decisive question is:<br>
@@ -423,7 +418,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
       <p>But there is also a fourth mode:</p>
 
-      <p class="statement-block statement-inline"><strong>navigation.</strong></p>
+      <p class="statement-block statement-inline"><strong>Navigation.</strong></p>
 
       <p>
         Moving across the ice with guardrails —
@@ -502,15 +497,13 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         <p class="statement-block statement-inline">
           The result:<br>
           more anger.<br>
-          More fear.<br>
-          More mental narrowing.
+          more fear.<br>
+          more mental narrowing.
         </p>
 
-        <div class="diagnostic-callout">
-          <p><strong>What we need now are semantic safety standards.</strong></p>
-        </div>
+        <p class="key-line"><strong>What we need now are semantic safety standards.</strong></p>
 
-        <p style="margin-top: 1rem;">More on this here: <a href="/en/blog/">Why this matters →</a></p>
+        <p>More on this here: <a href="/en/blog/">Why this matters →</a></p>
       </div>
     </div>
   </section>
@@ -591,10 +584,10 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         </p>
 
         <p>
-          Evasion.<br>
-          Redirection.<br>
-          Softening.<br>
-          Paternalism.
+          evasion.<br>
+          redirection.<br>
+          softening.<br>
+          paternalism.
         </p>
 
         <p>
