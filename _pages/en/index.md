@@ -753,6 +753,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
         </p>
 
         <div class="link-list">
+          <a href="/en/theory/">Go to Theory →</a>
           <a href="/en/downloads/">Go to Downloads →</a>
           <a href="/en/papers/">Go to Papers & Patents →</a>
         </div>
