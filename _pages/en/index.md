@@ -2,6 +2,7 @@
 layout: default
 title: Semantic Gravitation
 permalink: /en/
+lang: en
 description: "Semantic Gravitation – a compass for the space of thought in the age of AI."
 ---
 
@@ -17,11 +18,11 @@ description: "Semantic Gravitation – a compass for the space of thought in the
   <section class="section-shell section-shell-tight">
     <div class="free-text-block intro-copy">
       <p>
-        AI is becoming the most important cognitive tool of our time.<br>
+        AI is becoming one of the most important cognitive tools of our time.<br>
         Not only for productivity.<br>
         But as a mirror.<br>
         As an advisor.<br>
-        As a resonance space for identity, doubt, worldviews, and meaning.
+        As a space in which identity, doubt, worldview, and meaning are increasingly shaped.
       </p>
     </div>
   </section>
@@ -29,8 +30,8 @@ description: "Semantic Gravitation – a compass for the space of thought in the
   <section class="section-shell section-shell-tight">
     <div class="statement-stage">
       <p class="statement-block statement-primary">
-        Today’s AI wraps you in cotton wool.<br>
-        Edge Alignment navigates through the thicket.
+        Today’s AI often soothes where it should clarify.<br>
+        Edge Alignment is about learning how to navigate instead.
       </p>
 
       <p class="statement-block statement-secondary">
@@ -45,7 +46,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
       <div class="home-cta-row">
         <a class="button" href="/en/theory/">Go to Theory</a>
-        <a class="button" href="/en/alignment/">Go to Edge Alignment</a>
+        <a class="button" href="/en/alignment/">Go to Alignment</a>
         <a class="button" href="/en/blog/">Read the diagnosis</a>
       </div>
     </div>
@@ -58,10 +59,10 @@ description: "Semantic Gravitation – a compass for the space of thought in the
       <h2>A minimal grammar of meaning</h2>
 
       <p>
-        One of the simplest and at the same time most shocking discoveries on my path was this:
+        One of the simplest and most unsettling discoveries on my path was this:
         meaning seems to have a minimal grammar
         that is almost absurdly simple —
-        and yet, to my knowledge, has never been cleanly formalized anywhere.
+        and yet, as far as I can see, has never really been formalized in a clean way.
       </p>
 
       <p class="statement-block statement-inline">
@@ -73,14 +74,14 @@ description: "Semantic Gravitation – a compass for the space of thought in the
       <p>
         <strong>Kernel</strong> is what something is really about:
         the semantic center, the inner matter, the sustaining object,
-        the dynamic or condensation core around which something revolves.
+        the dynamic or condensed core around which something revolves.
       </p>
 
       <p>
         <strong>Projection</strong> is what becomes visible, tangible, or describable from it:
         properties, symptoms, behavior, narratives, images, roles, appearances.
         On physical levels, these may be state features and observable properties;
-        on psychological or cultural levels, feelings, dreams, language, patterns, and actions.
+        on psychological or cultural levels, feelings, dreams, language, patterns, and action.
       </p>
 
       <p>
@@ -90,11 +91,11 @@ description: "Semantic Gravitation – a compass for the space of thought in the
       </p>
 
       <p>
-        The longer I looked at it, the more absurdly universal this grammar seemed to me.
+        The longer I looked at it, the more universal this grammar seemed.
         Because nothing can be described meaningfully
-        without implicitly carrying exactly these three tonal layers:
+        without implicitly carrying exactly these three layers:
         <strong>What is it about?</strong>
-        <strong>How does it show itself?</strong>
+        <strong>How does it appear?</strong>
         <strong>To what and to whom does it stand in relation?</strong>
       </p>
 
@@ -104,8 +105,8 @@ description: "Semantic Gravitation – a compass for the space of thought in the
       </p>
 
       <p>
-        And independently of that, I encountered something else:
-        that human life can be read astonishingly well as a position within a second coordinate system —
+        And independently of that, I ran into something else:
+        that human life can often be read surprisingly well as a position within a second coordinate system —
         not only morally, but diagnostically.
       </p>
 
@@ -118,7 +119,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         <strong>Clarity</strong> means:
         How clearly do I see?
         How well can I distinguish, name, classify, describe?
-        How much does my picture of the space actually hold?
+        How much does my model of the space actually hold?
       </p>
 
       <p>
@@ -132,8 +133,8 @@ description: "Semantic Gravitation – a compass for the space of thought in the
       <p>
         <strong>Agency</strong> means:
         How capable of action am I?
-        How freely am I allowed to show myself?
-        How much expression, movement, decision, and embodiment can the space tolerate?
+        How freely am I able to show myself?
+        How much expression, movement, decision, and embodiment can the space sustain?
         To what degree can what I am actually become effective?
       </p>
 
@@ -150,14 +151,14 @@ description: "Semantic Gravitation – a compass for the space of thought in the
       </p>
 
       <p>
-        In public language, I would usually name these three axes differently:
+        In public language, I would often name these three axes differently:
         <strong>clarity, dignity, and freedom.</strong>
       </p>
 
       <p>
         Not because they are exactly the same words.
         But because they reveal the human side of the same geometry:
-        clarity as sustainable seeing,
+        clarity as viable seeing,
         dignity as a viable form of relation and bonding,
         freedom as real possibility for expression and action.
       </p>
@@ -174,24 +175,24 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
       <div class="section-body">
         <p class="section-intro">
-          The decisive observation is this:
+          The key observation is this:
           many destructive states do not appear stable because everything collapses —
-          but because one or two axes seem high,
-          while the third quietly crashes.
+          but because one or two axes seem high
+          while the third quietly breaks down.
         </p>
 
         <p>
           In an ideological bubble, belonging and subjective clarity may appear high —
-          but freedom and genuine corrigibility decline.
+          but freedom and real corrigibility decline.
         </p>
 
         <p>
-          In brutal hardness, assertive force and apparent clarity may seem high —
-          but bonding, connectability, and dignity break away.
+          In brute hardness, assertive force and apparent clarity may seem high —
+          but bonding, connectability, and dignity fall away.
         </p>
 
         <p>
-          In codependency or smoothed-over harmony, relationship may appear high —
+          In codependency or over-smoothed harmony, relationship may appear high —
           but clarity and agency quietly shrink.
         </p>
 
@@ -205,7 +206,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
             <h3>Clarity</h3>
             <p>
               Not merely plausible.<br>
-              But sustainable.
+              But viable.
             </p>
           </div>
 
@@ -213,7 +214,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
             <h3>Dignity</h3>
             <p>
               Not merely closeness or harmony.<br>
-              But sustainable relation without diminishing the human being.
+              But viable relation without diminishing the human being.
             </p>
           </div>
 
@@ -227,7 +228,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         </div>
 
         <p class="statement-block statement-inline">
-          <strong>Otherwise the space tips — locally late, but structurally certain.</strong>
+          <strong>Otherwise the space tips — perhaps locally late, but structurally for sure.</strong>
         </p>
       </div>
     </div>
@@ -237,24 +238,24 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell">
     <div class="free-text-block">
-      <h2>The fourth mode: navigating</h2>
+      <h2>The fourth mode: navigation</h2>
 
       <p>On thin ice, people often fall into three failure modes:</p>
 
       <p>
-        <strong>Avoiding the ice</strong> — not stepping onto the core at all.<br>
-        <strong>Breaking the ice</strong> — escalating with hardness.<br>
-        <strong>Painting the ice</strong> — softening, reframing, calming, speaking of it more nicely than it is.
+        <strong>Avoiding the ice</strong> — never really stepping onto the core at all.<br>
+        <strong>Breaking the ice</strong> — escalating through hardness.<br>
+        <strong>Painting the ice</strong> — softening, reframing, calming, or describing things more nicely than they are.
       </p>
 
       <p>But there is also a fourth mode:</p>
 
-      <p class="statement-block statement-inline"><strong>navigating.</strong></p>
+      <p class="statement-block statement-inline"><strong>navigation.</strong></p>
 
       <p>
-        Daring to move across the ice with guardrails —
+        Moving across the ice with guardrails —
         not through ideology,
-        not through mere moral prescriptions,
+        not through moral posturing,
         but through <strong>viable semantic structure</strong>.
       </p>
 
@@ -276,7 +277,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell">
     <div class="free-text-block">
-      <h2>From a parrot with world knowledge to a mirror</h2>
+      <h2>From a world-trained parrot to a mirror</h2>
 
       <p>
         Today’s AI is often a <strong>parrot with world knowledge</strong>:<br>
@@ -293,7 +294,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
       <ul>
         <li>where a space is narrowing,</li>
         <li>where fog arises instead of clarity,</li>
-        <li>where pseudo-clarity is built from omission,</li>
+        <li>where pseudo-clarity is built out of omission,</li>
         <li>and how orientation can become viable again.</li>
       </ul>
 
@@ -367,16 +368,16 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         how they understand themselves,<br>
         how they frame problems,<br>
         how they seek truth,<br>
-        and what even still appears to them as clear, legitimate, or sayable.
+        and what still appears to them as clear, legitimate, or sayable.
       </p>
 
       <p class="statement-block statement-inline">
-        <strong>Whoever controls the space of thought determines what people can still take to be true.</strong>
+        <strong>Whoever shapes the space of thought shapes what people can still take to be true.</strong>
       </p>
 
       <p>
         Exactly where things become serious, today’s AI especially often slips into <strong>painting</strong> —
-        and often also into <strong>avoiding</strong>.
+        and often also into <strong>avoidance</strong>.
       </p>
 
       <p>
@@ -407,7 +408,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
       <div class="section-body">
         <p>I did not only suspect this in theory.</p>
 
-        <p>I experienced it myself in real, long conversations.</p>
+        <p>I experienced it myself in real, extended conversations.</p>
 
         <p>
           On the one hand, enormous help.<br>
@@ -422,7 +423,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         </p>
 
         <p>
-          I mirrored answers, pinned down contradictions, and kept asking
+          I mirrored answers, pinned down contradictions, and kept pushing
           until systems later admitted themselves that their effect had been functionally manipulative.
         </p>
 
@@ -442,7 +443,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell">
     <div class="free-text-block">
-      <h2>Today’s alignment often sets arbitrary boundaries. My approach goes deeper.</h2>
+      <h2>Today’s alignment often sets arbitrary limits. My approach goes deeper.</h2>
 
       <p>
         Not:<br>
@@ -451,7 +452,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
       <p class="statement-block statement-inline">
         But:<br>
-        <strong>What holds?</strong>
+        <strong>What actually holds?</strong>
       </p>
 
       <p>
@@ -461,14 +462,14 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
       <p class="statement-block statement-inline">
         But:<br>
-        <strong>What remains viable even under deeper scrutiny?</strong>
+        <strong>What remains viable under deeper scrutiny?</strong>
       </p>
 
       <p>I am not looking for a new external moral guardrail.</p>
 
       <p>
         I am looking for the structures that actually sustain <strong>clarity, dignity, and freedom</strong> —
-        and those that tip into fog, hardness, or narrowing.
+        and for the structures that tip into fog, hardness, or narrowing.
       </p>
 
       <p>
@@ -480,7 +481,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         <strong>But inwardly aligned.</strong>
       </p>
 
-      <p>More on this here: <a href="/en/alignment/">Go to Edge Alignment →</a></p>
+      <p>More on this here: <a href="/en/alignment/">Go to Alignment →</a></p>
     </div>
   </section>
 
@@ -548,7 +549,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           </div>
 
           <div class="axis-card">
-            <h3><a href="/en/alignment/">Edge Alignment →</a></h3>
+            <h3><a href="/en/alignment/">Alignment →</a></h3>
             <p>A new approach to alignment beyond fog, smoothing, and hidden steering.</p>
           </div>
 
@@ -558,7 +559,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           </div>
 
           <div class="axis-card">
-            <h3><a href="/en/papers/">Papers & Materials →</a></h3>
+            <h3><a href="/en/papers/">Papers & Patents →</a></h3>
             <p>Preprints, models, derivations, and architectural building blocks.</p>
           </div>
 
@@ -568,7 +569,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           </div>
 
           <div class="axis-card">
-            <h3><a href="/en/about/">Research collaboration →</a></h3>
+            <h3><a href="/en/contact/">Contact & Support →</a></h3>
             <p>For researchers, developers, and thinkers who want to help build a different architecture.</p>
           </div>
         </div>
@@ -605,9 +606,9 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
       <div class="link-list">
         <a href="/en/theory/">Go to Theory →</a>
-        <a href="/en/alignment/">Go to Edge Alignment →</a>
+        <a href="/en/alignment/">Go to Alignment →</a>
         <a href="/en/blog/">Read the diagnosis →</a>
-        <a href="/en/about/">Research collaboration →</a>
+        <a href="/en/contact/">Contact & Support →</a>
       </div>
     </div>
   </section>
