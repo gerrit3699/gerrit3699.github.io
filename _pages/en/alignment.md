@@ -2,6 +2,9 @@
 layout: default
 title: Alignment
 permalink: /en/alignment/
+lang: en
+description: "Edge Alignment as a semantic navigation architecture: from answer systems to viably aligned AI systems."
+translation_url_de: /de/ki-alignment/
 ---
 
 # Alignment
