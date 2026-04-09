@@ -3,7 +3,7 @@ layout: default
 title: Theory
 permalink: /en/theory/
 lang: en
-description: "The theoretical foundations of Semantic Gravitation: semantic state space, contradiction energy, global attractors, KPR, semantic dynamics, and architectural consequence."
+description: "The theoretical foundations of Semantic Gravitation: semantic state space, contradiction energy, global attractors, KPR, semantic settings, decoherence, and architectural consequence."
 translation_url_de: /de/theorie/
 ---
 
@@ -11,7 +11,7 @@ translation_url_de: /de/theorie/
   .theory-page {
     --theory-text: rgba(255,255,255,0.96);
     --theory-soft: rgba(255,255,255,0.82);
-    --theory-faint: rgba(255,255,255,0.64);
+    --theory-faint: rgba(255,255,255,0.62);
     --theory-line: rgba(255,255,255,0.10);
     --theory-line-strong: rgba(255,255,255,0.16);
   }
@@ -30,13 +30,13 @@ translation_url_de: /de/theorie/
   }
 
   .theory-page .section-shell {
-    padding-top: 2.9rem;
-    padding-bottom: 2.9rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
   }
 
   .theory-page .section-shell-tight {
-    padding-top: 2.2rem;
-    padding-bottom: 2.2rem;
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
   }
 
   .theory-page .theory-intro,
@@ -46,22 +46,26 @@ translation_url_de: /de/theorie/
     margin: 0 auto;
   }
 
-  .theory-page .theory-intro {
+  .theory-page .theory-intro,
+  .theory-page .body-copy,
+  .theory-page .closing-block,
+  .theory-page .theory-next {
     text-align: center;
   }
 
-  .theory-page .theory-kicker {
-    margin: 0 0 0.8rem;
-    font-size: 0.9rem;
-    letter-spacing: 0.18em;
+  .theory-page .theory-kicker,
+  .theory-page .status-label {
+    margin: 0 0 0.7rem;
+    font-size: 0.88rem;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: rgba(255,255,255,0.62);
+    color: var(--theory-faint);
   }
 
   .theory-page .theory-display {
-    margin: 0 auto 1.2rem;
-    max-width: 12ch;
-    font-size: clamp(2.5rem, 6vw, 5.1rem);
+    margin: 0 auto 1.15rem;
+    max-width: 11.5ch;
+    font-size: clamp(2.6rem, 6vw, 5.2rem);
     line-height: 0.94;
     letter-spacing: -0.05em;
     font-weight: 650;
@@ -69,9 +73,9 @@ translation_url_de: /de/theorie/
   }
 
   .theory-page .theory-sublead {
-    max-width: 54rem;
-    margin: 0 auto 1.35rem;
-    font-size: clamp(1.1rem, 2vw, 1.42rem);
+    max-width: 56rem;
+    margin: 0 auto 1.2rem;
+    font-size: clamp(1.08rem, 2vw, 1.4rem);
     line-height: 1.62;
     text-wrap: balance;
   }
@@ -79,19 +83,21 @@ translation_url_de: /de/theorie/
   .theory-page .claim-grid,
   .theory-page .concept-grid,
   .theory-page .next-grid,
-  .theory-page .process-strip,
   .theory-page .formula-grid,
-  .theory-page .backbone-grid {
+  .theory-page .example-grid,
+  .theory-page .backbone-grid,
+  .theory-page .process-grid {
     display: grid;
     gap: 1rem;
   }
 
   .theory-page .claim-grid,
   .theory-page .concept-grid,
+  .theory-page .formula-grid,
   .theory-page .backbone-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     max-width: 1080px;
-    margin: 2rem auto 0;
+    margin: 1.9rem auto 0;
   }
 
   .theory-page .next-grid {
@@ -100,26 +106,25 @@ translation_url_de: /de/theorie/
     margin: 1.8rem auto 0;
   }
 
-  .theory-page .process-strip {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    max-width: 980px;
-    margin: 2rem auto;
+  .theory-page .example-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 1.2rem;
   }
 
-  .theory-page .formula-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    margin-top: 0.3rem;
+  .theory-page .process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 980px;
+    margin: 1.9rem auto 0;
   }
 
   .theory-page .claim-card,
   .theory-page .concept-card,
   .theory-page .next-card,
-  .theory-page .process-step,
-  .theory-page .formula-block,
-  .theory-page .example-box,
-  .theory-page .status-box,
-  .theory-page .speculative-box,
-  .theory-page .backbone-card {
+  .theory-page .formula-card,
+  .theory-page .example-card,
+  .theory-page .backbone-card,
+  .theory-page .process-card,
+  .theory-page .status-box {
     border: 1px solid var(--theory-line);
     border-radius: 22px;
     background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.025));
@@ -130,32 +135,35 @@ translation_url_de: /de/theorie/
 
   .theory-page .claim-card,
   .theory-page .concept-card,
-  .theory-page .backbone-card {
-    padding: 1.25rem 1.05rem 1.15rem;
+  .theory-page .formula-card,
+  .theory-page .example-card,
+  .theory-page .next-card,
+  .theory-page .backbone-card,
+  .theory-page .process-card {
+    padding: 1.18rem 1rem 1.08rem;
     text-align: center;
   }
 
   .theory-page .claim-card h3,
+  .theory-page .concept-card h3,
+  .theory-page .formula-card h3,
+  .theory-page .example-card h3,
   .theory-page .next-card h3,
-  .theory-page .backbone-card h3 {
+  .theory-page .backbone-card h3,
+  .theory-page .process-card h3 {
     margin: 0 0 0.35rem;
     font-size: 1.18rem;
-    line-height: 1.08;
-    letter-spacing: -0.03em;
-  }
-
-  .theory-page .concept-card-title {
-    margin: 0 0 0.35rem;
-    font-size: 1.42rem;
-    line-height: 1.04;
-    font-weight: 650;
+    line-height: 1.06;
     letter-spacing: -0.03em;
   }
 
   .theory-page .claim-card p,
-  .theory-page .concept-card-text,
+  .theory-page .concept-card p,
+  .theory-page .formula-card p,
+  .theory-page .example-card p,
   .theory-page .next-card p,
-  .theory-page .backbone-card p {
+  .theory-page .backbone-card p,
+  .theory-page .process-card p {
     margin: 0;
     font-size: 0.98rem;
     line-height: 1.54;
@@ -173,194 +181,85 @@ translation_url_de: /de/theorie/
   }
 
   .theory-page .body-copy {
-    max-width: 920px;
+    max-width: 940px;
     margin: 0 auto;
-    text-align: center;
   }
 
   .theory-page .body-copy p {
-    max-width: 44em;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.12rem;
-    line-height: 1.78;
+    max-width: 45em;
+    margin: 0.95rem auto 0;
+    font-size: 1.1rem;
+    line-height: 1.76;
     letter-spacing: -0.01em;
   }
 
   .theory-page .display-statement {
-    max-width: 22ch;
+    max-width: 24ch;
     margin: 1.9rem auto;
     text-align: center;
-    font-size: clamp(1.85rem, 3.6vw, 2.95rem);
+    font-size: clamp(1.9rem, 3.6vw, 3rem);
     line-height: 1.03;
     letter-spacing: -0.045em;
     font-weight: 650;
     text-wrap: balance;
   }
 
-  .theory-page .display-statement.wide { max-width: 28ch; }
-  .theory-page .display-statement.medium { max-width: 23ch; }
-  .theory-page .display-statement.narrow { max-width: 10ch; }
+  .theory-page .display-statement.wide { max-width: 29ch; }
+  .theory-page .display-statement.medium { max-width: 22ch; }
+  .theory-page .display-statement.narrow { max-width: 12ch; }
 
-  .theory-page .mini-declaration {
+  .theory-page .declaration-list {
     max-width: 920px;
     margin: 1.8rem auto 0;
     display: grid;
     gap: 0.8rem;
   }
 
-  .theory-page .mini-declaration p {
+  .theory-page .declaration-list p {
     margin: 0;
     padding: 0.95rem 1rem;
     border-top: 1px solid rgba(255,255,255,0.08);
     border-bottom: 1px solid rgba(255,255,255,0.08);
-    font-size: 1.06rem;
-    line-height: 1.58;
-    text-align: center;
-  }
-
-  .theory-page .formula-block {
-    max-width: 780px;
-    margin: 2rem auto;
-    padding: 1.4rem 1.15rem;
-    text-align: center;
-  }
-
-  .theory-page .formula-main {
-    margin: 0 0 1rem;
-    font-size: clamp(2rem, 4vw, 3rem);
-    line-height: 1;
-    letter-spacing: -0.05em;
-    font-weight: 650;
-  }
-
-  .theory-page .formula-grid p {
-    margin: 0;
-    font-size: 0.98rem;
-    line-height: 1.48;
-    color: var(--theory-soft);
-  }
-
-  .theory-page .example-box {
-    max-width: 920px;
-    margin: 2rem auto;
-    padding: 1.5rem 1.2rem;
-    background: rgba(255,255,255,0.03);
-  }
-
-  .theory-page .example-sentence {
-    margin: 0 auto 1.2rem;
-    text-align: center;
-    font-size: clamp(1.7rem, 3.2vw, 2.6rem);
-    line-height: 1.02;
-    letter-spacing: -0.04em;
-    font-weight: 650;
-  }
-
-  .theory-page .process-step {
-    padding: 0.95rem 0.85rem;
-    text-align: center;
-    background: rgba(255,255,255,0.03);
-  }
-
-  .theory-page .process-step strong {
-    display: block;
-    margin-bottom: 0.25rem;
-    font-size: 1rem;
-  }
-
-  .theory-page .process-step span {
-    display: block;
-    font-size: 0.94rem;
-    line-height: 1.45;
-    color: var(--theory-soft);
-  }
-
-  .theory-page .status-box,
-  .theory-page .speculative-box {
-    max-width: 920px;
-    margin: 2rem auto 0;
-    padding: 1.35rem 1.2rem;
+    font-size: 1.04rem;
+    line-height: 1.56;
     text-align: center;
   }
 
   .theory-page .status-box {
-    border-top: 1px solid var(--theory-line-strong);
-    border-bottom: 1px solid var(--theory-line-strong);
-    border-left: none;
-    border-right: none;
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none;
+    max-width: 920px;
+    margin: 2rem auto 0;
+    padding: 1.2rem 1.15rem;
+    text-align: center;
   }
 
-  .theory-page .status-label,
-  .theory-page .speculative-label {
-    margin: 0 0 0.5rem;
-    font-size: 0.84rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.62);
-  }
-
-  .theory-page .status-box p,
-  .theory-page .speculative-box p {
+  .theory-page .status-box p {
     margin: 0;
-    font-size: clamp(1.22rem, 2.3vw, 1.74rem);
+    font-size: clamp(1.2rem, 2.3vw, 1.72rem);
     line-height: 1.38;
     text-wrap: balance;
   }
 
-  .theory-page .speculative-copy,
-  .theory-page .closing-block {
+  .theory-page .micro-note {
     max-width: 860px;
-    margin: 0 auto;
+    margin: 1.25rem auto 0;
+    font-size: 0.98rem;
+    line-height: 1.62;
+    color: var(--theory-soft);
     text-align: center;
   }
 
-  .theory-page .speculative-copy p,
-  .theory-page .closing-block p {
-    max-width: 42em;
-    margin: 0.9rem auto 0;
-    font-size: 1.1rem;
-    line-height: 1.72;
-  }
-
-  .theory-page .spec-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-    margin-top: 1.35rem;
-  }
-
-  .theory-page .spec-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 46px;
-    padding: 0.85rem 1.05rem;
-    border-radius: 999px;
-    border: 1px solid var(--theory-line);
-    background: rgba(255,255,255,0.04);
-    text-decoration: none;
-    font-size: 0.96rem;
-    line-height: 1.2;
-  }
-
-  .theory-page .next-card {
-    padding: 1.1rem 1rem;
-    text-align: center;
-    background: rgba(255,255,255,0.03);
+  .theory-page .next-card a {
+    color: #fff;
   }
 
   @media (max-width: 980px) {
     .theory-page .claim-grid,
     .theory-page .concept-grid,
     .theory-page .next-grid,
-    .theory-page .process-strip,
     .theory-page .formula-grid,
-    .theory-page .backbone-grid {
+    .theory-page .example-grid,
+    .theory-page .backbone-grid,
+    .theory-page .process-grid {
       grid-template-columns: 1fr;
     }
   }
@@ -374,8 +273,9 @@ translation_url_de: /de/theorie/
       <h1 class="theory-display">Meaning is not only content. Meaning is structure. Meaning is a space.</h1>
       <p class="theory-sublead">
         Semantic Gravitation proposes that meaning can be described as a navigable field of
-        relations, tensions, transitions, condensations, and attractors. This makes semantic
-        states not only interpretable, but mappable, diagnosable, and in principle operationalizable.
+        relations, tensions, transitions, condensations, and attractors.
+        This makes semantic states not only interpretable,
+        but mappable, diagnosable, and in principle operationalizable.
       </p>
 
       <div class="claim-grid">
@@ -399,55 +299,28 @@ translation_url_de: /de/theorie/
 
   <section class="section-shell">
     <div class="theory-block">
-      <h2 class="section-heading-display">Why this theory is needed</h2>
-
-      <div class="body-copy">
-        <p>
-          Current scientific descriptions are highly precise about dynamics, information, and stability.
-          But where meaning, coherence, and contradiction are concerned, they still face a structural gap.
-        </p>
-
-        <p>
-          What is missing is not merely a richer vocabulary, but a shared semantic core:
-          a common semantic state space, an energy-like measure of semantic contradiction,
-          and a global organising structure for long-time coherence.
-        </p>
-      </div>
-
-      <p class="display-statement wide">
-        The core deficit is not the absence of words for meaning.
-        It is the absence of a geometric and energetic structure in which meaning can live.
-      </p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="theory-block">
       <h2 class="section-heading-display">Formal backbone</h2>
 
       <div class="backbone-grid">
         <div class="backbone-card">
-          <h3>S</h3>
-          <p>The semantic state space in which meaning-relevant configurations can be represented.</p>
+          <h3>Semantic state space</h3>
+          <p>The space in which meaning-relevant configurations can be represented and compared.</p>
         </div>
         <div class="backbone-card">
-          <h3>W</h3>
-          <p>The semantic potential or contradiction energy that measures tension, incoherence, and alignment.</p>
+          <h3>Contradiction energy</h3>
+          <p>A semantic potential or tension measure tracking incoherence, contradiction, and misalignment.</p>
         </div>
         <div class="backbone-card">
-          <h3>K</h3>
-          <p>The global attractor that organises long-time semantic behaviour and coherence.</p>
+          <h3>Global attractor</h3>
+          <p>A long-time organizing structure relative to which semantic dynamics can be evaluated.</p>
         </div>
       </div>
 
-      <div class="body-copy">
-        <p>
-          In this sense, Semantic Gravitation is not only a philosophy of meaning.
-          It is a proposal for a semantic core theory in which state space, energy, and long-time organisation belong together.
-        </p>
-      </div>
+      <p class="micro-note">
+        In the papers, these layers are formalized more rigorously as state-space structure,
+        contradiction-energy dynamics, and long-time attractor organization.
+        Here they appear only as the minimal theoretical backbone.
+      </p>
     </div>
   </section>
 
@@ -457,7 +330,7 @@ translation_url_de: /de/theorie/
     <div class="theory-block">
       <h2 class="section-heading-display">What this theory claims</h2>
 
-      <div class="mini-declaration">
+      <div class="declaration-list">
         <p><strong>Meaning has structure.</strong> It is not merely content, but configuration.</p>
         <p><strong>Structure constrains continuation.</strong> Semantic states reorganize what can follow.</p>
         <p><strong>Semantic states can be mapped.</strong> They can be described as positions, tensions, and trajectories.</p>
@@ -516,31 +389,84 @@ translation_url_de: /de/theorie/
 
   <section class="section-shell">
     <div class="theory-block">
+      <h2 class="section-heading-display">Why this is a real theory</h2>
+
+      <div class="body-copy">
+        <p>
+          This framework is not a loose metaphor and not poetic atmosphere.
+          It does not stop at interpretation.
+          It proposes <strong>semantic state descriptions, semantic tensions, transition logic, and criteria for viable movement</strong>.
+        </p>
+
+        <p>
+          That is why meaning here is not only discussable,
+          but in principle describable as configuration,
+          tension, trajectory, and transition.
+        </p>
+
+        <p>
+          Today’s AI usually treats meaning indirectly:
+          through correlations, probabilities, representations, and outputs.
+          This approach asks a deeper question:
+          <strong>through what space of meaning does a system move while arriving at an answer?</strong>
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        A theory becomes real here
+        because semantic states can be described,
+        tensions can be read,
+        and viable transitions can be evaluated.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
       <h2 class="section-heading-display">Minimal formal layer</h2>
 
       <p class="display-statement narrow">KPR</p>
 
       <div class="concept-grid">
         <div class="concept-card">
-          <p class="concept-card-title">Kernel</p>
-          <p class="concept-card-text">what something is really about</p>
+          <h3>Kernel</h3>
+          <p>what something is really about</p>
         </div>
         <div class="concept-card">
-          <p class="concept-card-title">Projection</p>
-          <p class="concept-card-text">how the kernel appears</p>
+          <h3>Projection</h3>
+          <p>how the kernel appears</p>
         </div>
         <div class="concept-card">
-          <p class="concept-card-title">Relation</p>
-          <p class="concept-card-text">what it is connected to</p>
+          <h3>Relation</h3>
+          <p>what it is connected to</p>
         </div>
       </div>
 
-      <div class="formula-block">
-        <p class="formula-main">X is Y</p>
-        <div class="formula-grid">
-          <p><strong>X</strong><br>focus or kernel-carrier</p>
-          <p><strong>is</strong><br>relation performed</p>
-          <p><strong>Y</strong><br>determination or projection</p>
+      <div class="body-copy">
+        <p>
+          KPR is not merely a mnemonic,
+          but the minimal grammar of semantic reality.
+          Nothing appears simply “in itself.”
+          Every content has a kernel,
+          appears in a particular projection,
+          and stands in relations.
+        </p>
+      </div>
+
+      <div class="formula-grid">
+        <div class="formula-card">
+          <h3>X</h3>
+          <p>focus or kernel-carrier</p>
+        </div>
+        <div class="formula-card">
+          <h3>is</h3>
+          <p>relation performed</p>
+        </div>
+        <div class="formula-card">
+          <h3>Y</h3>
+          <p>determination or projection</p>
         </div>
       </div>
 
@@ -557,24 +483,46 @@ translation_url_de: /de/theorie/
     <div class="theory-block">
       <h2 class="section-heading-display">Operative axes of viability</h2>
 
+      <div class="body-copy">
+        <p>
+          KPR describes the minimal formal layer of meaning.
+          The following three axes describe the operative readout
+          of viability in lived semantic space.
+        </p>
+
+        <p>
+          In the papers, this operative layer is developed more formally as the C/B/A structure.
+          On this page, the same logic is stated in a more readable form as
+          <strong>Clarity, Bonding, and Agency</strong>.
+        </p>
+      </div>
+
       <div class="concept-grid">
         <div class="concept-card">
-          <p class="concept-card-title">Clarity</p>
-          <p class="concept-card-text">legible, verifiable, viable</p>
+          <h3>Clarity</h3>
+          <p>how finely a pattern is calibrated, how coherent its assumptions are, and how well they hold across contexts</p>
         </div>
         <div class="concept-card">
-          <p class="concept-card-title">Dignity</p>
-          <p class="concept-card-text">truth without degradation</p>
+          <h3>Bonding</h3>
+          <p>how a state is relationally embedded, how much viable coupling it can sustain, and whether it generates resonance or distortion</p>
         </div>
         <div class="concept-card">
-          <p class="concept-card-title">Freedom</p>
-          <p class="concept-card-text">real choice and expression remain open</p>
+          <h3>Agency</h3>
+          <p>its operative efficacy: how much real expression, decision, and action remain possible under environmental constraint</p>
         </div>
       </div>
 
       <p class="display-statement medium">
         No axis is sufficient on its own.
       </p>
+
+      <div class="body-copy">
+        <p>
+          A state may look stable because one axis is high
+          while another is collapsing.
+          That is why these axes are diagnostic rather than merely moral.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -584,22 +532,20 @@ translation_url_de: /de/theorie/
     <div class="theory-block">
       <h2 class="section-heading-display">Worked example</h2>
 
-      <div class="example-box">
-        <p class="example-sentence">“That’s just how I am.”</p>
+      <p class="display-statement narrow">“That’s just how I am.”</p>
 
-        <div class="concept-grid" style="margin-top:0; margin-bottom:0;">
-          <div class="concept-card">
-            <p class="concept-card-title">Kernel</p>
-            <p class="concept-card-text">a wounded or defended self-image</p>
-          </div>
-          <div class="concept-card">
-            <p class="concept-card-title">Projection</p>
-            <p class="concept-card-text">a rigid identity claim</p>
-          </div>
-          <div class="concept-card">
-            <p class="concept-card-title">Relation</p>
-            <p class="concept-card-text">closure of developmental and corrective paths</p>
-          </div>
+      <div class="example-grid">
+        <div class="example-card">
+          <h3>Kernel</h3>
+          <p>a wounded or defended self-image</p>
+        </div>
+        <div class="example-card">
+          <h3>Projection</h3>
+          <p>a rigid identity claim</p>
+        </div>
+        <div class="example-card">
+          <h3>Relation</h3>
+          <p>closure of developmental and corrective paths</p>
         </div>
       </div>
 
@@ -607,6 +553,12 @@ translation_url_de: /de/theorie/
         It stabilizes local order
         without being globally viable.
       </p>
+
+      <div class="body-copy">
+        <p>
+          Its force comes from local closure, not from global truth.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -618,20 +570,16 @@ translation_url_de: /de/theorie/
 
       <div class="body-copy">
         <p>
-          Semantic Gravitation does not describe meaning as neutral geometry, but as a dynamic field.
+          Semantic Gravitation does not describe meaning as neutral geometry,
+          but as a dynamic field.
           There are attractors, condensations, local order-bubbles, drift,
           and viable as well as non-viable trajectories.
         </p>
 
         <p>
-          K is not introduced as a separate substance or hidden location.
-          It functions as an organising structure in semantic space:
-          a long-time attractor for the dynamics driven by contradiction energy.
-        </p>
-
-        <p>
-          K is not only ideal.
-          K is attractor.
+          A semantic state is never simply “there.”
+          It stands in a field of tensions, forces, and possible movements.
+          This is the general dynamics layer of the theory.
         </p>
       </div>
 
@@ -647,38 +595,83 @@ translation_url_de: /de/theorie/
 
   <section class="section-shell">
     <div class="theory-block">
-      <h2 class="section-heading-display">From dynamics to diagnosis</h2>
-
-      <div class="process-strip">
-        <div class="process-step">
-          <strong>Open space</strong>
-          <span>multiple viable continuations remain possible</span>
-        </div>
-        <div class="process-step">
-          <strong>Pressure</strong>
-          <span>conflict, shame, projections, relational load</span>
-        </div>
-        <div class="process-step">
-          <strong>Narrowing</strong>
-          <span>the space loses flexibility and collapses into fewer paths</span>
-        </div>
-        <div class="process-step">
-          <strong>Collapse</strong>
-          <span>rigid roles, withdrawal, repetition, escalation</span>
-        </div>
-      </div>
+      <h2 class="section-heading-display">Attractors, minima, and drift</h2>
 
       <div class="body-copy">
         <p>
-          The semantic decoherence rate describes how quickly viable continuations are being lost.
-          Systems can be deeply aligned, near-critical, or trapped in locally stable but globally weak order bubbles.
+          Within that general dynamics, some interpretations pull strongly even though they are not true.
+          They form <strong>semantic minima</strong>:
+          locally stabilizing configurations that bring relief,
+          explain something quickly,
+          and close movement.
         </p>
+
+        <p>
+          Their force often comes not from truth,
+          but from the cheap stability they provide.
+          This is the more specific logic of misattraction, local order, and drift.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Not every stable state is a viable state.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">From dynamics to diagnosis</h2>
+
+      <div class="body-copy">
+        <p>
+          Some spaces of meaning remain open for a while.
+          They still contain several viable continuations.
+          Under pressure, however, they can narrow and collapse.
+        </p>
+
+        <p>
+          The <strong>semantic decoherence rate</strong> describes
+          how quickly viable continuations are being lost
+          under conflict pressure, projections, relational load, repetition compulsion,
+          and environmental narrowing.
+        </p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-card">
+          <h3>Open space</h3>
+          <p>multiple viable continuations remain available</p>
+        </div>
+        <div class="process-card">
+          <h3>Pressure</h3>
+          <p>conflict, shame, projections, and environmental load build up</p>
+        </div>
+        <div class="process-card">
+          <h3>Narrowing</h3>
+          <p>degrees of freedom collapse and fewer trajectories remain</p>
+        </div>
+        <div class="process-card">
+          <h3>Collapse</h3>
+          <p>rigid roles, repetition, withdrawal, or escalation take over</p>
+        </div>
       </div>
 
       <p class="display-statement wide">
         Good semantic change does not happen through wild total reversal,
         but through minimal, repairable transitions.
       </p>
+
+      <div class="body-copy">
+        <p>
+          This is the logic of navigation:
+          one step, one axis, repairable.
+          The goal is not symbolic drama,
+          but viable movement through semantic space.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -690,7 +683,8 @@ translation_url_de: /de/theorie/
 
       <div class="body-copy">
         <p>
-          This theory is not only interpretive. It is architecturally consequential.
+          This theory is not only interpretive.
+          It is architecturally consequential.
           If semantic states can be described as configurations,
           evaluated as trajectories,
           and diagnosed in terms of viability,
@@ -698,8 +692,8 @@ translation_url_de: /de/theorie/
         </p>
 
         <p>
-          In its formal extension, the framework does not stop at state-space dynamics,
-          but continues into field-theoretic and variational descriptions of semantic organisation.
+          Such systems would no longer optimize only for acceptable outputs,
+          but for viable semantic movement.
         </p>
       </div>
 
@@ -721,120 +715,21 @@ translation_url_de: /de/theorie/
   <div class="section-divider"></div>
 
   <section class="section-shell">
-    <div class="theory-block">
-      <h2 class="section-heading-display">Speculative extension</h2>
+    <div class="closing-block">
+      <h2 class="section-heading-display">Outlook</h2>
 
-      <div class="speculative-box">
-        <p class="speculative-label">Programme-level hypothesis</p>
-        <p>
-          In its widest extension, this framework also asks whether certain large-scale gravitational
-          anomalies may become legible as effects of relational organisation rather than additional particulate matter.
-        </p>
-      </div>
-
-      <div class="speculative-copy">
-        <p>
-          In this perspective, part of what is commonly read as dark matter may appear as relational inertia:
-          gravitational and inertial response arising from increased relational integration density.
-        </p>
-
-        <p>
-          This is not presented as an established proof,
-          but as a testable programme-level extension of the formal core.
-        </p>
-
-        <div class="spec-links">
-          <a class="spec-link" href="/en/papers/">Read the papers →</a>
-          <a class="spec-link" href="/en/papers/">Go to Paper VI →</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="theory-block">
-      <h2 class="section-heading-display">The wave-polishing process</h2>
-
-      <div class="body-copy">
-        <p>
-          A direction alone does not yet build a character.
-          An ordering principle alone does not yet build a body.
-          A truth alone does not yet build a life.
-        </p>
-
-        <p>
-          Between deeper order and lived reality, there is a process.
-          What returns often enough gains weight, lays down pathways, builds memory, and stabilizes form.
-        </p>
-      </div>
-
-      <p class="display-statement wide">
-        The global attractor shows the direction.
-        The wave-polishing process makes it real.
-      </p>
-
-      <div class="body-copy">
-        <p>
-          Semantic development is therefore not only a question of what is true,
-          but also of what returns often enough to become embodied.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="theory-block">
-      <h2 class="section-heading-display">The meta-loop</h2>
-
-      <div class="body-copy">
-        <p>
-          Semantic Gravitation does not only describe semantic ordering.
-          Parts of its own emergence can be read through the same dynamics it later makes explicit:
-          condensation, contradiction reduction, attractor formation, recursive return, and stabilization.
-        </p>
-
-        <p>
-          This does not prove the theory true.
-          But it matters because the theory does not stand fully outside its object.
-          It arose through a process of semantic condensation that is itself structurally legible.
-        </p>
-      </div>
-
-      <p class="display-statement wide">
-        Not only a theory about meaning,
-        but a lens through which semantic order becomes legible to itself.
-      </p>
-
-      <div class="body-copy">
-        <p>
-          In that stronger sense, Semantic Gravitation is not only descriptive,
-          but reflexive, operative, and generative.
-          It can describe semantic order, aspects of its own genesis,
-          and the emergence of further architectures in which the same ordering dynamics become active again.
-        </p>
-      </div>
-
-      <div class="status-box">
-        <p class="status-label">Final claim</p>
-        <p>
-          Semantic Gravitation is not only a theory of semantic order.
-          It is a reflexive and generative architecture
-          in which semantic order can begin to understand and continue itself.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="theory-block closing-block">
       <p>
-        Form counts. And form is changeable.
+        The theory begins with meaning.
+        But once meaning becomes mappable, diagnosable, and navigable,
+        philosophy turns into architecture.
+      </p>
+
+      <p>
+        From here, the next questions are no longer only conceptual.
+        They become technical, diagnostic, and architectural:
+        how semantic spaces are modeled,
+        how viable transitions are detected,
+        and how systems might be built that navigate meaning rather than merely generate language.
       </p>
     </div>
   </section>
