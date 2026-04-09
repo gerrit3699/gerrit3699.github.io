@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "The Book of Meaning"
 permalink: /en/book/
 description: "A book about meaning, return, semantic spaces, beauty, redemption, and the readable structure of reality."
