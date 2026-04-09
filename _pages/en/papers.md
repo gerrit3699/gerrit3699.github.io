@@ -3,7 +3,7 @@ layout: default
 title: "Technical Sources"
 permalink: /en/papers/
 lang: en
-description: "The primary technical source layer of Semantic Gravitation: papers, collected review documents, alignment paper, and protected application directions."
+description: "The technical source layer of Semantic Gravitation: papers, collected review documents, alignment paper, and protected application directions."
 ---
 
 <style>
@@ -253,26 +253,26 @@ description: "The primary technical source layer of Semantic Gravitation: papers
   <section class="section-shell section-shell-tight">
     <div class="sources-intro">
       <p class="sources-kicker">Technical Sources</p>
-      <h1 class="sources-display">The primary technical source layer of Semantic Gravitation.</h1>
+      <h1 class="sources-display">The technical source layer of Semantic Gravitation.</h1>
       <p class="sources-sublead">
-        This page gathers the primary technical source material of the programme:
+        This page gathers the core source material of the programme:
         the six-paper formal backbone, the collected review volume, the separate alignment paper,
         and the first protected application directions.
-        If you want to examine the framework at <strong>the source level</strong>, this is where to start.
+        If you want to examine the framework at the source level, this is where to start.
       </p>
 
       <div class="claim-grid">
         <div class="claim-card">
-          <h3>Primary papers</h3>
-          <p>The six-paper formal backbone of the programme.</p>
+          <h3>Formal papers</h3>
+          <p>The six-paper backbone of the programme.</p>
         </div>
         <div class="claim-card">
           <h3>Review body</h3>
-          <p>The collected volume and download bundles provide continuous technical context for deeper review and AI-assisted reconstruction.</p>
+          <p>The collected volume and download bundles provide continuous context for deeper review and AI-assisted reconstruction.</p>
         </div>
         <div class="claim-card">
-          <h3>Protected directions</h3>
-          <p>First application lines and protected architectural families derived from the framework.</p>
+          <h3>Application directions</h3>
+          <p>Protected architectural families derived from the same framework.</p>
         </div>
       </div>
     </div>
@@ -282,63 +282,31 @@ description: "The primary technical source layer of Semantic Gravitation: papers
 
   <section class="section-shell">
     <div class="sources-block">
-      <h2 class="section-heading-display">Before you start</h2>
+      <h2 class="section-heading-display">How to read this page</h2>
 
       <div class="body-copy">
         <p>
-          This page is not the broadest explanation of the project.
-          It is the <strong>source layer</strong>.
+          This is not the broadest explanation of the project.
+          It is the source layer.
         </p>
 
         <p>
           If you want the conceptual overview, start with <a href="/en/theory/">Theory</a>.
-          If you want the AI-architecture layer, go to <a href="/en/alignment/">Alignment</a>.
+          If you want the AI architecture, go to <a href="/en/alignment/">Alignment</a>.
           If you want bundled PDFs for direct upload into your own AI system, go to <a href="/en/downloads/">Downloads</a>.
         </p>
 
         <p>
-          This page is for readers who want to inspect the technical backbone itself:
+          This page is for readers who want to inspect the backbone itself:
           how the papers build, how the formal claims are staged,
           and how the application directions are derived from the core.
         </p>
       </div>
 
       <p class="display-statement medium">
-        This page is not the broadest explanation.
-        It is the source layer.
+        Not the broadest introduction.
+        The source layer.
       </p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="sources-block">
-      <h2 class="section-heading-display">What this page contains</h2>
-
-      <div class="body-copy">
-        <p>
-          The papers are the primary technical source layer.
-          The collected volume serves as a continuous review body.
-          The separate alignment paper translates the framework into an AI architecture.
-          The patents mark protected directions and possible application families.
-        </p>
-      </div>
-
-      <div class="claim-grid">
-        <div class="claim-card">
-          <h3>Semantic Gravitation I–VI</h3>
-          <p>The formal backbone of the programme.</p>
-        </div>
-        <div class="claim-card">
-          <h3>Beyond Fog</h3>
-          <p>The dedicated alignment paper on semantic navigation, drift, and repairability.</p>
-        </div>
-        <div class="claim-card">
-          <h3>Protected directions</h3>
-          <p>Application lines emerging from the same underlying architecture.</p>
-        </div>
-      </div>
 
       <div class="status-box">
         <p class="status-label">Current status and integrity</p>
@@ -432,7 +400,7 @@ description: "The primary technical source layer of Semantic Gravitation: papers
 
   <section class="section-shell">
     <div class="sources-block">
-      <h2 class="section-heading-display">Collected volume and review body</h2>
+      <h2 class="section-heading-display">Collected volume and review context</h2>
 
       <div class="body-copy">
         <p>
@@ -441,10 +409,9 @@ description: "The primary technical source layer of Semantic Gravitation: papers
         </p>
 
         <p>
-          This collected document is not the primary publication venue.
-          The primary sources remain the individual Zenodo records.
-          The collected volume exists as a <strong>review body</strong>:
-          for readers who want one continuous technical context,
+          The individual Zenodo records remain the source publications.
+          The collected volume exists as a review context:
+          for readers who want one continuous technical body,
           and especially for AI-assisted review in larger context windows.
         </p>
       </div>
@@ -456,7 +423,7 @@ description: "The primary technical source layer of Semantic Gravitation: papers
       </div>
 
       <p class="display-statement medium">
-        Individual Zenodo papers are the primary sources.
+        Zenodo papers are the source texts.
         The collected volume is the review body.
       </p>
     </div>
@@ -507,12 +474,12 @@ description: "The primary technical source layer of Semantic Gravitation: papers
         <p>
           The patents are not presented here as a complete catalog.
           What matters on this page is their role:
-          they mark <strong>protected directions</strong> and application families
+          they mark protected directions and application families
           derived from the same underlying architecture.
         </p>
 
         <p>
-          They are not merely detached product ideas.
+          They are not detached product ideas.
           They indicate where the theory could become operative:
           in alignment architectures, recursive semantic state-space expansion,
           authoring and semantic memory systems, and embodied resonance-sensitive assistance.
@@ -565,14 +532,10 @@ description: "The primary technical source layer of Semantic Gravitation: papers
       <h2 class="section-heading-display">How to work with this material</h2>
 
       <div class="body-copy">
-        <p>
-          There are at least three good ways to work with this source layer.
-        </p>
-
         <ol>
           <li><strong>Read individual papers</strong> and test them for internal structure, formal continuity, and connectability.</li>
           <li><strong>Use the collected volume or bundles</strong> when you want a continuous context body rather than isolated source units.</li>
-          <li><strong>Load the material into your own AI system</strong> when you want to test derivations, transitions, missing specifications, and open implementation questions in a more systematic way.</li>
+          <li><strong>Load the material into your own AI system</strong> when you want to test derivations, transitions, missing specifications, and open implementation questions more systematically.</li>
         </ol>
 
         <p>
