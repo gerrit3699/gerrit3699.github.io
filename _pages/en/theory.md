@@ -868,6 +868,10 @@ translation_url_de: /de/theorie/
 
       <div class="next-grid">
         <div class="next-card">
+          <h3><a href="/en/implications/">Implications →</a></h3>
+          <p>What follows once semantic structure becomes operational.</p>
+        </div>
+        <div class="next-card">
           <h3><a href="/en/alignment/">Alignment →</a></h3>
           <p>How this theory becomes an AI architecture.</p>
         </div>
