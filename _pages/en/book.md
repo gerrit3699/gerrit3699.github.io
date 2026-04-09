@@ -2,7 +2,9 @@
 layout: default
 title: "The Book of Meaning"
 permalink: /en/book/
+lang: en
 description: "A book about meaning, return, semantic spaces, beauty, redemption, and the readable structure of reality."
+translation_url_de: /de/buch/
 ---
 
 <section class="hero hero-book">
