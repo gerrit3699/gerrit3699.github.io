@@ -3,7 +3,7 @@ layout: default
 title: Theory
 permalink: /en/theory/
 lang: en
-description: "The theoretical foundations of Semantic Gravitation: semantic state space, contradiction energy, global attractors, KPR, semantic settings, Coherence/Bonding/Agency, decoherence, and architectural consequence."
+description: "The theoretical foundations of Semantic Gravitation: semantic state space, contradiction energy, global attractors, KPR, semantic settings, decoherence, and architectural consequence."
 translation_url_de: /de/theorie/
 ---
 
@@ -496,6 +496,13 @@ translation_url_de: /de/theorie/
           On the humanly legible level, the same axes can also be read as
           <strong>clarity, dignity, and freedom</strong>.
         </p>
+
+        <p>
+          These axes do not replace the richness of semantic description.
+          They provide its minimal coordinate logic.
+          Every semantically describable state carries an implicit position in this space,
+          and every richer articulation remains readable through the same frame.
+        </p>
       </div>
 
       <div class="concept-grid">
@@ -513,11 +520,20 @@ translation_url_de: /de/theorie/
         </div>
       </div>
 
-      <p class="display-statement medium">
-        No axis is sufficient on its own.
+      <p class="display-statement wide">
+        Not everything is fully said by three axes.
+        But every semantically describable state
+        carries an implicit position within them,
+        and every refinement only sharpens that frame.
       </p>
 
       <div class="body-copy">
+        <p>
+          That is why these axes are not merely a rough overlay added from the outside.
+          They are the minimal coordinate logic through which semantic states become readable,
+          comparable, and navigable at all.
+        </p>
+
         <p>
           A state may look stable because one axis is high
           while another is collapsing.
@@ -531,54 +547,53 @@ translation_url_de: /de/theorie/
 
   <section class="section-shell">
     <div class="theory-block">
-      <h2 class="section-heading-display">Why these axes are more universal than they first appear</h2>
+      <h2 class="section-heading-display">Universal coordinate logic</h2>
 
       <div class="body-copy">
         <p>
-          These axes are not introduced here merely as psychological or ethical categories.
-          The stronger claim is this:
-          <strong>every describable semantic state implicitly carries a position in a space of Coherence, Bonding, and Agency.</strong>
+          The claim is therefore stronger than a simple psychological model.
+          The C/B/A cube is not only for moods, personalities, or therapy-like situations.
+          It is a universal readout structure for semantically describable states.
         </p>
 
         <p>
-          Why?
-          Because every such state has an inner structure that may hold or break,
-          a relational embedding that may couple or distort,
-          and an operative profile of what remains possible from within it.
-        </p>
-
-        <p>
-          That is why these axes are useful not only for reading human feeling-states,
-          but for describing semantic situations more generally:
-          persons, relationships, institutions, conversations, designs, systems, and technical configurations.
+          Whenever something can be described,
+          one can ask:
+          how coherent it is,
+          how it is bonded or coupled,
+          and what it makes effectively possible.
+          Every richer description increases resolution within the same coordinate logic.
+          It does not leave that logic behind.
         </p>
       </div>
 
       <p class="display-statement wide">
-        Not everything is exhausted by these three axes.
-        But everything semantically describable appears to carry
-        an implicit position within them.
+        Every semantically describable state
+        carries an implicit position
+        in coherence, bonding, and agency space.
       </p>
 
       <div class="example-grid">
         <div class="example-card">
-          <h3>Example 1 — “I’m fine.”</h3>
-          <p>Coherence: does the statement match the actual state? Bonding: does it preserve contact or block it? Agency: does it keep truthful next-step movement open, or collapse into withdrawal?</p>
+          <h3>Theory-building</h3>
+          <p>A framework may gain coherence while losing bonding to established results, or preserve bonding while losing agency for new explanation.</p>
         </div>
         <div class="example-card">
-          <h3>Example 2 — a family conflict</h3>
-          <p>Coherence: are the real tensions named? Bonding: does relation remain viable? Agency: do the participants still have room for honest response, or only for repetition and role-locking?</p>
+          <h3>Relationship conflict</h3>
+          <p>A conversation may look bonded on the surface while coherence collapses, or clarity may rise while dignity and viable agency break away.</p>
         </div>
         <div class="example-card">
-          <h3>Example 3 — an engine under construction</h3>
-          <p>Coherence: do the parts fit structurally? Bonding: do the couplings transmit force without distortion? Agency: what real effective movement becomes possible once the system is assembled?</p>
+          <h3>Technical design</h3>
+          <p>A machine or system design can be read by internal coherence, coupling quality between parts, and its effective operating freedom under constraints.</p>
         </div>
       </div>
 
       <div class="body-copy">
         <p>
-          In that sense, C/B/A is not merely a human introspection tool.
-          It is a more general diagnostic space for viable configurations.
+          This is why the cube is not a decorative simplification.
+          It is a universal first mapping.
+          It does not replace the full description of a state,
+          but it gives the irreducible coordinate frame through which every fuller description remains legible.
         </p>
       </div>
     </div>
@@ -804,7 +819,7 @@ translation_url_de: /de/theorie/
           <p>How this theory becomes an AI architecture.</p>
         </div>
         <div class="next-card">
-          <h3><a href="/en/technical-sources/">Technical Sources →</a></h3>
+          <h3><a href="/en/papers/">Technical Sources →</a></h3>
           <p>The formal and technical backbone.</p>
         </div>
         <div class="next-card">
