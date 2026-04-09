@@ -8,6 +8,10 @@ translation_url_de: /de/kontakt/
 ---
 
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
+
   .contact-page {
     --contact-text: rgba(255,255,255,0.96);
     --contact-soft: rgba(255,255,255,0.82);
@@ -143,6 +147,20 @@ translation_url_de: /de/kontakt/
     color: var(--contact-soft);
   }
 
+  .contact-page .claim-card {
+    display: block;
+    text-decoration: none;
+    transition:
+      transform 0.18s ease,
+      border-color 0.18s ease,
+      background-color 0.18s ease;
+  }
+
+  .contact-page .claim-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--contact-line-strong);
+  }
+
   .contact-page .section-heading-display {
     margin: 0 auto 1.3rem;
     max-width: 14ch;
@@ -265,18 +283,18 @@ translation_url_de: /de/kontakt/
       </p>
 
       <div class="claim-grid">
-        <div class="claim-card">
+        <a class="claim-card" href="#contact">
           <h3>Contact</h3>
           <p>Write if the work reached you, if you have a serious question, or if you want to connect.</p>
-        </div>
-        <div class="claim-card">
+        </a>
+        <a class="claim-card" href="#support">
           <h3>Support</h3>
           <p>Financial support makes a very real difference in this phase.</p>
-        </div>
-        <div class="claim-card">
+        </a>
+        <a class="claim-card" href="#help-build">
           <h3>Help build</h3>
           <p>Contacts, reach, structure, heart, strategy, media, and technical collaboration are all relevant.</p>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -328,7 +346,7 @@ translation_url_de: /de/kontakt/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="contact">
     <div class="contact-block">
       <h2 class="section-heading-display">Contact</h2>
 
@@ -358,7 +376,7 @@ translation_url_de: /de/kontakt/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="help-build">
     <div class="contact-block">
       <h2 class="section-heading-display">How you can help</h2>
 
@@ -400,7 +418,7 @@ translation_url_de: /de/kontakt/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="support">
     <div class="contact-block">
       <h2 class="section-heading-display">Support</h2>
 
