@@ -524,6 +524,6 @@ Wer tiefer gehen will, findet auf den nächsten Seiten:
 
 [Zum Buch der Bedeutung →](/de/buch/)
 
-[Warum das wichtig ist →](/de/warum/)
+[Warum das wichtig ist →](/de/blog/)
 
 [Über mich →](/de/ueber-mich/)
