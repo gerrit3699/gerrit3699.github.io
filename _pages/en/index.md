@@ -6,6 +6,177 @@ lang: en
 description: "Semantic Gravitation – a compass for the space of thought in the age of AI."
 ---
 
+<style>
+  .home-journey .intro-copy,
+  .home-journey .intro-copy p,
+  .home-journey .free-text-block p,
+  .home-journey .section-body p,
+  .home-journey .axis-card p,
+  .home-journey li,
+  .home-journey .closing-line,
+  .home-journey .section-intro {
+    color: rgba(255, 255, 255, 0.96);
+  }
+
+  .home-journey strong,
+  .home-journey h1,
+  .home-journey h2,
+  .home-journey h3 {
+    color: #ffffff;
+  }
+
+  .home-journey .home-lead {
+    color: rgba(255, 255, 255, 0.98);
+    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.28);
+  }
+
+  .home-journey .signature-statement {
+    margin: 0.5rem 0 2rem;
+    padding: 1.15rem 1.2rem 1.2rem;
+    border-radius: 22px;
+    background:
+      linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%);
+    border: 1px solid rgba(255,255,255,0.12);
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.28),
+      inset 0 1px 0 rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .home-journey .signature-statement-line {
+    margin: 0;
+    color: #ffffff;
+    font-size: clamp(1.35rem, 2.5vw, 2rem);
+    line-height: 1.16;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .home-journey .statement-stage {
+    position: relative;
+  }
+
+  .home-journey .statement-primary,
+  .home-journey .statement-secondary,
+  .home-journey .statement-inline,
+  .home-journey .closing-line {
+    color: #ffffff;
+  }
+
+  .home-journey .statement-primary {
+    font-size: clamp(1.18rem, 2vw, 1.55rem);
+    line-height: 1.24;
+    margin-bottom: 1.4rem;
+  }
+
+  .home-journey .statement-secondary {
+    font-size: clamp(1.05rem, 1.6vw, 1.26rem);
+    line-height: 1.28;
+    margin-bottom: 1.15rem;
+  }
+
+  .home-journey .closing-line {
+    font-size: 1.02rem;
+    line-height: 1.45;
+    margin-bottom: 1.55rem;
+  }
+
+  .home-journey .statement-inline {
+    padding: 0.95rem 1rem;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+  }
+
+  .home-journey .home-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1.4rem;
+  }
+
+  .home-journey .home-cta-row .button {
+    min-width: 168px;
+    justify-content: center;
+  }
+
+  .home-journey .axis-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow:
+      0 10px 30px rgba(0,0,0,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.03);
+  }
+
+  .home-journey .axis-card h3 a,
+  .home-journey .link-list a,
+  .home-journey .section-body a,
+  .home-journey .free-text-block a {
+    color: #ffffff;
+  }
+
+  .home-journey .diagnostic-callout {
+    margin: 1.2rem 0 0;
+    padding: 1rem 1rem 1.05rem;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.035);
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .home-journey .diagnostic-callout p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.02rem;
+    line-height: 1.45;
+  }
+
+  .home-journey .section-card,
+  .home-journey .free-text-block {
+    overflow: hidden;
+  }
+
+  @media (max-width: 768px) {
+    .home-journey .signature-statement {
+      margin: 0.25rem 0 1.8rem;
+      padding: 1rem 1rem 1.05rem;
+      border-radius: 18px;
+    }
+
+    .home-journey .signature-statement-line {
+      font-size: 1.5rem;
+      line-height: 1.14;
+    }
+
+    .home-journey .statement-primary {
+      font-size: 1.16rem;
+    }
+
+    .home-journey .statement-secondary {
+      font-size: 1.02rem;
+    }
+
+    .home-journey .home-cta-row {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .home-journey .home-cta-row .button {
+      width: 100%;
+      min-width: 0;
+    }
+
+    .home-journey .statement-inline,
+    .home-journey .diagnostic-callout {
+      padding: 0.9rem 0.9rem 0.95rem;
+      border-radius: 16px;
+    }
+  }
+</style>
+
 <div class="home-journey">
 
   <section class="hero home-hero section-fog">
@@ -29,10 +200,12 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
   <section class="section-shell section-shell-tight">
     <div class="statement-stage">
-      <p class="statement-block statement-primary">
-        Today’s AI often soothes where it should clarify.<br>
-        Edge Alignment is about learning how to navigate instead.
-      </p>
+      <div class="signature-statement">
+        <p class="signature-statement-line">
+          Today’s AI often soothes where it should clarify.<br>
+          Edge Alignment is about learning how to navigate instead.
+        </p>
+      </div>
 
       <p class="statement-block statement-secondary">
         The decisive question is:<br>
@@ -333,9 +506,11 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           More mental narrowing.
         </p>
 
-        <p><strong>What we need now are semantic safety standards.</strong></p>
+        <div class="diagnostic-callout">
+          <p><strong>What we need now are semantic safety standards.</strong></p>
+        </div>
 
-        <p>More on this here: <a href="/en/blog/">Why this matters →</a></p>
+        <p style="margin-top: 1rem;">More on this here: <a href="/en/blog/">Why this matters →</a></p>
       </div>
     </div>
   </section>
