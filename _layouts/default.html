@@ -14,23 +14,23 @@
 {% endif %}
 
 {% assign current_url = page.url | default: '/' %}
-
-{% if is_en %}
-  {% assign alt_url = current_url | replace_first: '/en/', '/de/' %}
-{% else %}
-  {% assign alt_url = current_url | replace_first: '/de/', '/en/' %}
-{% endif %}
-
-{% assign known_en_pages = '/en/|/en/theory/|/en/alignment/|/en/papers/|/en/downloads/|/en/book/|/en/blog/|/en/about/|/en/contact/' | split: '|' %}
-{% assign known_de_pages = '/de/|/de/theorie/|/de/ki-alignment/|/de/papers/|/de/downloads/|/de/buch/|/de/blog/|/de/ueber-mich/|/de/kontakt/' | split: '|' %}
-
+{% assign alt_url = '' %}
 {% assign alt_exists = false %}
+
 {% if is_en %}
-  {% if known_de_pages contains alt_url %}
+  {% if page.translation_url_de %}
+    {% assign alt_url = page.translation_url_de %}
+    {% assign alt_exists = true %}
+  {% elsif current_url contains '/en/' %}
+    {% assign alt_url = current_url | replace_first: '/en/', '/de/' %}
     {% assign alt_exists = true %}
   {% endif %}
 {% else %}
-  {% if known_en_pages contains alt_url %}
+  {% if page.translation_url_en %}
+    {% assign alt_url = page.translation_url_en %}
+    {% assign alt_exists = true %}
+  {% elsif current_url contains '/de/' %}
+    {% assign alt_url = current_url | replace_first: '/de/', '/en/' %}
     {% assign alt_exists = true %}
   {% endif %}
 {% endif %}
