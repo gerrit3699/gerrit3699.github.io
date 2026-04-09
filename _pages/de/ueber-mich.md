@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Über mich"
 permalink: /de/ueber-mich/
 description: "Über Gerrit, den ungewöhnlichen Weg hinter Semantic Gravitation, die Schmiede mit KI und die Entstehung der semantischen Architektur."
