@@ -18,6 +18,10 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
     --sg-max: 1120px;
     --sg-copy: 860px;
     --sg-wide: 980px;
+
+    background:
+      linear-gradient(180deg, rgba(3,5,8,0.72), rgba(2,4,7,0.82)),
+      url("/assets/images/design/attractor.jpg.PNG") center top / cover fixed no-repeat;
   }
 
   .home-journey h1,
@@ -46,10 +50,12 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
   }
 
   .home-journey .section-divider {
+    height: 88px;
     opacity: 0.42;
     background:
-      linear-gradient(to bottom, transparent, rgba(255,255,255,0.035), transparent),
-      url("/assets/images/design/attractor.jpg.PNG") center center / cover no-repeat;
+      linear-gradient(to bottom, transparent, rgba(255,255,255,0.04), transparent),
+      url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
+    border: 0;
   }
 
   .home-journey .intro-copy,
@@ -61,13 +67,14 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
   }
 
   .home-journey .hero {
+    position: relative;
     overflow: hidden;
     margin-top: 1rem;
     border-radius: 34px;
     border: 1px solid rgba(255,255,255,0.08);
     background:
-      linear-gradient(180deg, rgba(5,7,11,0.70), rgba(4,6,10,0.82)),
-      linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.24)),
+      linear-gradient(180deg, rgba(5,7,11,0.62), rgba(4,6,10,0.78)),
+      linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.22)),
       url("/assets/images/design/attractor.jpg.PNG") center center / cover no-repeat;
     box-shadow:
       0 24px 80px rgba(0,0,0,0.28),
@@ -80,14 +87,14 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
     inset: 0;
     pointer-events: none;
     background:
-      radial-gradient(circle at 58% 54%, rgba(255,255,255,0.06), transparent 18%),
-      linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px);
+      radial-gradient(circle at 58% 54%, rgba(255,255,255,0.05), transparent 18%),
+      linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
     background-size:
       auto,
       42px 42px,
       42px 42px;
-    opacity: 0.24;
+    opacity: 0.2;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,0.92), rgba(0,0,0,0.65));
     -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.92), rgba(0,0,0,0.65));
   }
@@ -98,9 +105,9 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
     inset: 0;
     pointer-events: none;
     background:
-      radial-gradient(circle at 50% 0%, rgba(255,255,255,0.22), transparent 38%),
-      linear-gradient(to bottom, rgba(255,255,255,0.03), transparent 28%);
-    opacity: 0.22;
+      radial-gradient(circle at 50% 0%, rgba(255,255,255,0.16), transparent 38%),
+      linear-gradient(to bottom, rgba(255,255,255,0.02), transparent 28%);
+    opacity: 0.18;
   }
 
   .home-journey .hero-inner {
@@ -332,9 +339,14 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
   .home-journey .section-card {
     padding: 2rem 1.4rem;
+    border-radius: 28px;
+    border: 1px solid rgba(255,255,255,0.08);
     background:
-      linear-gradient(180deg, rgba(7,9,13,0.62), rgba(5,7,11,0.74)),
-      url("/assets/images/design/attractor.jpg.PNG") center center / cover no-repeat;
+      linear-gradient(180deg, rgba(7,9,13,0.66), rgba(5,7,11,0.78)),
+      url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
+    box-shadow:
+      0 24px 80px rgba(0,0,0,0.22),
+      inset 0 1px 0 rgba(255,255,255,0.03);
   }
 
   .home-journey .section-head {
@@ -478,6 +490,10 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
     .home-journey .start-grid {
       grid-template-columns: 1fr;
     }
+
+    .home-journey {
+      background-attachment: scroll;
+    }
   }
 
   @media (max-width: 768px) {
@@ -578,6 +594,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
     .home-journey .section-card {
       padding: 1.55rem 1rem;
+      border-radius: 22px;
     }
 
     .home-journey .concept-card,
@@ -586,6 +603,10 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
     .home-journey .start-card {
       border-radius: 18px;
       padding: 1rem 0.95rem 0.95rem;
+    }
+
+    .home-journey .section-divider {
+      height: 72px;
     }
   }
 </style>
@@ -835,7 +856,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
         <div class="link-list">
           <a href="/en/theory/">Go to Theory →</a>
-          <a href="/en/technical-sources/">Go to Technical Sources →</a>
+          <a href="/en/papers/">Go to Technical Sources →</a>
           <a href="/en/downloads/">Go to Downloads →</a>
         </div>
       </div>
