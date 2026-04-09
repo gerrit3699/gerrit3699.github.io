@@ -2,7 +2,9 @@
 layout: default
 title: "Über mich"
 permalink: /de/ueber-mich/
+lang: de
 description: "Über Gerrit, den ungewöhnlichen Weg hinter Semantic Gravitation, die Schmiede mit KI und die Entstehung der semantischen Architektur."
+translation_url_en: /en/about/
 ---
 
 <section class="hero hero-about">
