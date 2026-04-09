@@ -1,5 +1,42 @@
+{% assign current_lang = page.lang %}
+{% if current_lang == nil %}
+  {% assign p = page.url | default: '' %}
+  {% if p contains '/en/' %}
+    {% assign current_lang = 'en' %}
+  {% else %}
+    {% assign current_lang = 'de' %}
+  {% endif %}
+{% endif %}
+
+{% assign is_en = false %}
+{% if current_lang == 'en' %}
+  {% assign is_en = true %}
+{% endif %}
+
+{% assign current_url = page.url | default: '/' %}
+
+{% if is_en %}
+  {% assign alt_url = current_url | replace_first: '/en/', '/de/' %}
+{% else %}
+  {% assign alt_url = current_url | replace_first: '/de/', '/en/' %}
+{% endif %}
+
+{% assign known_en_pages = '/en/|/en/theory/|/en/alignment/|/en/papers/|/en/downloads/|/en/book/|/en/blog/|/en/about/|/en/contact/' | split: '|' %}
+{% assign known_de_pages = '/de/|/de/theorie/|/de/ki-alignment/|/de/papers/|/de/downloads/|/de/buch/|/de/blog/|/de/ueber-mich/|/de/kontakt/' | split: '|' %}
+
+{% assign alt_exists = false %}
+{% if is_en %}
+  {% if known_de_pages contains alt_url %}
+    {% assign alt_exists = true %}
+  {% endif %}
+{% else %}
+  {% if known_en_pages contains alt_url %}
+    {% assign alt_exists = true %}
+  {% endif %}
+{% endif %}
+
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'de' }}">
+<html lang="{{ current_lang }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -62,7 +99,7 @@
         align-items: center;
         text-decoration: none;
         min-width: 0;
-        max-width: calc(100% - 76px);
+        max-width: calc(100% - 140px);
       }
 
       .sg-brand img {
@@ -71,6 +108,43 @@
         width: auto;
         max-width: min(430px, 58vw);
         object-fit: contain;
+      }
+
+      .sg-header-actions,
+      .sg-drawer-top-actions {
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+        flex-shrink: 0;
+      }
+
+      .sg-lang-switch {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 48px;
+        height: 44px;
+        padding: 0 0.9rem;
+        border-radius: 14px;
+        border: 1px solid rgba(255,255,255,0.10);
+        background: rgba(255,255,255,0.04);
+        color: #f3f6fb;
+        text-decoration: none;
+        font-size: 0.92rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        box-shadow: 0 12px 36px rgba(0,0,0,0.20);
+      }
+
+      .sg-lang-switch:hover,
+      .sg-lang-switch:focus {
+        background: rgba(255,255,255,0.08);
+        color: #ffffff;
+        opacity: 1;
+      }
+
+      .sg-lang-switch-drawer {
+        height: 46px;
       }
 
       .sg-menu-button {
@@ -158,7 +232,7 @@
         align-items: center;
         text-decoration: none;
         min-width: 0;
-        max-width: calc(100% - 64px);
+        max-width: calc(100% - 120px);
       }
 
       .sg-drawer-brand img {
@@ -245,12 +319,20 @@
         }
 
         .sg-brand {
-          max-width: calc(100% - 62px);
+          max-width: calc(100% - 118px);
         }
 
         .sg-brand img {
           height: 74px;
           max-width: 260px;
+        }
+
+        .sg-lang-switch {
+          min-width: 44px;
+          height: 40px;
+          padding: 0 0.75rem;
+          border-radius: 12px;
+          font-size: 0.88rem;
         }
 
         .sg-menu-button {
@@ -297,41 +379,56 @@
   <body>
     <header class="sg-header" role="banner">
       <div class="sg-header-inner">
-        <a class="sg-brand" href="/de/">
+        <a class="sg-brand" href="{% if is_en %}/en/{% else %}/de/{% endif %}">
           <img src="{{ '/assets/images/branding/semantic-gravitation-logo.jpg' | relative_url }}" alt="Semantic Gravitation">
         </a>
 
-        <button class="sg-menu-button" type="button" aria-label="Menü öffnen" aria-controls="sg-menu-panel" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        <div class="sg-header-actions">
+          {% if alt_exists %}
+            <a class="sg-lang-switch" href="{{ alt_url }}" aria-label="{% if is_en %}Zur deutschen Version wechseln{% else %}Switch to English version{% endif %}">
+              {% if is_en %}DE{% else %}EN{% endif %}
+            </a>
+          {% endif %}
+
+          <button class="sg-menu-button" type="button" aria-label="{% if is_en %}Open menu{% else %}Menü öffnen{% endif %}" aria-controls="sg-menu-panel" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
       </div>
     </header>
 
     <div class="sg-menu-panel" id="sg-menu-panel" aria-hidden="true">
       <div class="sg-menu-overlay"></div>
 
-      <aside class="sg-drawer" aria-label="Hauptnavigation">
+      <aside class="sg-drawer" aria-label="{% if is_en %}Main navigation{% else %}Hauptnavigation{% endif %}">
         <div class="sg-drawer-top">
-          <a class="sg-drawer-brand" href="/de/">
+          <a class="sg-drawer-brand" href="{% if is_en %}/en/{% else %}/de/{% endif %}">
             <img src="{{ '/assets/images/branding/semantic-gravitation-logo.jpg' | relative_url }}" alt="Semantic Gravitation">
           </a>
 
-          <button class="sg-drawer-close" type="button" aria-label="Menü schließen">×</button>
+          <div class="sg-drawer-top-actions">
+            {% if alt_exists %}
+              <a class="sg-lang-switch sg-lang-switch-drawer" href="{{ alt_url }}" aria-label="{% if is_en %}Zur deutschen Version wechseln{% else %}Switch to English version{% endif %}">
+                {% if is_en %}DE{% else %}EN{% endif %}
+              </a>
+            {% endif %}
+
+            <button class="sg-drawer-close" type="button" aria-label="{% if is_en %}Close menu{% else %}Menü schließen{% endif %}">×</button>
+          </div>
         </div>
 
         <nav class="sg-drawer-nav">
-          {% assign p = page.url %}
-          {% if p contains "/en/" %}
+          {% if is_en %}
             <a class="sg-drawer-link" href="/en/">Home</a>
             <a class="sg-drawer-link" href="/en/theory/">Theory</a>
-            <a class="sg-drawer-link" href="/en/alignment/">AI Alignment</a>
-            <a class="sg-drawer-link" href="/en/papers/">Papers</a>
+            <a class="sg-drawer-link" href="/en/alignment/">Alignment</a>
+            <a class="sg-drawer-link" href="/en/papers/">Papers & Patents</a>
             <a class="sg-drawer-link" href="/en/downloads/">Downloads</a>
-            <a class="sg-drawer-link" href="/en/book/">Book</a>
+            <a class="sg-drawer-link" href="/en/book/">The Book of Meaning</a>
             <a class="sg-drawer-link" href="/en/blog/">Blog</a>
-            <a class="sg-drawer-link" href="/en/about/">About</a>
+            <a class="sg-drawer-link" href="/en/about/">About Me</a>
             <a class="sg-drawer-link" href="/en/contact/">Contact & Support</a>
           {% else %}
             <a class="sg-drawer-link" href="/de/">Start</a>
@@ -339,7 +436,7 @@
             <a class="sg-drawer-link" href="/de/ki-alignment/">KI-Alignment</a>
             <a class="sg-drawer-link" href="/de/papers/">Papers & Patente</a>
             <a class="sg-drawer-link" href="/de/downloads/">Downloads</a>
-            <a class="sg-drawer-link" href="/de/buch/">Buch</a>
+            <a class="sg-drawer-link" href="/de/buch/">Das Buch der Bedeutung</a>
             <a class="sg-drawer-link" href="/de/blog/">Blog</a>
             <a class="sg-drawer-link" href="/de/ueber-mich/">Über mich</a>
             <a class="sg-drawer-link" href="/de/kontakt/">Kontakt & Unterstützung</a>
@@ -361,7 +458,7 @@
         const openButton = document.querySelector('.sg-menu-button');
         const closeButton = document.querySelector('.sg-drawer-close');
         const overlay = document.querySelector('.sg-menu-overlay');
-        const links = document.querySelectorAll('.sg-drawer-link');
+        const links = document.querySelectorAll('.sg-drawer-link, .sg-lang-switch');
 
         if (!menuPanel || !openButton || !closeButton || !overlay) return;
 
