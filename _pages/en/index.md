@@ -9,7 +9,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 <style>
   .home-journey {
     --sg-text: rgba(255,255,255,0.97);
-    --sg-soft: rgba(255,255,255,0.78);
+    --sg-soft: rgba(255,255,255,0.80);
     --sg-dim: rgba(255,255,255,0.64);
     --sg-line: rgba(255,255,255,0.10);
     --sg-line-strong: rgba(255,255,255,0.16);
@@ -17,7 +17,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
     --sg-panel-strong: rgba(255,255,255,0.05);
     --sg-max: 1120px;
     --sg-copy: 860px;
-    --sg-wide: 980px;
+    --sg-wide: 1000px;
   }
 
   .home-journey h1,
@@ -79,7 +79,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
   .home-journey .home-lead {
     display: inline-block;
-    max-width: 28rem;
+    max-width: 29rem;
     font-size: clamp(1.24rem, 2.4vw, 1.7rem);
     line-height: 1.25;
     font-weight: 560;
@@ -95,14 +95,14 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
   .home-journey .hero-research {
     display: grid;
-    gap: 1.6rem;
+    gap: 1.7rem;
   }
 
   .home-journey .hero-problem {
-    max-width: 44rem;
-    font-size: clamp(1.28rem, 2.5vw, 1.8rem);
+    max-width: 48rem;
+    font-size: clamp(1.24rem, 2.3vw, 1.68rem);
     line-height: 1.5;
-    letter-spacing: -0.025em;
+    letter-spacing: -0.02em;
     text-wrap: balance;
   }
 
@@ -117,18 +117,31 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
   .home-journey .hero-proof {
     display: grid;
-    gap: 0.9rem;
-    max-width: 56rem;
-    margin-top: 0.35rem;
+    gap: 1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 1120px;
+    margin-top: 0.25rem;
   }
 
   .home-journey .hero-proof-item {
-    font-size: clamp(1.02rem, 1.8vw, 1.16rem);
+    padding: 1.12rem 1rem 1rem;
+    border-radius: 22px;
+    border: 1px solid var(--sg-line);
+    background: linear-gradient(180deg, rgba(255,255,255,0.045) 0%, rgba(255,255,255,0.024) 100%);
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.03);
+    font-size: 1rem;
     line-height: 1.5;
     color: var(--sg-text);
   }
 
   .home-journey .hero-proof-item strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 1.12rem;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
     font-weight: 760;
   }
 
@@ -136,7 +149,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
     display: flex;
     flex-wrap: wrap;
     gap: 0.9rem;
-    margin-top: 0.8rem;
+    margin-top: 0.4rem;
   }
 
   .home-journey .home-cta-row .button {
@@ -150,8 +163,8 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
   }
 
   .home-journey .impact-line {
-    max-width: 10.5ch;
-    font-size: clamp(2.55rem, 6.6vw, 5.6rem);
+    max-width: 10.8ch;
+    font-size: clamp(2.65rem, 6.8vw, 5.8rem);
     line-height: 0.92;
     letter-spacing: -0.07em;
     font-weight: 800;
@@ -172,16 +185,11 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
   }
 
   .home-journey .impact-question {
-    max-width: 36rem;
+    max-width: 38rem;
     margin-top: 1.35rem;
     font-size: 1.14rem;
-    line-height: 1.6;
+    line-height: 1.62;
     color: var(--sg-text);
-  }
-
-  .home-journey .impact-question strong {
-    display: inline-block;
-    margin-top: 0.15rem;
   }
 
   .home-journey .display-kicker {
@@ -208,7 +216,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
   }
 
   .home-journey .section-opening {
-    max-width: 52rem;
+    max-width: 54rem;
     margin: 0 0 1.4rem;
   }
 
@@ -295,13 +303,21 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
   .home-journey .concept-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1rem;
     margin: 1.8rem 0 2rem;
   }
 
+  .home-journey .triad-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1.6rem 0 1.8rem;
+  }
+
   .home-journey .concept-card,
-  .home-journey .axis-card {
+  .home-journey .axis-card,
+  .home-journey .triad-card {
     padding: 1.15rem 1.05rem 1.05rem;
     border-radius: 22px;
     background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.028) 100%);
@@ -312,7 +328,8 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
   }
 
   .home-journey .concept-card-title,
-  .home-journey .axis-card h3 {
+  .home-journey .axis-card h3,
+  .home-journey .triad-card h3 {
     margin: 0 0 0.45rem;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
     font-size: 1.5rem;
@@ -322,7 +339,8 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
   }
 
   .home-journey .concept-card-text,
-  .home-journey .axis-card p {
+  .home-journey .axis-card p,
+  .home-journey .triad-card p {
     margin: 0;
     font-size: 1rem;
     line-height: 1.55;
@@ -403,9 +421,11 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
   }
 
   @media (max-width: 980px) {
+    .home-journey .hero-proof,
     .home-journey .concept-grid,
     .home-journey .proof-grid,
-    .home-journey .start-grid {
+    .home-journey .start-grid,
+    .home-journey .triad-grid {
       grid-template-columns: 1fr;
     }
   }
@@ -446,8 +466,9 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
     }
 
     .home-journey .hero-proof-item {
-      font-size: 1rem;
+      font-size: 0.98rem;
       line-height: 1.48;
+      border-radius: 18px;
     }
 
     .home-journey .home-cta-row {
@@ -510,7 +531,8 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
     .home-journey .concept-card,
     .home-journey .axis-card,
     .home-journey .proof-card,
-    .home-journey .start-card {
+    .home-journey .start-card,
+    .home-journey .triad-card {
       border-radius: 18px;
       padding: 1rem 0.95rem 0.95rem;
     }
@@ -531,18 +553,34 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
       <div class="hero-problem">
         <p>
           AI is no longer just a tool for answers.
-          It is becoming part of the space in which people think, doubt, frame problems, and orient themselves.
+          It is becoming part of the cognitive environment itself:
+          part of the space in which people think, doubt, frame problems, judge truth, and orient themselves.
         </p>
         <p>
-          That is why one of the central questions of this century is:
+          That is why semantic architecture is no longer a side issue.
+          It is becoming infrastructure.
+          And that is why one of the central questions of this century is:
           <strong>What kind of semantic space does AI build around us?</strong>
         </p>
       </div>
 
       <div class="hero-proof">
-        <div class="hero-proof-item"><strong>Meaning is not only content.</strong> It is structure. It is a space.</div>
-        <div class="hero-proof-item"><strong>Semantic states can be mapped and evaluated.</strong> They are not just moods or metaphors.</div>
-        <div class="hero-proof-item"><strong>Alignment must concern inner paths, not only outputs.</strong> That is where Edge Alignment begins.</div>
+        <div class="hero-proof-item">
+          <strong>Semantic state space</strong>
+          Meaning is not only content. It can be described as structured configuration.
+        </div>
+        <div class="hero-proof-item">
+          <strong>KPR</strong>
+          Kernel, Projection, and Relation form a minimal semantic grammar.
+        </div>
+        <div class="hero-proof-item">
+          <strong>C/B/A</strong>
+          Coherence, Bonding, and Agency make viable states and movements readable.
+        </div>
+        <div class="hero-proof-item">
+          <strong>Alignment as navigation</strong>
+          The deeper issue is not only outputs, but the inner semantic path.
+        </div>
       </div>
 
       <div class="home-cta-row">
@@ -578,33 +616,33 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
   <section class="section-shell">
     <div class="free-text-block">
       <p class="display-kicker">What is new here</p>
-      <h2 class="section-heading-display">A research program for semantic space</h2>
+      <h2 class="section-heading-display">A minimal architecture for semantic space</h2>
 
       <div class="concept-grid">
         <div class="concept-card">
-          <p class="concept-card-title">Meaning as space</p>
-          <p class="concept-card-text">Not only content, but structure, topology, transition, and direction.</p>
+          <p class="concept-card-title">State space</p>
+          <p class="concept-card-text">Meaning is not only content, but a structured space of positions, tensions, and trajectories.</p>
         </div>
         <div class="concept-card">
-          <p class="concept-card-title">A minimal grammar</p>
-          <p class="concept-card-text">Kernel, Projection, Relation as the smallest viable semantic grammar.</p>
+          <p class="concept-card-title">Minimal grammar</p>
+          <p class="concept-card-text">Kernel, Projection, and Relation as the smallest viable semantic grammar.</p>
         </div>
         <div class="concept-card">
-          <p class="concept-card-title">A new AI model</p>
-          <p class="concept-card-text">From answer machines to systems that read and navigate semantic space.</p>
+          <p class="concept-card-title">Viability axes</p>
+          <p class="concept-card-text">Coherence, Bonding, and Agency as the operative readout of semantic states.</p>
+        </div>
+        <div class="concept-card">
+          <p class="concept-card-title">AI consequence</p>
+          <p class="concept-card-text">Alignment shifts from answer control to navigation through semantic space.</p>
         </div>
       </div>
 
       <div class="body-copy">
         <p>
-          This work starts from a simple but far-reaching claim:
-          <strong>meaning is not only something said, but a space that can be structured, mapped, and navigated.</strong>
-        </p>
-        <p>
-          Edge Alignment is the AI application of that claim.
-          It asks not only whether a system produces safe-looking outputs,
-          but whether its inner transitions remain viable,
-          repairable, and aligned with clarity, dignity, and freedom.
+          This is not only a new vocabulary.
+          It is a new architecture claim:
+          that meaning can be structured, mapped, diagnosed, and navigated —
+          and that AI systems can in principle be built to operate on that level.
         </p>
       </div>
     </div>
@@ -629,7 +667,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
         <strong>kernel, projection, and relation.</strong>
       </p>
 
-      <div class="concept-grid">
+      <div class="concept-grid" style="grid-template-columns: repeat(3, minmax(0, 1fr));">
         <div class="concept-card">
           <p class="concept-card-title">Kernel</p>
           <p class="concept-card-text">what something is really about</p>
@@ -673,15 +711,8 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
         </p>
 
         <p>
-          Not only systems that avoid bad-looking outputs,
-          but systems that preserve <strong>clarity, dignity, and freedom</strong>
-          in the space of thought itself.
-        </p>
-
-        <p>
-          That is why the problem is deeper than ordinary safety language suggests.
-          The real issue is not only whether AI can be dangerous in obvious ways,
-          but whether it quietly narrows the space in which people understand themselves,
+          The issue is no longer only whether AI can produce obviously bad outputs.
+          The deeper issue is whether it quietly narrows the space in which people understand themselves,
           judge truth, and form orientation.
         </p>
 
@@ -690,20 +721,20 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
           The semantic seatbelt is still missing.
         </p>
 
-        <div class="section-grid grid-3">
-          <div class="axis-card">
-            <h3>Clarity</h3>
-            <p>Can the space still be seen and questioned clearly?</p>
+        <div class="triad-grid">
+          <div class="triad-card">
+            <h3>Coherence (Clarity)</h3>
+            <p>Can the space still be read, questioned, and internally checked?</p>
           </div>
 
-          <div class="axis-card">
-            <h3>Dignity</h3>
-            <p>Does the system preserve relation without diminishing the human being?</p>
+          <div class="triad-card">
+            <h3>Bonding (Dignity)</h3>
+            <p>Does relation remain viable without shrinking the human being?</p>
           </div>
 
-          <div class="axis-card">
-            <h3>Freedom</h3>
-            <p>Does it keep expression, correction, and real movement open?</p>
+          <div class="triad-card">
+            <h3>Agency (Freedom)</h3>
+            <p>Does the system preserve real correction, expression, and movement?</p>
           </div>
         </div>
 
@@ -726,23 +757,23 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
       <div class="section-body body-copy">
         <p class="section-intro">
           This is not only a vision statement.
-          There are already reviewable materials behind it.
+          There are already distinct review layers behind it.
         </p>
 
         <div class="proof-grid">
           <div class="proof-card">
-            <h3>Collected Papers I–VI</h3>
-            <p>The theoretical backbone of Semantic Gravitation as a continuous research line.</p>
+            <h3>Theory</h3>
+            <p>The conceptual entry: KPR, semantic state space, attractors, decoherence, and viable transitions.</p>
           </div>
 
           <div class="proof-card">
-            <h3>Edge Alignment paper</h3>
-            <p>The AI architecture claim in concentrated form: navigation, drift, and semantic safety.</p>
+            <h3>Technical Sources</h3>
+            <p>The primary source layer: papers, formal backbone, alignment paper, and protected technical directions.</p>
           </div>
 
           <div class="proof-card">
-            <h3>Theory page</h3>
-            <p>Core concepts such as KPR, settings, attractors, decoherence, and viable transitions.</p>
+            <h3>Downloads</h3>
+            <p>Bundled review bodies for fuller reading and AI-assisted inspection in larger coherent context.</p>
           </div>
         </div>
 
@@ -754,8 +785,8 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
         <div class="link-list">
           <a href="/en/theory/">Go to Theory →</a>
+          <a href="/en/technical-sources/">Go to Technical Sources →</a>
           <a href="/en/downloads/">Go to Downloads →</a>
-          <a href="/en/papers/">Go to Papers & Patents →</a>
         </div>
       </div>
     </div>
