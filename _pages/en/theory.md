@@ -2,6 +2,9 @@
 layout: page
 title: Theory
 permalink: /en/theory/
+lang: en
+translation_key: theory
+translation_url_de: /de/theorie/
 ---
 
 # Theory
