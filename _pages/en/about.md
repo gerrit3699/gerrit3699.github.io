@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "About Me"
 permalink: /en/about/
 description: "About Gerrit, the unusual path behind Semantic Gravitation, the forge with AI, and the emergence of semantic architecture."
