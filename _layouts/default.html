@@ -130,9 +130,9 @@
         height: 44px;
         padding: 0 0.9rem;
         border-radius: 14px;
-        border: 1px solid rgba(255,255,255,0.12);
-        background: rgba(255,255,255,0.04);
-        color: #ffffff !important;
+        border: 1px solid rgba(255,255,255,0.18);
+        background: rgba(255,255,255,0.08);
+        color: rgba(255,255,255,0.96) !important;
         text-decoration: none;
         font-size: 0.92rem;
         font-weight: 600;
@@ -146,7 +146,7 @@
       .sg-lang-switch:focus,
       .sg-lang-switch:active {
         color: #ffffff !important;
-        background: rgba(255,255,255,0.08);
+        background: rgba(255,255,255,0.14);
         text-decoration: none;
         opacity: 1 !important;
       }
@@ -159,8 +159,8 @@
         align-items: center;
         justify-content: center;
         border-radius: 16px;
-        border: 1px solid rgba(255,255,255,0.12);
-        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.18);
+        background: rgba(255,255,255,0.08);
         color: #ffffff !important;
         box-shadow: 0 12px 36px rgba(0,0,0,0.26);
         cursor: pointer;
@@ -201,7 +201,7 @@
       .sg-menu-overlay {
         position: absolute;
         inset: 0;
-        background: rgba(0,0,0,0.84);
+        background: rgba(0,0,0,0.80);
         opacity: 0;
         transition: opacity 0.22s ease;
       }
@@ -217,7 +217,7 @@
         right: 0;
         min-height: 100vh;
         background:
-          linear-gradient(180deg, rgba(4,5,8,0.985), rgba(4,5,8,0.97));
+          linear-gradient(180deg, rgba(7,8,11,0.97), rgba(6,7,10,0.95));
         transform: translateY(-102%);
         transition: transform 0.28s ease;
       }
@@ -290,14 +290,15 @@
       .sg-topnav-link {
         display: block;
         width: 100%;
-        color: #ffffff !important;
+        color: rgba(255,255,255,0.94) !important;
         text-decoration: none !important;
         font-size: clamp(1.45rem, 3vw, 2rem);
         line-height: 1.18;
         font-weight: 600;
         letter-spacing: -0.02em;
         opacity: 1 !important;
-        transition: opacity 0.16s ease, transform 0.16s ease;
+        transition: opacity 0.16s ease, transform 0.16s ease, color 0.16s ease;
+        text-shadow: 0 1px 10px rgba(0,0,0,0.28);
       }
 
       .sg-topnav-link:visited,
@@ -306,7 +307,7 @@
       .sg-topnav-link:active {
         color: #ffffff !important;
         text-decoration: none !important;
-        opacity: 0.82 !important;
+        opacity: 1 !important;
         transform: translateY(-1px);
       }
 
@@ -386,6 +387,7 @@
         .sg-topnav-link {
           font-size: 1.65rem;
           line-height: 1.16;
+          color: rgba(255,255,255,0.96) !important;
         }
       }
     </style>
