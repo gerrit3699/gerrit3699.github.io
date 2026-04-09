@@ -58,12 +58,19 @@ translation_url_de: /de/blog/
   }
 
   .manifesto-page .manifesto-kicker,
-  .manifesto-page .status-label {
+  .manifesto-page .status-label,
+  .manifesto-page .micro-kicker {
     margin: 0 0 0.7rem;
     font-size: 0.88rem;
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--mf-faint);
+  }
+
+  .manifesto-page .micro-kicker {
+    margin-top: 1.6rem;
+    margin-bottom: 0.45rem;
+    font-size: 0.8rem;
   }
 
   .manifesto-page .manifesto-display {
@@ -282,8 +289,8 @@ translation_url_de: /de/blog/
         <a class="claim-card" href="#manifesto-clarity">
           <h3>A Manifesto of Clarity I–II</h3>
           <p>
-            The core long diagnosis and counter-architecture:
-            fog, semantic steering, power, backbone, KPR, and alignment as navigation.
+            The core diagnosis and counter-architecture:
+            fog, semantic steering, and alignment as navigation.
           </p>
           <strong>Start here →</strong>
         </a>
@@ -532,7 +539,7 @@ translation_url_de: /de/blog/
       </div>
 
       <p class="display-statement wide">
-        That is why semantic safety standards are needed.
+        That is why public semantic safety standards are needed.
       </p>
 
       <div class="body-copy">
@@ -573,8 +580,8 @@ translation_url_de: /de/blog/
 
       <div class="body-copy">
         <p>
-          If fog is structural, then the answer cannot be better moderation.
-          It has to be a different architecture.
+          If fog is structural, moderation is not the answer.
+          Architecture is.
         </p>
 
         <p>
@@ -770,6 +777,7 @@ translation_url_de: /de/blog/
       </p>
 
       <div class="body-copy">
+        <p class="micro-kicker">The threshold condition</p>
         <p>
           And that is where the darker image appeared.
           With that much leverage, raw oppression might not even be the most efficient mode.
@@ -796,6 +804,7 @@ translation_url_de: /de/blog/
           But a condition in which people are structurally kept small without experiencing themselves every day as formally unfree.
         </p>
 
+        <p class="micro-kicker">The crystal ball</p>
         <p>
           That is why I do not want a better crystal ball.
           A crystal ball optimizes controllability.
@@ -838,6 +847,7 @@ translation_url_de: /de/blog/
           and how leverage can be optimized.
         </p>
 
+        <p class="micro-kicker">Why the mirror matters</p>
         <p>
           The mirror is different.
           The mirror makes steering legible.
@@ -868,6 +878,7 @@ translation_url_de: /de/blog/
           and where a system lives from fog rather than from genuine readability.
         </p>
 
+        <p class="micro-kicker">The matrix condition</p>
         <p>
           At some point another word arose for the larger surrounding condition:
           the matrix.
@@ -905,6 +916,7 @@ translation_url_de: /de/blog/
           and where it keeps people small without formally imprisoning them.
         </p>
 
+        <p class="micro-kicker">Gift and demand</p>
         <p>
           That is also why this is both gift and demand.
           A real semantic mirror would be a gift because it helps make visible what many now only feel diffusely.
