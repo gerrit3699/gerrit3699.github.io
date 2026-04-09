@@ -8,10 +8,6 @@ translation_url_de: /de/downloads/
 ---
 
 <style>
-  html {
-    scroll-behavior: smooth;
-  }
-
   .downloads-page {
     --dl-text: rgba(255,255,255,0.96);
     --dl-soft: rgba(255,255,255,0.82);
@@ -121,17 +117,10 @@ translation_url_de: /de/downloads/
   .downloads-page .display-statement.wide { max-width: 30ch; }
   .downloads-page .display-statement.medium { max-width: 22ch; }
 
-  .downloads-page .use-grid,
   .downloads-page .bundle-grid,
   .downloads-page .next-grid {
     display: grid;
     gap: 1rem;
-  }
-
-  .downloads-page .use-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    max-width: 1080px;
-    margin: 1.9rem auto 0;
   }
 
   .downloads-page .bundle-grid {
@@ -146,7 +135,6 @@ translation_url_de: /de/downloads/
     margin: 1.8rem auto 0;
   }
 
-  .downloads-page .use-card,
   .downloads-page .bundle-card,
   .downloads-page .next-card,
   .downloads-page .status-box {
@@ -158,7 +146,6 @@ translation_url_de: /de/downloads/
       inset 0 1px 0 rgba(255,255,255,0.03);
   }
 
-  .downloads-page .use-card,
   .downloads-page .next-card {
     padding: 1.18rem 1rem 1.08rem;
     text-align: center;
@@ -169,7 +156,6 @@ translation_url_de: /de/downloads/
     text-align: center;
   }
 
-  .downloads-page .use-card h3,
   .downloads-page .next-card h3,
   .downloads-page .bundle-card h3 {
     margin: 0 0 0.35rem;
@@ -182,7 +168,6 @@ translation_url_de: /de/downloads/
     font-size: 1.34rem;
   }
 
-  .downloads-page .use-card p,
   .downloads-page .next-card p,
   .downloads-page .bundle-card p {
     margin: 0;
@@ -253,7 +238,6 @@ translation_url_de: /de/downloads/
   }
 
   @media (max-width: 980px) {
-    .downloads-page .use-grid,
     .downloads-page .next-grid {
       grid-template-columns: 1fr;
     }
@@ -267,50 +251,22 @@ translation_url_de: /de/downloads/
       <p class="downloads-kicker">Downloads</p>
       <h1 class="downloads-display">Bundled review material for deeper reading and AI-based examination.</h1>
       <p class="downloads-sublead">
-        This page is for <strong>download bundles</strong>, not for the cleanest source editions.
-        If you want the work in its most exact technical form, go to the individual Zenodo papers on the
-        <strong>Technical Sources</strong> page.
-        If you want larger context bodies for AI-assisted questioning, use the bundles here.
+        This page is for <strong>download bundles</strong>.
+        These files are meant for larger-context reading, independent review, and especially for loading the material into AI systems as one coherent body.
       </p>
-    </div>
-  </section>
 
-  <div class="section-divider"></div>
+      <div class="body-copy">
+        <p>
+          If you want the work in its cleanest technical source form, the better route is the individual Zenodo papers on the <strong>Technical Sources</strong> page.
+          The bundles here are for a different use:
+          not exact source citation first, but larger-context examination.
+        </p>
 
-  <section class="section-shell">
-    <div class="downloads-block">
-      <h2 class="section-heading-display">Choose the right route</h2>
-
-      <div class="use-grid">
-        <div class="use-card">
-          <h3>Read technically</h3>
-          <p>
-            Use the individual Zenodo papers and source texts when you want the cleanest exact version.
-          </p>
-          <div class="bundle-links">
-            <a class="bundle-link" href="/en/papers/">Go to Technical Sources →</a>
-          </div>
-        </div>
-
-        <div class="use-card">
-          <h3>See applications</h3>
-          <p>
-            Use the applications bundle when you want selected technical examples and protected directions.
-          </p>
-          <div class="bundle-links">
-            <a class="bundle-link" href="#applications-bundle">Go to applications bundle →</a>
-          </div>
-        </div>
-
-        <div class="use-card">
-          <h3>Use as AI backbone</h3>
-          <p>
-            Use the collected papers — optionally together with the applications bundle — for larger-context AI review.
-          </p>
-          <div class="bundle-links">
-            <a class="bundle-link" href="#collected-papers">Go to collected papers →</a>
-          </div>
-        </div>
+        <p>
+          This is also the only page where the <strong>technical applications / application examples</strong> bundle can currently be downloaded in this form.
+          That file is a German working document assembled out of the logic of my patent applications and application directions.
+          It has not yet been translated into a final English version.
+        </p>
       </div>
 
       <p class="display-statement wide">
@@ -328,7 +284,7 @@ translation_url_de: /de/downloads/
 
       <div class="bundle-grid">
 
-        <div class="bundle-card" id="collected-papers">
+        <div class="bundle-card">
           <p class="file-label">Bundle 1</p>
           <h3>Semantic Gravitation I–VI — Collected Papers</h3>
 
@@ -340,12 +296,11 @@ translation_url_de: /de/downloads/
 
           <p>
             This is the six-paper backbone in one continuous file.
-            It is the best bundle here when you want to load the theoretical core into an AI system and question the framework as one larger semantic body.
+            It is the strongest bundle here when you want to load the theoretical core into an AI system and question the framework as one larger semantic body.
           </p>
 
           <p>
-            It is <strong>not</strong> the cleanest citation form.
-            For exact technical reading, use the individual Zenodo papers instead.
+            For exact technical reading or citation, the individual Zenodo papers remain the cleaner source route.
           </p>
 
           <div class="bundle-links">
@@ -365,7 +320,7 @@ translation_url_de: /de/downloads/
           <div class="bundle-meta">
             <span class="bundle-tag">Alignment bundle</span>
             <span class="bundle-tag">Paper + patent material</span>
-            <span class="bundle-tag">Best for alignment-specific review</span>
+            <span class="bundle-tag">Best for alignment review</span>
           </div>
 
           <p>
@@ -387,24 +342,24 @@ translation_url_de: /de/downloads/
           </div>
         </div>
 
-        <div class="bundle-card" id="applications-bundle">
+        <div class="bundle-card">
           <p class="file-label">Bundle 3</p>
           <h3>Technical applications / application examples</h3>
 
           <div class="bundle-meta">
             <span class="bundle-tag">Working document</span>
-            <span class="bundle-tag">Selected examples only</span>
-            <span class="bundle-tag">Best for application lines</span>
+            <span class="bundle-tag">German only for now</span>
+            <span class="bundle-tag">Selected examples</span>
           </div>
 
           <p>
             This is a selected applications bundle assembled from filings, design principles, and representative system directions.
-            It is the right file when you want to see what kinds of technical applications could emerge from the framework.
+            It is the place to look when you want a compact view of what kinds of technical applications could emerge from the framework.
           </p>
 
           <p>
             It is not the full application universe.
-            It is a compact working slice for review and questioning.
+            It is a generated working slice for review, and it is currently available only in this German bundled form.
           </p>
 
           <div class="bundle-links">
@@ -422,9 +377,9 @@ translation_url_de: /de/downloads/
       <div class="status-box">
         <p class="status-label">Recommended use</p>
         <p>
-          Start with <strong>Theory</strong> for orientation.
+          Use <strong>Theory</strong> for orientation.
           Use <strong>Technical Sources</strong> for the clean source texts.
-          Use the <strong>collected papers</strong> — optionally together with the <strong>applications bundle</strong> — when you want an AI-readable backbone for deeper questioning.
+          Use these bundles when you want larger coherent files for deeper questioning, reconstruction, or AI-assisted review.
         </p>
       </div>
     </div>
