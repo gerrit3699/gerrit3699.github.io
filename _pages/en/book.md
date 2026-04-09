@@ -119,7 +119,7 @@ translation_url_de: /de/buch/
   }
 
   .book-page .book-status-line {
-    max-width: 38rem;
+    max-width: 40rem;
     margin: 0 auto;
     font-size: 1.04rem;
     line-height: 1.58;
@@ -375,8 +375,9 @@ translation_url_de: /de/buch/
             and the readable structure of reality.
           </p>
           <p class="book-status-line">
-            A substantial manuscript already exists.
-            A fuller revised edition is now being completed.
+            The inner body of the book already stands.
+            Its first public edition is now in the final revision phase
+            and will likely take a few more weeks.
           </p>
         </div>
       </div>
@@ -545,31 +546,31 @@ translation_url_de: /de/buch/
   <section class="section-shell">
     <div class="book-block">
       <p class="display-kicker">Current status</p>
-      <h2 class="section-heading-display">Already substantial. Still being completed.</h2>
+      <h2 class="section-heading-display">In final revision before first public release.</h2>
 
       <div class="body-copy">
         <p>
           This book is not merely an idea or a placeholder.
-          A substantial manuscript already exists.
+          Its inner structure and core body already exist.
         </p>
 
         <p>
-          What is now in progress is a fuller revised edition:
-          not a replacement by a different book,
-          but a clearer, deeper, and more unified version of the same inner body.
+          What is happening now is the last major revision phase:
+          a clearer, deeper, and more unified shaping of the book
+          before its first public release.
         </p>
 
         <p>
-          What will appear here later is not the book’s first existence,
-          but its more fully led and more fully condensed public form.
+          The public version is therefore not online yet.
+          It is currently being brought into its final readable form.
         </p>
       </div>
 
       <div class="status-box">
         <p class="status-label">Status</p>
         <p>
-          The manuscript exists.
-          The revised and larger public edition is still being completed.
+          No public edition is online yet.
+          The first release is in final revision and will likely take a few more weeks.
         </p>
       </div>
     </div>
@@ -589,7 +590,8 @@ translation_url_de: /de/buch/
         </p>
 
         <p>
-          Later, it can also host sample passages, download material,
+          Once the final revision phase is complete,
+          this page can also host sample passages, download material,
           and companion documents for slower reading and AI-assisted study.
         </p>
       </div>
