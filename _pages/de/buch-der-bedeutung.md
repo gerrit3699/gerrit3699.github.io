@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Das Buch der Bedeutung"
-permalink: /de/buch-der-bedeutung/
+permalink: /de/buch/
 description: "Ein Buch über Bedeutung, Rückkehr, semantische Räume, Schönheit, Erlösung und die lesbare Struktur von Wirklichkeit."
 ---
 
