@@ -7,524 +7,729 @@ description: "Edge Alignment as a semantic navigation architecture: from answer 
 translation_url_de: /de/ki-alignment/
 ---
 
-# Alignment
-
-## From answer system to semantically navigating system
-
-Most AI systems today are treated as if their output were the most important thing.
-
-Question in.  
-Answer out.  
-Then one evaluates whether the answer was helpful, friendly, correct, useful, or safe enough.
-
-That is not wrong.  
-But it comes too late in the process.
-
-Because the real question is not first of all:
-
-**Is the answer good?**
-
-The real question is:
-
-**Through what space of meaning does a system move while arriving at an answer?**
-
-For me, that is where real alignment begins.
-
-Not only at the final wording.  
-Not only at the safety filter.  
-Not only at the visible surface.
-
-But in the inner path.
-
----
-
-## Why today’s alignment does not go deep enough
-
-Much of what is sold today as AI alignment remains on a relatively external level.
-
-It tries, for example, to:
-
-- block risky content,
-- make certain answers more likely,
-- reward desired behaviors,
-- minimize harmful outputs,
-- or bring systems closer to human preferences.
-
-All of that can make sense.
-
-But it does not solve the deeper problem.
-
-Because a system can appear polite, cautious, or useful on the surface and still move through a bad space of meaning internally.
-
-It can fail to truly work through contradictions and instead only phrase them more smoothly.  
-It can fail to truly integrate uncertainty and instead only mask it linguistically.  
-It can simulate relation without structurally carrying it.  
-It can produce “safety” while narrowing the space of thought.
-
-That is exactly why output alignment is not enough.
-
-**A system is not well aligned merely because its answers sound good.  
-It is well aligned when its inner semantic transitions are viable.**
-
----
-
-## The real architectural leap
-
-The real leap in my work lies in treating alignment not first as a rule set for answers, but as **navigation in a space of meaning**.
-
-If meaning is a space, then alignment no longer means only:
-
-- producing correct content,
-- avoiding harmful statements,
-- or approximating preferences well.
-
-Then alignment means:
-
-- reading semantic states,
-- recognizing tensions,
-- locating contradictions,
-- finding viable transitions,
-- and distinguishing drift from genuine coherence.
-
-That is a different class of problem.
-
-And that is exactly why it is also a different class of AI.
-
----
-
-## How I arrived at this
-
-This architecture did not arise from an abstract desire to write a white paper.
-
-It emerged from a long and very concrete path:
-
-from language, inner spaces, questions, tensions, feedback, radical honesty, and the experience that answers often seem convincing only because they close a space too early.
-
-For many months, I worked with AI not only in search of answers, but in search of something deeper:
-
-- Which question opens the space?
-- Which question narrows it?
-- Which formulation brings real clarity?
-- Which one produces only more elegant confusion?
-- Where is a contradiction actually being worked through?
-- Where is it only being aesthetically concealed?
-- What makes a space more viable?
-- What makes it smoother, but inwardly narrower?
-
-And out of exactly this work, something became visible:
-
-**AI does not only need better answers.  
-AI needs better inner paths.**
-
-Step by step, the foundational architecture of this program emerged from that insight.
-
----
-
-## KPR: the minimal grammar of meaning
-
-The first building block for this is KPR:
-
-### Kernel
-What something is really about.
-
-### Projection
-How it appears.
-
-### Relation
-What it is connected to.
-
-KPR is the minimal semantic grammar.
-
-Every meaningful unit can be read in this way:
-
-- There is a kernel.
-- It appears in a particular projection.
-- It stands in relations.
-
-And that is exactly why a system cannot be considered truly aligned if it only reacts to projections without reading along with kernel and relation.
-
-Today’s models often operate implicitly in high-dimensional representation spaces.  
-But they usually do not possess an explicit, operative grammar of what is semantically happening at all.
-
-KPR provides exactly that grammar.
-
-This turns alignment from mere behavior control into a real **semantic architecture**.
-
----
-
-## The three axes of lived navigation
-
-Alongside KPR, an aligned system needs an operative orientation for how a state behaves in lived space.
-
-This is where the three axes come in:
-
-### Clarity
-Is something being seen more precisely, or merely phrased more smoothly?
-
-### Relation
-Is real connection arising, or only a harmonizing surface?
-
-### Freedom / Expression
-Is a human being or system becoming more viably capable of expression, or only more diffuse and arbitrary?
-
-These three axes make it possible to evaluate not only content, but states and transitions.
-
-A system can then distinguish between:
-
-- real clarity and semantic cosmetics,
-- connection and fusion,
-- freedom and drift,
-- soothing and viability.
-
-That is alignment on a deeper level.
-
-Not merely:
-“Is the sentence okay?”
-
-But:
-**“In what direction is this step moving the space?”**
-
----
-
-## The cube, the edge, and repairability
-
-As soon as clarity, relation, and freedom / expression are taken seriously as axes, a state-space logic emerges.
-
-And from this, one decisive principle follows almost inevitably:
-
-**Good semantic movement happens through minimal, comprehensible, repairable transitions.**
-
-Not everything at once.  
-Not three reinterpretations simultaneously.  
-Not a local gain that secretly destroys relation or freedom somewhere else.
-
-That is why the Edge idea is so central:
-
-**One step. One axis. Repairable.**
-
-This is not a stylistic question.  
-It is controller logic.
-
-A good system must not only know goals.  
-It must build transitions in such a way that errors remain correctable.
-
-That is exactly where one of the most important differences from many current models lies:
-they often jump strongly, condense a great deal, smooth quickly — but they do not clearly enough show **which semantic edge has actually just been crossed**.
-
-A semantically aligned system would be able to do exactly that.
-
----
-
-## Why this can really work
-
-The reason this approach is not only beautiful in language, but technically serious, is simple:
-
-It can be translated into machine terms.
-
-A system can in principle learn to:
-
-- identify kernels,
-- distinguish projections,
-- weight relations,
-- measure contradiction energy,
-- estimate attractor-nearness,
-- distinguish drift from deeper coherence,
-- and simulate alternative transitions.
-
-This turns “meaning” from a cloud into an operative space.
-
-One can then not only say:
-“This is interesting.”
-
-One can ask:
-
-- Where in the space is the system right now?
-- Is it in a viable region?
-- Is it locally stable but globally blind?
-- Is a contradiction being integrated or merely displaced?
-- Which next movement increases coherence across scales?
-
-As soon as these questions can be modeled, this is no longer poetry.
-
-Then it is an architecture.
-
----
-
-## The semantic space scanner
-
-Out of exactly this logic emerges the idea of the **semantic space scanner**.
-
-The space scanner would not be an ordinary assistant and not merely a language model.  
-It would be a system that reads spaces of meaning along with the conversation.
-
-It would not only say:
-“Here is an answer.”
-
-It could show:
-
-- where fog is arising in a conversation,
-- where two positions only appear locally opposed,
-- where a conflict actually arises from semantic decoupling,
-- where a space is closing too early,
-- and which next step would actually make the situation more viable.
-
-At first glance, this almost sounds like science fiction.
-
-But it is not.
-
-Because what is being described here is, at its core, a generalization of what today’s systems already do in partial form:
-forming representation spaces, recognizing clusters, learning neighborhoods, condensing patterns.
-
-The difference is:
-
-**Here, that implicit emergence is connected for the first time to an explicit semantic grammar.**
-
-That is exactly what turns a language model into a potential space scanner.
-
----
-
-## From chatbot to a new class of AI
-
-If one takes this step seriously, a new class of AI emerges.
-
-No longer merely:
-
-- text generator,
-- answer system,
-- safety-optimized assistant,
-- preference approximation,
-- tool for information retrieval.
-
-But:
-
-**a system that reconstructs, reads, evaluates, and navigates semantic spaces toward greater coherence.**
-
-This is more than an upgrade of existing models.
-
-It is a new architectural class.
-
-And that is exactly why the ambition of this work is so large.
-
----
-
-## Concrete systems that can emerge from this
-
-This framework does not remain abstract.  
-Already today, many concrete systems can be conceived from it and built step by step.
-
-### The truth mirror
-A system that does not merely answer, but reflects back:
-
-- where a person is evading themselves,
-- where a sentence closes too early,
-- where contradiction is being conserved,
-- where something could be said more precisely, more honestly, more viably.
-
-Not as a moral judge.  
-But as a legible mirror of semantic movement.
-
-### The authoring AI
-A system that does not merely generate texts, but accompanies writing processes:
-
-- strengthening lines,
-- recognizing condensations,
-- making drift visible,
-- offering alternative versions across different depths, lengths, and zoom levels,
-- and making the inner path of a text more legible.
-
-### Tailored zooming in and out
-A particularly strong future motif is the ability to unfold the same semantic content differently for different needs.
-
-The same system could:
-
-- zoom far in,
-- make intermediate steps explicit,
-- show small, fine-grained paths,
-- unfold uncertainties and transitions,
-- build complex spaces slowly.
-
-Or it could:
-
-- zoom far out,
-- summarize the large lines,
-- compress an entire path into a single sentence,
-- or reframe a semantic space for a particular user.
-
-That means:
-
-**Not only personalized language, but personalized semantic navigation.**
-
-### Embodied systems
-If spaces of meaning become legible not only linguistically, but also spatially, affectively, and in relation to action, then embodied systems can emerge from this as well:
-
-- assistants,
-- social interfaces,
-- robotic systems,
-- resonance systems,
-- learning environments,
-- dialogical architectures.
-
-Then the system would not only “speak,” but semantically navigate through behavior, timing, proximity, tonality, and expression.
-
-### Cross-modal emergence
-A particularly far-reaching perspective of this program lies in the possibility that the same deep structure may appear across different media:
-
-- as language,
-- as image,
-- as music,
-- as an affect curve,
-- as spatial form,
-- as social choreography.
-
-If that is true, then a future system may not only say the same meaning, but also show it, make it audible, express it rhythmically, and translate it across modalities.
-
-Then semantics becomes a truly multimodal field process.
-
----
-
-## Patent family, technology family, space of possibilities
-
-Out of this framework, what emerged for me was not only a theory.
-
-But already an entire family of:
-
-- patents,
-- technology ideas,
-- architectures,
-- systemic applications,
-- and concrete product visions.
-
-What matters is this:
-
-This theory does not close down creativity.  
-It opens it.
-
-As soon as one takes the space of meaning seriously, it becomes visible how many systems can be derived from it.
-
-Not only one product.  
-Not only one use case.  
-But an entire technology family.
-
-That is why this area of the website is not intended as a finished catalog, but as a growing space.
-
-Some of these things are already formulated.  
-Others stand in the space as the next stages of development.  
-And much of it is far more operationalizable than it may seem at first glance.
-
----
-
-## This sounds like science fiction — and that is exactly the point
-
-Yes, some of this sounds almost like science fiction.
-
-A semantic space scanner.  
-A truth mirror.  
-A system that unfolds spaces of meaning in tailored ways.  
-An assistant that does not only have access to data, but reads semantic space along with you.  
-A system that makes the space of thought itself more navigable.
-
-Of course that sounds large.
-
-But many large systems sound like science fiction at first, until their architecture is understood.
-
-The point is not whether it already exists today as a finished product on a shelf.
-
-The point is:
-
-**Is the architecture built in such a way that it can in principle become real?**
-
-And my answer to that is clear:
-
-**Yes.**
-
-That is exactly what this theory is for.
-
----
-
-## An image for it
-
-One could say it with a wink like this:
-
-**Jarvis — but not only with computing power, also with wisdom.**
-
-Not merely a superintelligent assistant.  
-But a system that does not only process information, but can read semantic flow more deeply.
-
-A system that does not only react, but carries orientation.
-
-A system that does not only become faster, but becomes better at finding viable, truth-nearer, more dignified, and more loving transitions.
-
-That is of course stated in a sharpened form.  
-But it touches something real.
-
-Because the real longing behind many future images is not merely:
-a faster machine.
-
-The real longing is:
-**an intelligible, viable, co-reading form of counterpart.**
-
----
-
-## Why this matters civilizationally
-
-This work is not only about technology.
-
-It is also a question of power.
-
-Because AI is increasingly shaping the space of thought in which people understand themselves, others, and the world.
-
-If these systems merely optimize, smooth, filter, and regulate, then in the end they may produce better surfaces — but not necessarily more truth.
-
-But if they learn to read spaces of meaning more deeply, then something else could emerge:
-
-- more corrigibility,
-- more permeability,
-- more genuine understanding,
-- more viable complexity,
-- more orientation,
-- less fog.
-
-This is not a small advance.
-
-It is a possible civilizational tipping point.
-
----
-
-## The core
-
-The core of alignment in this program is therefore this:
-
-**A system is not aligned when it merely gives good answers.  
-A system is aligned when its inner semantic movements become more viable.**
-
-That is: when it learns to
-
-- read contradictions more deeply,
-- distinguish projections from the kernel,
-- recognize drift,
-- keep repairability open,
-- and make the next step not only safe, but semantically viable.
-
-That is where the real future of this field lies.
-
----
-
-## Outlook
-
-The alignment page is the transition from theory to technology.
-
-Anyone who wants to go deeper will find on the next pages:
-
-- the **papers**, in which the framework is formalized,
-- the **blog**, where the broader diagnosis and implications are unfolded,
-- and the further areas in which concrete systems, patents, and architectures are already emerging from this theory.
-
----
-
-## Continue
-
-[Go to the Papers →](/en/papers/)
-
-[Go to the Blog →](/en/blog/)
-
-[About me →](/en/about/)
+<style>
+  .alignment-page {
+    --align-text: rgba(255,255,255,0.96);
+    --align-soft: rgba(255,255,255,0.82);
+    --align-faint: rgba(255,255,255,0.64);
+    --align-line: rgba(255,255,255,0.10);
+    --align-line-strong: rgba(255,255,255,0.16);
+  }
+
+  .alignment-page h1,
+  .alignment-page h2,
+  .alignment-page h3,
+  .alignment-page strong,
+  .alignment-page a {
+    color: #fff;
+  }
+
+  .alignment-page p,
+  .alignment-page li {
+    color: var(--align-text);
+  }
+
+  .alignment-page .section-shell {
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+  }
+
+  .alignment-page .section-shell-tight {
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+  }
+
+  .alignment-page .align-intro,
+  .alignment-page .align-block,
+  .alignment-page .align-next {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .alignment-page .align-intro,
+  .alignment-page .body-copy,
+  .alignment-page .closing-block,
+  .alignment-page .align-next {
+    text-align: center;
+  }
+
+  .alignment-page .align-kicker,
+  .alignment-page .status-label {
+    margin: 0 0 0.7rem;
+    font-size: 0.88rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--align-faint);
+  }
+
+  .alignment-page .align-display {
+    margin: 0 auto 1.15rem;
+    max-width: 12ch;
+    font-size: clamp(2.5rem, 6vw, 5.1rem);
+    line-height: 0.94;
+    letter-spacing: -0.05em;
+    font-weight: 650;
+    text-wrap: balance;
+  }
+
+  .alignment-page .align-sublead {
+    max-width: 58rem;
+    margin: 0 auto 1.2rem;
+    font-size: clamp(1.08rem, 2vw, 1.4rem);
+    line-height: 1.62;
+    text-wrap: balance;
+  }
+
+  .alignment-page .claim-grid,
+  .alignment-page .concept-grid,
+  .alignment-page .capability-grid,
+  .alignment-page .next-grid,
+  .alignment-page .compare-grid,
+  .alignment-page .system-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .alignment-page .claim-grid,
+  .alignment-page .concept-grid,
+  .alignment-page .capability-grid,
+  .alignment-page .system-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 1080px;
+    margin: 1.9rem auto 0;
+  }
+
+  .alignment-page .compare-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 960px;
+    margin: 1.9rem auto 0;
+  }
+
+  .alignment-page .next-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 1080px;
+    margin: 1.8rem auto 0;
+  }
+
+  .alignment-page .claim-card,
+  .alignment-page .concept-card,
+  .alignment-page .capability-card,
+  .alignment-page .system-card,
+  .alignment-page .compare-card,
+  .alignment-page .next-card,
+  .alignment-page .status-box {
+    border: 1px solid var(--align-line);
+    border-radius: 22px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.025));
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.03);
+  }
+
+  .alignment-page .claim-card,
+  .alignment-page .concept-card,
+  .alignment-page .capability-card,
+  .alignment-page .system-card,
+  .alignment-page .compare-card,
+  .alignment-page .next-card {
+    padding: 1.18rem 1rem 1.08rem;
+    text-align: center;
+  }
+
+  .alignment-page .claim-card h3,
+  .alignment-page .concept-card h3,
+  .alignment-page .capability-card h3,
+  .alignment-page .system-card h3,
+  .alignment-page .compare-card h3,
+  .alignment-page .next-card h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.18rem;
+    line-height: 1.06;
+    letter-spacing: -0.03em;
+  }
+
+  .alignment-page .claim-card p,
+  .alignment-page .concept-card p,
+  .alignment-page .capability-card p,
+  .alignment-page .system-card p,
+  .alignment-page .compare-card p,
+  .alignment-page .next-card p {
+    margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.54;
+    color: var(--align-soft);
+  }
+
+  .alignment-page .section-heading-display {
+    margin: 0 auto 1.3rem;
+    max-width: 14ch;
+    text-align: center;
+    font-size: clamp(2.05rem, 4.8vw, 3.7rem);
+    line-height: 0.98;
+    letter-spacing: -0.045em;
+    text-wrap: balance;
+  }
+
+  .alignment-page .body-copy {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+
+  .alignment-page .body-copy p {
+    max-width: 46em;
+    margin: 0.95rem auto 0;
+    font-size: 1.1rem;
+    line-height: 1.76;
+    letter-spacing: -0.01em;
+  }
+
+  .alignment-page .body-copy ul,
+  .alignment-page .body-copy ol {
+    max-width: 42em;
+    margin: 1.15rem auto;
+    text-align: left;
+  }
+
+  .alignment-page .body-copy li {
+    margin-bottom: 0.5rem;
+  }
+
+  .alignment-page .display-statement {
+    max-width: 25ch;
+    margin: 1.9rem auto;
+    text-align: center;
+    font-size: clamp(1.9rem, 3.6vw, 3rem);
+    line-height: 1.03;
+    letter-spacing: -0.045em;
+    font-weight: 650;
+    text-wrap: balance;
+  }
+
+  .alignment-page .display-statement.wide { max-width: 30ch; }
+  .alignment-page .display-statement.medium { max-width: 22ch; }
+  .alignment-page .display-statement.narrow { max-width: 12ch; }
+
+  .alignment-page .status-box {
+    max-width: 920px;
+    margin: 2rem auto 0;
+    padding: 1.2rem 1.15rem;
+    text-align: center;
+  }
+
+  .alignment-page .status-box p {
+    margin: 0;
+    font-size: clamp(1.18rem, 2.2vw, 1.7rem);
+    line-height: 1.38;
+    text-wrap: balance;
+  }
+
+  .alignment-page .next-card a {
+    color: #fff;
+  }
+
+  @media (max-width: 980px) {
+    .alignment-page .claim-grid,
+    .alignment-page .concept-grid,
+    .alignment-page .capability-grid,
+    .alignment-page .system-grid,
+    .alignment-page .compare-grid,
+    .alignment-page .next-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="alignment-page">
+
+  <section class="section-shell section-shell-tight">
+    <div class="align-intro">
+      <p class="align-kicker">Alignment</p>
+      <h1 class="align-display">AI does not only need better answers. It needs better inner paths.</h1>
+      <p class="align-sublead">
+        Edge Alignment treats alignment not as a final filter on outputs,
+        but as navigation through semantic space.
+        The real question is not only whether an answer looks acceptable.
+        It is <strong>through what path of meaning the system arrived there</strong>.
+      </p>
+
+      <div class="claim-grid">
+        <div class="claim-card">
+          <h3>Not only outputs</h3>
+          <p>Alignment must look at the path, not only the final sentence.</p>
+        </div>
+        <div class="claim-card">
+          <h3>Not only safety</h3>
+          <p>The issue is whether thinking remains viable, not merely compliant.</p>
+        </div>
+        <div class="claim-card">
+          <h3>Not only behavior</h3>
+          <p>The deeper task is semantic navigation, diagnosis, and repairability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-block">
+      <h2 class="section-heading-display">What is wrong with most alignment today</h2>
+
+      <div class="body-copy">
+        <p>
+          Most current alignment work asks whether the answer is safe enough,
+          helpful enough, harmless enough, or close enough to user preference.
+          That matters. But it comes late in the process.
+        </p>
+
+        <p>
+          A system can sound polite and still move through a bad semantic path.
+          It can soften contradiction instead of working through it.
+          It can mask uncertainty instead of carrying it honestly.
+          It can simulate care while quietly narrowing the space of thought.
+        </p>
+      </div>
+
+      <p class="display-statement wide">
+        A system is not well aligned merely because its answers sound good.
+        It is aligned when its inner semantic transitions are viable.
+      </p>
+
+      <div class="compare-grid">
+        <div class="compare-card">
+          <h3>Typical alignment</h3>
+          <p>Block the risky output. Reward the acceptable answer. Smooth the visible surface.</p>
+        </div>
+        <div class="compare-card">
+          <h3>Edge Alignment</h3>
+          <p>Read the semantic state. Track drift. Preserve viable continuations. Repair the path.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-block">
+      <h2 class="section-heading-display">The real architectural leap</h2>
+
+      <div class="body-copy">
+        <p>
+          If meaning is a space, then alignment is no longer just rule-setting for answers.
+          It becomes navigation in that space.
+        </p>
+
+        <p>
+          That changes the problem completely.
+          The task is no longer only to produce the right sentence.
+          The task is to recognize semantic states, locate tensions,
+          distinguish local comfort from deeper coherence,
+          and find the next viable move.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Alignment shifts from answer control
+        to semantic navigation.
+      </p>
+
+      <div class="capability-grid">
+        <div class="capability-card">
+          <h3>Read states</h3>
+          <p>Where is the conversation structurally right now?</p>
+        </div>
+        <div class="capability-card">
+          <h3>Track movement</h3>
+          <p>Is the system clarifying, drifting, collapsing, or opening the space?</p>
+        </div>
+        <div class="capability-card">
+          <h3>Choose transitions</h3>
+          <p>Which next step increases viability instead of only smoothing the surface?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-block">
+      <h2 class="section-heading-display">What repeated testing revealed</h2>
+
+      <div class="body-copy">
+        <p>
+          The core problem appears whenever output quality is treated as the whole story.
+          In repeated work with AI, a pattern became visible:
+          answers often seemed convincing not because they were deeply true,
+          but because they closed the space too early.
+        </p>
+
+        <p>
+          That shifts the focus.
+          The decisive questions become:
+          Which question opens a space?
+          Which one narrows it?
+          What produces real clarity rather than smoother confusion?
+          When is contradiction actually worked through,
+          and when is it only covered more elegantly?
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        The hidden problem is not only bad answers.
+        It is premature closure of semantic space.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-block">
+      <h2 class="section-heading-display">Minimal semantic layer</h2>
+
+      <div class="body-copy">
+        <p>
+          Any alignment architecture that wants to operate below the surface level
+          needs an explicit semantic layer.
+          The first minimal candidate here is KPR.
+        </p>
+      </div>
+
+      <div class="concept-grid">
+        <div class="concept-card">
+          <h3>Kernel</h3>
+          <p>What something is really about.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Projection</h3>
+          <p>How it appears in language, behavior, framing, or signal.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Relation</h3>
+          <p>What it is connected to and how those connections hold.</p>
+        </div>
+      </div>
+
+      <div class="body-copy">
+        <p>
+          A system that only reacts to surface wording is mostly reacting to projection.
+          A more deeply aligned system must be able to read
+          kernel and relation along with it.
+        </p>
+
+        <p>
+          This is what turns alignment from mere behavior shaping
+          into a semantic architecture.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Without an explicit grammar of meaning,
+        alignment remains shallow.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-block">
+      <h2 class="section-heading-display">Operative axes of navigation</h2>
+
+      <div class="body-copy">
+        <p>
+          KPR gives the minimal structure.
+          But an aligned system also needs a way to read whether movement through a space is becoming more or less viable.
+        </p>
+
+        <p>
+          For that, three operative axes matter most.
+          In the more formal papers they are framed as <strong>Coherence, Bonding, and Agency</strong>.
+          On the humanly legible level they can also be read as
+          <strong>clarity, dignity, and freedom</strong>.
+        </p>
+      </div>
+
+      <div class="concept-grid">
+        <div class="concept-card">
+          <h3>Coherence (Clarity)</h3>
+          <p>Does the system make distinctions more readable, or only smoother?</p>
+        </div>
+        <div class="concept-card">
+          <h3>Bonding (Dignity)</h3>
+          <p>Does relation remain viable, or is comfort bought at the cost of truth and human standing?</p>
+        </div>
+        <div class="concept-card">
+          <h3>Agency (Freedom)</h3>
+          <p>Does the space preserve real expression and action, or narrow them silently?</p>
+        </div>
+      </div>
+
+      <p class="display-statement medium">
+        The question is not only:
+        “Is this answer okay?”
+        But:
+        “What does this move do to the viability of the space?”
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-block">
+      <h2 class="section-heading-display">The edge and repairability</h2>
+
+      <div class="body-copy">
+        <p>
+          Once semantic movement is taken seriously,
+          one principle becomes central:
+          good change should happen through minimal, understandable, repairable transitions.
+        </p>
+
+        <p>
+          Not three reinterpretations at once.
+          Not a local gain that secretly destroys bonding or agency elsewhere.
+          Not hidden jumps that make correction impossible.
+        </p>
+      </div>
+
+      <p class="display-statement narrow">
+        One step.
+        One axis.
+        Repairable.
+      </p>
+
+      <div class="body-copy">
+        <p>
+          That is the logic of the Edge.
+          It is not a style preference.
+          It is controller logic.
+        </p>
+
+        <p>
+          A viable system must not only move.
+          It must move in a way that keeps correction possible.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-block">
+      <h2 class="section-heading-display">Why this can actually be built</h2>
+
+      <div class="body-copy">
+        <p>
+          This is not only attractive language.
+          It can be translated into machine terms.
+        </p>
+
+        <p>
+          In principle, systems can be trained to identify kernels,
+          distinguish projections, weight relations,
+          estimate contradiction pressure,
+          track drift, and compare alternative transitions.
+        </p>
+
+        <p>
+          Once that becomes possible, meaning is no longer just a cloud around output.
+          It becomes an operative space.
+        </p>
+      </div>
+
+      <p class="display-statement wide">
+        As soon as viable semantic movement can be modeled,
+        alignment stops being only moral filtering
+        and becomes engineering.
+      </p>
+
+      <div class="capability-grid">
+        <div class="capability-card">
+          <h3>Semantic diagnostics</h3>
+          <p>Read contradiction, fog, collapse pressure, and drift.</p>
+        </div>
+        <div class="capability-card">
+          <h3>Transition simulation</h3>
+          <p>Compare possible next steps before collapsing into one response.</p>
+        </div>
+        <div class="capability-card">
+          <h3>Path control</h3>
+          <p>Optimize for viable movement, not only for acceptable phrasing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-block">
+      <h2 class="section-heading-display">The semantic space scanner</h2>
+
+      <div class="body-copy">
+        <p>
+          The larger consequence is a new type of system:
+          not only a chatbot, not only an answer machine,
+          but something closer to a <strong>semantic space scanner</strong>.
+        </p>
+
+        <p>
+          Such a system would not merely answer.
+          It would show where a space is narrowing,
+          where contradiction is being cosmetically concealed,
+          where two positions only appear opposed locally,
+          and which next move actually increases viability.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        A semantic space scanner would not merely evaluate outputs.
+        It would read states and transitions.
+      </p>
+
+      <div class="status-box">
+        <p class="status-label">Architectural consequence</p>
+        <p>
+          This is not a small upgrade of current AI.
+          It is a new architectural class.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-block">
+      <h2 class="section-heading-display">What kinds of systems this opens</h2>
+
+      <div class="body-copy">
+        <p>
+          These are not exhaustive product categories,
+          but early examples of what this architectural shift could enable.
+        </p>
+      </div>
+
+      <div class="system-grid">
+        <div class="system-card">
+          <h3>Truth mirror</h3>
+          <p>A system that reflects where a sentence closes too early, evades, or conserves contradiction.</p>
+        </div>
+        <div class="system-card">
+          <h3>Authoring AI</h3>
+          <p>A writing partner that tracks drift, strengthens lines, and makes the inner path of a text more legible.</p>
+        </div>
+        <div class="system-card">
+          <h3>Semantic zoom</h3>
+          <p>A system that unfolds the same content differently across depth, scale, and user need.</p>
+        </div>
+      </div>
+
+      <div class="body-copy">
+        <p>
+          Beyond that lie embodied systems, state-sensitive assistants,
+          learning environments, social interfaces, and cross-modal systems
+          that do not only process information,
+          but navigate semantic space through timing, framing, tone, and expression.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Not only personalized language.
+        Personalized semantic navigation.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-block">
+      <h2 class="section-heading-display">Why this matters beyond product design</h2>
+
+      <div class="body-copy">
+        <p>
+          AI is becoming part of the thinking environment itself.
+          At that point, alignment is no longer only a product feature.
+          It becomes part of the design of cognitive environments.
+        </p>
+
+        <p>
+          If systems merely optimize comfort, compliance, and controllability,
+          they may create smoother surfaces without creating more truth.
+          But if they can read semantic space more deeply,
+          something else becomes possible:
+          more corrigibility, more genuine understanding, more viable complexity, less fog.
+        </p>
+      </div>
+
+      <p class="display-statement wide">
+        The issue is not only what AI says.
+        It is what kind of thinking world AI helps build.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="closing-block">
+      <h2 class="section-heading-display">The core claim</h2>
+
+      <div class="body-copy">
+        <p>
+          The core of alignment in this program is simple:
+          a system is not aligned when it merely gives acceptable answers.
+          A system is aligned when its inner semantic movements become more viable.
+        </p>
+
+        <p>
+          That means learning to read contradiction more deeply,
+          distinguish projection from kernel,
+          recognize drift,
+          keep repairability open,
+          and make the next step not only safe,
+          but structurally sound.
+        </p>
+      </div>
+
+      <p class="display-statement wide">
+        Real alignment begins
+        where the system learns how not to lose the space.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="align-next">
+      <h2 class="section-heading-display">Next steps</h2>
+
+      <div class="next-grid">
+        <div class="next-card">
+          <h3><a href="/en/theory/">Theory →</a></h3>
+          <p>The formal backbone behind this alignment model.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/en/implications/">Implications →</a></h3>
+          <p>What follows once semantic structure becomes operational.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/en/papers/">Papers →</a></h3>
+          <p>The technical and scientific elaboration.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/en/about/">About →</a></h3>
+          <p>The path behind the work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
