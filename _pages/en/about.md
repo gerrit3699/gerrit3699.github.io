@@ -8,6 +8,10 @@ translation_url_de: /de/ueber-mich/
 ---
 
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
+
   .about-page {
     --about-text: rgba(255,255,255,0.96);
     --about-soft: rgba(255,255,255,0.82);
@@ -145,6 +149,19 @@ translation_url_de: /de/ueber-mich/
     color: var(--about-soft);
   }
 
+  .about-page .claim-card {
+    display: block;
+    text-decoration: none;
+    transition:
+      transform 0.18s ease,
+      border-color 0.18s ease;
+  }
+
+  .about-page .claim-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--about-line-strong);
+  }
+
   .about-page .section-heading-display {
     margin: 0 auto 1.3rem;
     max-width: 14ch;
@@ -246,25 +263,25 @@ translation_url_de: /de/ueber-mich/
       </p>
 
       <div class="claim-grid">
-        <div class="claim-card">
+        <a class="claim-card" href="#who-i-am">
           <h3>No classical path</h3>
           <p>No lab, no institute, no academic prestige structure carrying the work from the outside.</p>
-        </div>
-        <div class="claim-card">
+        </a>
+        <a class="claim-card" href="#forge-with-ai">
           <h3>The forge with AI</h3>
           <p>Not AI as idea-generator, but as mirror-space, pressure chamber, and instrument of repeated examination.</p>
-        </div>
-        <div class="claim-card">
+        </a>
+        <a class="claim-card" href="#current-reality">
           <h3>Still building</h3>
           <p>I am currently carrying this work largely alone and actively looking for people who want to help build it.</p>
-        </div>
+        </a>
       </div>
     </div>
   </section>
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="who-i-am">
     <div class="about-block">
       <h2 class="section-heading-display">Who I am</h2>
 
@@ -301,7 +318,7 @@ translation_url_de: /de/ueber-mich/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="why-the-path-matters">
     <div class="about-block">
       <h2 class="section-heading-display">Why the unusual path matters</h2>
 
@@ -347,7 +364,7 @@ translation_url_de: /de/ueber-mich/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="what-came-first">
     <div class="about-block">
       <h2 class="section-heading-display">What came first</h2>
 
@@ -384,7 +401,7 @@ translation_url_de: /de/ueber-mich/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="forge-with-ai">
     <div class="about-block">
       <h2 class="section-heading-display">The forge with AI</h2>
 
@@ -448,7 +465,7 @@ translation_url_de: /de/ueber-mich/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="inner-tests">
     <div class="about-block">
       <h2 class="section-heading-display">The inner tests behind the work</h2>
 
@@ -510,7 +527,7 @@ translation_url_de: /de/ueber-mich/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="from-life-to-architecture">
     <div class="about-block">
       <h2 class="section-heading-display">From life to architecture</h2>
 
@@ -546,7 +563,7 @@ translation_url_de: /de/ueber-mich/
           into trajectories,
           into architectural ideas,
           into patent families,
-          into papers.
+          and into papers.
         </p>
 
         <p>
@@ -570,7 +587,7 @@ translation_url_de: /de/ueber-mich/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="what-people-taught-me">
     <div class="about-block">
       <h2 class="section-heading-display">What people taught me</h2>
 
@@ -603,7 +620,7 @@ translation_url_de: /de/ueber-mich/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="why-i-filed-patents">
     <div class="about-block">
       <h2 class="section-heading-display">Why I filed patents</h2>
 
@@ -639,7 +656,7 @@ translation_url_de: /de/ueber-mich/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="current-reality">
     <div class="about-block">
       <h2 class="section-heading-display">Current reality</h2>
 
@@ -682,7 +699,7 @@ translation_url_de: /de/ueber-mich/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="what-is-needed-now">
     <div class="about-block">
       <h2 class="section-heading-display">What is needed now</h2>
 
