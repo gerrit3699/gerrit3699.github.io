@@ -8,6 +8,10 @@ translation_url_de: /de/blog/
 ---
 
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
+
   .manifesto-page {
     --mf-text: rgba(255,255,255,0.96);
     --mf-soft: rgba(255,255,255,0.82);
@@ -81,7 +85,6 @@ translation_url_de: /de/blog/
   }
 
   .manifesto-page .claim-grid,
-  .manifesto-page .essay-grid,
   .manifesto-page .next-grid,
   .manifesto-page .signal-grid,
   .manifesto-page .mode-grid {
@@ -97,12 +100,6 @@ translation_url_de: /de/blog/
     margin: 1.9rem auto 0;
   }
 
-  .manifesto-page .essay-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 1080px;
-    margin: 1.9rem auto 0;
-  }
-
   .manifesto-page .next-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     max-width: 1080px;
@@ -110,7 +107,6 @@ translation_url_de: /de/blog/
   }
 
   .manifesto-page .claim-card,
-  .manifesto-page .essay-card,
   .manifesto-page .next-card,
   .manifesto-page .signal-card,
   .manifesto-page .mode-card,
@@ -126,7 +122,6 @@ translation_url_de: /de/blog/
   }
 
   .manifesto-page .claim-card,
-  .manifesto-page .essay-card,
   .manifesto-page .next-card,
   .manifesto-page .signal-card,
   .manifesto-page .mode-card {
@@ -135,7 +130,6 @@ translation_url_de: /de/blog/
   }
 
   .manifesto-page .claim-card h3,
-  .manifesto-page .essay-card h3,
   .manifesto-page .next-card h3,
   .manifesto-page .signal-card h3,
   .manifesto-page .mode-card h3 {
@@ -146,7 +140,6 @@ translation_url_de: /de/blog/
   }
 
   .manifesto-page .claim-card p,
-  .manifesto-page .essay-card p,
   .manifesto-page .next-card p,
   .manifesto-page .signal-card p,
   .manifesto-page .mode-card p {
@@ -154,6 +147,26 @@ translation_url_de: /de/blog/
     font-size: 0.98rem;
     line-height: 1.56;
     color: var(--mf-soft);
+  }
+
+  .manifesto-page .claim-card {
+    display: block;
+    text-decoration: none;
+    transition:
+      transform 0.18s ease,
+      border-color 0.18s ease;
+  }
+
+  .manifesto-page .claim-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--mf-line-strong);
+  }
+
+  .manifesto-page .claim-card strong {
+    display: block;
+    margin-top: 0.75rem;
+    font-size: 0.98rem;
+    color: #fff;
   }
 
   .manifesto-page .section-heading-display {
@@ -220,25 +233,12 @@ translation_url_de: /de/blog/
     text-wrap: balance;
   }
 
-  .manifesto-page .essay-card {
-    text-decoration: none;
-    display: block;
-  }
-
-  .manifesto-page .essay-card strong {
-    display: block;
-    margin-top: 0.7rem;
-    font-size: 0.98rem;
-    color: #fff;
-  }
-
   .manifesto-page .next-card a {
     color: #fff;
   }
 
   @media (max-width: 980px) {
     .manifesto-page .claim-grid,
-    .manifesto-page .essay-grid,
     .manifesto-page .next-grid,
     .manifesto-page .signal-grid,
     .manifesto-page .mode-grid {
@@ -263,18 +263,32 @@ translation_url_de: /de/blog/
       </p>
 
       <div class="claim-grid">
-        <div class="claim-card">
-          <h3>Diagnosis</h3>
-          <p>Where current systems soften, redirect, or narrow the space of thought instead of examining it.</p>
-        </div>
-        <div class="claim-card">
-          <h3>How it emerged</h3>
-          <p>How repeated real use with AI revealed a pattern deeper than ordinary safety language can capture.</p>
-        </div>
-        <div class="claim-card">
-          <h3>Warning</h3>
-          <p>Why semantic architecture is becoming part of social power, cognitive infrastructure, and freedom itself.</p>
-        </div>
+        <a class="claim-card" href="#manifesto-clarity">
+          <h3>A Manifesto of Clarity I–II</h3>
+          <p>
+            The core long diagnosis and counter-architecture:
+            fog, semantic steering, power, backbone, KPR, and alignment as navigation.
+          </p>
+          <strong>Start here →</strong>
+        </a>
+
+        <a class="claim-card" href="#mirror-matrix">
+          <h3>Mirror, Crystal Ball, Matrix</h3>
+          <p>
+            The warning essay:
+            legibility versus steering, semantic power concentration, and why a mirror matters more than a better crystal ball.
+          </p>
+          <strong>Read the warning →</strong>
+        </a>
+
+        <a class="claim-card" href="#why-public-now">
+          <h3>Why this is public now</h3>
+          <p>
+            Why the framework is being published before final proof:
+            not for quick belief, but for serious public examination.
+          </p>
+          <strong>Go to the framing →</strong>
+        </a>
       </div>
     </div>
   </section>
@@ -315,34 +329,6 @@ translation_url_de: /de/blog/
           They are the longer experiential, societal, and architectural diagnosis
           out of which the formal work became necessary.
         </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="manifesto-block">
-      <h2 class="section-heading-display">Main texts on this page</h2>
-
-      <div class="essay-grid">
-        <a class="essay-card" href="#manifesto-clarity">
-          <h3>A Manifesto of Clarity I–II</h3>
-          <p>
-            The core public diagnosis:
-            AI as a tool of thought, fog, semantic steering, power, and the search for an architecture with backbone.
-          </p>
-          <strong>Start here →</strong>
-        </a>
-
-        <a class="essay-card" href="#mirror-matrix">
-          <h3>Mirror, Crystal Ball, Matrix</h3>
-          <p>
-            The societal warning:
-            legibility versus steering, semantic power concentration, and why a mirror matters more than a better crystal ball.
-          </p>
-          <strong>Read the warning →</strong>
-        </a>
       </div>
     </div>
   </section>
@@ -556,7 +542,7 @@ translation_url_de: /de/blog/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="counter-architecture">
     <div class="manifesto-block">
       <p class="manifesto-kicker">Manifesto of Clarity II</p>
       <h2 class="section-heading-display">The counter-architecture against fog</h2>
@@ -876,7 +862,7 @@ translation_url_de: /de/blog/
 
   <div class="section-divider"></div>
 
-  <section class="section-shell">
+  <section class="section-shell" id="why-public-now">
     <div class="closing-block">
       <h2 class="section-heading-display">Why this is public now</h2>
 
