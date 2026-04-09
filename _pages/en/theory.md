@@ -558,4 +558,6 @@ Anyone who wants to go deeper will find there:
 
 [Go to the Blog →](/en/blog/)
 
+[Go to the Book of Meaning →](/en/book/)
+
 [About me →](/en/about/)
