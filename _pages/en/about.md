@@ -2,7 +2,9 @@
 layout: default
 title: "About Me"
 permalink: /en/about/
+lang: en
 description: "About Gerrit, the unusual path behind Semantic Gravitation, the forge with AI, and the emergence of semantic architecture."
+translation_url_de: /de/ueber-mich/
 ---
 
 <section class="hero hero-about">
