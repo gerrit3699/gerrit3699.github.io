@@ -223,6 +223,28 @@ translation_url_de: /de/ki-alignment/
     text-wrap: balance;
   }
 
+  .alignment-page .review-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .alignment-page .review-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 0.85rem 1.05rem;
+    border-radius: 999px;
+    border: 1px solid var(--align-line);
+    background: rgba(255,255,255,0.04);
+    text-decoration: none;
+    font-size: 0.96rem;
+    line-height: 1.2;
+  }
+
   .alignment-page .next-card a {
     color: #fff;
   }
@@ -560,6 +582,22 @@ translation_url_de: /de/ki-alignment/
         <div class="capability-card">
           <h3>Path control</h3>
           <p>Optimize for viable movement, not only for acceptable phrasing.</p>
+        </div>
+      </div>
+
+      <div class="status-box">
+        <p class="status-label">Review material</p>
+        <p>
+          This alignment model is not only described here in prose.
+          It is also developed in the dedicated paper
+          <strong>Beyond Fog: Edge Alignment in Semantic Space</strong>
+          and in the downloadable review materials.
+        </p>
+        <div class="review-links">
+          <a class="review-link" href="/en/downloads/">Go to Downloads →</a>
+          <a class="review-link" href="https://doi.org/10.5281/zenodo.18608012" target="_blank" rel="noopener">
+            Read Beyond Fog / Edge Alignment →
+          </a>
         </div>
       </div>
     </div>
