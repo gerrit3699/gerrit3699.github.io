@@ -45,7 +45,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
       <div class="home-cta-row">
         <a class="button" href="/en/theory/">Go to Theory</a>
-        <a class="button" href="/en/ai-alignment/">Go to Edge Alignment</a>
+        <a class="button" href="/en/alignment/">Go to Edge Alignment</a>
         <a class="button" href="/en/blog/">Read the diagnosis</a>
       </div>
     </div>
@@ -111,8 +111,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
       <p class="statement-block statement-inline">
         Human states can almost always also be read as a position in a space of<br>
-        <strong>Clarity, Bonding, and Agency</strong><br>
-        .
+        <strong>Clarity, Bonding, and Agency</strong>
       </p>
 
       <p>
@@ -481,7 +480,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
         <strong>But inwardly aligned.</strong>
       </p>
 
-      <p>More on this here: <a href="/en/ai-alignment/">Go to Edge Alignment →</a></p>
+      <p>More on this here: <a href="/en/alignment/">Go to Edge Alignment →</a></p>
     </div>
   </section>
 
@@ -549,7 +548,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           </div>
 
           <div class="axis-card">
-            <h3><a href="/en/ai-alignment/">Edge Alignment →</a></h3>
+            <h3><a href="/en/alignment/">Edge Alignment →</a></h3>
             <p>A new approach to alignment beyond fog, smoothing, and hidden steering.</p>
           </div>
 
@@ -569,7 +568,7 @@ description: "Semantic Gravitation – a compass for the space of thought in the
           </div>
 
           <div class="axis-card">
-            <h3><a href="/en/contact/">Research collaboration →</a></h3>
+            <h3><a href="/en/about/">Research collaboration →</a></h3>
             <p>For researchers, developers, and thinkers who want to help build a different architecture.</p>
           </div>
         </div>
@@ -606,9 +605,9 @@ description: "Semantic Gravitation – a compass for the space of thought in the
 
       <div class="link-list">
         <a href="/en/theory/">Go to Theory →</a>
-        <a href="/en/ai-alignment/">Go to Edge Alignment →</a>
+        <a href="/en/alignment/">Go to Edge Alignment →</a>
         <a href="/en/blog/">Read the diagnosis →</a>
-        <a href="/en/contact/">Research collaboration →</a>
+        <a href="/en/about/">Research collaboration →</a>
       </div>
     </div>
   </section>
