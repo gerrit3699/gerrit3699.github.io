@@ -555,4 +555,4 @@ Wer tiefer einsteigen will, findet dort:
 
 [Zum Buch der Bedeutung →](/de/buch-der-bedeutung/)
 
-[Warum das wichtig ist →](/de/warum-das-wichtig-ist/)
+[Warum das wichtig ist →](/de/blog/)
