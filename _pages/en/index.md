@@ -59,11 +59,52 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
   .home-journey .hero {
     overflow: hidden;
+    margin-top: 1rem;
+    border-radius: 34px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background:
+      linear-gradient(180deg, rgba(5,7,11,0.70), rgba(4,6,10,0.82)),
+      linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.24)),
+      url("/assets/images/design/attractor.jpg.PNG") center center / cover no-repeat;
+    box-shadow:
+      0 24px 80px rgba(0,0,0,0.28),
+      inset 0 1px 0 rgba(255,255,255,0.03);
+  }
+
+  .home-journey .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 58% 54%, rgba(255,255,255,0.06), transparent 18%),
+      linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px);
+    background-size:
+      auto,
+      42px 42px,
+      42px 42px;
+    opacity: 0.24;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.92), rgba(0,0,0,0.65));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.92), rgba(0,0,0,0.65));
+  }
+
+  .home-journey .hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 50% 0%, rgba(255,255,255,0.22), transparent 38%),
+      linear-gradient(to bottom, rgba(255,255,255,0.03), transparent 28%);
+    opacity: 0.22;
   }
 
   .home-journey .hero-inner {
-    padding-top: 4rem;
-    padding-bottom: 3.2rem;
+    position: relative;
+    z-index: 1;
+    padding-top: 4.2rem;
+    padding-bottom: 3.5rem;
     text-align: center;
   }
 
@@ -80,21 +121,17 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
   .home-journey .home-lead {
     display: block;
-    max-width: 30rem;
+    max-width: 31rem;
     margin: 0 auto;
-    font-size: clamp(1.22rem, 2.2vw, 1.6rem);
+    font-size: clamp(1.22rem, 2.2vw, 1.58rem);
     line-height: 1.22;
     font-weight: 560;
     text-wrap: balance;
   }
 
   .home-journey .home-lead-plain {
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-    border-radius: 0;
-    color: rgba(255,255,255,0.9);
+    color: rgba(255,255,255,0.92);
+    text-shadow: 0 2px 18px rgba(0,0,0,0.18);
   }
 
   .home-journey .hero-research {
@@ -104,7 +141,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
   }
 
   .home-journey .hero-problem {
-    max-width: 50rem;
+    max-width: 52rem;
     margin: 0 auto;
     font-size: clamp(1.22rem, 2.35vw, 1.7rem);
     line-height: 1.58;
@@ -448,15 +485,20 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
       padding-bottom: 1.8rem;
     }
 
+    .home-journey .hero {
+      border-radius: 26px;
+      margin-top: 0.7rem;
+    }
+
     .home-journey .hero-inner {
-      padding-top: 2.7rem;
-      padding-bottom: 2.2rem;
+      padding-top: 2.9rem;
+      padding-bottom: 2.5rem;
     }
 
     .home-journey .display-wordmark {
       font-size: 4.2rem;
       max-width: 7.4ch;
-      margin-bottom: 1rem;
+      margin-bottom: 0.95rem;
     }
 
     .home-journey .home-lead {
@@ -544,7 +586,7 @@ description: "Semantic Gravitation – a theory of meaning as a navigable space 
 
 <div class="home-journey">
 
-  <section class="hero home-hero section-fog">
+  <section class="hero home-hero">
     <div class="hero-inner">
       <h1 class="display-wordmark">Semantic<br>Gravitation</h1>
       <p class="home-lead home-lead-plain">A theory of meaning as a navigable space — and a new foundation for AI alignment.</p>
