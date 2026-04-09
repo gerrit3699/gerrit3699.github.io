@@ -2,7 +2,9 @@
 layout: default
 title: "Das Buch der Bedeutung"
 permalink: /de/buch/
+lang: de
 description: "Ein Buch über Bedeutung, Rückkehr, semantische Räume, Schönheit, Erlösung und die lesbare Struktur von Wirklichkeit."
+translation_url_en: /en/book/
 ---
 
 <section class="hero hero-book">
