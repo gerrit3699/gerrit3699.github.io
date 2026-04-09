@@ -556,6 +556,6 @@ Wer tiefer einsteigen will, findet dort:
 
 [Zu den Papers →](/de/papers/)
 
-[Zum Buch der Bedeutung →](/de/buch-der-bedeutung/)
+[Zum Buch der Bedeutung →](/de/buch/)
 
 [Warum das wichtig ist →](/de/blog/)
