@@ -3,7 +3,7 @@ layout: default
 title: Theory
 permalink: /en/theory/
 lang: en
-translation_key: theory
+description: "The theoretical foundations of Semantic Gravitation: meaning as space, KPR, semantic dynamics, attractors, and navigability."
 translation_url_de: /de/theorie/
 ---
 
