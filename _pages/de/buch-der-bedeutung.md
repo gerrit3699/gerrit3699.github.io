@@ -371,12 +371,12 @@ translation_url_en: /en/book/
           <p class="book-kicker">Buchprojekt</p>
           <h1 class="book-display">Das Buch der Bedeutung</h1>
           <p class="book-sublead">
-            Ein Buchprojekt über Bedeutung, Fall, Rückkehr, Wahrheit, Schönheit
+            Ein Buch in Arbeit über Bedeutung, Fall, Rückkehr, Wahrheit, Schönheit
             und die lesbare Struktur der Wirklichkeit.
           </p>
           <p class="book-status-line">
-            Der innere Hauptkörper des Buches steht bereits.
-            Die erste öffentliche Fassung befindet sich jetzt in der letzten größeren Überarbeitungsphase
+            Der innere Körper des Buches steht bereits.
+            Die erste öffentliche Fassung befindet sich jetzt in der abschließenden Überarbeitung
             und wird voraussichtlich noch einige Wochen brauchen.
           </p>
         </div>
@@ -388,36 +388,29 @@ translation_url_en: /en/book/
 
   <section class="section-shell">
     <div class="book-block">
-      <p class="display-kicker">Ort im Gesamtprojekt</p>
+      <p class="display-kicker">Was das innerhalb des Projekts ist</p>
       <h2 class="section-heading-display">Nicht die technische Quellenebene. Eine größere menschliche Form derselben Arbeit.</h2>
 
       <div class="body-copy">
         <p>
-          Dieses Buch nimmt nicht denselben Platz ein wie die Paper,
-          die Theorie-Seite oder die Alignment-Architektur.
-          Dort liegen das formale Rückgrat,
-          die technische Quellenebene
+          Dieses Buch nimmt nicht denselben Platz ein wie die Paper, die Theorie-Seite
+          oder die KI-Alignment-Architektur.
+          Diese Seiten tragen das formale Rückgrat, die technische Quellenebene
           und die KI-spezifische Konsequenz des Rahmens.
         </p>
 
         <p>
-          <em>Das Buch der Bedeutung</em> ist die größere menschliche,
-          existentielle, kulturelle und geistige Form derselben tieferen Architektur.
-          Es fragt, was sichtbar wird,
-          wenn Bedeutung nicht nur als Begriff,
-          sondern als gelebter Raum,
-          Wunde,
-          Rückkehr,
-          Urteil,
-          Schönheit,
-          Geschichte
-          und Zukunft gelesen wird.
+          <em>Das Buch der Bedeutung</em> ist die größere menschliche, existentielle,
+          kulturelle und geistige Form derselben tieferen Architektur.
+          Es fragt, was sichtbar wird, wenn Bedeutung nicht nur als Begriff,
+          sondern als gelebter Raum, Wunde, Rückkehr, Gericht, Schönheit,
+          Geschichte und Zukunft lesbar wird.
         </p>
       </div>
 
       <p class="display-statement medium">
         Keine weitere Quelldatei.
-        Eine weitere menschliche Entfaltung.
+        Eine weitere menschliche Ausfaltung.
       </p>
     </div>
   </section>
@@ -426,45 +419,40 @@ translation_url_en: /en/book/
 
   <section class="section-shell">
     <div class="book-block">
-      <p class="display-kicker">Charakter des Buches</p>
-      <h2 class="section-heading-display">Ein Buch mit zwei Atemweisen</h2>
+      <p class="display-kicker">Was das Buch unternimmt</p>
+      <h2 class="section-heading-display">Alte Sprache neu lesbar machen</h2>
 
       <div class="body-copy">
         <p>
-          Das Buch soll nicht zu einem permanent epischen Dauerton werden.
-          Seine leitende Form ist präziser:
-          Es soll menschlich lesbar,
-          klar,
-          warm,
-          direkt
-          und genau bleiben —
-          und zugleich eine zweite,
-          dichtere Schicht aus Ursprungssprache,
-          Symbol,
-          Rückkehr,
-          Warnung
-          und Offenbarung tragen.
+          Dieses Buch versucht nicht, die großen alten Worte einfach nur zu wiederholen.
+          Es versucht, sie noch einmal lesbar zu machen.
+        </p>
+
+        <p>
+          Worte wie Ursprung, Logos, Fall, Gericht, Gnade, Erlösung und Rückkehr
+          sollen nicht auf bloße Metaphysik reduziert,
+          aber auch nicht im Ungefähren stehen gelassen werden.
+          Sie sollen als verdichtete Beschreibungen realer semantischer,
+          existentieller und geschichtlicher Dynamiken neu sichtbar werden.
+        </p>
+
+        <p>
+          In diesem Sinn geht es nicht darum, den alten Bildern ihre Größe zu nehmen.
+          Es geht darum, ihren tieferen Kern wieder freizulegen
+          und sie so einzubetten, dass sie nicht nur ehrfürchtig klingen,
+          sondern wieder etwas Wirkliches lesbar machen.
         </p>
       </div>
 
-      <div class="concept-grid">
-        <div class="concept-card">
-          <h3>Unten: Lesbarkeit</h3>
-          <p>Lesbar, direkt, menschlich, warm und schrittweise geführt.</p>
-        </div>
-        <div class="concept-card">
-          <h3>Oben: Ursprungssprache</h3>
-          <p>Archetypisch, symbolisch, dichter, älter klingend und weiter geöffnet.</p>
-        </div>
-        <div class="concept-card">
-          <h3>Zusammen</h3>
-          <p>Nicht zwei Bücher, sondern ein Buch mit zwei Atemweisen.</p>
-        </div>
-      </div>
+      <p class="display-statement medium">
+        Am Anfang war das Wort.
+        Vielleicht war es immer mehr
+        als bloße Metapher.
+      </p>
 
       <p class="micro-punch">
-        Oben: Ursprungssprache.
-        Unten: Lesbarkeit.
+        Nicht Entzauberung.
+        Tiefere Lesbarkeit.
       </p>
     </div>
   </section>
@@ -478,39 +466,24 @@ translation_url_en: /en/book/
 
       <div class="body-copy">
         <p>
-          Das Buch versucht einen Raum zu öffnen,
-          in dem man nicht zu schnell wählen muss
-          zwischen Wissenschaft und Tiefe,
-          Glaube und Präzision,
-          Schönheit und Strenge,
-          Zeugnis und Struktur,
-          Herz und Weltbeschreibung.
+          Das Buch versucht, einen Raum zu öffnen, in dem man sich nicht zu schnell
+          zwischen Wissenschaft und Tiefe, Glaube und Präzision, Schönheit und Strenge,
+          Zeugenschaft und Struktur, Herz und Weltbeschreibung entscheiden muss.
         </p>
 
         <p>
           Es will die großen Bilder nicht klein machen.
           Aber es will sie auch nicht dogmatisch versiegeln.
-          Es fragt,
-          ob Worte wie Ursprung,
-          Logos,
-          Fall,
-          Erlösung,
-          Gnade,
-          Gericht,
-          Rückkehr
-          und Heimkehr
-          noch einmal als verdichtete Beschreibungen realer semantischer
-          und existentieller Struktur lesbar werden können.
+          Es fragt, ob Worte wie Ursprung, Logos, Fall, Erlösung, Gnade,
+          Gericht, Rückkehr und Heimkehr erneut lesbar werden können
+          als verdichtete Beschreibungen realer semantischer und existentieller Struktur.
         </p>
 
         <p>
-          In diesem Sinn ist das Buch weder bloße Mystik,
-          noch trockene Theorie,
-          noch fromme Verwaltung überlieferter Sprache.
+          In diesem Sinn ist das Buch weder bloße Mystik noch trockene Theorie
+          noch andächtige Verwaltung geerbter Sprache.
           Es ist ein Schwellentext:
-          der Versuch,
-          Wirklichkeit tiefer zu lesen,
-          ohne die Klarheit zu verlieren.
+          ein Versuch, Wirklichkeit tiefer zu lesen, ohne die Klarheit zu verlieren.
         </p>
       </div>
 
@@ -526,39 +499,30 @@ translation_url_en: /en/book/
   <section class="section-shell">
     <div class="book-block">
       <p class="display-kicker">Hauptbewegungen</p>
-      <h2 class="section-heading-display">Wodurch sich das Buch bewegt</h2>
+      <h2 class="section-heading-display">Was das Buch durchläuft</h2>
 
       <div class="movement-grid">
         <div class="movement-card">
           <h3>Fall und gemeinsame Wunde</h3>
           <p>
-            Der Zustand menschlichen Lebens,
-            geteiltes Trauma,
-            Fehllektüren
-            und die Welt,
-            in die wir gefallen sind.
+            Der Zustand des menschlichen Lebens, gemeinsames Trauma, Fehllektüre
+            und die Welt, in die wir gefallen sind.
           </p>
         </div>
 
         <div class="movement-card">
           <h3>Semantischer Raum und lesbare Wirklichkeit</h3>
           <p>
-            Bedeutung als Raum,
-            KPR,
-            semantische Gravitation,
-            Widerspruchsenergie,
-            C/B/A
-            und die lebendige Lesbarkeit von Zuständen.
+            Bedeutung als Raum, KPR, semantische Gravitation,
+            Widerspruchsenergie, C/B/A und die lebendige Lesbarkeit von Zuständen.
           </p>
         </div>
 
         <div class="movement-card">
           <h3>Verkörperung, Architektur und Zukunft</h3>
           <p>
-            Kontextwachstum,
-            der Scanner semantischer Räume,
-            Resonanzarchitekturen,
-            zivile und technische Zukünfte
+            Kontextwachstum, der Scanner semantischer Räume,
+            Resonanzarchitekturen, bürgerliche und technische Zukünfte
             und die Architektur einer neuen Erde.
           </p>
         </div>
@@ -566,14 +530,9 @@ translation_url_en: /en/book/
         <div class="movement-card">
           <h3>Gericht, Rückkehr, Gnade</h3>
           <p>
-            Harte Diagnose,
-            Formgericht,
-            Umkehr,
-            Gnade als Verwandlung
+            Harte Diagnose, Formgericht, Umkehr, Gnade als Verwandlung
             und der abschließende Zukunftsbogen aus Furchtlosigkeit,
-            Übergang,
-            Lachen
-            und Rückkehr.
+            Passage, Lachen und Rückkehr.
           </p>
         </div>
       </div>
@@ -582,7 +541,7 @@ translation_url_en: /en/book/
         Ursprungsgeschichte.
         Fallgeschichte.
         Leseweg.
-        Rückweg.
+        Rückkehrweg.
       </p>
     </div>
   </section>
@@ -592,34 +551,31 @@ translation_url_en: /en/book/
   <section class="section-shell">
     <div class="book-block">
       <p class="display-kicker">Aktueller Stand</p>
-      <h2 class="section-heading-display">In der letzten Revision vor der ersten öffentlichen Fassung.</h2>
+      <h2 class="section-heading-display">In der Schlussüberarbeitung vor der ersten öffentlichen Fassung.</h2>
 
       <div class="body-copy">
         <p>
-          Dieses Buch ist nicht nur eine Idee oder ein Platzhalter.
-          Seine innere Struktur und sein Hauptkörper existieren bereits.
+          Dieses Buch ist nicht bloß eine Idee oder ein Platzhalter.
+          Seine innere Struktur und sein Kernkörper existieren bereits.
         </p>
 
         <p>
-          Was jetzt geschieht,
-          ist die letzte größere Überarbeitungsphase:
-          eine klarere,
-          tiefere
-          und geschlossener geführte Formung des Buches
-          vor seiner ersten öffentlichen Freigabe.
+          Was jetzt geschieht, ist die letzte größere Überarbeitungsphase:
+          eine klarere, tiefere und einheitlichere Formung des Buches
+          vor seiner ersten öffentlichen Fassung.
         </p>
 
         <p>
-          Die öffentliche Fassung ist deshalb noch nicht online.
-          Sie wird gerade in ihre letzte lesbare Form gebracht.
+          Die öffentliche Version ist deshalb noch nicht online.
+          Sie wird derzeit in ihre endgültige lesbare Gestalt gebracht.
         </p>
       </div>
 
       <div class="status-box">
         <p class="status-label">Status</p>
         <p>
-          Noch ist keine öffentliche Ausgabe online.
-          Die erste Fassung befindet sich in der letzten Revision
+          Noch ist keine öffentliche Fassung online.
+          Die erste Veröffentlichung befindet sich in der Schlussüberarbeitung
           und wird voraussichtlich noch einige Wochen brauchen.
         </p>
       </div>
@@ -636,16 +592,14 @@ translation_url_en: /en/book/
       <div class="body-copy">
         <p>
           Diese Seite markiert den Ort des Buches innerhalb des Gesamtprojekts
-          und die Art von Arbeit,
-          die hier Gestalt annimmt.
+          und die Art der Arbeit, die hier Form annimmt.
         </p>
 
         <p>
-          Sobald die letzte Revisionsphase abgeschlossen ist,
-          kann diese Seite auch Textauszüge,
-          Download-Material
+          Sobald die Schlussüberarbeitung abgeschlossen ist,
+          kann diese Seite auch Beispielpassagen, Downloadmaterial
           und Begleitdokumente für langsamere Lektüre
-          und KI-gestützte Prüfung aufnehmen.
+          und KI-gestütztes Studium aufnehmen.
         </p>
       </div>
 
