@@ -3,7 +3,7 @@ layout: default
 title: "The Book of Meaning"
 permalink: /en/book/
 lang: en
-description: "A book in progress on meaning, fall, return, truth, beauty, and the readable structure of reality."
+description: "A book project on meaning, fall, return, truth, beauty, and the readable structure of reality."
 translation_url_de: /de/buch/
 ---
 
@@ -50,7 +50,6 @@ translation_url_de: /de/buch/
 
   .book-page .book-hero,
   .book-page .body-copy,
-  .book-page .closing-block,
   .book-page .book-next {
     text-align: center;
   }
@@ -371,12 +370,12 @@ translation_url_de: /de/buch/
           <p class="book-kicker">Book Project</p>
           <h1 class="book-display">The Book of Meaning</h1>
           <p class="book-sublead">
-            A book in progress on meaning, fall, return, truth, beauty,
+            A book project on meaning, fall, return, truth, beauty,
             and the readable structure of reality.
           </p>
           <p class="book-status-line">
             The inner body of the book already stands.
-            Its first public edition is now in the final revision phase
+            Its first public edition is now in finalization
             and will likely take a few more weeks.
           </p>
         </div>
@@ -388,28 +387,41 @@ translation_url_de: /de/buch/
 
   <section class="section-shell">
     <div class="book-block">
-      <p class="display-kicker">What this is within the project</p>
-      <h2 class="section-heading-display">Not the technical source layer. A larger human form of the same work.</h2>
+      <p class="display-kicker">What the book is within the project</p>
+      <h2 class="section-heading-display">The human access point to the same deeper architecture</h2>
 
       <div class="body-copy">
         <p>
-          This book does not occupy the same place as the papers, the theory page,
-          or the alignment architecture.
-          Those pages carry the formal backbone, the technical source layer,
-          and the AI-specific consequence of the framework.
+          This book does not stand at the edge of the project.
+          It stands on its own axis within the same overall movement.
+          Theory, AI alignment, technical sources, and downloads carry the formal,
+          architectural, and reviewable backbone.
+          The book translates that same deeper structure into the lived space of the human being.
         </p>
 
         <p>
-          <em>The Book of Meaning</em> is the larger human, existential, cultural,
-          and spiritual unfolding of the same deeper architecture.
-          It asks what becomes visible once meaning is read not only as concept,
-          but as lived space, wound, return, judgment, beauty, history, and future.
+          It asks not only what meaning is in theory,
+          but how one learns to orient within a world one is already inside,
+          without yet fully understanding it.
+          In that sense, it is also a book of navigation:
+          for beings who find themselves thrown into an ongoing reality
+          and need to learn how to read, distinguish, remember, endure,
+          and return within the semantic space of their lives.
+        </p>
+
+        <p>
+          It therefore concerns more than concepts.
+          It concerns wound and form, misreading and return,
+          beauty, judgment, redemption, history, and future —
+          in other words, the question of how reality becomes readable
+          once it is not only explained,
+          but inhabited.
         </p>
       </div>
 
       <p class="display-statement medium">
-        Not another source file.
-        A wider human unfolding.
+        Not a side path.
+        A book of orientation.
       </p>
     </div>
   </section>
@@ -418,74 +430,62 @@ translation_url_de: /de/buch/
 
   <section class="section-shell">
     <div class="book-block">
-      <p class="display-kicker">Character of the book</p>
-      <h2 class="section-heading-display">A book with two ways of breathing</h2>
+      <p class="display-kicker">What the book undertakes</p>
+      <h2 class="section-heading-display">Making old language readable again</h2>
 
       <div class="body-copy">
         <p>
-          The book is not meant to become a permanent epic register.
-          Its guiding form is more precise than that:
-          it should remain humanly readable, clear, warm, direct, and exact —
-          while also carrying a second, denser layer of origin-language,
-          symbol, return, warning, and revelation.
-        </p>
-      </div>
-
-      <div class="concept-grid">
-        <div class="concept-card">
-          <h3>Below: readability</h3>
-          <p>Readable, direct, human, warm, and stepwise led.</p>
-        </div>
-        <div class="concept-card">
-          <h3>Above: origin-language</h3>
-          <p>Archetypal, symbolic, denser, older-sounding, and more spacious.</p>
-        </div>
-        <div class="concept-card">
-          <h3>Together</h3>
-          <p>Not two books, but one book with two ways of breathing.</p>
-        </div>
-      </div>
-
-      <p class="micro-punch">
-        Above: origin-language.
-        Below: readability.
-      </p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="book-block">
-      <p class="display-kicker">What it opens</p>
-      <h2 class="section-heading-display">A larger readable world</h2>
-
-      <div class="body-copy">
-        <p>
-          The book tries to open a space in which one no longer has to choose too quickly
-          between science and depth, faith and precision, beauty and rigor,
-          testimony and structure, heart and world-description.
+          This book does not try merely to repeat the great old words.
+          It tries to make them readable again.
         </p>
 
         <p>
-          It does not want to make the great images small.
-          But it also does not want to seal them dogmatically.
-          It asks whether words such as origin, Logos, fall, redemption, grace,
-          judgment, return, and homecoming may be read again
-          as condensed descriptions of real semantic and existential structure.
+          Words such as origin, Logos, fall, judgment, grace, redemption, and return
+          are not meant to be reduced to mere metaphysics,
+          nor left suspended in vagueness.
+          They are meant to become visible again
+          as condensed descriptions of real semantic,
+          existential, and historical dynamics.
         </p>
 
         <p>
-          In that sense, the book is neither mere mysticism, nor dry theory,
-          nor devotional administration of inherited language.
-          It is a threshold text:
-          an attempt to read reality more deeply without losing clarity.
+          In that sense, the task is not to diminish the old images.
+          It is to uncover their deeper kernel again
+          and to re-situate them in such a way
+          that they do not only sound reverent,
+          but once again make something real readable.
+        </p>
+
+        <p>
+          The book therefore tries to open a space
+          in which one does not have to choose too quickly
+          between science and depth, faith and precision,
+          beauty and rigor, heart and world-description.
+          It is not a retreat from reality,
+          but an attempt to read it more deeply
+          without losing clarity.
         </p>
       </div>
 
       <p class="display-statement wide">
-        Not a retreat from reality.
-        An attempt to read it more deeply.
+        In the beginning
+        was the Word.
+        <br><br>
+        Perhaps it was always
+        more than mere metaphor.
+      </p>
+
+      <div class="body-copy">
+        <p>
+          And perhaps the movement of this book begins precisely there:
+          not by making old origin-language smaller,
+          but by uncovering its kernel of reality again.
+        </p>
+      </div>
+
+      <p class="micro-punch">
+        Not disenchantment.
+        Deeper readability.
       </p>
     </div>
   </section>
@@ -501,8 +501,8 @@ translation_url_de: /de/buch/
         <div class="movement-card">
           <h3>Fall and shared wound</h3>
           <p>
-            The condition of human life, common trauma, misreading,
-            and the world into which we have fallen.
+            The condition of human life, shared injury,
+            misreading, and the world into which we have fallen.
           </p>
         </div>
 
@@ -510,7 +510,8 @@ translation_url_de: /de/buch/
           <h3>Semantic space and readable reality</h3>
           <p>
             Meaning as space, KPR, semantic gravitation,
-            contradiction energy, C/B/A, and the live readability of states.
+            contradiction energy, coherence, bonding, agency,
+            and the living readability of states.
           </p>
         </div>
 
@@ -518,7 +519,7 @@ translation_url_de: /de/buch/
           <h3>Embodiment, architecture, and future</h3>
           <p>
             Context growth, the semantic space scanner,
-            resonance architectures, civic and technical futures,
+            resonance architectures, technical and civic futures,
             and the architecture of a new earth.
           </p>
         </div>
@@ -526,8 +527,10 @@ translation_url_de: /de/buch/
         <div class="movement-card">
           <h3>Judgment, return, grace</h3>
           <p>
-            Hard diagnosis, form judgment, repentance, grace as transformation,
-            and the closing future-bow of fearlessness, passage, laughter, and return.
+            Hard diagnosis, form judgment, repentance,
+            grace as transformation,
+            and the closing future-bow of fearlessness,
+            passage, laughter, and return.
           </p>
         </div>
       </div>
@@ -546,23 +549,30 @@ translation_url_de: /de/buch/
   <section class="section-shell">
     <div class="book-block">
       <p class="display-kicker">Current status</p>
-      <h2 class="section-heading-display">In final revision before first public release.</h2>
+      <h2 class="section-heading-display">In finalization before the first public edition</h2>
 
       <div class="body-copy">
         <p>
           This book is not merely an idea or a placeholder.
-          Its inner structure and core body already exist.
+          Its inner structure and its carrying main body already exist.
         </p>
 
         <p>
-          What is happening now is the last major revision phase:
-          a clearer, deeper, and more unified shaping of the book
-          before its first public release.
+          What is happening now is the last larger work phase:
+          a clearer, deeper, and more unified shaping
+          before the first public edition.
         </p>
 
         <p>
           The public version is therefore not online yet.
           It is currently being brought into its final readable form.
+        </p>
+
+        <p>
+          Once that finalization is complete,
+          this page can later also host sample passages,
+          download material, and companion documents
+          for slower reading and AI-assisted deepening.
         </p>
       </div>
 
@@ -570,36 +580,10 @@ translation_url_de: /de/buch/
         <p class="status-label">Status</p>
         <p>
           No public edition is online yet.
-          The first release is in final revision and will likely take a few more weeks.
+          The first release is in finalization
+          and will likely take a few more weeks.
         </p>
       </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="book-block closing-block">
-      <p class="display-kicker">Threshold</p>
-      <h2 class="section-heading-display">Not yet the full release</h2>
-
-      <div class="body-copy">
-        <p>
-          This page marks the place of the book within the whole project
-          and the kind of work that is taking shape here.
-        </p>
-
-        <p>
-          Once the final revision phase is complete,
-          this page can also host sample passages, download material,
-          and companion documents for slower reading and AI-assisted study.
-        </p>
-      </div>
-
-      <p class="display-statement medium">
-        Not a conclusion.
-        A threshold.
-      </p>
 
       <div class="book-links">
         <a class="button" href="/en/theory/">Go to Theory</a>
@@ -630,7 +614,7 @@ translation_url_de: /de/buch/
         </div>
         <div class="next-card">
           <h3><a href="/en/downloads/">Downloads →</a></h3>
-          <p>Bundled review bodies for deeper reading.</p>
+          <p>Bundled review contexts for deeper reading.</p>
         </div>
       </div>
     </div>
