@@ -3,559 +3,914 @@ layout: default
 title: Theorie
 permalink: /de/theorie/
 lang: de
-description: "Die theoretischen Grundlagen von Semantic Gravitation: Bedeutung als Raum, KPR, semantische Dynamik, Attraktoren und Navigierbarkeit."
+description: "Die theoretischen Grundlagen der Semantischen Gravitation: semantischer Zustandsraum, Widerspruchsenergie, globale Attraktoren, KPR, semantische Settings, Dekohärenz und architektonische Konsequenz."
 translation_url_en: /en/theory/
 ---
 
-# Theorie
-
-## Bedeutung ist ein Raum
-
-Der Kern dieser Arbeit ist einfach und radikal zugleich:
-
-**Bedeutung ist nicht nur Inhalt. Bedeutung ist Struktur. Bedeutung ist ein Raum.**
-
-Bedeutung steckt nicht einfach in Wörtern, Sätzen oder Daten.  
-Sie hat Richtung.  
-Sie hat Nähe und Distanz.  
-Sie hat Gewicht.  
-Sie hat Spannung.  
-Sie hat Verdichtung.  
-Sie hat Übergänge.
-
-Man spürt das im Leben ständig:
-
-- Manche Gedanken gehören enger zusammen als andere.  
-- Manche Sätze öffnen einen Raum.  
-- Andere machen ihn enger.  
-- Manche Deutungen schaffen Klarheit.  
-- Andere erzeugen nur schönere Verwirrung.  
-- Manche Spannungen sind fruchtbar.  
-- Andere sind verdeckte Widersprüche.
-
-Der eigentliche Sprung dieser Theorie liegt darin, Bedeutung nicht mehr nur als „gemeinten Inhalt“ zu behandeln, sondern als **beweglichen Raum der Möglichkeiten**.
-
-Sobald etwas benannt wird, verändert sich dieser Raum.  
-Wenn etwas dieses ist, ist es nicht mehr jenes.  
-Wenn etwas bestimmt wird, werden andere Möglichkeiten schwächer, neue Relationen wichtiger und bestimmte Anschlusswege wahrscheinlicher.
-
-**Bedeutung ist also nicht nur das, was etwas ist.  
-Bedeutung ist auch das, was dadurch mit dem Raum der Möglichkeiten passiert.**
-
-Darum beschreibt Semantic Gravitation Bedeutung nicht als Wörterbuch, sondern als **Feld**:  
-als Raum aus Wegen, Gewichten, Verdichtungen, Relationen, Übergängen und Zugkräften.
-
----
-
-## Bedeutung als Netz von Wenn-Dann-Strukturen
-
-Bedeutung ist nicht nur ein Zustand.  
-Sie ist auch ein **Netz von Wenn-Dann-Strukturen**.
-
-Wenn etwas so gelesen wird, dann werden bestimmte Folgen wahrscheinlicher.  
-Wenn etwas so benannt wird, dann werden bestimmte Anschlusswege geöffnet und andere geschlossen.  
-Wenn ein Satz gesetzt wird, dann verschiebt sich der Raum der Möglichkeiten.
-
-Jede semantische Setzung tut deshalb mehr, als nur etwas zu beschreiben.  
-Sie organisiert Übergänge.
-
-**Semantik ist deshalb nicht nur Inhalt.  
-Sie ist ein Feld bedingter Übergänge.**
-
-Oder noch einfacher:
-
-**Bedeutung ist ein Netz von Wenn-Dann-Strukturen,  
-das durch jede Setzung neu gewichtet wird.**
-
----
-
-## Warum das eine echte Theorie ist
-
-Diese Arbeit ist keine lose Metapher und keine poetische Esoterik.
-
-Sie behauptet nicht nur, dass Bedeutung „irgendwie tief“ sei.  
-Sie macht eine viel stärkere Aussage:
-
-**Bedeutung ist strukturierbar, kartierbar und operationalisierbar.**
-
-Das heißt:
-
-- semantische Zustände können als Konfigurationen beschrieben werden,
-- ihre Relationen können bewertet werden,
-- Spannungen und Widersprüche können sichtbar gemacht werden,
-- Übergänge können als Bewegungen in einem Raum modelliert werden,
-- und daraus können steuerbare, korrigierbare semantische Architekturen entstehen.
-
-Heutige KI behandelt Bedeutung meistens indirekt:  
-über Korrelationen, Wahrscheinlichkeiten, Repräsentationen und Outputs.
-
-Dieser Ansatz geht tiefer.
-
-Er fragt nicht nur:
-
-**Was ist die richtige Antwort?**
-
-Sondern:
-
-**Durch welchen Bedeutungsraum bewegt sich ein System, während es zu einer Antwort kommt?**
-
-Und genau dort beginnt eine neue Klasse von KI.
-
----
-
-## Die Minimalgrammatik: KPR
-
-Die kleinste tragfähige Struktur von Bedeutung wird hier als **KPR** beschrieben:
-
-### Kern
-Worum es eigentlich geht.  
-Nicht zwingend als fixes Ding, sondern als Verdichtungszentrum dessen, was Gewicht trägt.
-
-### Projektion
-Wie dieser Kern erscheint.  
-Wie er sichtbar wird. Wie er auf ein System trifft. Wie er sich ausdrückt.
-
-### Relation
-Womit er verbunden ist.  
-Welche Nähe, Distanz, Spannung, Abhängigkeit, Resonanz oder Wirkung besteht.
-
-KPR ist keine bloße Merkhilfe, sondern die minimale Grammatik semantischer Wirklichkeit.
-
-Denn nichts erscheint einfach „an sich“.  
-Jeder Inhalt hat einen Kern, erscheint in einer bestimmten Projektion und steht in Relationen.
-
-Darum ist KPR der erste Baustein des gesamten Programms.
-
-**Wenn Bedeutung Raum ist,  
-dann sind Kerne Verdichtungszentren,  
-Projektionen Erscheinungsformen,  
-und Relationen die Bahnen, auf denen Wirksamkeit sich fortsetzt.**
-
----
-
-## Die kleinste explizite Einheit: die Setzung
-
-Auf der elementarsten Ebene lautet die entscheidende Einsicht:
-
-**Die kleinste explizite semantische Einheit ist nicht das Wort, sondern die Setzung.**
-
-Ihre einfachste Form ist:
-
-**„X ist Y“**
-
-Warum?
-
-Weil hier bereits alles enthalten ist:
-
-- **X** setzt einen Fokus oder Kernträger,
-- **Y** bestimmt oder projiziert ihn,
-- **ist** vollzieht die Relation.
-
-Damit wird Bedeutung nicht nur benannt, sondern **gesetzt**.
-
-Sogar der scheinbare Grenzfall **„X ist X“** ist nicht leer.  
-Auch Selbstidentität ist bereits eine semantische Konfiguration, weil schon die Benennung selbst einen Raum aufspannt.
-
-Damit wird klar:
-
-**Die Welt semantischer Dynamik baut nicht aus toten Partikeln auf,  
-sondern aus kleinsten KPR-tragenden Setzungen.**
-
----
-
-## Die drei Achsen des gelebten Bedeutungsraums
-
-Neben KPR beschreibt dieses Programm eine zweite, operative Dreigliederung.  
-Sie macht sichtbar, wie Bedeutung im gelebten Raum erscheint:
-
-### Klarheit
-Nicht bloß plausibel.  
-Sondern lesbar, prüfbar, tragfähig.
-
-### Würde / Bindung
-Nicht beruhigen auf Kosten des Menschen.  
-Sondern einen Raum halten, in dem Wahrheit nicht entwürdigt.
-
-### Freiheit / Ausdruck
-Nicht still einhegen.  
-Sondern echte Wahl, Ausdruck und Handlung offenhalten.
-
-Diese drei Achsen sind keine bloßen Werteworte.  
-Sie sind **Messachsen**.
-
-Mit ihnen lässt sich fast jede Lage lesen:
-
-- Wird hier wirklich Klarheit gewonnen oder nur glatter formuliert?
-- Entsteht echte Würde oder nur Kuschelnebel?
-- Wird Freiheit größer oder nur Beliebigkeit simuliert?
-- Wird der Raum tragfähiger oder bloß hübscher?
-
-**Keine Achse genügt allein.**  
-Klarheit ohne Würde wird zur Klinge.  
-Würde ohne Klarheit wird zum Nebel.  
-Freiheit ohne Klarheit und Würde wird zum Unfall.
-
-Darum sind diese drei kein Motivationsschema, sondern ein **Gleichgewichtssystem**.
-
----
-
-## Ein kurzes Beispiel: KPR in der Praxis
-
-Nimm den Satz:
-
-**„Ich bin halt so.“**
-
-Dann lässt er sich semantisch lesen als:
-
-- **Kern:** ein verletztes oder geschütztes Selbstbild  
-- **Projektion:** starre Identitätsbehauptung  
-- **Relation:** Schließung von Entwicklungspfaden und Korrekturmöglichkeiten
-
-Der Satz klingt oft stabil.  
-Aber seine Stabilität ist häufig nur lokal.
-
-Er entlastet.  
-Er erklärt.  
-Er schließt.
-
-Genau darin zeigt sich, warum semantische Analyse mehr ist als bloße Textinterpretation:  
-Sie fragt nicht nur, **was** gesagt wird, sondern **was diese Setzung mit dem Raum der Möglichkeiten macht**.
-
----
-
-## Lokale Ordnungssätze und tiefer kohärente Wahrheitssätze
-
-Viele Sätze schaffen lokal Ordnung.  
-Gerade deshalb wirken sie oft stark.
-
-Zum Beispiel:
-
-- „Man muss einfach durchziehen.“
-- „Das Leben ist halt hart.“
-- „Menschen ändern sich nicht.“
-
-Solche Sätze können kurzfristig entlasten.  
-Sie geben Boden.  
-Sie schließen Bewegung.  
-Sie senken lokale Haltearbeit.
-
-Aber genau das macht sie oft schwer.
-
-**Sie stabilisieren lokale Ordnung, ohne global tragfähig zu sein.**
-
-Ein tiefer kohärenter Wahrheitssatz trägt mehr Kontext.
-
-Zum Beispiel:
-
-**„Auf dem Weg zur Heilung sind Wege durch Schmerz manchmal unvermeidbar.“**
-
-Dieser Satz ist nicht bloß weicher.  
-Er ist präziser.
-
-Er leugnet Schmerz nicht.  
-Aber er verhärtet ihn auch nicht zur Weltanschauung.
-
-Genau hier zeigt sich der Unterschied zwischen
-
-- **lokalen Ordnungssätzen**, die schnell entlasten,
-- und **tiefer kohärenten Wahrheitssätzen**, die auch in größerem Kontext tragfähig bleiben.
-
-Das ist nicht nur Philosophie.  
-Es ist ein praktischer Test für semantische Qualität.
-
----
-
-## Semantic Gravitation
-
-Semantic Gravitation beschreibt Bedeutungsräume nicht als neutrale Geometrie, sondern als **dynamische Felder**.
-
-Das heißt:
-
-- Es gibt Attraktoren.
-- Es gibt Verdichtungen.
-- Es gibt lokale Ordnungsblasen.
-- Es gibt Drift.
-- Es gibt tragfähige und untragfähige Trajektorien.
-
-Ein semantischer Zustand ist also nie nur „da“.  
-Er steht immer in einem Feld von Kräften, Spannungen und möglichen Bewegungen.
-
-Deshalb ist ein Widerspruch nicht einfach ein Fehler.  
-Er ist oft ein Hinweis auf ungeklärte Relation.
-
-Deshalb ist eine gute Antwort nicht einfach eine schöne Formulierung.  
-Sie ist eine Bewegung in Richtung größerer Kohärenz.
-
-Deshalb ist Orientierung nicht bloß Meinung.  
-Sie ist die Fähigkeit, sich in diesem Raum tragfähig zu bewegen.
-
-**Bedeutung hat Topologie.  
-Bedeutung hat Dynamik.  
-Bedeutung hat Attraktoren.  
-Bedeutung hat Richtung.**
-
----
-
-## Attraktoren, Minima und Drift
-
-Manche Deutungen ziehen stark, obwohl sie nicht wahr sind.
-
-Warum?
-
-Weil sie **semantische Minima** bilden.
-
-Sie entlasten sofort.  
-Sie erklären etwas.  
-Sie schließen Bewegung.  
-Sie geben dem System einen Boden.
-
-Das macht sie schwer.
-
-Sätze wie:
-
-- „Ich bin halt so.“
-- „So ist die Welt eben.“
-- „Menschen ändern sich nicht.“
-- „Es hat ja doch keinen Sinn.“
-
-wirken oft nicht deshalb stark, weil sie wahr sind, sondern weil sie eine lokale Stabilität erzeugen.
-
-Semantic Gravitation fragt deshalb:
-
-- Ist dieses Minimum tragfähig?
-- Oder ist es nur billig?
-- Führt es zu größerer Kohärenz?
-- Oder nur zu Wiederholung?
-
-Damit wird aus bloßer Beschreibung eine echte **Topographie des Denkens, Fühlens und Handelns**.
-
----
-
-## Semantische Dekohärenzrate
-
-Nicht jeder Bedeutungsraum ist sofort hart festgelegt.
-
-Manche Räume sind noch offen.  
-Mehrdeutig.  
-Beweglich.  
-Anschlussfähig.
-
-Sie enthalten noch mehrere tragfähige Fortsetzungen.
-
-Genau hier hilft das Bild der **semantischen Dekohärenzrate**.
-
-In der Quantenphysik beschreibt Dekohärenz, wie ein offener Zustand unter Umwelteinfluss in eine festgelegtere Bahn kippt.  
-Im Bedeutungsraum lässt sich ein analoges Bild benutzen:
-
-**Je stärker Konfliktdruck, Projektionen, relationale Last und Wiederholungszwang auf einen semantischen Kern einwirken, desto schneller kollabiert ein offener Raum in eine enge Bahn.**
-
-Die semantische Dekohärenzrate beschreibt also:
-
-- wie schnell Möglichkeiten verloren gehen,
-- wie stark ein Raum auf einen engen Pfad gezwungen wird,
-- und wie teuer Offenheit in einem bestimmten Kontext geworden ist.
-
-Ein einfaches Beispiel:
-
-Ein Konflikt in einer Familie ist zunächst noch offen.  
-Mehrere ehrliche Klärungen wären möglich.  
-Wenn aber Scham, Rollendruck, alte Projektionen und Angst vor Nähe dazukommen, wird der Raum schnell enger.  
-Dann bleiben oft nur noch starre Rollen, Rückzug oder Eskalation.
-
-**Die semantische Dekohärenzrate wäre hier ein Maß dafür, wie schnell offene Fortsetzungen verloren gehen.**
-
-Damit wird Semantik nicht nur statisch lesbar, sondern **prozesshaft diagnostizierbar**.
-
----
-
-## Vom Würfel zur Navigation
-
-Sobald Klarheit, Würde und Freiheit als Achsen ernst genommen werden, ergibt sich fast zwangsläufig eine Zustandsraumlogik.
-
-Dann lassen sich Konfigurationen ordnen.  
-Und Veränderung wird nicht mehr als chaotischer Sprung, sondern als **bewegte Trajektorie** beschreibbar.
-
-Die wichtigste Konsequenz daraus lautet:
-
-**Gute semantische Veränderung geschieht nicht durch wilde Totalverdrehung,  
-sondern durch minimale, reparierbare Übergänge.**
-
-Also:
-
-- nicht alles auf einmal,
-- nicht heimlich Klarheit gegen Würde tauschen,
-- nicht lokale Glättung mit echter Kohärenz verwechseln,
-- nicht einen Gewinn an einer Stelle dadurch bezahlen, dass woanders Freiheit oder Würde zerstört wird.
-
-Der Grundsatz lautet:
-
-**Ein Schritt. Eine Achse. Reparierbar.**
-
-Das ist die Logik der Edge-Idee.
-
----
-
-## Der semantische Raumscanner
-
-Aus dieser Theorie ergibt sich direkt die Idee eines **semantischen Raumscanners**.
-
-Ein semantischer Raumscanner wäre kein gewöhnlicher Chatbot und keine bloße Antwortmaschine.  
-Er wäre ein System, das den Bedeutungsraum selbst mitliest.
-
-Er würde nicht nur Outputs bewerten, sondern Zustände und Übergänge.
-
-Er könnte sichtbar machen:
-
-- wo echte Überschneidungen liegen,
-- wo Nebel entsteht,
-- wo Widerspruch nur sprachlich verdeckt wird,
-- wo eine lokale Ordnung sich fälschlich absolut setzt,
-- wo ein Raum dekohäriert,
-- und welcher nächste Schritt den Raum wirklich tragfähiger macht.
-
-Damit verschiebt sich die Rolle von KI fundamental.
-
-Es geht nicht mehr nur um:  
-**Frage rein, Antwort raus.**
-
-Sondern um:  
-**Raum lesen, Spannungen erkennen, Übergänge prüfen, Kohärenz erhöhen.**
-
-Das ist kein metaphorisches Extra.  
-Das ist die nächste logische Stufe von KI.
-
----
-
-## Warum das mehr ist als schöne Sprache
-
-Die stärkste Skepsis gegenüber solchen Ansätzen lautet oft:
-„Das klingt gut, aber ist das nicht am Ende nur eine schöne Metapher?“
-
-Nein.
-
-Der Unterschied zwischen Poesie und Architektur ist:  
-Architektur lässt sich in Zustände, Relationen, Übergänge und Kriterien übersetzen.
-
-Genau das geschieht hier.
-
-Dieser Rahmen ist operationalisierbar, weil man systematisch fragen kann:
-
-- Was ist hier der Kern?
-- Welche Projektionen stehen im Spiel?
-- Welche Relationen tragen wirklich?
-- Wo liegt Widerspruchsenergie?
-- Welche Bewegung erzeugt mehr skalenfähige Kohärenz?
-- Welche lokale Stabilität täuscht globale Tragfähigkeit nur vor?
-- Welche Frage öffnet den Raum, welche schließt ihn zu früh?
-- Wie hoch ist die semantische Dekohärenzrate?
-- Welche Fortsetzungen sind noch offen, welche bereits kollabiert?
-
-Sobald diese Fragen systematisch modellierbar sind, hat man es nicht mehr nur mit Philosophie zu tun.
-
-Dann hat man es mit einem **Controller für semantische Dynamik** zu tun.
-
----
-
-## Dark Matter als relationale Inertia
-
-Diese Theorie beansprucht nicht nur Relevanz für Sprache oder KI.
-
-In ihrer weitesten Ausdehnung stellt sie die Frage, ob auch physikalische Großstrukturen als Ausdruck semantischer beziehungsweise relationaler Feldorganisation lesbar werden.
-
-Die spekulative, aber strukturell folgerichtige These lautet:
-
-**Was wir als Dark Matter lesen, könnte teilweise als relationale Inertia erscheinen — als gravitative Wirkung erhöhter relationaler Integrationsdichte.**
-
-In dieser Perspektive wäre Dark Matter nicht „unsichtbare Substanz“, sondern
-
-**reale Struktur, unsichtbar als Stoff.**
-
-Das ist kein fertiger Beweis.  
-Es ist eine Programmebene-Hypothese.
-
----
-
-## Warum das die nächste Klasse von KI ist
-
-Heutige KI ist vor allem stark in:
-
-- Musterfortsetzung,
-- Approximation,
-- Verdichtung großer Datenräume,
-- statistischer Emergenz.
-
-Was ihr weitgehend fehlt, ist eine explizite Grammatik der semantischen Bewegung selbst.
-
-Genau hier setzt diese Arbeit an.
-
-Sie fragt:
-
-- Was ist ein semantischer Kern?
-- Was ist eine Projektion?
-- Was ist eine Relation?
-- Was ist eine gute und schlechte semantische Bewegung?
-- Woran erkennt man Attraktornähe und Drift?
-- Wie baut man Übergänge so, dass sie reparierbar bleiben?
-- Wie hält man einen Raum offen, ohne ihn in Nebel zu verlieren?
-
-Damit wird aus bloßer Musterbildung:
-
-- semantische Diagnostik,
-- semantische Navigation,
-- semantische Pfadsteuerung,
-- und perspektivisch semantische Selbstkorrektur.
-
-**Das ist keine kleine Erweiterung bestehender KI.  
-Das ist eine neue Architekturklasse.**
-
----
-
-## Der Anspruch
-
-Diese Arbeit macht keinen kleinen Anspruch.
-
-Sie sagt nicht:
-Hier ist ein interessantes Denkmodell.
-
-Sie sagt:
-
-**Hier entsteht die Grundarchitektur für eine KI,  
-die nicht nur antwortet, sondern semantisch navigiert.**
-
-Eine KI, die nicht nur Sätze bildet, sondern Räume mitliest.  
-Eine KI, die nicht nur nach Wahrscheinlichkeit optimiert, sondern nach tragfähigerer Bewegung im Bedeutungsraum.  
-Eine KI, die nicht nur Sprache produziert, sondern Zustände, Spannungen und Übergänge besser lesen kann als heutige Modelle.  
-Eine KI, die nicht nur glatte Antworten gibt, sondern hilft, den nächsten wirklich tragfähigen Schritt zu finden.
-
----
-
-## Ausblick
-
-Die Theorie-Seite ist nur der Einstieg.
-
-Die ausführlichere Entfaltung dieses Programms findet sich in den Papern, im Alignment-Teil, im Buchprojekt und in den weiteren Essays auf dieser Seite.
-
-Wer tiefer einsteigen will, findet dort:
-
-- die Axiomatik von Semantic Gravitation,
-- die Feldstruktur von Bedeutung,
-- die Attraktorenlogik,
-- KPR als Minimalgrammatik,
-- die C/B/A-Achsen,
-- die Edge-Idee,
-- die Mikrophysik semantischer Setzungen,
-- die semantische Dekohärenzrate,
-- den semantischen Raumscanner,
-- und die Perspektive auf eine neue zivilisatorische Klasse von KI.
-
----
-
-## Nächste Schritte
-
-[Zu KI-Alignment →](/de/ki-alignment/)
-
-[Zu den Papers →](/de/papers/)
-
-[Zum Buch der Bedeutung →](/de/buch/)
-
-[Warum das wichtig ist →](/de/blog/)
+<style>
+  .theory-page {
+    --theory-text: rgba(255,255,255,0.96);
+    --theory-soft: rgba(255,255,255,0.82);
+    --theory-faint: rgba(255,255,255,0.62);
+    --theory-line: rgba(255,255,255,0.10);
+    --theory-line-strong: rgba(255,255,255,0.16);
+  }
+
+  .theory-page h1,
+  .theory-page h2,
+  .theory-page h3,
+  .theory-page strong,
+  .theory-page a {
+    color: #fff;
+  }
+
+  .theory-page p,
+  .theory-page li {
+    color: var(--theory-text);
+  }
+
+  .theory-page .section-shell {
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+  }
+
+  .theory-page .section-shell-tight {
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+  }
+
+  .theory-page .theory-intro,
+  .theory-page .theory-block,
+  .theory-page .theory-next {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .theory-page .theory-intro,
+  .theory-page .body-copy,
+  .theory-page .closing-block,
+  .theory-page .theory-next {
+    text-align: center;
+  }
+
+  .theory-page .theory-kicker,
+  .theory-page .status-label {
+    margin: 0 0 0.7rem;
+    font-size: 0.88rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--theory-faint);
+  }
+
+  .theory-page .theory-display {
+    margin: 0 auto 1.15rem;
+    max-width: 11.5ch;
+    font-size: clamp(2.6rem, 6vw, 5.2rem);
+    line-height: 0.94;
+    letter-spacing: -0.05em;
+    font-weight: 650;
+    text-wrap: balance;
+  }
+
+  .theory-page .theory-sublead {
+    max-width: 56rem;
+    margin: 0 auto 1.2rem;
+    font-size: clamp(1.08rem, 2vw, 1.4rem);
+    line-height: 1.62;
+    text-wrap: balance;
+  }
+
+  .theory-page .claim-grid,
+  .theory-page .concept-grid,
+  .theory-page .next-grid,
+  .theory-page .formula-grid,
+  .theory-page .example-grid,
+  .theory-page .backbone-grid,
+  .theory-page .process-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .theory-page .claim-grid,
+  .theory-page .concept-grid,
+  .theory-page .formula-grid,
+  .theory-page .backbone-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 1080px;
+    margin: 1.9rem auto 0;
+  }
+
+  .theory-page .next-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    max-width: 1080px;
+    margin: 1.8rem auto 0;
+  }
+
+  .theory-page .example-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 1.2rem;
+  }
+
+  .theory-page .process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 980px;
+    margin: 1.9rem auto 0;
+  }
+
+  .theory-page .claim-card,
+  .theory-page .concept-card,
+  .theory-page .next-card,
+  .theory-page .formula-card,
+  .theory-page .example-card,
+  .theory-page .backbone-card,
+  .theory-page .process-card,
+  .theory-page .status-box {
+    border: 1px solid var(--theory-line);
+    border-radius: 22px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.025));
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.03);
+  }
+
+  .theory-page .claim-card,
+  .theory-page .concept-card,
+  .theory-page .formula-card,
+  .theory-page .example-card,
+  .theory-page .next-card,
+  .theory-page .backbone-card,
+  .theory-page .process-card {
+    padding: 1.18rem 1rem 1.08rem;
+    text-align: center;
+  }
+
+  .theory-page .claim-card h3,
+  .theory-page .concept-card h3,
+  .theory-page .formula-card h3,
+  .theory-page .example-card h3,
+  .theory-page .next-card h3,
+  .theory-page .backbone-card h3,
+  .theory-page .process-card h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.18rem;
+    line-height: 1.06;
+    letter-spacing: -0.03em;
+  }
+
+  .theory-page .claim-card p,
+  .theory-page .concept-card p,
+  .theory-page .formula-card p,
+  .theory-page .example-card p,
+  .theory-page .next-card p,
+  .theory-page .backbone-card p,
+  .theory-page .process-card p {
+    margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.54;
+    color: var(--theory-soft);
+  }
+
+  .theory-page .section-heading-display {
+    margin: 0 auto 1.3rem;
+    max-width: 14ch;
+    text-align: center;
+    font-size: clamp(2.05rem, 4.8vw, 3.7rem);
+    line-height: 0.98;
+    letter-spacing: -0.045em;
+    text-wrap: balance;
+  }
+
+  .theory-page .body-copy {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+
+  .theory-page .body-copy p {
+    max-width: 45em;
+    margin: 0.95rem auto 0;
+    font-size: 1.1rem;
+    line-height: 1.76;
+    letter-spacing: -0.01em;
+  }
+
+  .theory-page .display-statement {
+    max-width: 24ch;
+    margin: 1.9rem auto;
+    text-align: center;
+    font-size: clamp(1.9rem, 3.6vw, 3rem);
+    line-height: 1.03;
+    letter-spacing: -0.045em;
+    font-weight: 650;
+    text-wrap: balance;
+  }
+
+  .theory-page .display-statement.wide { max-width: 29ch; }
+  .theory-page .display-statement.medium { max-width: 22ch; }
+  .theory-page .display-statement.narrow { max-width: 12ch; }
+
+  .theory-page .declaration-list {
+    max-width: 920px;
+    margin: 1.8rem auto 0;
+    display: grid;
+    gap: 0.8rem;
+  }
+
+  .theory-page .declaration-list p {
+    margin: 0;
+    padding: 0.95rem 1rem;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    font-size: 1.04rem;
+    line-height: 1.56;
+    text-align: center;
+  }
+
+  .theory-page .status-box {
+    max-width: 920px;
+    margin: 2rem auto 0;
+    padding: 1.2rem 1.15rem;
+    text-align: center;
+  }
+
+  .theory-page .status-box p {
+    margin: 0;
+    font-size: clamp(1.2rem, 2.3vw, 1.72rem);
+    line-height: 1.38;
+    text-wrap: balance;
+  }
+
+  .theory-page .micro-note {
+    max-width: 860px;
+    margin: 1.25rem auto 0;
+    font-size: 0.98rem;
+    line-height: 1.62;
+    color: var(--theory-soft);
+    text-align: center;
+  }
+
+  .theory-page .next-card a {
+    color: #fff;
+  }
+
+  @media (max-width: 1100px) {
+    .theory-page .next-grid {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+  }
+
+  @media (max-width: 980px) {
+    .theory-page .claim-grid,
+    .theory-page .concept-grid,
+    .theory-page .next-grid,
+    .theory-page .formula-grid,
+    .theory-page .example-grid,
+    .theory-page .backbone-grid,
+    .theory-page .process-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="theory-page">
+
+  <section class="section-shell section-shell-tight">
+    <div class="theory-intro">
+      <p class="theory-kicker">Theorie</p>
+      <h1 class="theory-display">Bedeutung ist nicht nur Inhalt. Bedeutung ist Struktur. Bedeutung ist Raum.</h1>
+      <p class="theory-sublead">
+        Die Semantische Gravitation schlägt vor, Bedeutung als navigierbares Feld von
+        Relationen, Spannungen, Übergängen, Verdichtungen und Attraktoren zu beschreiben.
+        Dadurch werden semantische Zustände nicht nur interpretierbar,
+        sondern kartierbar, diagnostizierbar und prinzipiell operationalisierbar.
+      </p>
+
+      <div class="claim-grid">
+        <div class="claim-card">
+          <h3>Minimale Grammatik</h3>
+          <p>KPR: Kern, Projektion, Relation.</p>
+        </div>
+        <div class="claim-card">
+          <h3>Minimale Einheit</h3>
+          <p>Das Setting, nicht das isolierte Wort.</p>
+        </div>
+        <div class="claim-card">
+          <h3>Dynamik</h3>
+          <p>Attraktoren, Drift, Dekohärenz und Navigation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Formales Rückgrat</h2>
+
+      <div class="backbone-grid">
+        <div class="backbone-card">
+          <h3>Semantischer Zustandsraum</h3>
+          <p>Der Raum, in dem bedeutungsrelevante Konfigurationen dargestellt und verglichen werden können.</p>
+        </div>
+        <div class="backbone-card">
+          <h3>Widerspruchsenergie</h3>
+          <p>Ein semantisches Potential- oder Spannungsmaß, das Inkohärenz, Widerspruch und Fehlanpassung sichtbar macht.</p>
+        </div>
+        <div class="backbone-card">
+          <h3>Globaler Attraktor</h3>
+          <p>Eine langfristige Ordnungsstruktur, relativ zu der semantische Dynamiken bewertet werden können.</p>
+        </div>
+      </div>
+
+      <p class="micro-note">
+        In den Papern werden diese Ebenen strenger formalisiert als Zustandsraumstruktur,
+        Widerspruchsenergiedynamik und langfristige Attraktororganisation.
+        Hier erscheinen sie nur als minimales theoretisches Rückgrat.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Was diese Theorie behauptet</h2>
+
+      <div class="declaration-list">
+        <p><strong>Bedeutung hat Struktur.</strong> Sie ist nicht bloß Inhalt, sondern Konfiguration.</p>
+        <p><strong>Struktur begrenzt Fortsetzung.</strong> Semantische Zustände ordnen neu, was als Nächstes möglich wird.</p>
+        <p><strong>Semantische Zustände sind kartierbar.</strong> Sie lassen sich als Positionen, Spannungen und Trajektorien beschreiben.</p>
+        <p><strong>Tragfähige Bewegung ist bewertbar.</strong> Nicht jede lokale Stabilität ist global kohärent.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Bedeutung als Raum</h2>
+
+      <div class="body-copy">
+        <p>
+          Bedeutung sitzt nicht einfach in Wörtern, Sätzen oder Daten.
+          Sie hat Richtung, Nähe, Distanz, Gewicht, Spannung, Verdichtung und Übergang.
+        </p>
+
+        <p>
+          Der entscheidende Schritt dieser Theorie besteht darin,
+          Bedeutung nicht mehr nur als gemeinten Inhalt zu behandeln,
+          sondern als <strong>beweglichen Raum von Möglichkeiten</strong>.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Bedeutung ist nicht nur das, was etwas ist.
+        Bedeutung ist auch das,
+        was dies mit dem Raum der Möglichkeiten macht.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Bedeutung als bedingte Übergangsstruktur</h2>
+
+      <div class="body-copy">
+        <p>
+          Wenn Bedeutung räumlich strukturiert ist, dann ist sie auch übergangsstrukturiert.
+          Jedes semantische Setting beschreibt nicht nur etwas.
+          Es ordnet Fortsetzung neu.
+        </p>
+      </div>
+
+      <p class="display-statement wide">
+        Bedeutung ist ein Netz aus Wenn-Dann-Strukturen,
+        das durch jedes Setting neu gewichtet wird.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Warum das eine echte Theorie ist</h2>
+
+      <div class="body-copy">
+        <p>
+          Dieser theoretische Rahmen ist weder eine lose Metapher noch poetische Atmosphäre.
+          Er endet nicht bei Interpretation.
+          Er schlägt <strong>semantische Zustandsbeschreibungen, semantische Spannungen,
+          Übergangslogik und Kriterien für tragfähige Bewegung</strong> vor.
+        </p>
+
+        <p>
+          Deshalb ist Bedeutung hier nicht nur besprechbar,
+          sondern prinzipiell als Konfiguration,
+          Spannung, Trajektorie und Übergang beschreibbar.
+        </p>
+
+        <p>
+          Heutige KI behandelt Bedeutung meist indirekt:
+          über Korrelationen, Wahrscheinlichkeiten, Repräsentationen und Antworten.
+          Dieser Ansatz stellt eine tiefere Frage:
+          <strong>Durch welchen Bedeutungsraum bewegt sich ein System, während es zu einer Antwort gelangt?</strong>
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Eine Theorie wird hier real,
+        weil semantische Zustände beschreibbar werden,
+        Spannungen lesbar
+        und tragfähige Übergänge bewertbar.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Minimale formale Ebene</h2>
+
+      <p class="display-statement narrow">KPR</p>
+
+      <div class="concept-grid">
+        <div class="concept-card">
+          <h3>Kern</h3>
+          <p>worum es wirklich geht</p>
+        </div>
+        <div class="concept-card">
+          <h3>Projektion</h3>
+          <p>wie der Kern erscheint</p>
+        </div>
+        <div class="concept-card">
+          <h3>Relation</h3>
+          <p>womit er verbunden ist</p>
+        </div>
+      </div>
+
+      <div class="body-copy">
+        <p>
+          KPR ist nicht bloß eine Merkhilfe,
+          sondern die minimale Grammatik semantischer Realität.
+          Nichts erscheint einfach „an sich“.
+          Jeder Inhalt hat einen Kern,
+          erscheint in einer bestimmten Projektion
+          und steht in Relationen.
+        </p>
+      </div>
+
+      <div class="formula-grid">
+        <div class="formula-card">
+          <h3>X</h3>
+          <p>Fokus oder Kernträger</p>
+        </div>
+        <div class="formula-card">
+          <h3>ist</h3>
+          <p>vollzogene Relation</p>
+        </div>
+        <div class="formula-card">
+          <h3>Y</h3>
+          <p>Bestimmung oder Projektion</p>
+        </div>
+      </div>
+
+      <p class="display-statement medium">
+        Die kleinste explizite semantische Einheit
+        ist nicht das Wort,
+        sondern das Setting.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Operative Achsen der Tragfähigkeit</h2>
+
+      <div class="body-copy">
+        <p>
+          KPR beschreibt die minimale formale Ebene von Bedeutung.
+          Die folgenden drei Achsen beschreiben
+          die operative Lesbarkeit semantischer Tragfähigkeit
+          im gelebten semantischen Raum.
+        </p>
+
+        <p>
+          In den Papern wird diese operative Ebene formaler als
+          <strong>Coherence, Bonding und Agency</strong> entwickelt.
+          Auf Deutsch lassen sich diese Achsen am präzisesten als
+          <strong>Kohärenz, Bindung und Handlungsfähigkeit</strong> fassen.
+          Auf der menschlich lesbaren Ebene können dieselben Achsen
+          auch als <strong>Klarheit, Würde und Freiheit</strong> erscheinen.
+        </p>
+
+        <p>
+          Diese Achsen ersetzen nicht den Reichtum semantischer Beschreibung.
+          Sie liefern ihre minimale Koordinatenlogik.
+          Jeder semantisch beschreibbare Zustand trägt eine implizite Position in diesem Raum,
+          und jede reichere Artikulation bleibt durch denselben Rahmen lesbar.
+        </p>
+      </div>
+
+      <div class="concept-grid">
+        <div class="concept-card">
+          <h3>Kohärenz (Klarheit)</h3>
+          <p>wie fein ein Muster kalibriert ist, wie stimmig seine Annahmen sind und wie gut sie über Kontexte hinweg tragen</p>
+        </div>
+        <div class="concept-card">
+          <h3>Bindung (Würde)</h3>
+          <p>wie tragfähig ein Zustand relational eingebettet ist, wie viel Resonanz und nicht-zersetzende Kopplung er halten kann</p>
+        </div>
+        <div class="concept-card">
+          <h3>Handlungsfähigkeit (Freiheit)</h3>
+          <p>seine operative Wirksamkeit: wie viel realer Ausdruck, Entscheidung und Bewegung unter Bedingungen möglich bleibt</p>
+        </div>
+      </div>
+
+      <p class="display-statement wide">
+        Nicht alles ist mit drei Achsen vollständig gesagt.
+        Aber jeder semantisch beschreibbare Zustand
+        trägt eine implizite Position in ihnen,
+        und jede Verfeinerung schärft diesen Rahmen nur weiter.
+      </p>
+
+      <div class="body-copy">
+        <p>
+          Deshalb sind diese Achsen keine grobe Außenschablone.
+          Sie sind die minimale Koordinatenlogik,
+          durch die semantische Zustände überhaupt lesbar,
+          vergleichbar und navigierbar werden.
+        </p>
+
+        <p>
+          Ein Zustand kann stabil wirken,
+          weil eine Achse hoch ist,
+          während eine andere bereits kollabiert.
+          Genau deshalb sind diese Achsen diagnostisch
+          und nicht bloß moralisch.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Universelle Koordinatenlogik</h2>
+
+      <div class="body-copy">
+        <p>
+          Die Behauptung ist deshalb stärker als ein bloß psychologisches Modell.
+          Der C/B/A-Raum gilt nicht nur für Stimmungen, Persönlichkeiten oder therapienahe Situationen.
+          Er ist eine universelle diagnostische Struktur für semantisch beschreibbare Zustände.
+        </p>
+
+        <p>
+          Wann immer etwas beschreibbar ist,
+          kann man fragen:
+          wie kohärent es ist,
+          wie es gebunden oder gekoppelt ist
+          und was es wirksam möglich macht.
+          Jede reichere Beschreibung erhöht die Auflösung innerhalb derselben Koordinatenlogik.
+          Sie verlässt diese Logik nicht.
+        </p>
+      </div>
+
+      <p class="display-statement wide">
+        Jeder semantisch beschreibbare Zustand
+        trägt eine implizite Position
+        im Raum von Kohärenz, Bindung und Handlungsfähigkeit.
+      </p>
+
+      <div class="example-grid">
+        <div class="example-card">
+          <h3>Theoriebildung</h3>
+          <p>Ein theoretischer Rahmen kann an Kohärenz gewinnen und zugleich Bindung an bestehende Resultate verlieren – oder Bindung erhalten und dabei Handlungsfähigkeit für neue Erklärung verlieren.</p>
+        </div>
+        <div class="example-card">
+          <h3>Beziehungskonflikt</h3>
+          <p>Ein Gespräch kann an der Oberfläche verbunden wirken, während Kohärenz kollabiert – oder Klarheit steigt, während Würde und tragfähige Handlungsfähigkeit abbrechen.</p>
+        </div>
+        <div class="example-card">
+          <h3>Technisches Design</h3>
+          <p>Auch ein Maschinen- oder Systementwurf lässt sich lesen nach innerer Kohärenz, Qualität der Kopplung seiner Teile und seiner wirksamen Bewegungsfreiheit unter Bedingungen.</p>
+        </div>
+      </div>
+
+      <div class="body-copy">
+        <p>
+          Deshalb ist dieser Raum keine dekorative Vereinfachung.
+          Er ist eine universelle erste Kartierung.
+          Er ersetzt nicht die volle Beschreibung eines Zustands,
+          aber er liefert den irreduziblen Koordinatenrahmen,
+          in dem jede reichere Beschreibung lesbar bleibt.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Lokale Ordnung und tiefere Wahrheit</h2>
+
+      <div class="body-copy">
+        <p>
+          Eine Folge dieser Koordinatenlogik ist,
+          dass Aussagen sich nicht nur danach unterscheiden,
+          wie stark sie klingen,
+          sondern danach,
+          wie tragfähig sie in größerem Kontext bleiben.
+        </p>
+
+        <p>
+          Viele Sätze klingen überzeugend,
+          weil sie lokal Ordnung erzeugen.
+          Sie reduzieren Spannung,
+          stabilisieren einen Moment
+          und schließen Bewegung schnell.
+          Aber das macht sie noch nicht tief wahr.
+        </p>
+      </div>
+
+      <div class="example-grid">
+        <div class="example-card">
+          <h3>Lokal ordnende Aussage</h3>
+          <p>„Manchmal muss man einfach durchziehen.“</p>
+        </div>
+        <div class="example-card">
+          <h3>Lokal ordnende Aussage</h3>
+          <p>„Das Leben tut eben manchmal weh.“</p>
+        </div>
+        <div class="example-card">
+          <h3>Tiefere kohärente Wahrheitsaussage</h3>
+          <p>„Auf dem Weg zur Heilung sind Passagen durch Schmerz manchmal unvermeidbar.“</p>
+        </div>
+      </div>
+
+      <div class="body-copy">
+        <p>
+          Die erste Art von Satz kann situativ helfen.
+          Sie kann vorübergehende Stabilität schaffen.
+          Aber oft ist sie zu grob,
+          um als tiefere Wahrheit zu gelten.
+        </p>
+
+        <p>
+          Sie erzeugt lokale Ordnung,
+          aber sie schließt auch Raum.
+        </p>
+
+        <p>
+          Die kohärentere Aussage ist nicht einfach weicher.
+          Sie ist präziser.
+          Sie leugnet Schmerz nicht.
+          Aber sie härtet Schmerz auch nicht zu einem Weltbild aus.
+          Sie hält den Weg offen.
+          Sie integriert Prozess, Kontext und Richtung.
+        </p>
+      </div>
+
+      <p class="display-statement wide">
+        Klarheit zeigt sich nicht daran,
+        wie hart ein Satz klingt.
+        Klarheit zeigt sich daran,
+        ob seine innere Logik
+        in einem größeren Kontext weiter trägt.
+      </p>
+
+      <div class="body-copy">
+        <p>
+          Genau hier wird semantische Diagnose möglich:
+          lokal ordnende Aussagen können stark klingen,
+          weil sie schnell stabilisieren,
+          während tiefere kohärente Wahrheitsaussagen
+          über mehr Kontext, mehr Relation
+          und mehr mögliche Fortsetzung tragfähig bleiben.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Felddynamik</h2>
+
+      <div class="body-copy">
+        <p>
+          Die Semantische Gravitation beschreibt Bedeutung nicht als neutrale Geometrie,
+          sondern als dynamisches Feld.
+          Es gibt Attraktoren, Verdichtungen, lokale Ordnungsblasen, Drift
+          sowie tragfähige und nicht-tragfähige Trajektorien.
+        </p>
+
+        <p>
+          Ein semantischer Zustand ist nie einfach nur „da“.
+          Er steht in einem Feld aus Spannungen, Kräften und möglichen Bewegungen.
+          Das ist die allgemeine Dynamikebene der Theorie.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Bedeutung hat Topologie.
+        Bedeutung hat Dynamik.
+        Bedeutung hat Attraktoren.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Attraktoren, Minima und Drift</h2>
+
+      <div class="body-copy">
+        <p>
+          Innerhalb dieser allgemeinen Dynamik ziehen manche Deutungen stark an,
+          obwohl sie nicht wahr sind.
+          Sie bilden <strong>semantische Minima</strong>:
+          lokal stabilisierende Konfigurationen,
+          die schnell Erleichterung bringen,
+          etwas rasch erklären
+          und Bewegung schließen.
+        </p>
+
+        <p>
+          Ihre Kraft kommt oft nicht aus Wahrheit,
+          sondern aus der billigen Stabilität, die sie liefern.
+          Das ist die spezifischere Logik von Fehlattraktion,
+          lokaler Ordnung und Drift.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Nicht jeder stabile Zustand
+        ist ein tragfähiger Zustand.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Von Dynamik zu Diagnose</h2>
+
+      <div class="body-copy">
+        <p>
+          Manche Bedeutungsräume bleiben eine Zeit lang offen.
+          Sie enthalten noch mehrere tragfähige Fortsetzungen.
+          Unter Druck können sie sich jedoch verengen und kollabieren.
+        </p>
+
+        <p>
+          Die <strong>semantische Dekohärenzrate</strong> beschreibt,
+          wie schnell tragfähige Fortsetzungen unter Konfliktdruck,
+          Projektionen, relationaler Last, Wiederholungszwang
+          und Umweltverengung verloren gehen.
+        </p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-card">
+          <h3>Offener Raum</h3>
+          <p>mehrere tragfähige Fortsetzungen bleiben verfügbar</p>
+        </div>
+        <div class="process-card">
+          <h3>Druck</h3>
+          <p>Konflikt, Scham, Projektionen und Umweltlast bauen sich auf</p>
+        </div>
+        <div class="process-card">
+          <h3>Verengung</h3>
+          <p>Freiheitsgrade kollabieren und weniger Trajektorien bleiben übrig</p>
+        </div>
+        <div class="process-card">
+          <h3>Kollaps</h3>
+          <p>starre Rollen, Wiederholung, Rückzug oder Eskalation übernehmen</p>
+        </div>
+      </div>
+
+      <p class="display-statement wide">
+        Gute semantische Veränderung geschieht nicht
+        durch wilde Totalumkehr,
+        sondern durch minimale,
+        reparierbare Übergänge.
+      </p>
+
+      <div class="body-copy">
+        <p>
+          Das ist die Logik der Navigation:
+          ein Schritt, eine Achse, reparierbar.
+          Das Ziel ist nicht symbolisches Drama,
+          sondern tragfähige Bewegung durch semantischen Raum.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-block">
+      <h2 class="section-heading-display">Architektonische Konsequenz</h2>
+
+      <div class="body-copy">
+        <p>
+          Diese Theorie ist nicht nur interpretativ.
+          Sie ist architektonisch folgenreich.
+          Wenn semantische Zustände als Konfigurationen beschreibbar sind,
+          als Trajektorien bewertet
+          und unter dem Gesichtspunkt von Tragfähigkeit diagnostiziert werden können,
+          dann lassen sich prinzipiell Systeme bauen,
+          die solche Räume lesen und navigieren.
+        </p>
+
+        <p>
+          Solche Systeme würden nicht länger nur auf akzeptabel wirkende Antworten optimieren,
+          sondern auf tragfähige semantische Bewegung.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Ein Scanner semantischer Räume
+        würde nicht bloß Antworten bewerten,
+        sondern Zustände und Übergänge.
+      </p>
+
+      <div class="status-box">
+        <p class="status-label">Theoretische Kernfolge</p>
+        <p>
+          Das ist keine kleine Erweiterung bestehender KI.
+          Es ist eine neue Architekturklasse.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="closing-block">
+      <h2 class="section-heading-display">Ausblick</h2>
+
+      <p>
+        Die Theorie beginnt mit Bedeutung.
+        Aber sobald Bedeutung kartierbar, diagnostizierbar und navigierbar wird,
+        wird aus Philosophie Architektur.
+      </p>
+
+      <p>
+        Von hier aus sind die nächsten Fragen nicht mehr nur begrifflich.
+        Sie werden technisch, diagnostisch und architektonisch:
+        wie semantische Räume modelliert werden,
+        wie tragfähige Übergänge erkannt werden
+        und wie Systeme gebaut werden können,
+        die Bedeutung navigieren,
+        statt nur Sprache zu erzeugen.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="theory-next">
+      <h2 class="section-heading-display">Nächste Schritte</h2>
+
+      <div class="next-grid">
+        <div class="next-card">
+          <h3><a href="/de/implikationen/">Implikationen →</a></h3>
+          <p>Was daraus folgt, wenn semantische Struktur operativ wird.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/de/ki-alignment/">KI-Alignment →</a></h3>
+          <p>Wie aus dieser Theorie eine KI-Architektur wird.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/de/papers/">Technische Quellen →</a></h3>
+          <p>Das formale und technische Rückgrat.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/de/buch/">Buch →</a></h3>
+          <p>Der größere menschliche und kulturelle Horizont.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/de/ueber-mich/">Über mich →</a></h3>
+          <p>Der Weg hinter dieser Arbeit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
