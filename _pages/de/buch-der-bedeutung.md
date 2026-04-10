@@ -3,7 +3,7 @@ layout: default
 title: "Das Buch der Bedeutung"
 permalink: /de/buch/
 lang: de
-description: "Ein Buchprojekt über Bedeutung, Fall, Rückkehr, Wahrheit, Schönheit und die lesbare Struktur der Wirklichkeit."
+description: "Ein Buch in Arbeit über Bedeutung, Fall, Rückkehr, Wahrheit, Schönheit und die lesbare Struktur der Wirklichkeit."
 translation_url_en: /en/book/
 ---
 
@@ -50,7 +50,6 @@ translation_url_en: /en/book/
 
   .book-page .book-hero,
   .book-page .body-copy,
-  .book-page .closing-block,
   .book-page .book-next {
     text-align: center;
   }
@@ -111,7 +110,7 @@ translation_url_en: /en/book/
   }
 
   .book-page .book-sublead {
-    max-width: 45rem;
+    max-width: 46rem;
     margin: 0 auto 1.4rem;
     font-size: clamp(1.12rem, 2.1vw, 1.48rem);
     line-height: 1.58;
@@ -161,6 +160,10 @@ translation_url_en: /en/book/
     font-size: 1.14rem;
     line-height: 1.8;
     letter-spacing: -0.014em;
+  }
+
+  .book-page .body-copy p.after-word-gap {
+    margin-top: 2.8rem;
   }
 
   .book-page .display-statement {
@@ -261,6 +264,19 @@ translation_url_en: /en/book/
     text-wrap: balance;
   }
 
+  .book-page .book-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    margin-top: 1.45rem;
+  }
+
+  .book-page .book-links .button {
+    min-width: 185px;
+    justify-content: center;
+  }
+
   .book-page .next-card a {
     color: #fff;
   }
@@ -329,6 +345,10 @@ translation_url_en: /en/book/
       line-height: 1.72;
     }
 
+    .book-page .body-copy p.after-word-gap {
+      margin-top: 2.4rem;
+    }
+
     .book-page .movement-card,
     .book-page .next-card {
       border-radius: 18px;
@@ -351,7 +371,7 @@ translation_url_en: /en/book/
           </p>
           <p class="book-status-line">
             Der innere Körper des Buches steht bereits.
-            Die erste öffentliche Fassung befindet sich jetzt in der abschließenden Finalisierung
+            Die erste öffentliche Fassung befindet sich jetzt in der Finalisierung
             und wird voraussichtlich noch einige Wochen brauchen.
           </p>
         </div>
@@ -363,35 +383,28 @@ translation_url_en: /en/book/
 
   <section class="section-shell">
     <div class="book-block">
-      <p class="display-kicker">Sein Ort im Gesamtwerk</p>
-      <h2 class="section-heading-display">Die menschliche Großform derselben tieferen Architektur.</h2>
+      <p class="display-kicker">Was das Buch innerhalb des Projekts ist</p>
+      <h2 class="section-heading-display">Eine eigene Achse derselben tieferen Architektur</h2>
 
       <div class="body-copy">
         <p>
-          <em>Das Buch der Bedeutung</em> ist innerhalb dieses Gesamtwerks nicht Randtext,
-          Begleitessay oder bloße poetische Nebenlinie.
-          Es ist die große menschliche Achse derselben Bewegung.
+          Dieses Buch steht nicht am Rand des Projekts, sondern auf einer eigenen Achse innerhalb derselben Bewegung.
+          Die Theorie-Seite, die KI-Alignment-Architektur, die technischen Quellen und die Downloads tragen das formale,
+          architektonische und prüfbare Rückgrat.
+          Das Buch trägt dieselbe tiefere Struktur in eine größere menschliche, existentielle, kulturelle und geistige Form.
         </p>
 
         <p>
-          Hier tritt derselbe tiefere Rahmen, der in Theorie, KI-Alignment,
-          technischen Quellen und Architekturen formaler erscheint,
-          in eine andere Größe ein:
-          als Ursprungserzählung, Fallgeschichte, Leseschule für Wirklichkeit,
-          Weg der Umkehr und Architektur einer neuen Erde.
-        </p>
-
-        <p>
-          Das Buch fragt nicht nur, was Bedeutung theoretisch ist.
-          Es fragt, wie Wirklichkeit lesbar wird,
-          wenn Bedeutung als gelebter Raum, Wunde, Rückkehr, Gericht,
-          Schönheit, Geschichte und Zukunft ernst genommen wird.
+          Es fragt, was sichtbar wird, wenn Bedeutung nicht nur als Begriff,
+          sondern als gelebter Raum, als Wunde, Geschichte, Rückkehr, Schönheit, Gericht,
+          Erlösung und Zukunft gelesen wird.
+          Es ist damit nicht bloß Begleittext, sondern die größere menschliche Ausfaltung derselben Architektur.
         </p>
       </div>
 
       <p class="display-statement medium">
-        Keine Nebenlinie.
-        Die menschliche Großform.
+        Nicht Nebenwerk.
+        Eine eigene Achse.
       </p>
     </div>
   </section>
@@ -411,23 +424,21 @@ translation_url_en: /en/book/
 
         <p>
           Worte wie Ursprung, Logos, Fall, Gericht, Gnade, Erlösung und Rückkehr
-          sollen nicht auf bloße Metaphysik reduziert,
-          aber auch nicht im Ungefähren stehen gelassen werden.
+          sollen nicht auf bloße Metaphysik reduziert, aber auch nicht im Ungefähren stehen gelassen werden.
           Sie sollen als verdichtete Beschreibungen realer semantischer,
           existentieller und geschichtlicher Dynamiken neu sichtbar werden.
         </p>
 
         <p>
           In diesem Sinn geht es nicht darum, den alten Bildern ihre Größe zu nehmen.
-          Es geht darum, ihren tieferen Kern wieder freizulegen
-          und sie so einzubetten, dass sie nicht nur ehrfürchtig klingen,
-          sondern wieder etwas Wirkliches lesbar machen.
+          Es geht darum, ihren tieferen Kern wieder freizulegen und sie so einzubetten,
+          dass sie nicht nur ehrfürchtig klingen, sondern wieder etwas Wirkliches lesbar machen.
         </p>
 
         <p>
           Das Buch versucht damit, einen Raum zu öffnen, in dem man sich nicht zu schnell
-          zwischen Wissenschaft und Tiefe, Glaube und Präzision,
-          Schönheit und Strenge, Herz und Weltbeschreibung entscheiden muss.
+          zwischen Wissenschaft und Tiefe, Glaube und Präzision, Schönheit und Strenge,
+          Herz und Weltbeschreibung entscheiden muss.
           Es ist kein Rückzug aus der Wirklichkeit,
           sondern ein Versuch, sie tiefer zu lesen, ohne die Klarheit zu verlieren.
         </p>
@@ -435,12 +446,12 @@ translation_url_en: /en/book/
 
       <p class="display-statement medium">
         Am Anfang war das Wort.
-        Vielleicht war es immer mehr
-        als bloße Metapher.
+        Vielleicht war es immer
+        mehr als bloße Metapher.
       </p>
 
       <div class="body-copy">
-        <p>
+        <p class="after-word-gap">
           Und vielleicht beginnt genau dort auch die Bewegung dieses Buches:
           alte Ursprungssprache nicht kleiner zu machen,
           sondern ihren Wirklichkeitskern wieder freizulegen.
@@ -459,13 +470,13 @@ translation_url_en: /en/book/
   <section class="section-shell">
     <div class="book-block">
       <p class="display-kicker">Hauptbewegungen</p>
-      <h2 class="section-heading-display">Was das Buch durchläuft</h2>
+      <h2 class="section-heading-display">Wodurch das Buch sich bewegt</h2>
 
       <div class="movement-grid">
         <div class="movement-card">
           <h3>Fall und gemeinsame Wunde</h3>
           <p>
-            Der Zustand des menschlichen Lebens, gemeinsames Trauma, Fehllektüre
+            Die Lage des Menschen, gemeinsame Verletzung, Verkennung
             und die Welt, in die wir gefallen sind.
           </p>
         </div>
@@ -474,7 +485,8 @@ translation_url_en: /en/book/
           <h3>Semantischer Raum und lesbare Wirklichkeit</h3>
           <p>
             Bedeutung als Raum, KPR, semantische Gravitation,
-            Widerspruchsenergie, C/B/A und die lebendige Lesbarkeit von Zuständen.
+            Widerspruchsenergie, Kohärenz, Bindung und Handlungsfähigkeit
+            sowie die lebendige Lesbarkeit von Zuständen.
           </p>
         </div>
 
@@ -491,7 +503,7 @@ translation_url_en: /en/book/
           <h3>Gericht, Rückkehr, Gnade</h3>
           <p>
             Harte Diagnose, Formgericht, Umkehr, Gnade als Verwandlung
-            und der abschließende Zukunftsbogen aus Furchtlosigkeit,
+            und der schließende Zukunftsbogen aus Furchtlosigkeit,
             Passage, Lachen und Rückkehr.
           </p>
         </div>
@@ -500,8 +512,8 @@ translation_url_en: /en/book/
       <p class="micro-punch">
         Ursprungsgeschichte.
         Fallgeschichte.
-        Leseweg.
-        Rückkehrweg.
+        Lesepfad.
+        Rückkehrpfad.
       </p>
     </div>
   </section>
@@ -511,30 +523,26 @@ translation_url_en: /en/book/
   <section class="section-shell">
     <div class="book-block">
       <p class="display-kicker">Aktueller Stand</p>
-      <h2 class="section-heading-display">In der Finalisierung vor der ersten öffentlichen Fassung.</h2>
+      <h2 class="section-heading-display">In Finalisierung vor der ersten öffentlichen Fassung</h2>
 
       <div class="body-copy">
         <p>
-          Dieses Buch ist nicht bloß eine Idee oder ein Platzhalter.
+          Dieses Buch ist nicht nur eine Idee oder ein Platzhalter.
           Seine innere Struktur und sein Kernkörper existieren bereits.
         </p>
 
         <p>
-          Was jetzt geschieht, ist die letzte größere Phase vor der Veröffentlichung:
-          eine klarere, tiefere und einheitlichere Formung des Buches
+          Gegenwärtig läuft die letzte große Arbeitsphase:
+          eine klarere, tiefere und geschlossenere Formgebung des Buches
           vor seiner ersten öffentlichen Fassung.
         </p>
 
         <p>
           Die öffentliche Version ist deshalb noch nicht online.
-          Sie wird derzeit in ihre endgültige lesbare Gestalt gebracht.
-        </p>
-
-        <p>
+          Sie wird gerade in ihre endgültig lesbare Form gebracht.
           Sobald diese Phase abgeschlossen ist,
-          kann diese Seite auch Beispielpassagen, Downloadmaterial
-          und Begleitdokumente für langsamere Lektüre
-          und KI-gestütztes Studium aufnehmen.
+          kann diese Seite auch Proben, Downloadmaterial und Begleitdokumente
+          für langsamere Lektüre und KI-gestützte Arbeit aufnehmen.
         </p>
       </div>
 
@@ -545,6 +553,17 @@ translation_url_en: /en/book/
           Die erste Veröffentlichung befindet sich in der Finalisierung
           und wird voraussichtlich noch einige Wochen brauchen.
         </p>
+      </div>
+
+      <p class="display-statement medium">
+        Kein Abschluss.
+        Eine Schwelle.
+      </p>
+
+      <div class="book-links">
+        <a class="button" href="/de/theorie/">Zur Theorie</a>
+        <a class="button" href="/de/ki-alignment/">Zum KI-Alignment</a>
+        <a class="button" href="/de/papers/">Zu den Technischen Quellen</a>
       </div>
     </div>
   </section>
