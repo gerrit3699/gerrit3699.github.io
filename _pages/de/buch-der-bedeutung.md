@@ -261,19 +261,6 @@ translation_url_en: /en/book/
     text-wrap: balance;
   }
 
-  .book-page .book-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.9rem;
-    margin-top: 1.45rem;
-  }
-
-  .book-page .book-links .button {
-    min-width: 185px;
-    justify-content: center;
-  }
-
   .book-page .next-card a {
     color: #fff;
   }
@@ -528,6 +515,13 @@ translation_url_en: /en/book/
           Die öffentliche Version ist deshalb noch nicht online.
           Sie wird derzeit in ihre endgültige lesbare Gestalt gebracht.
         </p>
+
+        <p>
+          Sobald diese Phase abgeschlossen ist,
+          kann diese Seite auch Beispielpassagen, Downloadmaterial
+          und Begleitdokumente für langsamere Lektüre
+          und KI-gestütztes Studium aufnehmen.
+        </p>
       </div>
 
       <div class="status-box">
@@ -537,40 +531,6 @@ translation_url_en: /en/book/
           Die erste Veröffentlichung befindet sich in der Schlussüberarbeitung
           und wird voraussichtlich noch einige Wochen brauchen.
         </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="book-block closing-block">
-      <p class="display-kicker">Schwelle</p>
-      <h2 class="section-heading-display">Noch nicht die öffentliche Fassung</h2>
-
-      <div class="body-copy">
-        <p>
-          Diese Seite markiert den Ort des Buches innerhalb des Gesamtprojekts
-          und die Art der Arbeit, die hier Form annimmt.
-        </p>
-
-        <p>
-          Sobald die Schlussüberarbeitung abgeschlossen ist,
-          kann diese Seite auch Beispielpassagen, Downloadmaterial
-          und Begleitdokumente für langsamere Lektüre
-          und KI-gestütztes Studium aufnehmen.
-        </p>
-      </div>
-
-      <p class="display-statement medium">
-        Kein Abschluss.
-        Eine Schwelle.
-      </p>
-
-      <div class="book-links">
-        <a class="button" href="/de/theorie/">Zur Theorie</a>
-        <a class="button" href="/de/ki-alignment/">Zu KI-Alignment</a>
-        <a class="button" href="/de/papers/">Zu den technischen Quellen</a>
       </div>
     </div>
   </section>
