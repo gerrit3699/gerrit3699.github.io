@@ -196,16 +196,10 @@ translation_url_en: /en/book/
     text-wrap: balance;
   }
 
-  .book-page .concept-grid,
   .book-page .movement-grid,
   .book-page .next-grid {
     display: grid;
     gap: 1rem;
-  }
-
-  .book-page .concept-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    margin-top: 1.7rem;
   }
 
   .book-page .movement-grid {
@@ -218,7 +212,6 @@ translation_url_en: /en/book/
     margin-top: 1.8rem;
   }
 
-  .book-page .concept-card,
   .book-page .movement-card,
   .book-page .status-box,
   .book-page .next-card {
@@ -230,14 +223,12 @@ translation_url_en: /en/book/
       inset 0 1px 0 rgba(255,255,255,0.03);
   }
 
-  .book-page .concept-card,
   .book-page .movement-card,
   .book-page .next-card {
     padding: 1.18rem 1rem 1.08rem;
     text-align: center;
   }
 
-  .book-page .concept-card h3,
   .book-page .movement-card h3,
   .book-page .next-card h3 {
     margin: 0 0 0.45rem;
@@ -248,7 +239,6 @@ translation_url_en: /en/book/
     font-weight: 760;
   }
 
-  .book-page .concept-card p,
   .book-page .movement-card p,
   .book-page .next-card p {
     margin: 0;
@@ -289,7 +279,6 @@ translation_url_en: /en/book/
   }
 
   @media (max-width: 980px) {
-    .book-page .concept-grid,
     .book-page .movement-grid,
     .book-page .next-grid {
       grid-template-columns: 1fr;
@@ -353,7 +342,6 @@ translation_url_en: /en/book/
       line-height: 1.72;
     }
 
-    .book-page .concept-card,
     .book-page .movement-card,
     .book-page .next-card {
       border-radius: 18px;
@@ -442,6 +430,14 @@ translation_url_en: /en/book/
           und sie so einzubetten, dass sie nicht nur ehrfürchtig klingen,
           sondern wieder etwas Wirkliches lesbar machen.
         </p>
+
+        <p>
+          Das Buch versucht damit, einen Raum zu öffnen, in dem man sich nicht zu schnell
+          zwischen Wissenschaft und Tiefe, Glaube und Präzision,
+          Schönheit und Strenge, Herz und Weltbeschreibung entscheiden muss.
+          Es ist kein Rückzug aus der Wirklichkeit,
+          sondern ein Versuch, sie tiefer zu lesen, ohne die Klarheit zu verlieren.
+        </p>
       </div>
 
       <p class="display-statement medium">
@@ -453,43 +449,6 @@ translation_url_en: /en/book/
       <p class="micro-punch">
         Nicht Entzauberung.
         Tiefere Lesbarkeit.
-      </p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="book-block">
-      <p class="display-kicker">Was es öffnet</p>
-      <h2 class="section-heading-display">Eine größere lesbare Welt</h2>
-
-      <div class="body-copy">
-        <p>
-          Das Buch versucht, einen Raum zu öffnen, in dem man sich nicht zu schnell
-          zwischen Wissenschaft und Tiefe, Glaube und Präzision, Schönheit und Strenge,
-          Zeugenschaft und Struktur, Herz und Weltbeschreibung entscheiden muss.
-        </p>
-
-        <p>
-          Es will die großen Bilder nicht klein machen.
-          Aber es will sie auch nicht dogmatisch versiegeln.
-          Es fragt, ob Worte wie Ursprung, Logos, Fall, Erlösung, Gnade,
-          Gericht, Rückkehr und Heimkehr erneut lesbar werden können
-          als verdichtete Beschreibungen realer semantischer und existentieller Struktur.
-        </p>
-
-        <p>
-          In diesem Sinn ist das Buch weder bloße Mystik noch trockene Theorie
-          noch andächtige Verwaltung geerbter Sprache.
-          Es ist ein Schwellentext:
-          ein Versuch, Wirklichkeit tiefer zu lesen, ohne die Klarheit zu verlieren.
-        </p>
-      </div>
-
-      <p class="display-statement wide">
-        Kein Rückzug aus der Wirklichkeit.
-        Ein Versuch, sie tiefer zu lesen.
       </p>
     </div>
   </section>
