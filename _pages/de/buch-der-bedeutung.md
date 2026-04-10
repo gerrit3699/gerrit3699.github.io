@@ -351,7 +351,7 @@ translation_url_en: /en/book/
           </p>
           <p class="book-status-line">
             Der innere Körper des Buches steht bereits.
-            Die erste öffentliche Fassung befindet sich jetzt in der abschließenden Überarbeitung
+            Die erste öffentliche Fassung befindet sich jetzt in der abschließenden Finalisierung
             und wird voraussichtlich noch einige Wochen brauchen.
           </p>
         </div>
@@ -439,6 +439,14 @@ translation_url_en: /en/book/
         als bloße Metapher.
       </p>
 
+      <div class="body-copy">
+        <p>
+          Und vielleicht beginnt genau dort auch die Bewegung dieses Buches:
+          alte Ursprungssprache nicht kleiner zu machen,
+          sondern ihren Wirklichkeitskern wieder freizulegen.
+        </p>
+      </div>
+
       <p class="micro-punch">
         Nicht Entzauberung.
         Tiefere Lesbarkeit.
@@ -503,7 +511,7 @@ translation_url_en: /en/book/
   <section class="section-shell">
     <div class="book-block">
       <p class="display-kicker">Aktueller Stand</p>
-      <h2 class="section-heading-display">In der Schlussüberarbeitung vor der ersten öffentlichen Fassung.</h2>
+      <h2 class="section-heading-display">In der Finalisierung vor der ersten öffentlichen Fassung.</h2>
 
       <div class="body-copy">
         <p>
@@ -512,7 +520,7 @@ translation_url_en: /en/book/
         </p>
 
         <p>
-          Was jetzt geschieht, ist die letzte größere Überarbeitungsphase:
+          Was jetzt geschieht, ist die letzte größere Phase vor der Veröffentlichung:
           eine klarere, tiefere und einheitlichere Formung des Buches
           vor seiner ersten öffentlichen Fassung.
         </p>
@@ -534,7 +542,7 @@ translation_url_en: /en/book/
         <p class="status-label">Status</p>
         <p>
           Noch ist keine öffentliche Fassung online.
-          Die erste Veröffentlichung befindet sich in der Schlussüberarbeitung
+          Die erste Veröffentlichung befindet sich in der Finalisierung
           und wird voraussichtlich noch einige Wochen brauchen.
         </p>
       </div>
