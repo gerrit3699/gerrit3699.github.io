@@ -363,29 +363,35 @@ translation_url_en: /en/book/
 
   <section class="section-shell">
     <div class="book-block">
-      <p class="display-kicker">Was das innerhalb des Projekts ist</p>
-      <h2 class="section-heading-display">Nicht die technische Quellenebene. Eine größere menschliche Form derselben Arbeit.</h2>
+      <p class="display-kicker">Sein Ort im Gesamtwerk</p>
+      <h2 class="section-heading-display">Die menschliche Großform derselben tieferen Architektur.</h2>
 
       <div class="body-copy">
         <p>
-          Dieses Buch nimmt nicht denselben Platz ein wie die Paper, die Theorie-Seite
-          oder die KI-Alignment-Architektur.
-          Diese Seiten tragen das formale Rückgrat, die technische Quellenebene
-          und die KI-spezifische Konsequenz des Rahmens.
+          <em>Das Buch der Bedeutung</em> ist innerhalb dieses Gesamtwerks nicht Randtext,
+          Begleitessay oder bloße poetische Nebenlinie.
+          Es ist die große menschliche Achse derselben Bewegung.
         </p>
 
         <p>
-          <em>Das Buch der Bedeutung</em> ist die größere menschliche, existentielle,
-          kulturelle und geistige Form derselben tieferen Architektur.
-          Es fragt, was sichtbar wird, wenn Bedeutung nicht nur als Begriff,
-          sondern als gelebter Raum, Wunde, Rückkehr, Gericht, Schönheit,
-          Geschichte und Zukunft lesbar wird.
+          Hier tritt derselbe tiefere Rahmen, der in Theorie, KI-Alignment,
+          technischen Quellen und Architekturen formaler erscheint,
+          in eine andere Größe ein:
+          als Ursprungserzählung, Fallgeschichte, Leseschule für Wirklichkeit,
+          Weg der Umkehr und Architektur einer neuen Erde.
+        </p>
+
+        <p>
+          Das Buch fragt nicht nur, was Bedeutung theoretisch ist.
+          Es fragt, wie Wirklichkeit lesbar wird,
+          wenn Bedeutung als gelebter Raum, Wunde, Rückkehr, Gericht,
+          Schönheit, Geschichte und Zukunft ernst genommen wird.
         </p>
       </div>
 
       <p class="display-statement medium">
-        Keine weitere Quelldatei.
-        Eine weitere menschliche Ausfaltung.
+        Keine Nebenlinie.
+        Die menschliche Großform.
       </p>
     </div>
   </section>
