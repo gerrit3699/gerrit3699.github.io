@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Semantic Gravitation
+title: Semantische Gravitation
 permalink: /de/
 lang: de
-description: "Semantic Gravitation – eine Theorie der Bedeutung als navigierbarer Raum und eine neue Grundlage für KI-Alignment."
+description: "Semantische Gravitation – eine Theorie der Bedeutung als navigierbarer Raum und eine neue Grundlage für KI-Alignment."
 translation_url_en: /en/
 ---
 
@@ -663,7 +663,7 @@ translation_url_en: /en/
 
   <section class="hero home-hero">
     <div class="hero-inner">
-      <h1 class="display-wordmark">Semantic<br>Gravitation</h1>
+      <h1 class="display-wordmark">Semantische<br>Gravitation</h1>
       <p class="home-lead home-lead-plain">Eine Theorie der Bedeutung als navigierbarer Raum — und eine neue Grundlage für KI-Alignment.</p>
     </div>
   </section>
@@ -890,7 +890,7 @@ translation_url_en: /en/
           </div>
 
           <div class="proof-card">
-            <h3>Technical Sources</h3>
+            <h3>Technische Quellen</h3>
             <p>Die Quellenebene: die sechs formalen Paper, das separate Alignment-Paper und geschützte Anwendungsrichtungen.</p>
           </div>
 
@@ -908,7 +908,7 @@ translation_url_en: /en/
 
         <div class="link-list">
           <a href="/de/theorie/">Zur Theorie →</a>
-          <a href="/de/papers/">Zu den Technical Sources →</a>
+          <a href="/de/papers/">Zu den technischen Quellen →</a>
           <a href="/de/downloads/">Zu den Downloads →</a>
         </div>
       </div>
