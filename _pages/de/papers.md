@@ -1,87 +1,324 @@
 ---
 layout: default
-title: "Papers & Patente"
+title: "Technische Quellen"
 permalink: /de/papers/
 lang: de
-description: "Technische und theoretische Grundlagen von Semantic Gravitation: Papers, Patente und architektonische Kontextrahmen."
+description: "Die technische Quellenebene der Semantischen Gravitation: Paper, gebündelte Prüfungskontexte, Alignment-Paper und geschützte Architekturrichtungen."
+translation_url_en: /en/papers/
 ---
 
-<div class="home-journey">
+<style>
+  .sources-page {
+    --sources-text: rgba(255,255,255,0.96);
+    --sources-soft: rgba(255,255,255,0.82);
+    --sources-faint: rgba(255,255,255,0.64);
+    --sources-line: rgba(255,255,255,0.10);
+    --sources-line-strong: rgba(255,255,255,0.16);
+  }
 
-  <section class="hero section-fog">
-    <div class="hero-inner">
-      <h1 class="display-wordmark">Papers<br>& Patente</h1>
-      <p class="home-lead">Der technische und wissenschaftliche Unterbau von Semantic Gravitation</p>
-    </div>
-  </section>
+  .sources-page h1,
+  .sources-page h2,
+  .sources-page h3,
+  .sources-page strong,
+  .sources-page a {
+    color: #fff;
+  }
+
+  .sources-page p,
+  .sources-page li {
+    color: var(--sources-text);
+  }
+
+  .sources-page .section-shell {
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+  }
+
+  .sources-page .section-shell-tight {
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+  }
+
+  .sources-page .sources-intro,
+  .sources-page .sources-block,
+  .sources-page .sources-next {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .sources-page .sources-intro,
+  .sources-page .body-copy,
+  .sources-page .closing-block,
+  .sources-page .sources-next {
+    text-align: center;
+  }
+
+  .sources-page .sources-kicker,
+  .sources-page .status-label {
+    margin: 0 0 0.7rem;
+    font-size: 0.88rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--sources-faint);
+  }
+
+  .sources-page .sources-display {
+    margin: 0 auto 1.15rem;
+    max-width: 10ch;
+    font-size: clamp(2.5rem, 6vw, 5.1rem);
+    line-height: 0.94;
+    letter-spacing: -0.05em;
+    font-weight: 650;
+    text-wrap: balance;
+  }
+
+  .sources-page .sources-sublead {
+    max-width: 58rem;
+    margin: 0 auto 1.2rem;
+    font-size: clamp(1.08rem, 2vw, 1.4rem);
+    line-height: 1.62;
+    text-wrap: balance;
+  }
+
+  .sources-page .claim-grid,
+  .sources-page .paper-grid,
+  .sources-page .direction-grid,
+  .sources-page .next-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .sources-page .claim-grid,
+  .sources-page .direction-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 1080px;
+    margin: 1.9rem auto 0;
+  }
+
+  .sources-page .paper-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 1080px;
+    margin: 1.9rem auto 0;
+  }
+
+  .sources-page .next-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 1080px;
+    margin: 1.8rem auto 0;
+  }
+
+  .sources-page .claim-card,
+  .sources-page .paper-card,
+  .sources-page .direction-card,
+  .sources-page .next-card,
+  .sources-page .status-box {
+    border: 1px solid var(--sources-line);
+    border-radius: 22px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.025));
+    box-shadow:
+      0 18px 48px rgba(0,0,0,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.03);
+  }
+
+  .sources-page .claim-card,
+  .sources-page .paper-card,
+  .sources-page .direction-card,
+  .sources-page .next-card {
+    padding: 1.18rem 1rem 1.08rem;
+    text-align: center;
+  }
+
+  .sources-page .claim-card h3,
+  .sources-page .paper-card h3,
+  .sources-page .direction-card h3,
+  .sources-page .next-card h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.18rem;
+    line-height: 1.06;
+    letter-spacing: -0.03em;
+  }
+
+  .sources-page .claim-card p,
+  .sources-page .paper-card p,
+  .sources-page .direction-card p,
+  .sources-page .next-card p {
+    margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.54;
+    color: var(--sources-soft);
+  }
+
+  .sources-page .section-heading-display {
+    margin: 0 auto 1.3rem;
+    max-width: 14ch;
+    text-align: center;
+    font-size: clamp(2.05rem, 4.8vw, 3.7rem);
+    line-height: 0.98;
+    letter-spacing: -0.045em;
+    text-wrap: balance;
+  }
+
+  .sources-page .body-copy {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+
+  .sources-page .body-copy p {
+    max-width: 46em;
+    margin: 0.95rem auto 0;
+    font-size: 1.1rem;
+    line-height: 1.76;
+    letter-spacing: -0.01em;
+  }
+
+  .sources-page .body-copy ul,
+  .sources-page .body-copy ol {
+    max-width: 42em;
+    margin: 1.15rem auto;
+    text-align: left;
+  }
+
+  .sources-page .body-copy li {
+    margin-bottom: 0.5rem;
+  }
+
+  .sources-page .display-statement {
+    max-width: 26ch;
+    margin: 1.9rem auto;
+    text-align: center;
+    font-size: clamp(1.9rem, 3.6vw, 3rem);
+    line-height: 1.03;
+    letter-spacing: -0.045em;
+    font-weight: 650;
+    text-wrap: balance;
+  }
+
+  .sources-page .display-statement.wide { max-width: 30ch; }
+  .sources-page .display-statement.medium { max-width: 22ch; }
+  .sources-page .display-statement.narrow { max-width: 12ch; }
+
+  .sources-page .status-box {
+    max-width: 920px;
+    margin: 2rem auto 0;
+    padding: 1.2rem 1.15rem;
+    text-align: center;
+  }
+
+  .sources-page .status-box p {
+    margin: 0;
+    font-size: clamp(1.16rem, 2.2vw, 1.68rem);
+    line-height: 1.38;
+    text-wrap: balance;
+  }
+
+  .sources-page .source-link-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1.25rem;
+  }
+
+  .sources-page .source-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 0.85rem 1.05rem;
+    border-radius: 999px;
+    border: 1px solid var(--sources-line);
+    background: rgba(255,255,255,0.04);
+    text-decoration: none;
+    font-size: 0.96rem;
+    line-height: 1.2;
+  }
+
+  .sources-page .next-card a,
+  .sources-page .paper-card a,
+  .sources-page .direction-card a {
+    color: #fff;
+  }
+
+  @media (max-width: 980px) {
+    .sources-page .claim-grid,
+    .sources-page .paper-grid,
+    .sources-page .direction-grid,
+    .sources-page .next-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="sources-page">
 
   <section class="section-shell section-shell-tight">
-    <div class="free-text-block intro-copy">
-      <p>
-        Diese Seite zeigt den <strong>harten technischen und wissenschaftlichen Unterbau</strong> von <strong>Semantic Gravitation</strong>.
+    <div class="sources-intro">
+      <p class="sources-kicker">Technische Quellen</p>
+      <h1 class="sources-display">Die technische Quellenebene der Semantischen Gravitation.</h1>
+      <p class="sources-sublead">
+        Diese Seite bündelt das zentrale Quellenmaterial des Programms:
+        das formale Rückgrat aus sechs Papern,
+        gebündelte Prüfungskontexte für zusammenhängende Lektüre und KI-gestützte Analyse,
+        das eigenständige Alignment-Paper
+        und die ersten geschützten Architekturrichtungen.
+        Wenn du den Rahmen auf Quellenebene prüfen willst,
+        ist das hier der richtige Einstieg.
       </p>
 
-      <p>
-        Während die Startseite die Vision und die Theorie-Seite die grundlegenden Konzepte entfalten,
-        findest du hier die verdichteten, formalen Arbeiten:
-        mathematische Papers, Architekturkonzepte und erste Patentlinien.
-      </p>
-
-      <p>
-        Die Texte sind bewusst dicht und technisch.
-        Sie sind nicht für den ersten Einstieg gedacht,
-        sondern für alle, die prüfen wollen,
-        wie tief und tragfähig der Rahmen bereits ist —
-        und ob er hält, was die anderen Seiten dieser Website versprechen:
-        <strong>mehr Klarheit, mehr Würde und mehr Freiheit im Umgang mit KI.</strong>
-      </p>
-
-      <p class="statement-block statement-inline">
-        Wenn der Rahmen trägt, geht es hier nicht nur um ein weiteres Modell von Bedeutung —
-        sondern möglicherweise um einen <strong>Qualitätssprung in der Erkenntnisgewinnung selbst.</strong>
-      </p>
-
-      <p>
-        Also um Werkzeuge, mit denen tragfähige semantische Strukturen
-        nicht nur beschrieben, sondern klarer gefunden, geprüft und rekursiv verstärkt werden können —
-        eher <strong>Spiegel statt Glaskugel</strong>.
-      </p>
+      <div class="claim-grid">
+        <div class="claim-card">
+          <h3>Formale Paper</h3>
+          <p>Das Rückgrat des Programms in sechs Papern.</p>
+        </div>
+        <div class="claim-card">
+          <h3>Prüfungskontexte</h3>
+          <p>Der Sammelband und die Download-Bundles liefern einen durchgehenden Zusammenhang für tiefere Prüfung und KI-gestützte Rekonstruktion.</p>
+        </div>
+        <div class="claim-card">
+          <h3>Architekturrichtungen</h3>
+          <p>Geschützte Architekturfamilien, die aus demselben Rahmen hervorgehen.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="section-shell section-shell-tight">
-    <div class="section-card section-fog">
-      <div class="section-head">
-        <h2>Gebündelte Downloads & KI-Prüfung</h2>
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="sources-block">
+      <h2 class="section-heading-display">Wie diese Seite zu lesen ist</h2>
+
+      <div class="body-copy">
+        <p>
+          Das hier ist nicht die breiteste Einführung in das Projekt.
+          Es ist die Quellenebene.
+        </p>
+
+        <p>
+          Wenn du den begrifflichen Überblick suchst, beginne mit <a href="/de/theorie/">Theorie</a>.
+          Wenn du die KI-Architektur suchst, gehe zu <a href="/de/ki-alignment/">KI-Alignment</a>.
+          Wenn du gebündelte PDFs für den direkten Upload in dein eigenes KI-System suchst, gehe zu <a href="/de/downloads/">Downloads</a>.
+        </p>
+
+        <p>
+          Diese Seite ist für Leser, die das Rückgrat selbst prüfen wollen:
+          wie die Paper aufeinander aufbauen,
+          wie die formalen Behauptungen entfaltet werden
+          und wie sich die Architekturrichtungen aus dem Kern ableiten.
+        </p>
       </div>
 
-      <div class="section-body">
-        <p>
-          Wenn man eine KI einfach nur fragt, was sie von dieser Website oder den großen Claims hält,
-          lädt sie sich die zugehörigen PDFs oft <strong>nicht automatisch</strong> als vollständigen Kontextrahmen.
-        </p>
+      <p class="display-statement medium">
+        Nicht die breiteste Einführung.
+        Die Quellenebene.
+      </p>
 
+      <div class="status-box">
+        <p class="status-label">Stand und Integrität</p>
         <p>
-          Gerade deshalb gibt es jetzt eine eigene <strong>Downloads-Seite</strong> mit den wichtigsten gebündelten Dokumenten.
-          Dort kannst du die Dateien direkt herunterladen
-          und sie in einem eigenen KI-Chat als Kontext mitgeben.
-        </p>
-
-        <p>
-          Das beweist den Rahmen nicht.
-          Aber es verbessert oft die Qualität der Prüfung:
-          weg von einer bloßen Reaktion auf einzelne Aussagen —
-          hin zu einer genaueren Einschätzung von Struktur,
-          Kohärenz, offenen Stellen und möglicher Implementierbarkeit.
-        </p>
-
-        <p class="statement-block statement-inline">
-          Für eine fairere und klarere Einschätzung:<br>
-          <strong>Dokumente herunterladen, der eigenen KI geben und gezielt prüfen.</strong>
-        </p>
-
-        <p>
-          <a class="button" href="/de/downloads/">Zu den Downloads →</a>
+          Die formale Spezifikation ist bereits substanziell.
+          Empirische Reife, Implementierungsrobustheit, Benchmarking
+          und systemspezifische Kalibrierung liegen größtenteils noch vor dem Projekt.
         </p>
       </div>
     </div>
@@ -90,47 +327,245 @@ description: "Technische und theoretische Grundlagen von Semantic Gravitation: P
   <div class="section-divider"></div>
 
   <section class="section-shell">
-    <div class="section-card section-field">
-      <div class="section-head">
-        <h2>Zum aktuellen Status</h2>
+    <div class="sources-block">
+      <h2 class="section-heading-display">Der formale Paper-Kern</h2>
+
+      <div class="body-copy">
+        <p>
+          Die sechs Paper bilden das formale Rückgrat.
+          Alles andere auf der Website strahlt von diesem Kern nach außen.
+        </p>
+
+        <p>
+          Die Folge ist kumulativ aufgebaut:
+          von semantischer Zustandsraumstruktur und Gradientendynamik,
+          über Feld- und Verteilungslogik,
+          über Quantenkompatibilität und Raumzeit-Formulierungen,
+          hin zu komplexen Systemen und der bislang stärksten Synthese.
+        </p>
       </div>
 
-      <div class="section-body">
+      <div class="paper-grid">
+        <div class="paper-card">
+          <h3>Paper I</h3>
+          <p><strong>Gradient Fields of Semantic Dynamics on Hilbert Spaces.</strong> Die grundlegende Zustandsraumebene: semantische Potentiale, Gradientenfluss, Rauschen und die erste formale Dynamik.</p>
+          <div class="source-link-row">
+            <a class="source-link" href="https://doi.org/10.5281/zenodo.18609642">Auf Zenodo öffnen →</a>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <h3>Paper II</h3>
+          <p><strong>Semantic Field Dynamics and Free Energy.</strong> Die Verteilungs- und Feldebene: Fokker–Planck-Dynamik, Free-Energy-Struktur und kollektive semantische Bewegung.</p>
+          <div class="source-link-row">
+            <a class="source-link" href="https://doi.org/10.5281/zenodo.18611288">Auf Zenodo öffnen →</a>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <h3>Paper III</h3>
+          <p><strong>Quantum-Compatible Semantic Fields.</strong> Der Kompatibilitätstest: ob sich Standard-Quantenmechanik als treuer Sektor des größeren Rahmens einbetten lässt.</p>
+          <div class="source-link-row">
+            <a class="source-link" href="https://doi.org/10.5281/zenodo.18613061">Auf Zenodo öffnen →</a>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <h3>Paper IV</h3>
+          <p><strong>Semantic Fields on Spacetime Manifolds.</strong> Die feldtheoretische Öffnung: semantische Felder auf Raumzeit-Mannigfaltigkeiten als effektive Kohärenztheorie.</p>
+          <div class="source-link-row">
+            <a class="source-link" href="https://doi.org/10.5281/zenodo.18614072">Auf Zenodo öffnen →</a>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <h3>Paper V</h3>
+          <p><strong>Semantic Field Dynamics in Complex Systems.</strong> Die Brücke zu neuronalen Netzen, latenten Systemen und beobachtbaren KI-relevanten Architekturen.</p>
+          <div class="source-link-row">
+            <a class="source-link" href="https://doi.org/10.5281/zenodo.18615093">Auf Zenodo öffnen →</a>
+          </div>
+        </div>
+
+        <div class="paper-card">
+          <h3>Paper VI</h3>
+          <p><strong>The Global Attractor and the Lagrangian of Vectorial Emergence (LOVE).</strong> Die bislang stärkste Synthese: globale Attraktorstruktur, K–P–R, C/B/A und weitergehende feldtheoretische Schließung.</p>
+          <div class="source-link-row">
+            <a class="source-link" href="https://doi.org/10.5281/zenodo.19414951">Auf Zenodo öffnen →</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="display-statement wide">
+        Die sechs Paper sind das formale Rückgrat.
+        Alles andere auf der Website strahlt von diesem Kern nach außen.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="sources-block">
+      <h2 class="section-heading-display">Sammelband und Prüfungskontext</h2>
+
+      <div class="body-copy">
         <p>
-          Die hier versammelten Papers, Patente und Begleitdokumente zeigen
-          den derzeitigen theoretischen und architektonischen Stand von <strong>Semantic Gravitation</strong>.
+          Neben den einzelnen Zenodo-Papern gibt es einen Sammelband,
+          in dem Paper I–VI als ein durchgehender technischer Zusammenhang hintereinander stehen.
         </p>
 
         <p>
-          Wichtig ist dabei:
-          Die zentralen Linien des Frameworks sind bislang <strong>nicht experimentell bestätigt</strong>.
-          Der gegenwärtige Schritt ist vor allem ein öffentlicher theoretischer und struktureller Drop:
-          die Veröffentlichung eines Rahmens,
-          der nun gezielt geprüft, kritisiert, weiter spezifiziert, implementiert
-          und — idealerweise in Zusammenarbeit mit Partnern — empirisch weiterentwickelt werden kann.
+          Die einzelnen Zenodo-Einträge bleiben die Quellenveröffentlichungen.
+          Der Sammelband existiert als Prüfungskontext:
+          für Leser, die einen zusammenhängenden technischen Körper wollen,
+          und besonders für KI-gestützte Prüfung in größeren Kontextfenstern.
+        </p>
+      </div>
+
+      <div class="source-link-row">
+        <a class="source-link" href="/de/downloads/">Zu den Downloads →</a>
+        <a class="source-link" href="https://doi.org/10.5281/zenodo.18609642">Mit Paper I beginnen →</a>
+        <a class="source-link" href="https://doi.org/10.5281/zenodo.19414951">Mit Paper VI beginnen →</a>
+      </div>
+
+      <p class="display-statement medium">
+        Die Zenodo-Paper sind die Quellentexte.
+        Der Sammelband ist der Prüfungskontext.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="sources-block">
+      <h2 class="section-heading-display">Das eigenständige Alignment-Paper</h2>
+
+      <div class="body-copy">
+        <p>
+          <strong>Beyond Fog: Edge Alignment in Semantic Space</strong> ist das eigenständige Alignment-Paper.
+          Es übersetzt den größeren Rahmen in eine konkrete KI-architektonische Frage:
+          nicht nur, welche Ausgaben erzeugt werden,
+          sondern wie semantische Pfade navigiert werden,
+          wo Drift entsteht,
+          wie Reparierbarkeit erhalten bleiben kann
+          und was semantische Sicherheit jenseits bloßer Oberflächenkonformität bedeuten könnte.
         </p>
 
         <p>
-          Die Papers und Patente liegen bereits als verdichtete theoretische und architektonische Ausarbeitung vor.
-          Experimentelle Validierung und konkrete Umsetzung stehen dagegen noch aus.
+          Das ist die direkteste technische Quelle
+          für den Übergang von semantischer Theorie zu Alignment-Architektur.
+        </p>
+      </div>
+
+      <div class="source-link-row">
+        <a class="source-link" href="https://doi.org/10.5281/zenodo.18608012">Beyond Fog auf Zenodo öffnen →</a>
+        <a class="source-link" href="/de/ki-alignment/">Zu KI-Alignment →</a>
+        <a class="source-link" href="/de/downloads/">Zu den Downloads →</a>
+      </div>
+
+      <p class="display-statement medium">
+        Nicht nur Qualität von Ausgaben.
+        Tragfähige Bewegung im semantischen Raum.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="sources-block">
+      <h2 class="section-heading-display">Geschützte Architekturrichtungen</h2>
+
+      <div class="body-copy">
+        <p>
+          Die Patente werden hier nicht als vollständiger Katalog präsentiert.
+          Entscheidend auf dieser Seite ist ihre Rolle:
+          Sie markieren geschützte Richtungen und Architekturfamilien,
+          die aus derselben zugrunde liegenden Architektur hervorgehen.
         </p>
 
         <p>
-          Diese Dokumente sind deshalb keine Bauanleitungen im engen mechanischen Sinn,
-          aber auch nicht bloß lose Prinzipbeschreibungen.
-          Sie sind eher <strong>dynamische Konstruktionsrahmen</strong>:
-          Einige Grundbausteine und operative Elemente werden explizit benannt,
-          während viele konkrete Ausprägungen, Parameter und Systemformen
-          erst aus den beschriebenen Relationen, Übergängen und Dynamiken emergieren.
+          Es sind keine losgelösten Produktideen.
+          Sie zeigen an, wo die Theorie operativ werden könnte:
+          in Alignment-Architekturen,
+          rekursiver semantischer Zustandsraumerweiterung,
+          Autorensystemen und semantischen Gedächtnisarchitekturen
+          sowie verkörperter resonanzsensitiver Assistenz.
         </p>
+      </div>
+
+      <div class="direction-grid">
+        <div class="direction-card">
+          <h3>Edge-Alignment-Architekturen</h3>
+          <p>KI-Systeme, die nicht nur auf akzeptable Ausgaben optimieren, sondern auf tragfähige semantische Bewegung, Driftresistenz und reparierbare Übergänge.</p>
+        </div>
+
+        <div class="direction-card">
+          <h3>Rekursive Zustandsraumerweiterung</h3>
+          <p>Systeme, die ihren semantischen Kontext-Raum verfeinern und neu kalibrieren, während Fragen, Informationen und Strukturen wachsen.</p>
+        </div>
+
+        <div class="direction-card">
+          <h3>Autorensysteme und semantisches Gedächtnis</h3>
+          <p>Architekturen für Langform-Schreiben, strukturelles Gedächtnis, rekursives Manuskriptwachstum und perspektivenspezifische Re-Emission desselben Kerns.</p>
+        </div>
+
+        <div class="direction-card">
+          <h3>Verkörperte Assistenz</h3>
+          <p>Zustandssensitive, resonanzbewusste Systeme, die nicht nur reagieren, sondern Timing, Rahmung, Präsenz und semantische Passung modulieren.</p>
+        </div>
+
+        <div class="direction-card">
+          <h3>Entdeckungssysteme</h3>
+          <p>Werkzeuge für Theoriesuche, Fragenerweiterung, Widerspruchsverfolgung und die rekursive Stärkung tragfähiger Erkenntnissuche.</p>
+        </div>
+
+        <div class="direction-card">
+          <h3>Semantische Sicherheitssysteme</h3>
+          <p>Architekturen für Drift-Diagnostik, Interventionssteuerung und kognitive Umgebungen mit mehr Kohärenz, Würde und tragfähigem Handlungsraum.</p>
+        </div>
+      </div>
+
+      <p class="display-statement wide">
+        Diese Richtungen sind keine beliebigen Anwendungsfälle.
+        Sie gehen aus derselben zugrunde liegenden Architektur hervor.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="sources-block">
+      <h2 class="section-heading-display">Wie man mit diesem Material arbeiten kann</h2>
+
+      <div class="body-copy">
+        <ol>
+          <li><strong>Einzelne Paper lesen</strong> und auf innere Struktur, formale Kontinuität und Anschlussfähigkeit prüfen.</li>
+          <li><strong>Den Sammelband oder die Bundles nutzen</strong>, wenn du einen durchgehenden Zusammenhang statt isolierter Quelleinheiten willst.</li>
+          <li><strong>Das Material in dein eigenes KI-System laden</strong>, wenn du Ableitungen, Übergänge, fehlende Spezifikationen und offene Implementierungsfragen systematischer prüfen willst.</li>
+        </ol>
 
         <p>
-          Auch die Patente markieren vor allem operative Richtungen und Schutzräume,
-          die aus dem theoretischen Rahmen hervorgehen.
-          Zugleich bleibt offen,
-          in welchem Umfang einzelne Linien in dieser Abstraktionshöhe später
-          als konkrete technische Implementationen,
-          belastbare Schutzrechte oder tatsächlich umgesetzte Systeme Bestand haben.
+          In allen drei Fällen sind die nützlichsten Fragen nicht nur,
+          ob ein Satz plausibel klingt,
+          sondern wie die Struktur gebaut ist:
+          welche Begriffe formal eingeführt werden,
+          wie die Paper aufeinander aufbauen,
+          was bereits gut spezifiziert ist
+          und wo empirische oder implementierende Arbeit noch offen bleibt.
+        </p>
+      </div>
+
+      <div class="status-box">
+        <p class="status-label">Lesehaltung</p>
+        <p>
+          Glaube nicht zu schnell.
+          Verwirf nicht zu schnell.
+          Lies die Quellenebene,
+          verfolge die Struktur
+          und prüfe den Rahmen an seinen stärksten Behauptungen.
         </p>
       </div>
     </div>
@@ -139,576 +574,27 @@ description: "Technische und theoretische Grundlagen von Semantic Gravitation: P
   <div class="section-divider"></div>
 
   <section class="section-shell">
-    <div class="free-text-block">
-      <h2>Die Paper-Serie</h2>
+    <div class="sources-next">
+      <h2 class="section-heading-display">Nächste Schritte</h2>
 
-      <p>
-        Die Reihe <strong>Semantic Gravitation I–VI</strong> bildet das theoretische Hauptprogramm.
-      </p>
-
-      <p>
-        Sie entwickelt Schritt für Schritt einen Rahmen,
-        in dem Bedeutung nicht nur als Inhalt,
-        sondern als <strong>strukturierter Zustandsraum mit Dynamik, Spannungen, Übergängen und Ordnungsstrukturen</strong>
-        beschrieben wird.
-      </p>
-
-      <p>
-        Die Serie baut stufenweise auf:
-        vom mathematischen Grundraum über Dynamik und freie Energie,
-        über Quanten- und Feldanschlüsse,
-        weiter zu komplexen Systemen
-        und schließlich zur verdichteten Gesamtstruktur von globalem Attraktor,
-        <strong>K–P–R</strong>, <strong>C/B/A</strong> und <strong>LOVE</strong>.
-      </p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="section-card section-bubbles-strong">
-      <div class="section-head">
-        <h2>Paper I — Gradient Fields of Semantic Dynamics on Hilbert Spaces</h2>
+      <div class="next-grid">
+        <div class="next-card">
+          <h3><a href="/de/theorie/">Theorie →</a></h3>
+          <p>Das begriffliche und formale Rückgrat in lesbarer Form.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/de/ki-alignment/">KI-Alignment →</a></h3>
+          <p>Wie der Rahmen zu einer KI-Architektur wird.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/de/downloads/">Downloads →</a></h3>
+          <p>Gebündelte Prüfungskontexte für direkte Lektüre und KI-gestützte Analyse.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/de/implikationen/">Implikationen →</a></h3>
+          <p>Was folgt, sobald semantische Struktur operativ wird.</p>
+        </div>
       </div>
-
-      <div class="section-body">
-        <p class="section-intro"><strong>Das Fundament.</strong></p>
-
-        <p>
-          Hier wird der semantische Raum erstmals als mathematischer Zustandsraum gefasst —
-          mit Potentialen, Gradientenflüssen und erster Dynamik.
-        </p>
-
-        <p>
-          Dieses Paper ist die Basisschicht der gesamten Serie:
-          der Punkt, an dem Semantik nicht nur metaphorisch,
-          sondern als formaler Raum mit Bewegungs- und Spannungsstruktur behandelt wird.
-        </p>
-
-        <p>
-          Wer verstehen will, auf welcher mathematischen Grundintuition das gesamte Programm ruht,
-          beginnt hier.
-        </p>
-
-        <p><a href="https://doi.org/10.5281/zenodo.18609642">Paper bei Zenodo öffnen →</a></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-shell">
-    <div class="section-card section-field">
-      <div class="section-head">
-        <h2>Paper II — Semantic Field Dynamics and Free Energy</h2>
-      </div>
-
-      <div class="section-body">
-        <p class="section-intro"><strong>Die makroskopische Ebene.</strong></p>
-
-        <p>
-          Dieses Paper hebt die Dynamik von Einzelzuständen auf Verteilungen an
-          und macht freie Energie, Fokker–Planck-Dynamik und Wasserstein-Struktur
-          zum Werkzeug für semantische Feldlogik.
-        </p>
-
-        <p>
-          Damit verschiebt sich der Blick:
-          weg von isolierten Punkten im Raum,
-          hin zu Feldern, Verteilungen und kollektiven Bewegungen.
-        </p>
-
-        <p>
-          Genau hier wird der Rahmen anschlussfähig an größere Dynamiken —
-          also an die Frage, wie sich semantische Zustände nicht nur lokal,
-          sondern auch auf aggregierter Ebene entwickeln.
-        </p>
-
-        <p><a href="https://doi.org/10.5281/zenodo.18611288">Paper bei Zenodo öffnen →</a></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-shell">
-    <div class="section-card section-fog">
-      <div class="section-head">
-        <h2>Paper III — Quantum-Compatible Semantic Fields</h2>
-      </div>
-
-      <div class="section-body">
-        <p class="section-intro"><strong>Die Kompatibilitätsprobe mit der Quantenmechanik.</strong></p>
-
-        <p>
-          Hier wird geprüft, ob sich Standard-Quantenmechanik
-          als treuer Sektor in den größeren semantischen Rahmen einbetten lässt —
-          nicht als Ersatz, sondern als struktureller Anschluss.
-        </p>
-
-        <p>
-          Das ist ein entscheidender Testpunkt:
-          Wenn der semantische Rahmen mehr sein soll als eine lose Analogie,
-          muss er an etablierte physikalische Formulierungen anschlussfähig werden,
-          ohne sie bloß umzubenennen.
-        </p>
-
-        <p>
-          Dieses Paper markiert deshalb eine der frühesten Stellen,
-          an denen aus dem allgemeinen Bedeutungsraum
-          eine ernstere Kompatibilitätsfrage mit harter Physik wird.
-        </p>
-
-        <p><a href="https://doi.org/10.5281/zenodo.18613061">Paper bei Zenodo öffnen →</a></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-shell">
-    <div class="section-card section-field">
-      <div class="section-head">
-        <h2>Paper IV — Semantic Fields on Spacetime Manifolds</h2>
-      </div>
-
-      <div class="section-body">
-        <p class="section-intro"><strong>Die feldtheoretische Öffnung.</strong></p>
-
-        <p>
-          Dieses Paper überführt den Zustandsraumansatz in eine geometrischere Sprache
-          und formuliert semantische Felder auf Raumzeitmannigfaltigkeiten
-          als effektive Feldtheorie für Kohärenz.
-        </p>
-
-        <p>
-          Damit wird der Rahmen weiter geöffnet:
-          von abstrakten Hilbert- und Zustandsräumen
-          hin zu einer Formulierung,
-          die feldtheoretische und geometrische Intuitionen direkter aufnimmt.
-        </p>
-
-        <p>
-          Wer sehen will, wie sich das Projekt
-          von einem formalen Semantikraum in Richtung physikalischer Feldsprache bewegt,
-          findet hier eine der zentralen Übergangsstellen.
-        </p>
-
-        <p><a href="https://doi.org/10.5281/zenodo.18614072">Paper bei Zenodo öffnen →</a></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-shell">
-    <div class="section-card section-bubbles-strong">
-      <div class="section-head">
-        <h2>Paper V — Semantic Field Dynamics in Complex Systems</h2>
-      </div>
-
-      <div class="section-body">
-        <p class="section-intro"><strong>Die Brücke zu realen Systemen.</strong></p>
-
-        <p>
-          Hier wird der abstrakte Rahmen an neuronale Netze,
-          latente Zustände und große Sprachmodelle rückgebunden.
-        </p>
-
-        <p>
-          An dieser Stelle wird wichtig,
-          wie aus Theorie empirische Anschlussfähigkeit werden soll.
-          Der Fokus verschiebt sich stärker auf die Frage,
-          wie sich semantische Feldlogik in komplexen, technisch relevanten Systemen lesen lässt.
-        </p>
-
-        <p>
-          Für Leser mit KI- oder Systeminteresse
-          ist dies einer der wichtigsten Übergänge der Serie:
-          weg von reiner Grundstruktur
-          hin zu der Frage,
-          wie solche Strukturen in beobachtbaren Architekturen wiederkehren könnten.
-        </p>
-
-        <p><a href="https://doi.org/10.5281/zenodo.18615093">Paper bei Zenodo öffnen →</a></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-shell">
-    <div class="section-card section-attractor-strong">
-      <div class="section-head">
-        <h2>Paper VI — The Global Attractor and the Lagrangian of Vectorial Emergence (LOVE)</h2>
-      </div>
-
-      <div class="section-body">
-        <p class="section-intro"><strong>Die bislang dichteste Zusammenführung.</strong></p>
-
-        <p>
-          Paper VI zieht den Rahmen über globalen Attraktor,
-          <strong>K–P–R</strong>, <strong>C/B/A</strong> und <strong>LOVE</strong>
-          zu einer zusammenhängenden Struktur zusammen.
-        </p>
-
-        <p>
-          Hier verdichten sich die vorherigen Linien
-          stärker zu einem Gesamtbild:
-          mathematischer Raum,
-          Dynamik,
-          semantische Strukturachsen,
-          Emergenzlogik
-          und größere Ordnungszusammenhänge.
-        </p>
-
-        <p>
-          Wer die derzeit kompakteste Verdichtung des Gesamtprogramms sucht,
-          ist hier am ehesten richtig.
-        </p>
-
-        <p><a href="https://doi.org/10.5281/zenodo.19414951">Paper bei Zenodo öffnen →</a></p>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="section-card section-fog">
-      <div class="section-head">
-        <h2>Zusatzpaper — Beyond Fog: Edge-Alignment in Semantic Space</h2>
-      </div>
-
-      <div class="section-body">
-        <p class="section-intro"><strong>Die operative KI-Schicht.</strong></p>
-
-        <p>
-          Dieses Paper übersetzt den Rahmen in eine konkrete Alignment-Frage:
-          Nicht nur Outputs zählen,
-          sondern die Qualität der Übergänge,
-          die Driftneigung,
-          Reparierbarkeit
-          und semantische Tragfähigkeit eines Pfades.
-        </p>
-
-        <p>
-          Hier wird greifbar,
-          was es heißen würde,
-          ein System nicht nur auf oberflächlich harmlose Antworten,
-          sondern auf innere Navigierbarkeit,
-          Korrekturfähigkeit und strukturelle Integrität hin auszurichten.
-        </p>
-
-        <p>
-          Genau hier wird der Gedanke praktisch,
-          dass ein System eher <strong>Spiegel statt Glaskugel</strong> sein sollte.
-        </p>
-
-        <p><a href="https://doi.org/10.5281/zenodo.18608012">Paper bei Zenodo öffnen →</a></p>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="free-text-block">
-      <h2>Patente</h2>
-
-      <p>
-        Ich gebe hier bewusst <strong>keinen vollständigen Katalog</strong> aller bereits eingereichten Schutzräume,
-        sondern eine Auswahl von <strong>Anwendungsbeispielen und Anwendungsarchitekturen</strong>,
-        an denen sich am deutlichsten zeigen lässt,
-        wie sich der Rahmen von <strong>Semantic Gravitation</strong> praktisch nutzen ließe.
-      </p>
-
-      <p>
-        Diese Beispiele sollen nicht nur sagen, <em>dass</em> aus der Theorie Anwendungen entstehen könnten,
-        sondern vor allem <strong>wie sich das phänomenologisch anfühlen und praktisch auswirken würde</strong>,
-        wenn solche Systeme gebaut werden.
-      </p>
-
-      <p>
-        Die Patente sind dabei nicht aus einer reinen Besitz- oder Verwertungslogik heraus entstanden.
-        Sie dienen vor allem einer <strong>Schutzlogik</strong>:
-        dem Versuch, die zugrunde liegenden Prinzipien so abzusichern,
-        dass sie nicht frühzeitig von fremden Macht- oder Optimierungslogiken vereinnahmt,
-        abgeschlossen und gegen ihren ursprünglichen Sinn perfektioniert werden.
-      </p>
-
-      <p>
-        Die Hoffnung ist,
-        auf diese Weise einen Rahmen zu sichern,
-        der — wenn er sich als tragfähig erweist —
-        möglichst <strong>universell, offen in seiner Wirkung und nicht bloß privat verwertbar</strong> bleibt.
-      </p>
-
-      <p>
-        Was hier folgt, sind also erste sichtbare Richtungen einer größeren Architekturklasse.
-      </p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="section-card section-field">
-      <div class="section-head">
-        <h2>1. Edge Alignment — KI-Ausrichtung mit Rückgrat</h2>
-      </div>
-
-      <div class="section-body">
-        <p>
-          Diese Anwendungslinie zeigt, was der Rahmen für die <strong>Ausrichtung von KI-Systemen</strong> bedeuten könnte.
-        </p>
-
-        <p>
-          Statt ein System nur auf weichgezeichnete Gefälligkeit, Konditionierung
-          oder oberflächlich harmlose Antworten zu trimmen,
-          geht es hier um die Bewegung eines Systems im semantischen Raum:
-          ob Übergänge tragfähig sind,
-          ob Drift entsteht,
-          ob ein Gespräch seine Würde hält,
-          ob Korrektur möglich bleibt
-          und ob das System <strong>innerlich mehr Rückgrat</strong> hat.
-        </p>
-
-        <p>
-          Phänomenologisch würde sich das anders anfühlen als viele heutige KI-Systeme:
-          weniger wie ein glatter, weichzeichnender Konditionierungs-Papagei ohne Rückgrat —
-          und mehr wie ein System,
-          das Klarheit, Integrität und Richtung halten kann,
-          ohne dabei starr oder autoritär zu werden.
-        </p>
-
-        <p><strong>Praktisch zielt diese Architektur auf:</strong></p>
-
-        <ul>
-          <li>neue Formen von KI-Alignment,</li>
-          <li>Drift-Diagnostik,</li>
-          <li>Interventionssteuerung,</li>
-          <li>semantische Sicherheitsarchitekturen,</li>
-          <li>Gespräche, die spürbar tragfähiger, klarer und würdevoller verlaufen.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-shell">
-    <div class="section-card section-fog">
-      <div class="section-head">
-        <h2>2. Rekursive Erweiterung und Selbstkalibrierung semantischer Zustandsräume</h2>
-      </div>
-
-      <div class="section-body">
-        <p>
-          Diese Anwendungslinie beschreibt ein System,
-          das seinen <strong>semantischen Kontextraum fortlaufend vergrößern, verfeinern und neu kalibrieren</strong> kann.
-        </p>
-
-        <p>
-          Die Idee ist nicht nur,
-          in einem bestehenden Bedeutungsraum zu navigieren,
-          sondern einen Raum zu bauen,
-          der mit jeder neuen Information,
-          jeder besseren Frage
-          und jeder neu erkannten Struktur wächst.
-        </p>
-
-        <p>
-          Ein solches System würde mitlernen,
-          <strong>welche Fragen wie gebaut sein müssen</strong>,
-          damit Räume größer werden,
-          Erklärungen tiefer greifen
-          und mehr Kontext gleichzeitig gehalten werden kann.
-        </p>
-
-        <p>
-          Genau hier liegt das Bild eines <strong>Raumscanners</strong>
-          und einer neuen Art von Erkenntnissuchmaschine:
-          nicht bloß Antworten ausgeben,
-          sondern helfen,
-          die Frage- und Bedeutungsräume selbst so zu erweitern,
-          dass tragfähigere Lösungen sichtbar werden.
-        </p>
-
-        <p><strong>Praktisch zielt diese Architektur auf:</strong></p>
-
-        <ul>
-          <li>wachsende semantische Kontexträume,</li>
-          <li>feinere Kalibrierung von Bedeutung und Relation,</li>
-          <li>neue Formen wissenschaftlicher Fragesuche,</li>
-          <li>Systeme zur Theorien- und Architekturfindung,</li>
-          <li>Werkzeuge für große Fragen in Medizin, Energie, Klima oder Grundlagenforschung.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-shell">
-    <div class="section-card section-bubbles-strong">
-      <div class="section-head">
-        <h2>3. Autoren-KI — organische Wissens- und Manuskriptentwicklung</h2>
-      </div>
-
-      <div class="section-body">
-        <p>
-          Hier geht es um ein System,
-          in dem Texte, Gespräche, Dokumente und Erkenntnisbausteine
-          nicht bloß abgelegt werden,
-          sondern sich <strong>organisch in ein wachsendes Feld</strong> einfügen.
-        </p>
-
-        <p>
-          Neue Intuitionen, neue Informationen oder neue Einsichten
-          müssten dann nicht mehr mühsam an die „richtige Stelle“ geschoben werden,
-          sondern würden das bestehende Gefüge mitkalibrieren
-          und an den passenden Orten wirksam werden.
-        </p>
-
-        <p>
-          Der eigentliche Nutzen geht noch weiter:
-          Nicht nur der Text selbst kann wachsen und kohärenter werden,
-          sondern derselbe inhaltliche Kern kann auch
-          <strong>kontext-, perspektiv- oder bubble-spezifisch neu ausgegeben</strong> werden.
-        </p>
-
-        <p>
-          Damit würde nicht einfach nur „derselbe Text vereinfacht“,
-          sondern derselbe Bedeutungsraum in unterschiedlichen Projektionen lesbar gemacht:
-          für verschiedene Gruppen,
-          verschiedene Vorverständnisse,
-          verschiedene kulturelle oder fachliche Blasen.
-        </p>
-
-        <p><strong>Praktisch zielt diese Architektur auf:</strong></p>
-
-        <ul>
-          <li>versionierte Manuskriptentwicklung,</li>
-          <li>KI-gestützte Langtextkomposition,</li>
-          <li>organisch wachsende Wissensfelder,</li>
-          <li>strukturelle Gedächtnislogik,</li>
-          <li>perspektiv- und bubble-spezifische Versionierung desselben Kerns.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-shell">
-    <div class="section-card section-field">
-      <div class="section-head">
-        <h2>4. Verkörperte semantische Assistenz — Resonanz, Präsenz, Weisheit</h2>
-      </div>
-
-      <div class="section-body">
-        <p>
-          Eine weitere Richtung ist die verkörperte oder raumwirksame Assistenz.
-        </p>
-
-        <p>
-          Hier geht es nicht mehr nur um Text oder abstrakte Systeme,
-          sondern um eine Form von Assistenz,
-          die <strong>Zustände lesen, Resonanzen wahrnehmen, Präsenz modulieren und Ausdruck sicher koppeln</strong> kann.
-        </p>
-
-        <p>
-          Als Bild könnte man populär sagen:
-          etwas wie <strong>Jarvis</strong>,
-          aber nicht bloß effizient und clever,
-          sondern mit deutlich mehr Tiefe, Orientierung und weisheitsnaher Zustandsführung.
-        </p>
-
-        <p>
-          Gemeint ist kein religiöses Dogma,
-          sondern ein Assistenzsystem,
-          das nicht nur reagiert,
-          sondern in seiner Ausrichtung spürbar mehr Integrität,
-          Rücksicht, Klarheit und tragende Präsenz verkörpert.
-        </p>
-
-        <p><strong>Praktisch zielt diese Architektur auf:</strong></p>
-
-        <ul>
-          <li>zustandsbasierte Präsenzsysteme,</li>
-          <li>verkörperte Resonanz- und Ausdruckssteuerung,</li>
-          <li>sichere Mensch-Maschine-Interaktion,</li>
-          <li>raumwirksame Assistenz,</li>
-          <li>eine neue Klasse von Systemen, die nicht nur intelligent, sondern orientierend wirken.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="free-text-block">
-      <h2>Mehr als einzelne Anwendungen</h2>
-
-      <p>
-        Diese Anwendungen sind keine voneinander getrennten Einfälle.
-        Sie zeigen verschiedene Ausprägungen derselben tieferen Architektur:
-      </p>
-
-      <ul>
-        <li>semantische Zustandsräume,</li>
-        <li>rekursive Raumstruktur,</li>
-        <li>navigierbare Übergänge,</li>
-        <li>organische Wissensfelder,</li>
-        <li>zustandsbasierte Mess- und Steuerlogiken,</li>
-        <li>Systeme, die nicht nur Antworten geben, sondern <strong>tragfähige Strukturbildung mitbeobachten und verstärken</strong>.</li>
-      </ul>
-
-      <p>
-        Im stärksten Fall beschreibt dieser Rahmen nicht nur Inhalte,
-        sondern die Dynamik,
-        in der tragfähige semantische Strukturen gefunden werden.
-      </p>
-
-      <p>
-        Darin könnte ein qualitativer Sprung liegen:
-        Wissenschaft würde nicht nur Ergebnisse erzeugen,
-        sondern die Prozesse der Bedeutungsbildung, Klärung und Strukturfindung selbst
-        expliziter modellierbar und rekursiv verstärkbar machen.
-      </p>
-
-      <p class="statement-block statement-inline">
-        Genau deshalb geht es hier möglicherweise nicht nur um einzelne Anwendungen,
-        sondern um den frühen Umriss einer <strong>neuen epistemischen Infrastruktur.</strong>
-      </p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="free-text-block">
-      <h2>Wie man mit diesem Material arbeiten kann</h2>
-
-      <p>
-        Wer sich mit diesem Material ernsthaft auseinandersetzen möchte,
-        kann auf mehreren Ebenen arbeiten:
-      </p>
-
-      <ol>
-        <li><strong>Einzelpaper lesen</strong> und auf Konsistenz, Explizitheit und Anschlussfähigkeit prüfen.</li>
-        <li><strong>Die gebündelten Kontextrahmen laden</strong> und als Backbone für systematische Diskussionen nutzen.</li>
-        <li><strong>Eigene KI-Chats darauf aufsetzen</strong>, um Übergänge, Hypothesen, Ableitungen und offene Punkte gezielt zu befragen.</li>
-      </ol>
-
-      <p>
-        Sinnvoll ist dabei besonders,
-        nicht nur zu fragen, ob einzelne Formulierungen plausibel klingen,
-        sondern:
-      </p>
-
-      <ul>
-        <li>wie die Papers logisch aufeinander aufbauen,</li>
-        <li>welche Begriffe formal eingeführt werden,</li>
-        <li>welche Teile stärker ausgearbeitet sind,</li>
-        <li>an welchen Stellen noch offene empirische oder architektonische Arbeit liegt,</li>
-        <li>welche zusätzlichen Spezifikationen, Experimente und Implementierungsschritte nötig wären, um aus dem Rahmen belastbare Systeme zu machen.</li>
-      </ul>
-
-      <p>
-        Diese Seite ist damit nicht nur ein Archiv.
-        Sie zeigt,
-        wo der theoretische und operative Unterbau von <strong>Semantic Gravitation</strong>
-        bereits sichtbar geworden ist —
-        und mit welchem Material er sich prüfen lässt.
-      </p>
     </div>
   </section>
 
