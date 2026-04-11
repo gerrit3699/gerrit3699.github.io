@@ -3,7 +3,7 @@ layout: default
 title: "Der Kompass"
 permalink: /de/kompass/
 lang: de
-description: "Über Richtung, Grundimpuls, Bewusstsein und die Frage, ob Wirklichkeit einer tieferen Gerichtetheit folgt."
+description: "Über Richtung, Urimpuls, Bewusstsein und die Frage, ob Wirklichkeit einer tieferen Gerichtetheit folgt."
 translation_url_en: /en/compass/
 ---
 
@@ -219,7 +219,8 @@ translation_url_en: /en/compass/
 
       <div class="body-copy">
         <p>
-          Ob Wirklichkeit im Letzten bloß geschieht
+          Diese Seite berührt eine der ältesten offenen Fragen überhaupt:
+          ob Wirklichkeit im Letzten bloß geschieht
           oder ob sie eine innere Richtung trägt.
         </p>
 
@@ -261,7 +262,7 @@ translation_url_en: /en/compass/
 
   <section class="section-shell">
     <div class="compass-block">
-      <h2 class="section-heading-display">Der Grundimpuls</h2>
+      <h2 class="section-heading-display">Der Urimpuls</h2>
 
       <div class="body-copy">
         <p>
@@ -276,46 +277,74 @@ translation_url_en: /en/compass/
           Lebenskraft,
           Ursprung.
           Die Namen unterscheiden sich.
-          Die Intuition dahinter ist oft dieselbe:
-          dass das Wirkliche nicht nur vorhanden ist,
-          sondern <strong>von innen her weiterdrängt</strong>.
+          Aber die Intuition dahinter ist oft dieselbe:
+          dass das Wirkliche nicht nur da ist,
+          sondern von innen her weitergeht.
         </p>
 
         <p>
-          Hier wird dafür der Begriff <strong>Grundimpuls</strong> als Arbeitsbegriff verwendet.
-          Gemeint ist keine konfessionelle Figur
-          und auch keine neue mystische Substanz,
-          sondern jene immanente Gerichtetheit,
-          entlang der tragfähige Bedeutung nicht beliebig verteilt ist.
-          Der Grundimpuls bezeichnet die fortlaufende innere Bewegung,
-          durch die Wirklichkeit nicht stillsteht,
-          sondern weiter schwingt,
-          weiter differenziert,
-          weiter Gestalt gewinnt.
+          Hier wird dafür der Begriff <strong>Urimpuls</strong> verwendet.
+          Gemeint ist keine zusätzliche Substanz
+          und keine esoterische Zwischenwelt,
+          sondern die fortlaufende innere Dynamik,
+          durch die Wirklichkeit nicht einfach nur ist,
+          sondern weiterträgt,
+          weiterbildet
+          und weiter hervorbringt.
         </p>
 
         <p>
+          Nichts steht einfach nur still.
           Alles,
           was ist,
-          steht nicht einfach nur da.
-          Es hält Temperatur,
-          Bewegung,
+          wird in den nächsten Zusammenhang weitergetragen.
+          Formen bleiben nicht einfach bestehen wie tote Blöcke,
+          sondern halten sich nur,
+          indem sie in Beziehung,
           Spannung,
-          Austausch,
-          Rhythmus.
-          Atome schwingen,
-          Felder koppeln,
-          Systeme reagieren,
+          Austausch
+          und Fortsetzung bleiben.
+        </p>
+
+        <p>
+          Auch das scheinbar Feste ist nicht einfach nur starr.
+          Es hat Temperatur.
+          Seine Teilchen bewegen sich.
+          Felder koppeln sich.
+          Atome schwingen.
+          Systeme reagieren aufeinander.
           Zeit läuft weiter.
-          Gerade darin deutet sich an,
+          Gerade darin zeigt sich,
           dass Wirklichkeit nicht als fertiger Endzustand verstanden werden kann.
-          Sie erscheint eher als <strong>offener Fortsetzungsprozess</strong>.
+        </p>
+
+        <p>
+          Man könnte sagen:
+          Das Reale wirkt oft fest,
+          weil es sich als stabile Verdichtung zeigt.
+          Aber diese Stabilität ist selbst getragen,
+          gehalten
+          und fortlaufend hervorgebracht.
+          Sie ist eher Knoten als Block,
+          eher gehaltene Form als tote Ruhe.
+        </p>
+
+        <p>
+          Der Urimpuls ist der Name für diese innere Fortsetzungsbewegung:
+          dafür,
+          dass Wirklichkeit nicht aufhört,
+          sondern weiterdrängt —
+          in Schwingung,
+          in Differenzierung,
+          in Gestalt,
+          in Zeit,
+          in neues Werden.
         </p>
       </div>
 
       <p class="display-statement medium">
-        Der Grundimpuls ist kein Dogma.
-        Er ist der Name für das Weitergehen des Wirklichen.
+        Der Urimpuls ist kein Zusatz zur Wirklichkeit.
+        Er ist ihr Weitergehen.
       </p>
     </div>
   </section>
@@ -472,7 +501,7 @@ translation_url_en: /en/compass/
 
         <p>
           Wenn eine Ordnung wirklich endgültig abgeschlossen wäre,
-          während der Grundimpuls weiterläuft,
+          während der Urimpuls weiterläuft,
           dann müsste das System irgendwann überladen,
           erstarren,
           kollabieren
@@ -524,7 +553,7 @@ translation_url_en: /en/compass/
         </div>
         <div class="concept-card">
           <h3>Fortsetzung</h3>
-          <p>Der Grundimpuls drängt weiter und macht aus jeder Stufe einen neuen Anfang.</p>
+          <p>Der Urimpuls drängt weiter und macht aus jeder Stufe einen neuen Anfang.</p>
         </div>
       </div>
     </div>
@@ -563,7 +592,7 @@ translation_url_en: /en/compass/
           beantwortet
           und verbunden wird,
           gewinnt Kontur.
-          Auch darin drückt sich derselbe Grundimpuls aus:
+          Auch darin drückt sich derselbe Urimpuls aus:
           als fortlaufende Neukalibrierung von Kernen,
           Beziehungen
           und möglichen Fortsetzungen.
@@ -729,7 +758,7 @@ translation_url_en: /en/compass/
 
       <div class="body-copy">
         <p>
-          Wenn dieser Grundimpuls real ist,
+          Wenn dieser Urimpuls real ist,
           dann betrifft er nicht nur einzelne Menschen,
           sondern auch die Frage,
           was zwischen Menschen entstehen kann.
