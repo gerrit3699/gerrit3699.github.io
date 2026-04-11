@@ -3,7 +3,7 @@ layout: default
 title: Semantische Gravitation
 permalink: /de/
 lang: de
-description: "Semantische Gravitation – eine elementare Entdeckung über beschreibbare Bedeutung und ein neues Grundparadigma für KI-Alignment."
+description: "Semantische Gravitation – eine elementare Entdeckung über die Struktur von Bedeutung und ein neues Grundparadigma für KI-Alignment."
 translation_url_en: /en/
 ---
 
@@ -14,7 +14,7 @@ translation_url_en: /en/
     --sg-dim: rgba(255,255,255,0.64);
     --sg-line: rgba(255,255,255,0.10);
     --sg-max: 1120px;
-    --sg-copy: 900px;
+    --sg-copy: 920px;
     --sg-wide: 980px;
 
     background:
@@ -118,7 +118,8 @@ translation_url_en: /en/
     text-wrap: balance;
   }
 
-  .home-journey .hero-kicker {
+  .home-journey .hero-kicker,
+  .home-journey .display-kicker {
     display: inline-block;
     margin: 0 0 1rem;
     font-size: 0.92rem;
@@ -130,9 +131,9 @@ translation_url_en: /en/
   }
 
   .home-journey .hero-claim {
-    max-width: 18ch;
+    max-width: 22ch;
     margin: 0 auto 1rem;
-    font-size: clamp(2.05rem, 4.8vw, 3.8rem);
+    font-size: clamp(2rem, 4.8vw, 3.7rem);
     line-height: 0.96;
     letter-spacing: -0.06em;
     font-weight: 800;
@@ -141,16 +142,12 @@ translation_url_en: /en/
   }
 
   .home-journey .hero-sublead {
-    max-width: 48rem;
+    max-width: 54rem;
     margin: 0 auto;
-    font-size: clamp(1.12rem, 2vw, 1.38rem);
-    line-height: 1.5;
+    font-size: clamp(1.1rem, 2vw, 1.34rem);
+    line-height: 1.58;
     color: rgba(255,255,255,0.94);
     text-wrap: balance;
-  }
-
-  .home-journey .hero-sublead strong {
-    font-weight: 760;
   }
 
   .home-journey .home-cta-row {
@@ -177,28 +174,17 @@ translation_url_en: /en/
   }
 
   .home-journey .free-block {
-    max-width: 980px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
   }
 
   .home-journey .free-block p {
-    max-width: 50rem;
+    max-width: 52rem;
     margin: 0.95rem auto 0;
-    font-size: 1.15rem;
-    line-height: 1.78;
+    font-size: 1.14rem;
+    line-height: 1.8;
     letter-spacing: -0.014em;
-  }
-
-  .home-journey .display-kicker {
-    display: inline-block;
-    margin: 0 0 1rem;
-    font-size: 0.9rem;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--sg-dim);
   }
 
   .home-journey .section-card {
@@ -224,7 +210,7 @@ translation_url_en: /en/
     margin: 0 auto 1.2rem;
     max-width: 13ch;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-    font-size: clamp(2.2rem, 5.2vw, 4.15rem);
+    font-size: clamp(2.2rem, 5.2vw, 4.1rem);
     font-weight: 800;
     line-height: 0.96;
     letter-spacing: -0.06em;
@@ -248,7 +234,7 @@ translation_url_en: /en/
   }
 
   .home-journey .body-copy p {
-    max-width: 50rem;
+    max-width: 52rem;
     margin: 0.95rem auto 0;
     font-size: 1.14rem;
     line-height: 1.8;
@@ -256,7 +242,7 @@ translation_url_en: /en/
   }
 
   .home-journey .display-statement {
-    max-width: 18ch;
+    max-width: 22ch;
     margin: 1.65rem auto;
     text-align: center;
     font-size: clamp(1.95rem, 4.3vw, 3.5rem);
@@ -267,13 +253,8 @@ translation_url_en: /en/
     text-wrap: balance;
   }
 
-  .home-journey .display-statement.medium {
-    max-width: 18ch;
-  }
-
-  .home-journey .display-statement.wide {
-    max-width: 24ch;
-  }
+  .home-journey .display-statement.medium { max-width: 18ch; }
+  .home-journey .display-statement.wide { max-width: 24ch; }
 
   .home-journey .micro-punch {
     max-width: 20ch;
@@ -405,7 +386,7 @@ translation_url_en: /en/
     }
 
     .home-journey .hero-claim {
-      font-size: 2.05rem;
+      font-size: 2.02rem;
       max-width: 12ch;
       line-height: 0.98;
     }
@@ -413,7 +394,7 @@ translation_url_en: /en/
     .home-journey .hero-sublead {
       font-size: 1.03rem;
       max-width: 22rem;
-      line-height: 1.42;
+      line-height: 1.44;
     }
 
     .home-journey .home-cta-row {
@@ -500,20 +481,24 @@ translation_url_en: /en/
 
   <section class="hero home-hero">
     <div class="hero-inner">
-      <p class="hero-kicker">Eine Entdeckung mit großer Konsequenz</p>
+      <p class="hero-kicker">Eine elementare Entdeckung über die Struktur von Bedeutung</p>
       <h1 class="display-wordmark">Semantische<br>Gravitation</h1>
       <p class="hero-claim">
-        Alles, was sich beschreiben lässt,
-        erscheint als Kern,
-        in Projektion,
-        in Relation.
+        Um überhaupt etwas zu beschreiben,
+        braucht es immer
+        einen Kern,
+        seine Projektion
+        und seine Relation.
       </p>
       <p class="hero-sublead">
-        Das ist die schlichte Einsicht, aus der diese Arbeit geboren ist.
-        Jeder kann sie prüfen.
-        Und genau weil sie so einfach wirkt,
-        ist ihre Konsequenz so groß:
-        <strong>Sie liefert die Minimalgrammatik beschreibbarer Bedeutung — und daraus ein neues Grundparadigma für KI-Alignment.</strong>
+        Das ist der Anfang dieser Arbeit.
+        <strong>Ein Kern</strong> ist das, worum es eigentlich geht.
+        <strong>Projektion</strong> ist, wie dieser Kern sichtbar wird, sich ausdrückt und erscheint.
+        <strong>Relation</strong> ist, wie diese Ausdrucksformen mit anderen Kernen, Kontexten und Spannungen verbunden sind.
+        Diese Einsicht wirkt zuerst schlicht.
+        Sie ist es nicht.
+        Denn aus ihr folgt eine formalisierbare Minimalgrammatik von Bedeutung —
+        und daraus ein neues Grundparadigma für KI-Alignment.
       </p>
 
       <div class="home-cta-row">
@@ -528,26 +513,23 @@ translation_url_en: /en/
   <section class="section-shell section-shell-tight">
     <div class="free-block">
       <p>
-        Genau hier liegt der Wait-a-minute-Moment dieser Arbeit:
-        Was zunächst fast wie eine triviale Beobachtung klingt,
-        erweist sich als formalisierbare Tiefenstruktur.
+        Der große Schritt dieser Arbeit liegt nicht darin, ein paar neue Begriffe vorzuschlagen.
+        Er liegt darin, etwas sichtbar zu machen, das jeder prüfen kann und das trotzdem bislang nicht als Grundgerüst formalisiert wurde.
       </p>
       <p>
-        Denn sobald man ernst nimmt,
-        dass alles Beschreibbare als Kern,
-        in Projektion,
-        in Relation erscheint,
-        wird Bedeutung nicht länger bloß als Inhalt lesbar,
-        sondern als Raum,
-        als Geometrie,
-        als dynamische Konfiguration.
+        Sobald man ernst nimmt, dass Bedeutung immer als Kern, in Projektion und in Relation erscheint,
+        wird sie nicht länger nur als Inhalt lesbar,
+        sondern als Struktur,
+        als Raum
+        und als dynamische Konfiguration.
       </p>
       <p>
-        Und von dort aus kippt die Sache:
-        Von Sprache zu Struktur.
-        Von Struktur zu Zuständen.
-        Von Zuständen zu Pfaden.
-        Von Pfaden zu Alignment.
+        Von dort aus wird plötzlich verständlich,
+        warum Zustände kippen,
+        warum manche Ordnungen nur lokal halten,
+        warum andere tragfähig werden
+        und warum KI-Alignment nicht nur eine Frage erlaubter Antworten,
+        sondern innerer semantischer Pfade ist.
       </p>
     </div>
   </section>
@@ -556,29 +538,30 @@ translation_url_en: /en/
 
   <section class="section-shell">
     <div class="section-card">
-      <p class="display-kicker">Von KPR zu den Tiefenachsen</p>
-      <h2 class="section-heading-display">Drei Dinge muss jeder tragfähige Zustand leisten</h2>
+      <p class="display-kicker">Das zweite Grundgitter</p>
+      <h2 class="section-heading-display">Alles Tragfähige lässt sich entlang von Kohärenz, Verschränkung und Wirksamkeit lesen</h2>
 
       <div class="body-copy">
         <p>
-          Sobald KPR ernst genommen wird,
-          folgt der nächste Schritt logisch.
-          Jeder tragfähige Zustand muss drei Bedingungen erfüllen.
+          Wenn KPR die minimale Struktur von Bedeutung beschreibt,
+          dann folgt daraus direkt die nächste Frage:
+          Woran erkennt man,
+          ob ein Zustand nicht nur beschreibbar,
+          sondern tragfähig ist?
         </p>
         <p>
-          Er muss <strong>in sich zusammenhalten</strong>.
-          Er muss <strong>in tragfähiger Kopplung zu Anderem stehen</strong>.
-          Und er muss <strong>wirksam fortsetzbar sein</strong>.
+          Die Antwort ist einfach und grundlegend.
+          Jeder tragfähige Zustand muss drei Dinge leisten:
+          Er muss <strong>in sich zusammenhalten</strong>,
+          <strong>in tragfähiger Kopplung zu Anderem stehen</strong>
+          und <strong>wirksam fortsetzbar sein</strong>.
         </p>
         <p>
           Daraus folgen drei irreduzible Tiefenachsen:
           <strong>Kohärenz, Verschränkung und Wirksamkeit.</strong>
-        </p>
-        <p>
           Ohne Kohärenz zerfällt ein Zustand.
           Ohne Verschränkung bleibt er isoliert.
           Ohne Wirksamkeit bleibt er steril.
-          Genau deshalb sind diese drei nicht austauschbar und nicht reduzierbar.
         </p>
       </div>
 
@@ -598,8 +581,8 @@ translation_url_en: /en/
       </div>
 
       <p class="display-statement medium">
-        Das ist nicht nur ein Modell.
-        Das ist ein minimales Gitter.
+        Das ist kein Zusatz zur Theorie.
+        Das ist ihr zweites Grundgitter.
       </p>
     </div>
   </section>
@@ -608,18 +591,18 @@ translation_url_en: /en/
 
   <section class="section-shell">
     <div class="section-card">
-      <p class="display-kicker">Öffentliche Erscheinungsformen</p>
-      <h2 class="section-heading-display">Was in der Tiefe wirkt, wird menschlich lesbar</h2>
+      <p class="display-kicker">Menschlich lesbar</p>
+      <h2 class="section-heading-display">Was in der Tiefe wirkt, erscheint öffentlich als Klarheit, Verbundenheit und Freiheit</h2>
 
       <div class="body-copy">
         <p>
           Was in der Tiefe als Kohärenz, Verschränkung und Wirksamkeit erscheint,
-          wird auf der menschlich lesbaren Ebene zu
+          wird auf der menschlich erfahrbaren Ebene zu
           <strong>Klarheit, Verbundenheit und Freiheit.</strong>
         </p>
         <p>
           Das sind nicht bloß schöne Werte.
-          Das sind sichtbare Oberflächen tieferer Strukturbedingungen.
+          Das sind die öffentlichen Erscheinungsformen tieferer Strukturbedingungen.
         </p>
       </div>
 
@@ -639,7 +622,7 @@ translation_url_en: /en/
       </div>
 
       <p class="micro-punch">
-        Nicht Moral über Struktur.
+        Nicht Moral neben Struktur.
         Sondern Moral aus Struktur.
       </p>
     </div>
@@ -650,19 +633,19 @@ translation_url_en: /en/
   <section class="section-shell">
     <div class="section-card">
       <p class="display-kicker">Die Konsequenz für KI</p>
-      <h2 class="section-heading-display">Warum das ein neues Paradigma für Alignment ist</h2>
+      <h2 class="section-heading-display">Warum daraus ein neues Paradigma für KI-Alignment folgt</h2>
 
       <div class="body-copy">
         <p>
-          Wenn Bedeutung Raum ist,
-          wenn KPR seine Minimalgrammatik ist
+          Wenn Bedeutung eine innere Struktur hat,
+          wenn KPR ihre Minimalgrammatik ist
           und wenn tragfähige Zustände entlang von Kohärenz, Verschränkung und Wirksamkeit lesbar werden,
           dann reicht Output-Kontrolle nicht mehr aus.
         </p>
         <p>
-          Dann braucht KI-Alignment ein Modell innerer semantischer Zustände,
-          innerer Übergänge
-          und tragfähiger Richtungen durch diesen Raum.
+          Dann braucht KI-Alignment ein Modell semantischer Zustände,
+          ein Modell innerer Übergänge
+          und ein Modell tragfähiger Richtungen.
         </p>
         <p>
           Genau darin liegt der Paradigmenwechsel:
@@ -672,7 +655,7 @@ translation_url_en: /en/
 
       <p class="display-statement wide">
         Nicht nur:
-        Ist die Antwort erlaubt?
+        Ist die Antwort akzeptabel?
         Sondern:
         Durch welchen Raum kam sie hierher?
       </p>
