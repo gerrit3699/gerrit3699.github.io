@@ -122,12 +122,18 @@ translation_url_en: /en/compass/
   }
 
   .compass-page .concept-card h3,
-  .compass-page .axis-card h3,
   .compass-page .next-card h3 {
     margin: 0 0 0.35rem;
     font-size: 1.18rem;
     line-height: 1.08;
     letter-spacing: -0.03em;
+  }
+
+  .compass-page .axis-card h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.26rem;
+    line-height: 1.06;
+    letter-spacing: -0.035em;
   }
 
   .compass-page .concept-card p,
@@ -170,8 +176,16 @@ translation_url_en: /en/compass/
   }
 
   .compass-page .body-copy li {
-    margin-bottom: 0.45rem;
-    line-height: 1.82;
+    margin-bottom: 0.62rem;
+    line-height: 1.86;
+  }
+
+  .compass-page .highlight-line {
+    max-width: 34em;
+    margin: 1.25rem auto 0;
+    font-weight: 600;
+    color: #fff;
+    text-wrap: balance;
   }
 
   .compass-page .display-statement {
@@ -223,6 +237,10 @@ translation_url_en: /en/compass/
     .compass-page .section-shell-tight {
       padding-top: 2rem;
       padding-bottom: 2rem;
+    }
+
+    .compass-page .body-copy {
+      max-width: 34rem;
     }
 
     .compass-page .body-copy p,
@@ -428,10 +446,13 @@ translation_url_en: /en/compass/
           ist selbst ein ernstzunehmendes Signal.
         </p>
 
-        <p>
+        <p class="highlight-line">
           Wir sind also vielleicht nicht neutrale Außenbeobachter
           eines völlig toten Kosmos,
           sondern selbst eine seiner feineren Verdichtungen.
+        </p>
+
+        <p>
           Vielleicht fragt Wirklichkeit in uns nach sich selbst.
           Und vielleicht ist Denken nicht nur Spiegelung,
           sondern eine Stufe,
@@ -497,7 +518,7 @@ translation_url_en: /en/compass/
           und neue Handlungsmöglichkeiten zu eröffnen.
         </p>
 
-        <p>
+        <p class="highlight-line">
           Genau darin zeigt sich Richtung:
           nicht als starrer Plan,
           sondern als auffällige Drift hin zu höherer Integrationsfähigkeit.
@@ -521,25 +542,10 @@ translation_url_en: /en/compass/
         </p>
 
         <p>
-          Im Lebendigen werden diese Dynamiken besonders deutlich,
-          zielgerichtet und komplex lesbar.
-          Aber vielleicht beginnen sie nicht erst dort.
-          Schon in der Materie zeigen sich elementare Vorformen davon:
-          Ordnungen, die nicht beliebig weichen,
-          Bindungen, die nicht zufällig halten,
-          und Relationen, die ihren Platz im Gefüge behaupten.
-        </p>
-
-        <p>
-          Noch nicht als Bewusstsein,
-          noch nicht als Wille im menschlichen Sinn,
-          aber als frühe Strukturgestalt derselben Logik:
-          Erhaltung,
-          Bindung,
-          Reaktion,
-          Positionsbehauptung.
-          Im Lebendigen wird diese Logik nicht neu erfunden,
-          sondern höher aufgelöst.
+          Im Lebendigen werden diese Dynamiken besonders deutlich.
+          Aber vielleicht beginnen sie nicht erst dort —
+          schon in der Materie zeigen sich elementare Vorformen:
+          Erhaltung, Bindung, Reaktion, Positionsbehauptung.
         </p>
 
         <p>
@@ -556,7 +562,7 @@ translation_url_en: /en/compass/
         </ul>
 
         <p>
-          Genau hier entstehen <strong>Klarheit, Würde und Freiheit</strong>
+          Genau hier entstehen Klarheit, Würde und Freiheit
           als die reiferen, tragfähigeren Formen derselben Bewegungen —
           keine fremden Zutaten,
           sondern die geläuterten Ausprägungen dessen,
@@ -570,8 +576,7 @@ translation_url_en: /en/compass/
 
         <p>
           Wo Bindung wächst, wird daraus Würde:
-          Beziehung hält Differenz aus,
-          ohne in Bruch, Unterwerfung oder Nebel zu kippen.
+          Beziehung hält Differenz aus, ohne in Bruch, Unterwerfung oder Nebel zu kippen.
         </p>
 
         <p>
@@ -656,9 +661,12 @@ translation_url_en: /en/compass/
           erstarren,
           kollabieren
           oder in sich selbst brechen.
+        </p>
+
+        <p>
           Gerade dass Wirklichkeit weiter schwingt,
-          weiter differenziert,
-          weiter Zeit erzeugt,
+          weiter differenziert
+          und weiter Zeit erzeugt,
           zeigt:
           Das Gewordene ist nie der letzte Endpunkt.
         </p>
