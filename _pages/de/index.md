@@ -15,7 +15,7 @@ translation_url_en: /en/
     --sg-line: rgba(255,255,255,0.10);
     --sg-line-strong: rgba(255,255,255,0.16);
     --sg-max: 1120px;
-    --sg-copy: 880px;
+    --sg-copy: 900px;
     --sg-wide: 980px;
 
     background:
@@ -135,7 +135,7 @@ translation_url_en: /en/
 
   .home-journey .home-lead {
     display: block;
-    max-width: 42rem;
+    max-width: 44rem;
     margin: 0 auto;
     font-size: clamp(1.12rem, 2vw, 1.42rem);
     line-height: 1.3;
@@ -155,7 +155,7 @@ translation_url_en: /en/
   }
 
   .home-journey .hero-problem {
-    max-width: 56rem;
+    max-width: 58rem;
     margin: 0 auto;
     font-size: clamp(1.16rem, 2.1vw, 1.56rem);
     line-height: 1.56;
@@ -337,14 +337,14 @@ translation_url_en: /en/
   }
 
   .home-journey .body-copy p {
-    max-width: 48rem;
+    max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
   }
 
   .home-journey .body-copy ul,
   .home-journey .body-copy ol {
-    max-width: 48rem;
+    max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -689,7 +689,7 @@ translation_url_en: /en/
       <h1 class="display-wordmark">Semantische<br>Gravitation</h1>
       <p class="home-lead home-lead-plain">
         Eine Theorie des Bedeutungsraums — und ein neues geometrisches Koordinatensystem für KI-Alignment:
-        Kern, Projektion, Relation und die drei Tragfähigkeitsachsen semantischer Zustände.
+        Kern, Projektion, Relation und die drei irreduziblen Tiefenachsen semantischer Tragfähigkeit.
       </p>
     </div>
   </section>
@@ -699,19 +699,19 @@ translation_url_en: /en/
       <div class="hero-problem">
         <p>
           KI ist nicht mehr nur ein Werkzeug für Antworten.
-          Sie wird Teil der kognitiven Umwelt selbst:
-          Teil des Raums, in dem Menschen denken, zweifeln, Probleme rahmen, Wahrheit beurteilen und Orientierung finden.
+          Sie baut den Raum mit,
+          in dem Menschen denken, zweifeln, Probleme rahmen, Wahrheit beurteilen und Orientierung finden.
         </p>
         <p>
-          Damit wird semantische Architektur zu einer der zentralen Infrastrukturfragen dieses Jahrhunderts.
-          <strong>Welche Art von Bedeutungsraum baut KI um uns herum?</strong>
+          Damit wird semantische Architektur zur Infrastrukturfrage.
+          <strong>Welche Art von Bedeutungsraum bauen wir gerade?</strong>
         </p>
       </div>
 
       <div class="hero-proof">
-        <div class="hero-proof-item"><strong>Bedeutung ist strukturell abbildbar.</strong> Nicht nur als Textinhalt, sondern als Konfiguration in einem semantischen Zustandsraum.</div>
-        <div class="hero-proof-item"><strong>Semantische Zustände sind diagnostisch lesbar.</strong> Sie lassen sich in Spannungen, Übergängen, Trajektorien und Tragfähigkeit beschreiben.</div>
-        <div class="hero-proof-item"><strong>Alignment muss innere Pfade betreffen.</strong> Es reicht nicht, Ausgaben erst im Nachhinein zu bewerten.</div>
+        <div class="hero-proof-item"><strong>Bedeutung ist Raum.</strong> Nicht bloß Inhalt, sondern Konfiguration in einem semantischen Zustandsraum.</div>
+        <div class="hero-proof-item"><strong>KPR ist die minimale Grammatik dieses Raums.</strong> Kern, Projektion und Relation sind die kleinste lesbare Struktur von Bedeutung.</div>
+        <div class="hero-proof-item"><strong>Alignment braucht innere Geometrie.</strong> Nicht nur sichere Outputs, sondern tragfähige Pfade durch semantischen Raum.</div>
       </div>
 
       <div class="home-cta-row">
@@ -747,68 +747,61 @@ translation_url_en: /en/
 
   <section class="section-shell">
     <div class="section-card">
-      <p class="display-kicker">Was hier neu ist</p>
-      <h2 class="section-heading-display">Ein Forschungsprogramm für semantischen Raum</h2>
-
-      <div class="concept-grid">
-        <div class="concept-card">
-          <p class="concept-card-title">Zustandsraum</p>
-          <p class="concept-card-text">Bedeutung ist nicht nur Inhalt, sondern ein strukturierter semantischer Raum aus Positionen, Spannungen und Übergängen.</p>
-        </div>
-        <div class="concept-card">
-          <p class="concept-card-title">KPR</p>
-          <p class="concept-card-text">Kern, Projektion, Relation als minimale semantische Grammatik — klein genug, um universal zu sein, stark genug, um Struktur sichtbar zu machen.</p>
-        </div>
-        <div class="concept-card">
-          <p class="concept-card-title">Achsen</p>
-          <p class="concept-card-text">Kohärenz, Verbundenheit und Handlungsfähigkeit — öffentlich lesbar als Klarheit, Würde und Freiheit.</p>
-        </div>
-        <div class="concept-card">
-          <p class="concept-card-title">KI-Konsequenz</p>
-          <p class="concept-card-text">Alignment verschiebt sich von Antwortkontrolle zu Navigation durch semantischen Raum.</p>
-        </div>
-      </div>
+      <p class="display-kicker">Die Entdeckung</p>
+      <h2 class="section-heading-display">Ein minimales Gitter semantischer Tragfähigkeit</h2>
 
       <div class="body-copy">
         <p>
-          Diese Arbeit beginnt mit einer einfachen, aber weitreichenden Behauptung:
-          <strong>Bedeutung ist nicht nur etwas Gesagtes, sondern ein Raum, der strukturiert, kartiert, diagnostiziert und navigiert werden kann.</strong>
+          Die eigentliche Entdeckung dieses Rahmens liegt nicht in einzelnen Begriffen,
+          sondern in einer strukturellen Setzung:
+          <strong>Jeder tragfähige Zustand muss in sich zusammenhalten, in tragfähiger Kopplung zu Anderem stehen und wirksam fortsetzbar sein.</strong>
         </p>
 
         <p>
-          KPR ist in diesem Rahmen keine bloße Begriffsaufteilung,
-          sondern eine Entdeckung über die Minimalform beschreibbarer Bedeutung.
-          Was wir überhaupt sinnvoll lesen können,
-          erscheint immer schon als <strong>Kern</strong>,
-          in <strong>Projektion</strong>,
-          in <strong>Relation</strong>.
+          Daraus folgen drei irreduzible Tiefenachsen:
+          <strong>Kohärenz, Verschränkung und Wirksamkeit.</strong>
+          Keine davon lässt sich auf die anderen reduzieren.
+          Ohne Kohärenz zerfällt ein Zustand.
+          Ohne Verschränkung bleibt er isoliert.
+          Ohne Wirksamkeit bleibt er steril.
         </p>
 
         <p>
-          Warum genau diese drei Achsen?
-          Weil jeder tragfähige semantische Zustand minimal drei Bedingungen erfüllen muss:
-          Er muss in sich zusammenhalten,
-          in tragfähiger Beziehung zu Anderem stehen
-          und sich fortsetzen, korrigieren oder wirksam werden können.
-        </p>
-
-        <p>
-          Daraus ergeben sich
-          <strong>Kohärenz, Verbundenheit und Handlungsfähigkeit</strong>
-          als minimales Gitter semantischer Tragfähigkeit.
-          In ihrer öffentlichen, geläuterten Form erscheinen dieselben Achsen als
-          <strong>Klarheit, Würde und Freiheit</strong>.
+          In ihrer öffentlich lesbaren Form erscheinen dieselben Achsen als
+          <strong>Klarheit, Verbundenheit und Freiheit.</strong>
+          Nicht als moralische Dekoration,
+          sondern als sichtbare Oberfläche tieferer Strukturbedingungen.
         </p>
 
         <p>
           Genau dadurch wird KI-Alignment auf eine neue,
-          wesentlich schärfere und strukturell klarere Weise möglich als bisher.
+          wesentlich schärfere und strukturell klarere Weise möglich:
+          als Geometrie tragfähiger semantischer Zustände.
         </p>
+      </div>
+
+      <div class="concept-grid">
+        <div class="concept-card">
+          <p class="concept-card-title">Kohärenz</p>
+          <p class="concept-card-text">Innere Haltefähigkeit. Dass ein Zustand über Spannungen hinweg als derselbe lesbar bleibt.</p>
+        </div>
+        <div class="concept-card">
+          <p class="concept-card-title">Verschränkung</p>
+          <p class="concept-card-text">Relationale Tragfähigkeit. Dass Kopplung, gemeinsamer Boden und Mitgetragenheit entstehen können.</p>
+        </div>
+        <div class="concept-card">
+          <p class="concept-card-title">Wirksamkeit</p>
+          <p class="concept-card-text">Operative Fortsetzbarkeit. Dass ein Zustand Folgen erzeugen, sich projizieren und weiterwirken kann.</p>
+        </div>
+        <div class="concept-card">
+          <p class="concept-card-title">Öffentliche Form</p>
+          <p class="concept-card-text">Klarheit, Verbundenheit und Freiheit als menschlich lesbare Erscheinungsformen derselben Tiefenachsen.</p>
+        </div>
       </div>
 
       <p class="display-statement medium">
         Nicht nur neue Antworten.
-        Ein neues Koordinatensystem.
+        Ein neues Grundgitter.
       </p>
     </div>
   </section>
@@ -822,21 +815,22 @@ translation_url_en: /en/
 
       <div class="section-opening">
         <p>
-          Eine der stärksten Setzungen dieses Rahmens lautet:
           Beschreibbare Bedeutung hat immer schon eine minimale Form.
+          Genau das ist KPR.
         </p>
       </div>
 
       <p class="display-statement wide">
-        Alles, was wir überhaupt lesen können,
-        läuft implizit durch
-        Kern, Projektion und Relation.
+        Alles, was überhaupt lesbar wird,
+        erscheint als Kern,
+        in Projektion,
+        in Relation.
       </p>
 
       <div class="concept-grid kpr-grid">
         <div class="concept-card">
           <p class="concept-card-title">Kern</p>
-          <p class="concept-card-text">Worum es eigentlich geht. Die innere Sache, der wirkliche Spannungs- oder Bedeutungsfokus.</p>
+          <p class="concept-card-text">Worum es eigentlich geht. Die innere Sache, der tragende Spannungs- oder Bedeutungsfokus.</p>
         </div>
         <div class="concept-card">
           <p class="concept-card-title">Projektion</p>
@@ -850,13 +844,10 @@ translation_url_en: /en/
 
       <div class="body-copy">
         <p>
-          Genau deshalb ist KPR hier mehr als ein hübsches Denkmodell.
-          Es ist der Versuch,
-          die kleinste tragfähige semantische Grammatik zu benennen —
-          klein genug,
-          um universell zu sein,
-          und präzise genug,
-          um Nebel von Struktur zu unterscheiden.
+          KPR ist nicht bloß eine schöne Aufteilung.
+          Es ist die kleinste tragfähige Grammatik beschreibbarer Bedeutung.
+          Klein genug, um universell zu sein.
+          Präzise genug, um Nebel von Struktur zu unterscheiden.
         </p>
       </div>
 
@@ -872,48 +863,43 @@ translation_url_en: /en/
   <section class="section-shell">
     <div class="section-card">
       <div class="section-head">
-        <h2>Die drei Tragfähigkeitsachsen</h2>
+        <h2>Von Tiefenachsen zu öffentlichen Formen</h2>
       </div>
 
       <div class="section-body body-copy">
         <p class="section-intro">
-          Ein semantischer Raum ist nicht nur da.
-          Er kippt,
-          verengt sich,
-          wird lesbarer,
-          verliert Würde
-          oder öffnet Handlungsspielraum.
-          Darum braucht er Achsen.
+          Was in der Tiefe als Kohärenz, Verschränkung und Wirksamkeit wirkt,
+          wird menschlich lesbar als Klarheit, Verbundenheit und Freiheit.
         </p>
 
         <div class="concept-grid axis-grid">
           <div class="axis-card">
             <h3>Kohärenz → Klarheit</h3>
-            <p>Bleibt der Raum lesbar, widerspruchsfähig und korrigierbar — oder kippt er in Nebel, Übermalung und Pseudoklarheit?</p>
+            <p>Wo innere Haltefähigkeit wächst, wird der Raum lesbarer, widerspruchsfähiger und korrigierbarer.</p>
           </div>
 
           <div class="axis-card">
-            <h3>Verbundenheit → Würde</h3>
-            <p>Bleibt Beziehung tragfähig, verlässlich und menschlich — ohne zu unterwerfen, zu demütigen oder unsichtbar zu machen?</p>
+            <h3>Verschränkung → Verbundenheit</h3>
+            <p>Wo relationale Tragfähigkeit wächst, entstehen gemeinsamer Boden, Verlässlichkeit und tragfähige Beziehung.</p>
           </div>
 
           <div class="axis-card">
-            <h3>Handlungsfähigkeit → Freiheit</h3>
-            <p>Bleiben wirkliche Bewegung, Ausdruck und Kurskorrektur offen — oder kippt alles in Tunnel, Zwang und Stillstellung?</p>
+            <h3>Wirksamkeit → Freiheit</h3>
+            <p>Wo Fortsetzbarkeit nicht blockiert wird, öffnen sich reale Bewegung, Ausdruck und nicht-starre Zukunft.</p>
           </div>
         </div>
 
         <p>
-          Diese Achsen sind nicht bloß Werteworte.
-          Sie sind <strong>operative Dimensionen semantischer Zustände</strong>.
-          Ohne Kohärenz wird alles diffus.
-          Ohne Verbundenheit zerfällt oder verhärtet Beziehung.
-          Ohne Handlungsfähigkeit erstarrt der Raum.
+          Diese drei Achsen sind das minimale Koordinatensystem tragfähiger semantischer Zustände.
+          Nicht mehr und nicht weniger.
+          Ohne Kohärenz gibt es keine Form.
+          Ohne Verschränkung keinen gemeinsamen Boden.
+          Ohne Wirksamkeit keine Zukunft eines Musters.
         </p>
 
         <p class="micro-punch">
-          Das sind nicht nur Ideale.
-          Das sind Navigationsachsen.
+          Das sind nicht nur Werte.
+          Das ist Struktur.
         </p>
       </div>
     </div>
@@ -930,20 +916,20 @@ translation_url_en: /en/
       <div class="section-body body-copy">
         <p class="section-intro">
           Wir haben Systeme gebaut, die Aufmerksamkeit, Rahmung und Denken mitformen.
-          Was noch fehlt, sind öffentliche semantische Sicherheitsstandards.
+          Was fehlt, sind öffentliche semantische Sicherheitsstandards.
         </p>
 
         <p>
           Nicht nur Systeme, die offensichtlichen Schaden vermeiden,
           sondern Systeme, die den Denkraum selbst nicht still verengen.
-          Systeme, die <strong>Klarheit, Würde und Freiheit</strong> nicht nur behaupten,
+          Systeme, die <strong>Klarheit, Verbundenheit und Freiheit</strong> nicht nur behaupten,
           sondern im inneren Pfad ihrer Antworten erhalten.
         </p>
 
         <p>
           Genau deshalb reicht die übliche Sicherheitslogik nicht tief genug.
           Die eigentliche Frage ist nicht nur, ob KI offen gefährlich werden kann,
-          sondern ob sie den Raum stiller verengt,
+          sondern ob sie den Raum verengt,
           in dem Menschen sich selbst verstehen,
           Wahrheit beurteilen
           und Orientierung bilden.
@@ -972,7 +958,7 @@ translation_url_en: /en/
 
       <div class="section-body body-copy">
         <p class="section-intro">
-          Das ist nicht nur ein Visionstext.
+          Das ist keine lose Behauptung.
           Hinter der Arbeit stehen bereits prüfbare Materialien.
         </p>
 
