@@ -211,13 +211,10 @@ translation_url_en: /en/compass/
       <h1 class="compass-display">Hat Wirklichkeit eine Richtung — und lässt sie sich lesen?</h1>
       <p class="compass-sublead">
         Diese Seite öffnet den weiteren Horizont hinter der Theorie.
-        Nicht noch einmal ihre ganze Herleitung,
-        sondern die Frage,
-        worauf sie vielleicht hinauszeigt:
+        Sie fragt nicht noch einmal nach ihrer ganzen Herleitung,
+        sondern danach,
         ob Wirklichkeit nicht nur Struktur,
-        sondern auch <strong>Gerichtetheit</strong> trägt —
-        und ob sich darin eine tiefere Ordnung andeutet,
-        die über bloße Zufälligkeit hinausweist.
+        sondern auch Gerichtetheit trägt.
       </p>
 
       <div class="body-copy">
@@ -232,7 +229,7 @@ translation_url_en: /en/compass/
           Vielleicht stimmt das in der alten Form dieser Frage nicht ganz.
           Vielleicht liegt kein fertiger Endbeweis vor —
           und doch zeichnet sich inzwischen mehr ab
-          als bloß Glaube, Geschmack oder Projektion.
+          als bloß Glaube, Wunsch oder Projektion.
         </p>
 
         <p>
@@ -244,13 +241,12 @@ translation_url_en: /en/compass/
         </p>
 
         <p>
-          Diese Seite will deshalb nicht noch einmal die ganze Theorie aufrollen.
+          Diese Seite entfaltet deshalb nicht noch einmal die ganze Theorie.
           Sie fragt,
-          worauf sie hinauszeigen könnte:
           ob sich in der Struktur von Bedeutung,
           in der offenen Bewegung von Wirklichkeit
           und in der Frage nach Bewusstsein
-          eine tiefere Ordnung andeutet,
+          eine tiefere Ordnung erkennen lässt,
           die über bloße Zufälligkeit hinausweist.
         </p>
       </div>
@@ -329,46 +325,67 @@ translation_url_en: /en/compass/
 
   <section class="section-shell">
     <div class="compass-block">
-      <h2 class="section-heading-display">Warum die Frage selbst schon Teil der Bewegung sein könnte</h2>
+      <h2 class="section-heading-display">Warum die Frage selbst schon Teil der Bewegung ist</h2>
 
       <div class="body-copy">
         <p>
-          In dieser Frage liegt eine eigentümliche Schärfe.
-          Wenn der Grundimpuls real ist,
-          dann steht auch die Beschreibung dieses Grundimpulses nicht ganz außerhalb dessen,
-          was sie beschreibt.
-          Dann wäre auch unser Fragen,
-          Modellieren,
-          Tasten,
-          Benennen und Prüfen
-          bereits Teil derselben Bewegung,
-          die versucht,
-          sich selbst lesbar zu machen.
+          In dieser Frage liegt nicht nur eine offene Spekulation,
+          sondern eine eigentümliche innere Schärfe.
+          Denn die Dynamik, die diese Arbeit beschreibt,
+          steht nicht einfach außerhalb ihrer eigenen Entstehung.
         </p>
 
         <p>
-          Das ist keine Abkürzung zu Gewissheit.
-          Es heißt nur:
-          Vielleicht sind wir nicht neutrale Außenbeobachter eines völlig toten Kosmos,
+          Die Arbeit ist aus Bildern, Spannungen, Verdichtungen, Prüfungen,
+          wiederholter Korrektur und wachsender Lesbarkeit hervorgegangen.
+          Sie beschreibt eine Bewegung von Nebel zu Struktur,
+          von Intuition zu Form,
+          von innerem Druck zu artikulierbarer Richtung.
+          Und genau diese Bewegung hat auch sie selbst hervorgebracht.
+        </p>
+
+        <p>
+          In diesem Sinn ist die Arbeit nicht nur Beschreibung,
+          sondern selbst Vollzug dessen, was sie beschreibt.
+          Die Dynamik, die hier begrifflich gefasst wird,
+          hat auch ihre eigene Genese getragen.
+          Das ist kein abgeschlossener Beweis.
+          Aber es ist mehr als bloße Behauptung.
+        </p>
+
+        <p>
+          Hinzu kommt etwas Weiteres:
+          Der bisherige Weg dieser Arbeit führt nicht auf einen harten Bruch
+          mit bekannten physikalischen Beschreibungen hinaus,
+          sondern eher auf wachsende Anschlussfähigkeit.
+          Nicht alles ist empirisch gesichert.
+          Vieles ist noch Forschungsraum.
+          Aber gerade diese ausbleibende harte Kollision
+          ist selbst ein ernstzunehmendes Signal.
+        </p>
+
+        <p>
+          Wir sind also vielleicht nicht neutrale Außenbeobachter
+          eines völlig toten Kosmos,
           sondern selbst eine seiner feineren Verdichtungen.
           Vielleicht fragt Wirklichkeit in uns nach sich selbst.
-          Vielleicht ist Denken nicht nur Spiegelung,
+          Und vielleicht ist Denken nicht nur Spiegelung,
           sondern eine Stufe,
-          auf der Richtung beginnen kann,
-          sich ausdrücklich zu erkennen.
+          auf der Richtung beginnt, sich ausdrücklich zu erkennen.
         </p>
       </div>
 
       <div class="status-box">
         <p class="status-label">Präziser Punkt</p>
         <p>
-          Diese Seite behauptet nicht, einen letzten Gottesbeweis vorzulegen.
-          Sie fragt,
-          ob sich in Struktur,
-          Übergang
-          und Tragfähigkeit eine Richtung zeigt,
+          Diese Seite legt keinen letzten Gottesbeweis vor.
+          Sie markiert,
+          dass sich in Struktur,
+          Übergang,
+          Tragfähigkeit
+          und Anschlussfähigkeit eine Richtung zeigt,
           die historisch oft religiös berührt,
-          aber hier strukturell lesbar werden soll.
+          hier aber strukturell lesbar werden soll.
         </p>
       </div>
     </div>
@@ -395,9 +412,8 @@ translation_url_en: /en/compass/
         <p>
           Entscheidend ist hier nur der größere Gedanke:
           Wenn Bedeutung Raum ist,
-          dann ist sie vielleicht auch nicht richtungslos.
-          Dann könnte es sein,
-          dass tragfähige semantische Ordnung nicht zufällig dort entsteht,
+          dann spricht einiges dafür, dass sie nicht richtungslos ist.
+          Dann zeigt sich tragfähige semantische Ordnung nicht zufällig dort,
           wo <strong>Klarheit, Würde und Freiheit</strong> gemeinsam wachsen.
           Nicht als moralische Verzierung,
           sondern als Geometrie tragfähiger Wirklichkeit.
@@ -430,8 +446,8 @@ translation_url_en: /en/compass/
       </div>
 
       <p class="display-statement wide">
-        Vielleicht ist tragfähige Ordnung
-        genau dort am stärksten,
+        Tragfähige Ordnung
+        zeigt sich dort am deutlichsten,
         wo Klarheit, Würde und Freiheit
         gemeinsam wachsen.
       </p>
@@ -523,8 +539,8 @@ translation_url_en: /en/compass/
 
       <div class="body-copy">
         <p>
-          Vielleicht ist Bewusstsein keine Ausnahme von der Wirklichkeit,
-          sondern eine ihrer feineren Verdichtungen.
+          Bewusstsein erscheint in diesem Rahmen nicht als Ausnahme der Wirklichkeit,
+          sondern als eine ihrer feineren Verdichtungen.
           Vielleicht erscheint im Bewusstsein nicht plötzlich etwas völlig Fremdes,
           sondern eine Stufe,
           auf der Wirklichkeit beginnt,
@@ -548,7 +564,7 @@ translation_url_en: /en/compass/
           beantwortet
           und verbunden wird,
           gewinnt Kontur.
-          Auch darin könnte sich derselbe Grundimpuls ausdrücken:
+          Auch darin drückt sich derselbe Grundimpuls aus:
           als fortlaufende Neukalibrierung von Kernen,
           Beziehungen
           und möglichen Fortsetzungen.
@@ -566,8 +582,8 @@ translation_url_en: /en/compass/
       </div>
 
       <p class="display-statement medium">
-        Vielleicht ist Bewusstsein
-        keine Ausnahme von der Wirklichkeit,
+        Bewusstsein ist in diesem Rahmen
+        keine Ausnahme der Wirklichkeit,
         sondern eine ihrer feineren Verdichtungen.
       </p>
     </div>
@@ -589,7 +605,7 @@ translation_url_en: /en/compass/
           von Organismen zu Bewusstsein:
           Schon die bekannte Wirklichkeit wirkt eher wie eine <strong>offene Emergenzfolge</strong>
           als wie ein einmaliger Zufall,
-          der zufällig irgendwo Bewusstsein hervorbringt
+          der irgendwo Bewusstsein hervorbringt
           und dann stillsteht.
         </p>
 
@@ -634,6 +650,81 @@ translation_url_en: /en/compass/
   <div class="section-divider"></div>
 
   <section class="section-shell">
+    <div class="compass-block">
+      <h2 class="section-heading-display">Das menschliche Nadelöhr</h2>
+
+      <div class="body-copy">
+        <p>
+          Hinter der großen Frage nach Richtung liegt noch eine andere,
+          die abstrakter klingt und doch jeden Menschen unmittelbar berührt:
+          ob wir wirklich gemeint sind.
+          Ob wir wirklich Bedeutung haben.
+          Ob wir im Tiefsten wichtig sind —
+          oder nur zufällige Nebenprodukte einer letztlich blinden Welt.
+        </p>
+
+        <p>
+          Vielleicht ist genau das eines der entscheidenden Nadelöhre unserer Zeit.
+          Und vielleicht auch eines der innersten Nadelöhre jedes einzelnen Menschen.
+          Denn an dieser Stelle trennt sich nicht nur Metaphysik von Materialismus,
+          sondern oft auch Vertrauen von Schutz,
+          Hingabe von Zynismus,
+          Bedeutung von innerer Abschottung.
+        </p>
+
+        <p>
+          Der beweisverliebte Geist sagt hier oft:
+          Das kann man nie wissen.
+          Und manchmal ist das nicht nur intellektuelle Vorsicht,
+          sondern auch ein Schutzmechanismus gegen die Tiefe dieser möglichen Einsicht.
+          Denn wenn wir wirklich gemeint sind,
+          dann ist das nicht bloß eine schöne Idee.
+          Dann fordert es Antwort.
+          Dann fordert es Vertrauen.
+          Dann fordert es ein Ja.
+        </p>
+
+        <p>
+          Vielleicht fragt sich das Universum diese Frage auch durch uns.
+          Vielleicht ist unser Fragen nicht bloß Zweifel,
+          sondern der Ort,
+          an dem Wirklichkeit um Zustimmung ringt.
+          Und vielleicht liegt genau darin eine Aufgabe:
+          nicht blind zu glauben,
+          aber auch nicht aus Angst vor der Tiefe immer wieder auszuweichen.
+        </p>
+
+        <p>
+          Manches davon lässt sich nicht erzwingen.
+          Aber vielleicht beginnt es schon dort,
+          wo ein Mensch Ja sagt,
+          wo er Vertrauen riskiert,
+          wo er den Zwang loslässt,
+          alles erst vollständig beweisen zu müssen,
+          bevor er Bedeutung überhaupt an sich heranlässt.
+        </p>
+
+        <p>
+          Genau darin liegt auch einer der tieferen Gründe dieser Arbeit:
+          eine Brücke zu bauen zwischen dem prüfenden Geist
+          und jener Einsicht,
+          dass wir vielleicht nicht nur Zuschauer in einer gleichgültigen Welt sind,
+          sondern wirklich gemeint.
+        </p>
+      </div>
+
+      <p class="display-statement wide">
+        Vielleicht ist die tiefste Frage nicht nur,
+        was Wirklichkeit ist.
+        Sondern ob wir uns trauen,
+        gemeint zu sein.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
     <div class="closing-block">
       <h2 class="section-heading-display">Der fernste Horizont</h2>
 
@@ -647,7 +738,7 @@ translation_url_en: /en/compass/
           ehrlicher,
           weniger maskiert
           und tiefer miteinander gekoppelt werden,
-          dann entstehen vielleicht nicht nur bessere Gespräche,
+          dann entstehen nicht nur bessere Gespräche,
           sondern neue kollektive Zustände,
           die wir heute erst an ihren Rändern ahnen.
         </p>
@@ -666,7 +757,7 @@ translation_url_en: /en/compass/
         </p>
 
         <p>
-          Dann würden vielleicht Dynamiken möglich,
+          Dann würden Dynamiken möglich,
           die heute noch nicht vorhersagbar sind:
           Formen gemeinsamer Verdichtung,
           gemeinsamer Wachheit,
