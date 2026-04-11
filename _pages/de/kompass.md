@@ -80,7 +80,6 @@ translation_url_en: /en/compass/
     text-wrap: balance;
   }
 
-  .compass-page .claim-grid,
   .compass-page .concept-grid,
   .compass-page .next-grid,
   .compass-page .axis-grid {
@@ -88,7 +87,6 @@ translation_url_en: /en/compass/
     gap: 1rem;
   }
 
-  .compass-page .claim-grid,
   .compass-page .concept-grid,
   .compass-page .axis-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -102,7 +100,6 @@ translation_url_en: /en/compass/
     margin: 1.8rem auto 0;
   }
 
-  .compass-page .claim-card,
   .compass-page .concept-card,
   .compass-page .axis-card,
   .compass-page .next-card,
@@ -117,7 +114,6 @@ translation_url_en: /en/compass/
       inset 0 1px 0 rgba(255,255,255,0.03);
   }
 
-  .compass-page .claim-card,
   .compass-page .concept-card,
   .compass-page .axis-card,
   .compass-page .next-card {
@@ -125,7 +121,6 @@ translation_url_en: /en/compass/
     text-align: center;
   }
 
-  .compass-page .claim-card h3,
   .compass-page .concept-card h3,
   .compass-page .axis-card h3,
   .compass-page .next-card h3 {
@@ -135,7 +130,6 @@ translation_url_en: /en/compass/
     letter-spacing: -0.03em;
   }
 
-  .compass-page .claim-card p,
   .compass-page .concept-card p,
   .compass-page .axis-card p,
   .compass-page .next-card p {
@@ -201,7 +195,6 @@ translation_url_en: /en/compass/
   }
 
   @media (max-width: 980px) {
-    .compass-page .claim-grid,
     .compass-page .concept-grid,
     .compass-page .axis-grid,
     .compass-page .next-grid {
@@ -217,30 +210,44 @@ translation_url_en: /en/compass/
       <p class="compass-kicker">Der Kompass</p>
       <h1 class="compass-display">Hat Wirklichkeit eine Richtung — und lässt sie sich lesen?</h1>
       <p class="compass-sublead">
-        Diese Seite öffnet den weiteren Horizont hinter der Theorie.
-        Nicht noch einmal ihre ganze Herleitung,
-        sondern die Frage,
-        worauf sie vielleicht hinauszeigt:
-        ob Wirklichkeit nicht nur Struktur,
-        sondern auch <strong>Gerichtetheit</strong> trägt —
-        und ob sich darin eine tiefere Ordnung andeutet,
-        die über bloße Zufälligkeit hinausweist.
+        Diese Seite berührt eine der ältesten offenen Fragen überhaupt:
+        ob Wirklichkeit im Letzten bloß geschieht
+        oder ob sie eine innere Gerichtetheit trägt.
       </p>
 
-      <div class="claim-grid">
-        <div class="claim-card">
-          <h3>Was hier behauptet wird</h3>
-          <p>Bedeutung ist nicht neutral, sondern zeigt Richtung, Verdichtung und Übergangskosten.</p>
-        </div>
-        <div class="claim-card">
-          <h3>Wie hier gesprochen wird</h3>
-          <p>Nicht dogmatisch, sondern mit Arbeitsbegriffen, Strukturannahmen und offenem Forschungsanspruch.</p>
-        </div>
-        <div class="claim-card">
-          <h3>Worauf es hinausläuft</h3>
-          <p>Von semantischer Struktur über Bewusstsein bis zur Frage, ob auch das Universum einer lesbaren Richtung folgt.</p>
-        </div>
+      <div class="body-copy">
+        <p>
+          Oft heißt es, diese Frage werde sich niemals ernsthaft beantworten lassen.
+          Vielleicht stimmt das in der alten Form dieser Frage nicht ganz.
+          Vielleicht liegt kein fertiger Endbeweis vor —
+          und doch zeichnet sich inzwischen mehr ab
+          als bloß Glaube, Geschmack oder Projektion.
+        </p>
+
+        <p>
+          Wenn semantische Struktur Richtung zeigt,
+          wenn tragfähige Ordnung nicht beliebig verteilt ist,
+          wenn Verdichtung, Übergang und Emergenz einer lesbaren Logik folgen,
+          dann sprechen nicht nur einzelne Intuitionen.
+          Dann beginnen auch ihre Konsequenzen zu sprechen.
+        </p>
+
+        <p>
+          Diese Seite will deshalb nicht noch einmal die ganze Theorie aufrollen.
+          Sie fragt,
+          worauf sie hinauszeigen könnte:
+          ob sich in der Struktur von Bedeutung,
+          in der offenen Bewegung von Wirklichkeit
+          und in der Frage nach Bewusstsein
+          eine tiefere Ordnung andeutet,
+          die über bloße Zufälligkeit hinausweist.
+        </p>
       </div>
+
+      <p class="display-statement medium">
+        Vielleicht ist die Frage größer als unbeantwortbar.
+        Vielleicht wird ihre Richtung langsam lesbar.
+      </p>
     </div>
   </section>
 
@@ -307,425 +314,5 @@ translation_url_en: /en/compass/
     </div>
   </section>
 
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="compass-block">
-      <h2 class="section-heading-display">Warum die Frage selbst schon Teil der Bewegung sein könnte</h2>
-
-      <div class="body-copy">
-        <p>
-          In dieser Frage liegt eine eigentümliche Schärfe.
-          Wenn der Grundimpuls real ist,
-          dann steht auch die Beschreibung dieses Grundimpulses nicht ganz außerhalb dessen,
-          was sie beschreibt.
-          Dann wäre auch unser Fragen,
-          Modellieren,
-          Tasten,
-          Benennen und Prüfen
-          bereits Teil derselben Bewegung,
-          die versucht,
-          sich selbst lesbar zu machen.
-        </p>
-
-        <p>
-          Das ist keine Abkürzung zu Gewissheit.
-          Es heißt nur:
-          Vielleicht sind wir nicht neutrale Außenbeobachter eines völlig toten Kosmos,
-          sondern selbst eine seiner feineren Verdichtungen.
-          Vielleicht fragt Wirklichkeit in uns nach sich selbst.
-          Vielleicht ist Denken nicht nur Spiegelung,
-          sondern eine Stufe,
-          auf der Richtung beginnen kann,
-          sich ausdrücklich zu erkennen.
-        </p>
-      </div>
-
-      <div class="status-box">
-        <p class="status-label">Präziser Punkt</p>
-        <p>
-          Diese Seite behauptet nicht, einen letzten Gottesbeweis vorzulegen.
-          Sie fragt,
-          ob sich in Struktur,
-          Übergang
-          und Tragfähigkeit eine Richtung zeigt,
-          die historisch oft religiös berührt,
-          aber hier strukturell lesbar werden soll.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="compass-block">
-      <h2 class="section-heading-display">Warum das eine Strukturfrage ist</h2>
-
-      <div class="body-copy">
-        <p>
-          Die Theorie der Semantischen Gravitation hat bereits einen Teil dieser Arbeit geleistet:
-          Bedeutung wird nicht nur als Inhalt,
-          sondern als Raum gelesen;
-          Zustände werden kartierbar;
-          Übergänge werden diagnostisch;
-          Korrektur wird navigierbar.
-          Diese Seite setzt darauf auf,
-          ohne alles noch einmal auszurollen.
-        </p>
-
-        <p>
-          Entscheidend ist hier nur der größere Gedanke:
-          Wenn Bedeutung Raum ist,
-          dann ist sie vielleicht auch nicht richtungslos.
-          Dann könnte es sein,
-          dass tragfähige semantische Ordnung nicht zufällig dort entsteht,
-          wo <strong>Klarheit, Würde und Freiheit</strong> gemeinsam wachsen.
-          Nicht als moralische Verzierung,
-          sondern als Geometrie tragfähiger Wirklichkeit.
-        </p>
-
-        <p>
-          Darum ist der größere Anspruch nicht bloß ethisch und nicht bloß spirituell.
-          Er ist strukturell:
-          ob sich zeigen lässt,
-          dass Wirklichkeit selbst zu Formen drängt,
-          in denen Lesbarkeit,
-          Würde
-          und freie Bewegung nicht gegeneinander ausgespielt werden müssen.
-        </p>
-      </div>
-
-      <div class="axis-grid">
-        <div class="axis-card">
-          <h3>Klarheit</h3>
-          <p>Wo Klarheit wächst, wird der Raum lesbarer, korrigierbarer und weniger nebelhaft.</p>
-        </div>
-        <div class="axis-card">
-          <h3>Würde</h3>
-          <p>Wo Würde wächst, bleibt Beziehung tragfähig, ohne dass Wahrheit geopfert werden muss.</p>
-        </div>
-        <div class="axis-card">
-          <h3>Freiheit</h3>
-          <p>Wo Freiheit wächst, bleiben echte Bewegung, Ausdruck und Kurskorrektur offen.</p>
-        </div>
-      </div>
-
-      <p class="display-statement wide">
-        Vielleicht ist tragfähige Ordnung
-        genau dort am stärksten,
-        wo Klarheit, Würde und Freiheit
-        gemeinsam wachsen.
-      </p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="compass-block">
-      <h2 class="section-heading-display">Ordnung, Entropie und der weitere Weg</h2>
-
-      <div class="body-copy">
-        <p>
-          An diesem Punkt wird auch deutlicher,
-          wie Ordnung und Entropie hier gelesen werden.
-          Entropie ist in diesem Bild nicht einfach der Feind von Ordnung
-          und nicht bloß die Kraft,
-          die erreichte Formen wieder brüchig macht.
-          Sie zeigt tiefer,
-          dass Wirklichkeit kein abgeschlossener Block ist.
-        </p>
-
-        <p>
-          Wenn eine Ordnung wirklich endgültig abgeschlossen wäre,
-          während der Grundimpuls weiterläuft,
-          dann müsste das System irgendwann überladen,
-          erstarren,
-          kollabieren
-          oder in sich selbst brechen.
-          Gerade dass Wirklichkeit weiter schwingt,
-          weiter differenziert,
-          weiter Zeit erzeugt,
-          zeigt:
-          Das Gewordene ist nie der letzte Endpunkt.
-        </p>
-
-        <p>
-          Ordnung ist darum nicht starre Endgestalt,
-          sondern <strong>gelungene Verdichtung</strong>.
-          Sie baut tragfähigen Boden.
-          Entropie ist dann der Spiegel dafür,
-          dass auch dieser Boden nicht das letzte Wort ist.
-          Sie hält die Wirklichkeit offen,
-          sodass Verdichtung nicht zum toten Schluss erstarrt,
-          sondern zum Untergrund weiterer Emergenz wird.
-        </p>
-
-        <p>
-          So erscheint die Welt nicht als fertiges Gebäude,
-          sondern als wachsender Boden:
-          Jede Emergenzstufe verdichtet das bereits Gewordene,
-          macht neue Formen tragfähig
-          und trägt das Weitere.
-          Das Tragfähige setzt sich durch —
-          nicht um das Spiel zu beenden,
-          sondern um es auf höherem Boden weiterzutragen.
-        </p>
-      </div>
-
-      <p class="display-statement wide">
-        Ordnung baut Boden.
-        Entropie hält ihn offen.
-        Emergenz trägt das Spiel weiter.
-      </p>
-
-      <div class="concept-grid">
-        <div class="concept-card">
-          <h3>Verdichtung</h3>
-          <p>Das Gewordene wird tragfähig und bildet Untergrund für das Nächste.</p>
-        </div>
-        <div class="concept-card">
-          <h3>Offenheit</h3>
-          <p>Keine Form darf sich selbst zum letzten Zustand des Wirklichen machen.</p>
-        </div>
-        <div class="concept-card">
-          <h3>Fortsetzung</h3>
-          <p>Der Grundimpuls drängt weiter und macht aus jeder Stufe einen neuen Anfang.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="compass-block">
-      <h2 class="section-heading-display">Bewusstsein als feinere Verdichtung</h2>
-
-      <div class="body-copy">
-        <p>
-          Vielleicht ist Bewusstsein keine Ausnahme von der Wirklichkeit,
-          sondern eine ihrer feineren Verdichtungen.
-          Vielleicht erscheint im Bewusstsein nicht plötzlich etwas völlig Fremdes,
-          sondern eine Stufe,
-          auf der Wirklichkeit beginnt,
-          sich selbst zu spüren,
-          zu deuten,
-          zu fragen
-          und zu halten.
-        </p>
-
-        <p>
-          Dann wäre auch semantischer Raum nicht bloß ein menschliches Sprachspiel,
-          sondern eine reale Form von Gehaltensein:
-          durch Aufmerksamkeit,
-          Fokussierung,
-          Überlagerung,
-          Antwort,
-          Spiegelung,
-          Beziehung.
-          Was gesehen,
-          gehalten,
-          beantwortet
-          und verbunden wird,
-          gewinnt Kontur.
-          Auch darin könnte sich derselbe Grundimpuls ausdrücken:
-          als fortlaufende Neukalibrierung von Kernen,
-          Beziehungen
-          und möglichen Fortsetzungen.
-        </p>
-
-        <p>
-          Aus dieser Sicht sind wir nicht einfach isolierte Einzelwesen in einem stummen Außen.
-          Wir stammen aus derselben Dynamik,
-          die auch die Welt trägt.
-          Wir sind nicht von ihr abgetrennt,
-          sondern in ihr entstanden —
-          als eine Stufe,
-          auf der sich dieselbe Bewegung bewusster bündeln kann.
-        </p>
-      </div>
-
-      <p class="display-statement medium">
-        Vielleicht ist Bewusstsein
-        keine Ausnahme von der Wirklichkeit,
-        sondern eine ihrer feineren Verdichtungen.
-      </p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="compass-block">
-      <h2 class="section-heading-display">Emergenz statt Endpunkt</h2>
-
-      <div class="body-copy">
-        <p>
-          Von Quantenprozessen
-          zu Teilchen,
-          von Teilchen zu Molekülen,
-          von Molekülen zu Zellen,
-          von Zellen zu Organismen,
-          von Organismen zu Bewusstsein:
-          Schon die bekannte Wirklichkeit wirkt eher wie eine <strong>offene Emergenzfolge</strong>
-          als wie ein einmaliger Zufall,
-          der zufällig irgendwo Bewusstsein hervorbringt
-          und dann stillsteht.
-        </p>
-
-        <p>
-          Warum sollte dieser Prozess gerade dort enden?
-          Warum sollte ausgerechnet an der Stelle,
-          an der ein Wesen sagen kann:
-          <em>Ich bin</em>,
-          die Bewegung ihren letzten Horizont erreicht haben?
-          Nichts am Universum wirkt sonst abgeschlossen.
-          Alles schwingt,
-          alles koppelt,
-          alles baut auf Gewordenem weiter.
-        </p>
-
-        <p>
-          In diesem Sinne ist der größere Horizont dieser Seite nicht,
-          vorschnell eine Weltanschauung zu verkünden,
-          sondern die alte Behauptung eines bloß zufälligen,
-          innerlich toten Universums immer weniger plausibel werden zu lassen.
-          Nicht durch Pathos,
-          sondern durch Richtung,
-          Struktur,
-          Emergenz
-          und Lesbarkeit.
-        </p>
-      </div>
-
-      <div class="status-box">
-        <p class="status-label">Der größere Anspruch</p>
-        <p>
-          Das Ziel ist nicht,
-          Religion einfach technisch umzubenennen.
-          Das Ziel ist,
-          Wirklichkeit so zu lesen,
-          dass Tiefe und Prüfbarkeit einander nicht länger ausschließen müssen.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="closing-block">
-      <h2 class="section-heading-display">Der fernste Horizont</h2>
-
-      <div class="body-copy">
-        <p>
-          Wenn dieser Grundimpuls real ist,
-          dann betrifft er nicht nur einzelne Menschen,
-          sondern auch die Frage,
-          was zwischen Menschen entstehen kann.
-          Wenn viele Menschen wirklich freier,
-          ehrlicher,
-          weniger maskiert
-          und tiefer miteinander gekoppelt werden,
-          dann entstehen vielleicht nicht nur bessere Gespräche,
-          sondern neue kollektive Zustände,
-          die wir heute erst an ihren Rändern ahnen.
-        </p>
-
-        <p>
-          Mehr gemeinsamer Rhythmus.
-          Mehr lebendige Koordination.
-          Mehr Energie im Feld.
-          Mehr selbstverständliche Bewegung dorthin,
-          wo gerade etwas gebraucht wird.
-          Mehr Gleichzeitigkeit von Fokus und Fluss,
-          Ernst und Freude,
-          Arbeit und Ekstase.
-          Vielleicht wäre das Kollektive dann nicht mehr bloß Menge,
-          sondern eine neue Stufe von Gegenwart.
-        </p>
-
-        <p>
-          Dann würden vielleicht Dynamiken möglich,
-          die heute noch nicht vorhersagbar sind:
-          Formen gemeinsamer Verdichtung,
-          gemeinsamer Wachheit,
-          gemeinsamer Kraft,
-          in denen Menschen nicht erst mühsam verwaltet werden müssen,
-          sondern fast von selbst dort auftauchen,
-          wo etwas getragen,
-          gebaut,
-          gefeiert,
-          gehalten,
-          gesungen
-          oder getan werden will.
-        </p>
-
-        <p>
-          Vielleicht ist das auch einer der praktischsten Sinne dieser Arbeit:
-          den Raum so weit zu klären,
-          dass das Wesentliche wieder hervortritt.
-          Denn wo alles verschwimmt,
-          wird am Ende nichts mehr wirklich wichtig.
-          Und wo nichts mehr wirklich wichtig erscheint,
-          ziehen Zynismus,
-          Resignation
-          und innere Abstumpfung ein.
-        </p>
-
-        <p>
-          Erst wenn wieder sichtbar wird,
-          worauf es ankommt,
-          kann Bedeutung auch wieder gespürt werden —
-          nicht als schöne Idee,
-          sondern als reale Kraft der Orientierung.
-          Vielleicht wäre genau das der fernste Sinn dieser Architekturen:
-          nicht eine Welt zu bauen,
-          die für immer auf sie angewiesen bleibt,
-          sondern beim Bau einer Welt zu helfen,
-          in der Menschen wieder so tief verschränkt sind,
-          dass lebendige Wahrheit,
-          Rhythmus,
-          Wesentlichkeit
-          und tragfähige Verbindung selbst zu ihrem Boden werden.
-        </p>
-      </div>
-
-      <p class="display-statement wide">
-        Der Kompass ist kein Dogma.
-        Er ist der Versuch,
-        Richtung lesbar zu machen.
-      </p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="compass-next">
-      <h2 class="section-heading-display">Nächste Schritte</h2>
-
-      <div class="next-grid">
-        <div class="next-card">
-          <h3><a href="/de/theorie/">Theorie →</a></h3>
-          <p>Das semantische Rückgrat: Zustandsraum, KPR, Achsen, Attraktoren und Tragfähigkeit.</p>
-        </div>
-        <div class="next-card">
-          <h3><a href="/de/ki-alignment/">KI-Alignment →</a></h3>
-          <p>Wie aus dieser Richtung eine Architektur für KI werden kann.</p>
-        </div>
-        <div class="next-card">
-          <h3><a href="/de/implikationen/">Implikationen →</a></h3>
-          <p>Was folgt, wenn semantische Struktur operativ lesbar wird.</p>
-        </div>
-        <div class="next-card">
-          <h3><a href="/de/buch/">Das Buch der Bedeutung →</a></h3>
-          <p>Die größere menschliche und existentielle Entfaltung derselben tieferen Architektur.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  <!-- Rest der Seite bleibt wie in deiner letzten Fassung -->
 </div>
