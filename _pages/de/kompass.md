@@ -158,7 +158,7 @@ translation_url_en: /en/compass/
     max-width: 47em;
     margin: 0.95rem auto 0;
     font-size: 1.1rem;
-    line-height: 1.78;
+    line-height: 1.84;
     letter-spacing: -0.01em;
   }
 
@@ -423,61 +423,166 @@ translation_url_en: /en/compass/
 
   <section class="section-shell">
     <div class="compass-block">
-      <h2 class="section-heading-display">Warum das eine Strukturfrage ist</h2>
+      <h2 class="section-heading-display">Wie aus Struktur Richtung wird</h2>
 
       <div class="body-copy">
         <p>
-          Die Theorie der Semantischen Gravitation hat bereits einen Teil dieser Arbeit geleistet:
-          Bedeutung wird nicht nur als Inhalt,
-          sondern als Raum gelesen;
-          Zustände werden kartierbar;
-          Übergänge werden diagnostisch;
-          Korrektur wird navigierbar.
-          Diese Seite setzt darauf auf,
-          ohne alles noch einmal auszurollen.
+          Die eigentliche Frage dieser Seite lautet nicht,
+          ob man sich irgendeine höhere Richtung wünschen kann.
+          Sie lautet,
+          ob sich in der Struktur der Wirklichkeit selbst
+          ein wiederkehrendes Muster zeigt —
+          eines, das mehr ist als bloße Beliebigkeit.
         </p>
 
         <p>
-          Entscheidend ist hier nur der größere Gedanke:
-          Wenn Bedeutung Raum ist,
-          dann spricht einiges dafür, dass sie nicht richtungslos ist.
-          Dann zeigt sich tragfähige semantische Ordnung nicht zufällig dort,
-          wo <strong>Klarheit, Würde und Freiheit</strong> gemeinsam wachsen.
-          Nicht als moralische Verzierung,
-          sondern als Geometrie tragfähiger Wirklichkeit.
+          Genau hier wird die Emergenzfolge entscheidend:
+          von Quantenprozessen zu Teilchen,
+          von Teilchen zu Molekülen,
+          von Molekülen zu Zellen,
+          von Zellen zu Organismen,
+          von Organismen zu Bewusstsein.
         </p>
 
         <p>
-          Darum ist der größere Anspruch nicht bloß ethisch und nicht bloß spirituell.
-          Er ist strukturell:
-          ob sich zeigen lässt,
-          dass Wirklichkeit selbst zu Formen drängt,
-          in denen Lesbarkeit,
-          Würde
-          und freie Bewegung nicht gegeneinander ausgespielt werden müssen.
+          Diese Schritte wirken nicht wie isolierte Sprünge.
+          Sie bilden einen wachsenden Kontextrahmen,
+          der immer mehr Beziehungen halten,
+          mehr Differenz integrieren
+          und immer komplexere Ordnungen hervorbringen kann.
+        </p>
+
+        <p>
+          Mit jeder tragfähigen Stufe wächst nicht nur Komplexität,
+          sondern auch die Fähigkeit,
+          Mehrdeutigkeit zu tragen,
+          Beziehungen nicht sofort zu zerreißen,
+          Rückkopplungen einzubauen
+          und neue Handlungsmöglichkeiten zu eröffnen.
+        </p>
+
+        <p>
+          Genau darin zeigt sich Richtung:
+          nicht als starrer Plan,
+          sondern als auffällige Drift hin zu höherer Integrationsfähigkeit.
+        </p>
+
+        <p>
+          In der Sprache der Theorie lässt sich dieses Muster
+          entlang dreier Achsen lesen:
+          <strong>Kohärenz (Klarheit), Bindung (Würde) und Handlungsfreiheit (Freiheit)</strong>.
+          Gemeint ist damit nicht in erster Linie Moral,
+          sondern Tragfähigkeit.
+        </p>
+
+        <p>
+          Diese Achsen fallen nicht vom Himmel.
+          Schon das Lebendige trägt entsprechende Grunddynamiken in sich:
+          den Drang, nicht zu zerfallen,
+          den eigenen Platz zu behaupten,
+          in Beziehung zu bleiben
+          und wirksam handeln zu können.
+        </p>
+
+        <p>
+          Jede lebendige Ordnung will auf ihre Weise Kohärenz spüren,
+          Bindung halten
+          und Handlungsspielraum gewinnen.
+          In ihrer rohen Form kippen diese Dynamiken jedoch leicht.
+        </p>
+
+        <p>
+          Kohärenz wird zu Verhärtung oder Vereinfachung.  
+          Bindung wird zu Abhängigkeit, Lagerbildung oder bloßer Selbstbehauptung.  
+          Handlungsfreiheit wird zu Zwang, Dominanz oder hektischem Aktionismus.
+        </p>
+
+        <p>
+          Genau hier entstehen <strong>Klarheit, Würde und Freiheit</strong>
+          als die reiferen, tragfähigeren Formen derselben Bewegungen.
+          Sie sind keine fremden Zutaten,
+          sondern die geläuterten Ausprägungen dessen,
+          was im Leben selbst schon angelegt ist.
+        </p>
+
+        <p>
+          Wo Kohärenz wächst,
+          wird daraus Klarheit:
+          Der Raum wird lesbarer,
+          widerspruchsfähiger
+          und korrigierbarer.
+        </p>
+
+        <p>
+          Wo Bindung wächst,
+          wird daraus Würde:
+          Beziehung hält Differenz aus,
+          ohne in Bruch,
+          Unterwerfung
+          oder Nebel zu kippen.
+        </p>
+
+        <p>
+          Wo Handlungsfreiheit wächst,
+          wird daraus Freiheit:
+          Echte Fortsetzung entsteht
+          statt Erstarrung,
+          Tunnelbildung
+          oder Zwang.
+        </p>
+
+        <p>
+          Tragfähige Ordnungen entstehen auffällig dort,
+          wo diese drei Dimensionen nicht gegeneinander ausgespielt,
+          sondern gemeinsam gesteigert werden.
+        </p>
+
+        <p>
+          Eine Ordnung, die nur auf Kosten von Klarheit hält,
+          wird nebelhaft.
+          Eine Ordnung, die nur auf Kosten von Würde hält,
+          wird hart und brüchig.
+          Eine Ordnung, die nur auf Kosten von Freiheit hält,
+          wird starr und tot.
+        </p>
+
+        <p>
+          Vielleicht zeigt sich die Richtung der Wirklichkeit genau darin:
+          dass sie nicht jede beliebige Stabilität bevorzugt,
+          sondern jene Ordnungen,
+          in denen sich diese Grunddynamiken
+          zu ihren tragfähigeren Formen entfalten.
+        </p>
+
+        <p>
+          Was wir hier Richtung nennen,
+          ist keine nachträgliche moralische Projektion.
+          Es ist die strukturelle Signatur jener Formen,
+          die sich langfristig als wirklich tragfähig erweisen.
         </p>
       </div>
 
       <div class="axis-grid">
         <div class="axis-card">
-          <h3>Klarheit</h3>
-          <p>Wo Klarheit wächst, wird der Raum lesbarer, korrigierbarer und weniger nebelhaft.</p>
+          <h3>Kohärenz → Klarheit</h3>
+          <p>Der Raum wird lesbarer, widerspruchsfähiger und korrigierbarer.</p>
         </div>
         <div class="axis-card">
-          <h3>Würde</h3>
-          <p>Wo Würde wächst, bleibt Beziehung tragfähig, ohne dass Wahrheit geopfert werden muss.</p>
+          <h3>Bindung → Würde</h3>
+          <p>Beziehung hält Differenz aus, ohne in Bruch oder Nebel zu kippen.</p>
         </div>
         <div class="axis-card">
-          <h3>Freiheit</h3>
-          <p>Wo Freiheit wächst, bleiben echte Bewegung, Ausdruck und Kurskorrektur offen.</p>
+          <h3>Handlungsfreiheit → Freiheit</h3>
+          <p>Echte Fortsetzung entsteht statt Zwang, Tunnel oder Erstarrung.</p>
         </div>
       </div>
 
       <p class="display-statement wide">
-        Tragfähige Ordnung
-        zeigt sich dort am deutlichsten,
-        wo Klarheit, Würde und Freiheit
-        gemeinsam wachsen.
+        Vielleicht zeigt sich Richtung genau dort,
+        wo Wirklichkeit Ordnungen hervorbringt,
+        die mehr Kohärenz,
+        mehr tragfähige Bindung
+        und mehr offene Freiheit tragen können.
       </p>
     </div>
   </section>
