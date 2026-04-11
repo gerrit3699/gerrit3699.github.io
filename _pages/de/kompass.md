@@ -219,8 +219,7 @@ translation_url_en: /en/compass/
 
       <div class="body-copy">
         <p>
-          Diese Seite berührt eine der ältesten offenen Fragen überhaupt:
-          ob Wirklichkeit im Letzten bloß geschieht
+          Ob Wirklichkeit im Letzten bloß geschieht
           oder ob sie eine innere Richtung trägt.
         </p>
 
