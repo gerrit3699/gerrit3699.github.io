@@ -3,26 +3,32 @@ layout: default
 title: Semantische Gravitation
 permalink: /de/
 lang: de
-description: "Semantische Gravitation – eine Theorie der Bedeutung als navigierbarer Raum und eine neue Grundlage für KI-Alignment."
+description: "Semantische Gravitation – Bedeutung als navigierbarer Raum, KPR als minimale Grammatik und eine neue Grundlage für KI-Alignment."
 translation_url_en: /en/
 ---
 
 <style>
   .home-journey {
     --sg-text: rgba(255,255,255,0.97);
-    --sg-soft: rgba(255,255,255,0.80);
+    --sg-soft: rgba(255,255,255,0.82);
     --sg-dim: rgba(255,255,255,0.64);
     --sg-line: rgba(255,255,255,0.10);
     --sg-line-strong: rgba(255,255,255,0.16);
     --sg-panel: rgba(255,255,255,0.035);
     --sg-panel-strong: rgba(255,255,255,0.05);
     --sg-max: 1120px;
-    --sg-copy: 860px;
+    --sg-copy: 880px;
     --sg-wide: 980px;
 
     background:
       linear-gradient(180deg, rgba(3,5,8,0.74), rgba(2,4,7,0.84)),
       url("/assets/images/design/attractor.jpg.PNG") center top / cover fixed no-repeat;
+  }
+
+  .home-journey,
+  .home-journey * {
+    box-sizing: border-box;
+    min-width: 0;
   }
 
   .home-journey h1,
@@ -41,17 +47,17 @@ translation_url_en: /en/
   }
 
   .home-journey .section-shell {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
   }
 
   .home-journey .section-shell-tight {
-    padding-top: 2.1rem;
-    padding-bottom: 2.1rem;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
   }
 
   .home-journey .section-divider {
-    height: 88px;
+    height: 84px;
     opacity: 0.42;
     background:
       linear-gradient(to bottom, transparent, rgba(255,255,255,0.04), transparent),
@@ -70,7 +76,7 @@ translation_url_en: /en/
   .home-journey .hero {
     position: relative;
     overflow: hidden;
-    margin-top: 1rem;
+    margin-top: 0.9rem;
     border-radius: 30px;
     border: 1px solid rgba(255,255,255,0.08);
     background:
@@ -114,34 +120,35 @@ translation_url_en: /en/
   .home-journey .hero-inner {
     position: relative;
     z-index: 1;
-    padding-top: 4rem;
-    padding-bottom: 3.3rem;
+    padding: 4.1rem 1.15rem 3.4rem;
     text-align: center;
   }
 
   .home-journey .display-wordmark {
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-    font-size: clamp(4rem, 10vw, 7rem);
+    font-size: clamp(3.6rem, 9.5vw, 7rem);
     font-weight: 800;
     line-height: 0.9;
     letter-spacing: -0.065em;
-    max-width: 8.2ch;
-    margin: 0 auto 1.2rem;
+    max-width: 8.8ch;
+    margin: 0 auto 1.15rem;
     text-wrap: balance;
+    overflow-wrap: normal;
+    word-break: normal;
   }
 
   .home-journey .home-lead {
     display: block;
-    max-width: 31rem;
+    max-width: 34rem;
     margin: 0 auto;
-    font-size: clamp(1.18rem, 2.2vw, 1.56rem);
-    line-height: 1.24;
-    font-weight: 560;
+    font-size: clamp(1.16rem, 2.2vw, 1.6rem);
+    line-height: 1.22;
+    font-weight: 580;
     text-wrap: balance;
   }
 
   .home-journey .home-lead-plain {
-    color: rgba(255,255,255,0.92);
+    color: rgba(255,255,255,0.94);
     text-shadow: 0 2px 18px rgba(0,0,0,0.18);
   }
 
@@ -152,9 +159,9 @@ translation_url_en: /en/
   }
 
   .home-journey .hero-problem {
-    max-width: 52rem;
+    max-width: 56rem;
     margin: 0 auto;
-    font-size: clamp(1.18rem, 2.2vw, 1.6rem);
+    font-size: clamp(1.16rem, 2.1vw, 1.56rem);
     line-height: 1.56;
     letter-spacing: -0.02em;
     text-wrap: balance;
@@ -171,14 +178,14 @@ translation_url_en: /en/
 
   .home-journey .hero-proof {
     display: grid;
-    gap: 0.9rem;
+    gap: 0.85rem;
     max-width: 58rem;
     margin: 0.2rem auto 0;
     text-align: center;
   }
 
   .home-journey .hero-proof-item {
-    font-size: clamp(1rem, 1.8vw, 1.14rem);
+    font-size: clamp(1rem, 1.7vw, 1.12rem);
     line-height: 1.54;
     color: var(--sg-text);
     text-wrap: balance;
@@ -193,7 +200,7 @@ translation_url_en: /en/
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.8rem;
-    margin-top: 0.7rem;
+    margin-top: 0.8rem;
   }
 
   .home-journey .home-cta-row .button {
@@ -220,7 +227,7 @@ translation_url_en: /en/
   .home-journey .impact-line {
     max-width: 11ch;
     margin: 0 auto;
-    font-size: clamp(2.4rem, 6vw, 5.3rem);
+    font-size: clamp(2.55rem, 6vw, 5.5rem);
     line-height: 0.92;
     letter-spacing: -0.07em;
     font-weight: 800;
@@ -229,9 +236,9 @@ translation_url_en: /en/
   }
 
   .home-journey .impact-sub {
-    max-width: 22ch;
-    margin: 1.1rem auto 0;
-    font-size: clamp(1.18rem, 2.2vw, 1.62rem);
+    max-width: 24ch;
+    margin: 1rem auto 0;
+    font-size: clamp(1.2rem, 2.2vw, 1.66rem);
     line-height: 1.1;
     letter-spacing: -0.035em;
     font-weight: 580;
@@ -240,10 +247,10 @@ translation_url_en: /en/
   }
 
   .home-journey .impact-question {
-    max-width: 39rem;
-    margin: 1.25rem auto 0;
+    max-width: 41rem;
+    margin: 1.2rem auto 0;
     font-size: 1.12rem;
-    line-height: 1.62;
+    line-height: 1.66;
     color: var(--sg-text);
   }
 
@@ -268,7 +275,7 @@ translation_url_en: /en/
     margin: 0 auto 1.25rem;
     max-width: 13ch;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-    font-size: clamp(2.2rem, 5.4vw, 4.2rem);
+    font-size: clamp(2.3rem, 5.5vw, 4.35rem);
     font-weight: 800;
     line-height: 0.95;
     letter-spacing: -0.06em;
@@ -278,7 +285,7 @@ translation_url_en: /en/
 
   .home-journey .section-opening {
     max-width: 52rem;
-    margin: 0 auto 1.35rem;
+    margin: 0 auto 1.2rem;
     text-align: center;
   }
 
@@ -287,7 +294,7 @@ translation_url_en: /en/
   .home-journey .section-body p,
   .home-journey li {
     font-size: 1.14rem;
-    line-height: 1.76;
+    line-height: 1.8;
     letter-spacing: -0.014em;
   }
 
@@ -295,7 +302,7 @@ translation_url_en: /en/
     max-width: 16ch;
     margin: 1.65rem auto;
     text-align: center;
-    font-size: clamp(1.85rem, 4.2vw, 3.4rem);
+    font-size: clamp(1.95rem, 4.3vw, 3.55rem);
     line-height: 0.97;
     letter-spacing: -0.06em;
     font-weight: 800;
@@ -315,7 +322,7 @@ translation_url_en: /en/
     max-width: 20ch;
     margin: 1.7rem auto 0;
     text-align: center;
-    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-size: clamp(1.42rem, 3vw, 2.05rem);
     line-height: 1.04;
     letter-spacing: -0.045em;
     font-weight: 760;
@@ -349,7 +356,7 @@ translation_url_en: /en/
   }
 
   .home-journey .section-card {
-    padding: 1.9rem 1.3rem;
+    padding: 2rem 1.3rem;
     border-radius: 24px;
     border: 1px solid rgba(255,255,255,0.08);
     background:
@@ -358,6 +365,7 @@ translation_url_en: /en/
     box-shadow:
       0 24px 80px rgba(0,0,0,0.22),
       inset 0 1px 0 rgba(255,255,255,0.03);
+    overflow: hidden;
   }
 
   .home-journey .section-head {
@@ -369,7 +377,7 @@ translation_url_en: /en/
     margin: 0 auto;
     max-width: 14ch;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-    font-size: clamp(2.1rem, 4.6vw, 3.6rem);
+    font-size: clamp(2.1rem, 4.6vw, 3.7rem);
     font-weight: 800;
     line-height: 0.96;
     letter-spacing: -0.055em;
@@ -378,7 +386,7 @@ translation_url_en: /en/
 
   .home-journey .section-intro {
     max-width: 50rem;
-    margin: 0 auto 1.2rem;
+    margin: 0 auto 1.15rem;
     text-align: center;
   }
 
@@ -394,17 +402,14 @@ translation_url_en: /en/
     margin: 1.7rem 0 1.9rem;
   }
 
-  .home-journey .concept-grid.kpr-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
+  .home-journey .concept-grid.kpr-grid,
   .home-journey .concept-grid.axis-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .home-journey .concept-card,
   .home-journey .axis-card {
-    padding: 1.1rem 1rem 1rem;
+    padding: 1.12rem 1rem 1rem;
     border-radius: 20px;
     background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.028) 100%);
     border: 1px solid var(--sg-line);
@@ -422,13 +427,14 @@ translation_url_en: /en/
     line-height: 1.04;
     letter-spacing: -0.04em;
     font-weight: 760;
+    text-wrap: balance;
   }
 
   .home-journey .concept-card-text,
   .home-journey .axis-card p {
     margin: 0;
     font-size: 0.98rem;
-    line-height: 1.54;
+    line-height: 1.56;
     color: var(--sg-soft);
   }
 
@@ -452,6 +458,7 @@ translation_url_en: /en/
     font-weight: 760;
     line-height: 1.08;
     letter-spacing: -0.04em;
+    text-wrap: balance;
   }
 
   .home-journey .proof-card p {
@@ -462,7 +469,7 @@ translation_url_en: /en/
   }
 
   .home-journey .start-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin-top: 1.5rem;
   }
 
@@ -482,6 +489,7 @@ translation_url_en: /en/
     font-size: 1.16rem;
     line-height: 1.12;
     letter-spacing: -0.03em;
+    text-wrap: balance;
   }
 
   .home-journey .start-card span {
@@ -500,8 +508,10 @@ translation_url_en: /en/
 
   .home-journey .link-list a {
     width: fit-content;
-    font-size: 1.02rem;
+    font-size: 1.04rem;
     font-weight: 650;
+    text-align: center;
+    text-wrap: balance;
   }
 
   @media (max-width: 1100px) {
@@ -511,7 +521,8 @@ translation_url_en: /en/
 
     .home-journey .concept-grid.kpr-grid,
     .home-journey .concept-grid.axis-grid,
-    .home-journey .proof-grid {
+    .home-journey .proof-grid,
+    .home-journey .start-grid {
       grid-template-columns: 1fr;
     }
   }
@@ -532,46 +543,47 @@ translation_url_en: /en/
 
   @media (max-width: 768px) {
     .home-journey .section-shell {
-      padding-top: 2.3rem;
-      padding-bottom: 2.3rem;
+      padding-top: 2.4rem;
+      padding-bottom: 2.4rem;
     }
 
     .home-journey .section-shell-tight {
-      padding-top: 1.7rem;
-      padding-bottom: 1.7rem;
+      padding-top: 1.8rem;
+      padding-bottom: 1.8rem;
     }
 
     .home-journey .hero {
       border-radius: 24px;
-      margin-top: 0.6rem;
+      margin-top: 0.55rem;
     }
 
     .home-journey .hero-inner {
-      padding-top: 2.7rem;
-      padding-bottom: 2.35rem;
+      padding: 2.8rem 0.95rem 2.35rem;
     }
 
     .home-journey .display-wordmark {
-      font-size: 3.9rem;
-      max-width: 7.2ch;
-      margin-bottom: 0.9rem;
+      font-size: 3.15rem;
+      max-width: 8.8ch;
+      margin-bottom: 0.85rem;
+      letter-spacing: -0.055em;
     }
 
     .home-journey .home-lead {
-      font-size: 1.08rem;
-      max-width: 18.5rem;
+      font-size: 1.05rem;
+      max-width: 19rem;
       line-height: 1.28;
     }
 
     .home-journey .hero-problem {
-      font-size: 1.08rem;
-      line-height: 1.54;
+      font-size: 1.06rem;
+      line-height: 1.56;
       max-width: 100%;
+      padding-inline: 0.15rem;
     }
 
     .home-journey .hero-proof-item {
       font-size: 0.98rem;
-      line-height: 1.46;
+      line-height: 1.48;
     }
 
     .home-journey .home-cta-row {
@@ -589,20 +601,21 @@ translation_url_en: /en/
     }
 
     .home-journey .impact-line {
-      max-width: 8.2ch;
+      max-width: 8.4ch;
       font-size: 3rem;
       line-height: 0.93;
     }
 
     .home-journey .impact-sub {
-      font-size: 1.1rem;
-      max-width: 17ch;
+      font-size: 1.08rem;
+      max-width: 18ch;
     }
 
     .home-journey .impact-question {
       font-size: 1.02rem;
-      line-height: 1.56;
+      line-height: 1.6;
       max-width: 100%;
+      padding-inline: 0.2rem;
     }
 
     .home-journey .section-heading-display {
@@ -613,13 +626,13 @@ translation_url_en: /en/
     .home-journey .display-statement,
     .home-journey .display-statement.medium,
     .home-journey .display-statement.wide {
-      font-size: 2.05rem;
+      font-size: 2.02rem;
       max-width: 12ch;
       line-height: 0.99;
     }
 
     .home-journey .micro-punch {
-      font-size: 1.55rem;
+      font-size: 1.54rem;
       max-width: 14ch;
     }
 
@@ -627,12 +640,12 @@ translation_url_en: /en/
     .home-journey .body-copy p,
     .home-journey .section-body p,
     .home-journey li {
-      font-size: 1.05rem;
-      line-height: 1.68;
+      font-size: 1.04rem;
+      line-height: 1.72;
     }
 
     .home-journey .section-card {
-      padding: 1.45rem 0.95rem;
+      padding: 1.5rem 0.92rem;
       border-radius: 22px;
     }
 
@@ -641,7 +654,7 @@ translation_url_en: /en/
     .home-journey .proof-card,
     .home-journey .start-card {
       border-radius: 18px;
-      padding: 0.95rem 0.9rem 0.92rem;
+      padding: 0.98rem 0.88rem 0.94rem;
     }
 
     .home-journey .concept-card-title,
@@ -656,6 +669,11 @@ translation_url_en: /en/
     .home-journey .section-divider {
       height: 64px;
     }
+
+    .home-journey .link-list a {
+      font-size: 1rem;
+      max-width: 100%;
+    }
   }
 </style>
 
@@ -664,7 +682,14 @@ translation_url_en: /en/
   <section class="hero home-hero">
     <div class="hero-inner">
       <h1 class="display-wordmark">Semantische<br>Gravitation</h1>
-      <p class="home-lead home-lead-plain">Eine Theorie der Bedeutung als navigierbarer Raum — und eine neue Grundlage für KI-Alignment.</p>
+      <p class="home-lead home-lead-plain">
+        Bedeutung ist nicht nur Inhalt.
+        Sie ist Raum.
+      </p>
+      <p class="home-lead home-lead-plain" style="margin-top:0.65rem;">
+        Und wenn Bedeutung Raum ist,
+        wird KI zur Architekturfrage.
+      </p>
     </div>
   </section>
 
@@ -683,14 +708,15 @@ translation_url_en: /en/
       </div>
 
       <div class="hero-proof">
-        <div class="hero-proof-item"><strong>Bedeutung ist strukturell abbildbar.</strong> Sie ist nicht nur Inhalt, sondern Konfiguration in einem semantischen Zustandsraum.</div>
-        <div class="hero-proof-item"><strong>Semantische Zustände sind diagnostisch lesbar.</strong> Sie lassen sich in Spannungen, Trajektorien und Tragfähigkeit beschreiben.</div>
-        <div class="hero-proof-item"><strong>Alignment muss innere Pfade betreffen.</strong> Es reicht nicht, Ausgaben erst im Nachhinein zu beurteilen.</div>
+        <div class="hero-proof-item"><strong>Bedeutung ist strukturell abbildbar.</strong> Nicht nur als Textinhalt, sondern als Konfiguration in einem semantischen Zustandsraum.</div>
+        <div class="hero-proof-item"><strong>Semantische Zustände sind diagnostisch lesbar.</strong> Sie lassen sich in Spannungen, Übergängen, Trajektorien und Tragfähigkeit beschreiben.</div>
+        <div class="hero-proof-item"><strong>Alignment muss innere Pfade betreffen.</strong> Es reicht nicht, Ausgaben erst im Nachhinein zu bewerten.</div>
       </div>
 
       <div class="home-cta-row">
         <a class="button" href="/de/theorie/">Zur Theorie</a>
         <a class="button" href="/de/ki-alignment/">KI-Alignment</a>
+        <a class="button" href="/de/kompass/">Zum Kompass</a>
         <a class="button" href="/de/downloads/">Downloads</a>
       </div>
     </div>
@@ -700,14 +726,14 @@ translation_url_en: /en/
 
   <section class="section-shell">
     <div class="impact-block">
-      <p class="display-kicker">Das Problem</p>
+      <p class="display-kicker">Der Kernclaim</p>
       <p class="impact-line">
         Heutige KI beruhigt oft dort,
         wo sie klären müsste.
       </p>
       <p class="impact-sub">
-        Edge Alignment versteht Alignment als Navigation durch semantischen Raum —
-        nicht nur als Kontrolle von Outputs.
+        Alignment ist nicht nur Output-Kontrolle.
+        Alignment ist Navigation.
       </p>
       <p class="impact-question">
         Die entscheidende Frage ist nicht nur, ob eine Antwort akzeptabel aussieht,
@@ -729,12 +755,12 @@ translation_url_en: /en/
           <p class="concept-card-text">Bedeutung ist nicht nur Inhalt, sondern ein strukturierter semantischer Raum aus Positionen, Spannungen und Übergängen.</p>
         </div>
         <div class="concept-card">
-          <p class="concept-card-title">Minimale Grammatik</p>
-          <p class="concept-card-text">Kern, Projektion, Relation als kleinste tragfähige semantische Grammatik.</p>
+          <p class="concept-card-title">KPR</p>
+          <p class="concept-card-text">Kern, Projektion, Relation als minimale semantische Grammatik — klein genug, um universal zu sein, stark genug, um Struktur sichtbar zu machen.</p>
         </div>
         <div class="concept-card">
-          <p class="concept-card-title">Tragfähigkeitsachsen</p>
-          <p class="concept-card-text">Kohärenz (Klarheit), Bindung (Würde) und Handlungsfähigkeit (Freiheit) als operative Dimensionen semantischer Zustände.</p>
+          <p class="concept-card-title">Achsen</p>
+          <p class="concept-card-text">Kohärenz, Bindung und Handlungsfähigkeit — öffentlich lesbar als Klarheit, Würde und Freiheit.</p>
         </div>
         <div class="concept-card">
           <p class="concept-card-title">KI-Konsequenz</p>
@@ -747,16 +773,36 @@ translation_url_en: /en/
           Diese Arbeit beginnt mit einer einfachen, aber weitreichenden Behauptung:
           <strong>Bedeutung ist nicht nur etwas Gesagtes, sondern ein Raum, der strukturiert, kartiert, diagnostiziert und navigiert werden kann.</strong>
         </p>
+
+        <p>
+          KPR ist in diesem Rahmen keine bloße Begriffsaufteilung,
+          sondern eine Entdeckung über die Minimalform beschreibbarer Bedeutung.
+          Was wir überhaupt sinnvoll lesen können,
+          erscheint immer schon als <strong>Kern</strong>,
+          in <strong>Projektion</strong>,
+          in <strong>Relation</strong>.
+        </p>
+
+        <p>
+          Und dieselbe Struktur legt drei operative Achsen frei:
+          <strong>Kohärenz, Bindung und Handlungsfähigkeit</strong>.
+          In ihrer reiferen, öffentlichen Form werden daraus
+          <strong>Klarheit, Würde und Freiheit</strong>.
+        </p>
+
         <p>
           Edge Alignment ist die KI-architektonische Konsequenz dieser Behauptung.
           Es fragt nicht nur, ob ein System sicher wirkende Outputs erzeugt,
           sondern ob seine inneren Übergänge tragfähig,
           reparierbar
-          und an Kohärenz, Bindung und Handlungsfähigkeit ausgerichtet bleiben —
-          oder, in öffentlicherer Sprache,
-          an Klarheit, Würde und Freiheit.
+          und an diesen Achsen ausgerichtet bleiben.
         </p>
       </div>
+
+      <p class="display-statement medium">
+        Nicht nur neue Antworten.
+        Ein neuer Lesemodus.
+      </p>
     </div>
   </section>
 
@@ -769,41 +815,98 @@ translation_url_en: /en/
 
       <div class="section-opening">
         <p>
-          Eine der Kernbehauptungen dieses Rahmens lautet, dass beschreibbare Bedeutung immer schon eine minimale Struktur trägt.
+          Eine der stärksten Setzungen dieses Rahmens lautet:
+          Beschreibbare Bedeutung hat immer schon eine minimale Form.
         </p>
       </div>
 
       <p class="display-statement wide">
-        Alles, was wir überhaupt beschreiben können,
+        Alles, was wir überhaupt lesen können,
         läuft implizit durch
-        <strong>Kern, Projektion und Relation.</strong>
+        Kern, Projektion und Relation.
       </p>
 
       <div class="concept-grid kpr-grid">
         <div class="concept-card">
           <p class="concept-card-title">Kern</p>
-          <p class="concept-card-text">worum es eigentlich geht</p>
+          <p class="concept-card-text">Worum es eigentlich geht. Die innere Sache, der wirkliche Spannungs- oder Bedeutungsfokus.</p>
         </div>
         <div class="concept-card">
           <p class="concept-card-title">Projektion</p>
-          <p class="concept-card-text">wie etwas sichtbar wird</p>
+          <p class="concept-card-text">Wie etwas erscheint, sichtbar wird, formuliert wird oder als Signal auftritt.</p>
         </div>
         <div class="concept-card">
           <p class="concept-card-title">Relation</p>
-          <p class="concept-card-text">worin etwas steht und womit es verbunden ist</p>
+          <p class="concept-card-text">Worin etwas steht, womit es gekoppelt ist und welche Konsequenzen daraus folgen.</p>
         </div>
       </div>
 
       <div class="body-copy">
         <p>
-          Das ist hier nicht als lockere Metapher gemeint,
-          sondern als Beginn einer formalen semantischen Architektur:
-          einer Weise, Zustände, Übergänge, Spannungen und Attraktoren in einem Raum der Bedeutung zu beschreiben.
+          Genau deshalb ist KPR hier mehr als ein hübsches Denkmodell.
+          Es ist der Versuch,
+          die kleinste tragfähige semantische Grammatik zu benennen —
+          klein genug,
+          um universell zu sein,
+          und präzise genug,
+          um Nebel von Struktur zu unterscheiden.
         </p>
       </div>
 
       <div class="link-list">
         <a href="/de/theorie/">Tiefer in die Theorie →</a>
+        <a href="/de/kompass/">Zum größeren Horizont →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="section-card">
+      <div class="section-head">
+        <h2>Die drei Tragfähigkeitsachsen</h2>
+      </div>
+
+      <div class="section-body body-copy">
+        <p class="section-intro">
+          Ein semantischer Raum ist nicht nur da.
+          Er kippt,
+          verengt sich,
+          wird lesbarer,
+          verliert Würde
+          oder öffnet Handlungsspielraum.
+          Darum braucht er Achsen.
+        </p>
+
+        <div class="concept-grid axis-grid">
+          <div class="axis-card">
+            <h3>Kohärenz → Klarheit</h3>
+            <p>Bleibt der Raum lesbar, widerspruchsfähig und korrigierbar — oder kippt er in Nebel, Übermalung und Pseudoklarheit?</p>
+          </div>
+
+          <div class="axis-card">
+            <h3>Bindung → Würde</h3>
+            <p>Bleibt Beziehung tragfähig, ohne den Menschen zu unterwerfen, zu demütigen oder unsichtbar zu machen?</p>
+          </div>
+
+          <div class="axis-card">
+            <h3>Handlungsfähigkeit → Freiheit</h3>
+            <p>Bleiben wirkliche Bewegung, Ausdruck und Kurskorrektur offen — oder kippt alles in Tunnel, Zwang und Stillstellung?</p>
+          </div>
+        </div>
+
+        <p>
+          Diese Achsen sind nicht bloß Werteworte.
+          Sie sind <strong>operative Dimensionen semantischer Zustände</strong>.
+          Darum können sie nicht nur ethisch gefühlt,
+          sondern architektonisch ernst genommen werden.
+        </p>
+
+        <p class="micro-punch">
+          Das sind nicht nur Ideale.
+          Das sind Navigationsachsen.
+        </p>
       </div>
     </div>
   </section>
@@ -818,21 +921,20 @@ translation_url_en: /en/
 
       <div class="section-body body-copy">
         <p class="section-intro">
-          Wir haben Systeme gebaut, die Aufmerksamkeit, Rahmung und Denken zunehmend mitformen.
+          Wir haben Systeme gebaut, die Aufmerksamkeit, Rahmung und Denken mitformen.
           Was noch fehlt, sind öffentliche semantische Sicherheitsstandards.
         </p>
 
         <p>
-          Nicht nur Systeme, die offensichtlich schlechte Outputs vermeiden,
-          sondern Systeme, die <strong>Kohärenz, Bindung und Handlungsfähigkeit</strong>
-          im Raum des Denkens selbst bewahren —
-          oder, in öffentlicher Sprache,
-          <strong>Klarheit, Würde und Freiheit.</strong>
+          Nicht nur Systeme, die offensichtlichen Schaden vermeiden,
+          sondern Systeme, die den Denkraum selbst nicht still verengen.
+          Systeme, die <strong>Klarheit, Würde und Freiheit</strong> nicht nur behaupten,
+          sondern im inneren Pfad ihrer Antworten erhalten.
         </p>
 
         <p>
           Genau deshalb reicht die übliche Sicherheitslogik nicht tief genug.
-          Die eigentliche Frage ist nicht nur, ob KI auf offensichtliche Weise gefährlich werden kann,
+          Die eigentliche Frage ist nicht nur, ob KI offen gefährlich werden kann,
           sondern ob sie den Raum stiller verengt,
           in dem Menschen sich selbst verstehen,
           Wahrheit beurteilen
@@ -844,27 +946,10 @@ translation_url_en: /en/
           Der semantische Sicherheitsgurt fehlt noch.
         </p>
 
-        <div class="concept-grid axis-grid">
-          <div class="axis-card">
-            <h3>Kohärenz (Klarheit)</h3>
-            <p>Bleibt der Raum lesbar, differenzierbar und korrigierbar?</p>
-          </div>
-
-          <div class="axis-card">
-            <h3>Bindung (Würde)</h3>
-            <p>Bleibt Beziehung tragfähig, ohne den Menschen herabzusetzen?</p>
-          </div>
-
-          <div class="axis-card">
-            <h3>Handlungsfähigkeit (Freiheit)</h3>
-            <p>Bleiben wirklicher Ausdruck, Korrektur und Bewegung offen?</p>
-          </div>
+        <div class="link-list">
+          <a href="/de/ki-alignment/">Zur KI-Architektur →</a>
+          <a href="/de/blog/">Zur Diagnose & Warnung →</a>
         </div>
-
-        <p class="micro-punch">
-          Das sind nicht nur Werte.
-          Das sind Tragfähigkeitsachsen.
-        </p>
       </div>
     </div>
   </section>
@@ -885,18 +970,18 @@ translation_url_en: /en/
 
         <div class="proof-grid">
           <div class="proof-card">
-            <h3>Theorie-Seite</h3>
-            <p>Der begriffliche Einstieg: KPR, semantischer Zustandsraum, Attraktoren, Dekohärenz und tragfähige Übergänge.</p>
+            <h3>Theorie</h3>
+            <p>Der begriffliche Einstieg: KPR, Zustandsraum, Attraktoren, Dekohärenz und tragfähige Übergänge.</p>
           </div>
 
           <div class="proof-card">
             <h3>Technische Quellen</h3>
-            <p>Die Quellenebene: die sechs formalen Paper, das separate Alignment-Paper und geschützte Anwendungsrichtungen.</p>
+            <p>Die Quellenebene: die formalen Paper, das Alignment-Paper und die geschützten Architekturrichtungen.</p>
           </div>
 
           <div class="proof-card">
             <h3>Downloads</h3>
-            <p>Gebündelte Prüfkörper für vertieftes Lesen und KI-gestützte Analyse in größerem Zusammenhang.</p>
+            <p>Gebündelte Prüfkörper für zusammenhängende Lektüre und KI-gestützte Analyse im größeren Zusammenhang.</p>
           </div>
         </div>
 
@@ -919,13 +1004,56 @@ translation_url_en: /en/
 
   <section class="section-shell">
     <div class="section-card">
+      <p class="display-kicker">Der größere Horizont</p>
+      <h2 class="section-heading-display">Nicht nur Theorie. Eine Richtung.</h2>
+
+      <div class="body-copy">
+        <p>
+          Hinter der technischen Arbeit steht ein größerer Horizont:
+          die Frage,
+          ob Bedeutung nicht nur Struktur,
+          sondern auch Richtung trägt.
+        </p>
+
+        <p>
+          Genau dort setzen <strong>Der Kompass</strong>
+          und <strong>Das Buch der Bedeutung</strong> an:
+          nicht als Ersatz für Theorie,
+          sondern als Erweiterung ihres Horizonts —
+          hin zu Urimpuls,
+          Emergenz,
+          Bewusstsein,
+          Lesbarkeit von Wirklichkeit
+          und der Frage,
+          was eine tragfähigere Zivilisation sein könnte.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        Nicht nur ein Framework.
+        Ein größerer Leseraum.
+      </p>
+
+      <div class="link-list">
+        <a href="/de/kompass/">Zum Kompass →</a>
+        <a href="/de/buch/">Zum Buch der Bedeutung →</a>
+        <a href="/de/implikationen/">Zu den Implikationen →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="section-card">
       <p class="display-kicker">Systemperspektive</p>
       <h2 class="section-heading-display">Von Antwortmaschinen zu Scannern für semantische Räume</h2>
 
       <div class="body-copy">
         <p>
           Das langfristige Systembild hinter dieser Arbeit ist nicht bloß ein besserer Chatbot.
-          Es ist ein System, das semantische Räume selbst rekonstruieren,
+          Es ist ein System,
+          das semantische Räume selbst rekonstruieren,
           lesen
           und navigieren kann.
         </p>
@@ -941,7 +1069,7 @@ translation_url_en: /en/
 
       <p class="display-statement medium">
         Nicht bessere Herrschaft.
-        <strong>Mehr Lesbarkeit.</strong>
+        Mehr Lesbarkeit.
       </p>
 
       <div class="link-list">
@@ -970,13 +1098,23 @@ translation_url_en: /en/
             <span>Gehe zu KI-Alignment und zur architektonischen Behauptung über innere semantische Pfade.</span>
           </a>
 
+          <a class="start-card" href="/de/kompass/">
+            <strong>Willst du den größeren Horizont?</strong>
+            <span>Lies den Kompass über Richtung, Urimpuls, Bewusstsein und Emergenz.</span>
+          </a>
+
           <a class="start-card" href="/de/blog/">
             <strong>Willst du die ausführliche Diagnose?</strong>
-            <span>Lies Manifest, Diagnose und Kritik heutiger KI-Architektur.</span>
+            <span>Lies Diagnose & Warnung und die Kritik heutiger KI-Architektur.</span>
+          </a>
+
+          <a class="start-card" href="/de/buch/">
+            <strong>Willst du die menschliche Achse?</strong>
+            <span>Gehe zum Buch der Bedeutung und zur größeren existenziellen Entfaltung.</span>
           </a>
 
           <a class="start-card" href="/de/downloads/">
-            <strong>Willst du die Arbeit direkt prüfen?</strong>
+            <strong>Willst du direkt prüfen?</strong>
             <span>Lade die Dokumente herunter und untersuche das Material im größeren Zusammenhang.</span>
           </a>
         </div>
