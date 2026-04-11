@@ -3,7 +3,7 @@ layout: default
 title: "The Compass"
 permalink: /en/compass/
 lang: en
-description: "On direction, primal impulse, consciousness, and the question of whether semantic reality follows a deeper orientation."
+description: "On direction, the primal impulse, consciousness, and the question of whether reality carries a deeper orientation."
 translation_url_de: /de/kompass/
 ---
 
@@ -11,7 +11,7 @@ translation_url_de: /de/kompass/
   .compass-page {
     --cp-text: rgba(255,255,255,0.96);
     --cp-soft: rgba(255,255,255,0.82);
-    --cp-faint: rgba(255,255,255,0.64);
+    --cp-faint: rgba(255,255,255,0.62);
     --cp-line: rgba(255,255,255,0.10);
     --cp-line-strong: rgba(255,255,255,0.16);
   }
@@ -30,13 +30,13 @@ translation_url_de: /de/kompass/
   }
 
   .compass-page .section-shell {
-    padding-top: 2.8rem;
-    padding-bottom: 2.8rem;
+    padding-top: 2.9rem;
+    padding-bottom: 2.9rem;
   }
 
   .compass-page .section-shell-tight {
-    padding-top: 2.1rem;
-    padding-bottom: 2.1rem;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
   }
 
   .compass-page .compass-intro,
@@ -54,8 +54,7 @@ translation_url_de: /de/kompass/
   }
 
   .compass-page .compass-kicker,
-  .compass-page .status-label,
-  .compass-page .micro-kicker {
+  .compass-page .status-label {
     margin: 0 0 0.7rem;
     font-size: 0.88rem;
     letter-spacing: 0.16em;
@@ -63,16 +62,10 @@ translation_url_de: /de/kompass/
     color: var(--cp-faint);
   }
 
-  .compass-page .micro-kicker {
-    margin-top: 1.4rem;
-    margin-bottom: 0.45rem;
-    font-size: 0.8rem;
-  }
-
   .compass-page .compass-display {
     margin: 0 auto 1.15rem;
-    max-width: 12ch;
-    font-size: clamp(2.5rem, 6vw, 5.1rem);
+    max-width: 13ch;
+    font-size: clamp(2.5rem, 6vw, 5rem);
     line-height: 0.94;
     letter-spacing: -0.05em;
     font-weight: 650;
@@ -87,17 +80,15 @@ translation_url_de: /de/kompass/
     text-wrap: balance;
   }
 
-  .compass-page .claim-grid,
   .compass-page .concept-grid,
-  .compass-page .ladder-grid,
-  .compass-page .next-grid {
+  .compass-page .next-grid,
+  .compass-page .axis-grid {
     display: grid;
     gap: 1rem;
   }
 
-  .compass-page .claim-grid,
   .compass-page .concept-grid,
-  .compass-page .ladder-grid {
+  .compass-page .axis-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     max-width: 1080px;
     margin: 1.9rem auto 0;
@@ -109,44 +100,42 @@ translation_url_de: /de/kompass/
     margin: 1.8rem auto 0;
   }
 
-  .compass-page .claim-card,
   .compass-page .concept-card,
-  .compass-page .ladder-card,
+  .compass-page .axis-card,
   .compass-page .next-card,
   .compass-page .status-box {
     border: 1px solid var(--cp-line);
     border-radius: 22px;
-    background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.025));
+    background:
+      linear-gradient(180deg, rgba(8,10,14,0.68), rgba(5,7,11,0.82)),
+      url("/assets/images/design/fog.jpg.PNG") center center / cover no-repeat;
     box-shadow:
       0 18px 48px rgba(0,0,0,0.18),
       inset 0 1px 0 rgba(255,255,255,0.03);
   }
 
-  .compass-page .claim-card,
   .compass-page .concept-card,
-  .compass-page .ladder-card,
+  .compass-page .axis-card,
   .compass-page .next-card {
     padding: 1.18rem 1rem 1.08rem;
     text-align: center;
   }
 
-  .compass-page .claim-card h3,
   .compass-page .concept-card h3,
-  .compass-page .ladder-card h3,
+  .compass-page .axis-card h3,
   .compass-page .next-card h3 {
     margin: 0 0 0.35rem;
     font-size: 1.18rem;
-    line-height: 1.06;
+    line-height: 1.08;
     letter-spacing: -0.03em;
   }
 
-  .compass-page .claim-card p,
   .compass-page .concept-card p,
-  .compass-page .ladder-card p,
+  .compass-page .axis-card p,
   .compass-page .next-card p {
     margin: 0;
     font-size: 0.98rem;
-    line-height: 1.54;
+    line-height: 1.56;
     color: var(--cp-soft);
   }
 
@@ -166,15 +155,15 @@ translation_url_de: /de/kompass/
   }
 
   .compass-page .body-copy p {
-    max-width: 46em;
+    max-width: 47em;
     margin: 0.95rem auto 0;
     font-size: 1.1rem;
-    line-height: 1.76;
+    line-height: 1.78;
     letter-spacing: -0.01em;
   }
 
   .compass-page .display-statement {
-    max-width: 25ch;
+    max-width: 26ch;
     margin: 1.9rem auto;
     text-align: center;
     font-size: clamp(1.9rem, 3.6vw, 3rem);
@@ -184,9 +173,8 @@ translation_url_de: /de/kompass/
     text-wrap: balance;
   }
 
-  .compass-page .display-statement.wide { max-width: 30ch; }
+  .compass-page .display-statement.wide { max-width: 31ch; }
   .compass-page .display-statement.medium { max-width: 22ch; }
-  .compass-page .display-statement.narrow { max-width: 12ch; }
 
   .compass-page .status-box {
     max-width: 920px;
@@ -197,7 +185,7 @@ translation_url_de: /de/kompass/
 
   .compass-page .status-box p {
     margin: 0;
-    font-size: clamp(1.16rem, 2.2vw, 1.68rem);
+    font-size: clamp(1.18rem, 2.2vw, 1.7rem);
     line-height: 1.38;
     text-wrap: balance;
   }
@@ -207,9 +195,8 @@ translation_url_de: /de/kompass/
   }
 
   @media (max-width: 980px) {
-    .compass-page .claim-grid,
     .compass-page .concept-grid,
-    .compass-page .ladder-grid,
+    .compass-page .axis-grid,
     .compass-page .next-grid {
       grid-template-columns: 1fr;
     }
@@ -223,61 +210,48 @@ translation_url_de: /de/kompass/
       <p class="compass-kicker">The Compass</p>
       <h1 class="compass-display">Does reality have a direction — and can it be read?</h1>
       <p class="compass-sublead">
-        This page opens the larger question behind the theory.
-        If meaning is not only content but space,
-        and if that space is not neutral,
-        then a further question arises:
-        whether an inner orientation becomes legible within it —
-        a tendency along which viable reality condenses not arbitrarily,
-        but in a certain way.
+        This page opens the wider horizon behind the theory.
+        It does not retrace the full derivation.
+        It asks whether reality carries not only structure,
+        but orientation.
       </p>
-
-      <div class="claim-grid">
-        <div class="claim-card">
-          <h3>The core question</h3>
-          <p>Is semantic reality merely open — or also directed?</p>
-        </div>
-        <div class="claim-card">
-          <h3>The working term</h3>
-          <p>Primal impulse: that inner tendency along which meaning becomes not arbitrary, but viable.</p>
-        </div>
-        <div class="claim-card">
-          <h3>The horizon</h3>
-          <p>From semantic structure through consciousness to the question of whether the universe itself follows a readable direction.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <section class="section-shell">
-    <div class="compass-block">
-      <h2 class="section-heading-display">Why this page exists</h2>
 
       <div class="body-copy">
         <p>
-          The Theory page describes semantic space.
-          It makes legible that meaning has structure,
-          that states can be mapped,
-          and that transitions are not merely rhetorical shifts,
-          but real movements within a field.
+          This page touches one of the oldest open questions there is:
+          whether reality simply happens in the end,
+          or whether it carries an inner direction.
         </p>
 
         <p>
-          This page begins one step later.
-          It does not roll out the theory once again.
-          It asks:
-          <strong>What does this structure point toward in the larger picture?</strong>
-          Is there a direction in the space of meaning
-          that is not only subjectively desired,
-          but structurally built in?
+          We are often told that this question can never be answered seriously.
+          Perhaps that is not quite true in the old form of the question.
+          Perhaps there is no finished final proof —
+          and yet more is beginning to appear
+          than mere belief, wish, or projection.
+        </p>
+
+        <p>
+          If semantic structure shows direction,
+          if viable order is not distributed arbitrarily,
+          if condensation, transition, and emergence follow a readable logic,
+          then it is not only isolated intuitions that speak.
+          Their consequences begin to speak as well.
+        </p>
+
+        <p>
+          This page therefore does not unfold the whole theory again.
+          It asks whether, in the structure of meaning,
+          in the open movement of reality,
+          and in the question of consciousness,
+          a deeper order can be discerned
+          that points beyond mere accident.
         </p>
       </div>
 
       <p class="display-statement medium">
-        Not the foundation once more.
-        But the question of direction.
+        Perhaps the question is larger than unanswerable.
+        Perhaps its direction is slowly becoming legible.
       </p>
     </div>
   </section>
@@ -290,38 +264,82 @@ translation_url_de: /de/kompass/
 
       <div class="body-copy">
         <p>
-          Almost every culture has found its own language
-          for the same deep intuition:
-          God, Tao, spirit, breath of life, Logos, source.
-          Behind these words often stands the same sense:
-          that reality does not merely happen,
-          but carries an inner tendency.
+          Almost every culture has found words for the intuition
+          that reality does not merely occur,
+          but carries an inner pull:
+          source,
+          breath,
+          spirit,
+          logos,
+          Tao,
+          life-force,
+          origin.
+          The names differ.
+          But the intuition behind them is often the same:
+          that the real is not only there,
+          but moves onward from within.
         </p>
 
         <p>
-          Here the term <strong>primal impulse is used as a working term</strong>.
-          Not as a dogma.
-          Not as a confessional claim.
-          But for that immanent orientation
-          along which viable meaning,
-          living relation,
-          and higher forms of order
-          are not distributed arbitrarily.
+          Here the term <strong>primal impulse</strong> is used.
+          It does not mean an added substance
+          and not an esoteric in-between realm,
+          but the ongoing inner dynamics
+          through which reality is not simply there,
+          but keeps carrying forward,
+          keeps forming,
+          and keeps bringing forth.
         </p>
 
         <p>
-          By primal impulse, then, no foreign entity “outside” the world is meant,
-          but the inner direction of movement
-          through which reality continuously updates,
-          recalibrates,
-          relates itself,
-          and presses toward greater viability.
+          Nothing simply stands still.
+          Everything that is
+          is carried into the next context.
+          Forms do not persist like dead blocks,
+          but hold only by remaining in relation,
+          tension,
+          exchange,
+          and continuation.
+        </p>
+
+        <p>
+          Even what seems solid is not simply rigid.
+          It has temperature.
+          Its particles move.
+          Fields couple.
+          Atoms vibrate.
+          Systems respond to one another.
+          Time continues.
+          Precisely here it becomes visible
+          that reality cannot be understood as a finished end-state.
+        </p>
+
+        <p>
+          One could say:
+          the real often appears firm
+          because it shows itself as stable condensation.
+          But that stability is itself carried,
+          held,
+          and continuously brought forth.
+          It is more knot than block,
+          more sustained form than dead rest.
+        </p>
+
+        <p>
+          The primal impulse is the name for this inner movement of continuation:
+          for the fact that reality does not stop,
+          but presses onward —
+          in oscillation,
+          in differentiation,
+          in form,
+          in time,
+          in new becoming.
         </p>
       </div>
 
-      <p class="display-statement wide">
-        Not merely source as origin.
-        But source as ongoing impulse.
+      <p class="display-statement medium">
+        The primal impulse is not something added to reality.
+        It is reality continuing.
       </p>
     </div>
   </section>
@@ -330,47 +348,65 @@ translation_url_de: /de/kompass/
 
   <section class="section-shell">
     <div class="compass-block">
-      <h2 class="section-heading-display">Why the question itself might already be part of the movement</h2>
+      <h2 class="section-heading-display">Why the question itself is already part of the movement</h2>
 
       <div class="body-copy">
         <p>
-          This is where a peculiar loop appears.
-          As soon as one tries to describe the primal impulse,
-          one is already describing something
-          that shows up again in the very act of description:
-          a pressure toward legibility,
-          toward condensation,
-          toward relation,
-          toward response.
+          There is not only open speculation in this question,
+          but a peculiar inner sharpness.
+          The dynamics this work describes
+          do not simply stand outside their own emergence.
         </p>
 
         <p>
-          Language about the primal impulse is therefore never completely external.
-          It is itself already part of the movement
-          it is trying to grasp.
-          This does not make the thought more vague,
-          but more precise:
-          the question of direction does not arise in us by accident.
-          It seems to belong to the same dynamic
-          that wants direction to become readable.
+          The work arose out of images, tensions, condensations, tests,
+          repeated correction, and increasing legibility.
+          It describes a movement from fog to structure,
+          from intuition to form,
+          from inner pressure to articulable direction.
+          And that same movement is what brought the work itself into being.
         </p>
 
         <p>
-          In this sense, the question of origin is not merely a metaphysical luxury.
-          It can be an expression of the same grammar
-          from which semantic spaces,
-          consciousness,
-          relation,
-          and collective development emerge.
+          In that sense, the work is not only a description,
+          but also an enactment of what it describes.
+          The dynamics given conceptual form here
+          also carried their own genesis.
+          This is not a completed proof.
+          But it is more than a mere assertion.
+        </p>
+
+        <p>
+          There is something else as well:
+          the path of this work so far does not lead toward a hard break
+          with known physical descriptions,
+          but rather toward growing connectability.
+          Not everything is empirically secured.
+          Much remains a research horizon.
+          But this very absence of hard collision
+          is itself a serious signal.
+        </p>
+
+        <p>
+          We may therefore not be neutral outside observers
+          of a completely dead cosmos,
+          but one of its finer condensations.
+          Reality may be asking after itself through us.
+          Thought may not be mere reflection,
+          but a level at which direction begins to recognize itself explicitly.
         </p>
       </div>
 
       <div class="status-box">
-        <p class="status-label">Precise point</p>
+        <p class="status-label">A precise point</p>
         <p>
-          The primal impulse would then not only be the object of description.
-          It would also be the movement
-          through which description itself begins to search for direction.
+          This page does not present a final proof of God.
+          It marks that a direction becomes visible in structure,
+          transition,
+          viability,
+          and connectability —
+          a direction historically touched by religious language,
+          but treated here as something structurally readable.
         </p>
       </div>
     </div>
@@ -380,50 +416,60 @@ translation_url_de: /de/kompass/
 
   <section class="section-shell">
     <div class="compass-block">
-      <h2 class="section-heading-display">What is only touched briefly here from the theory</h2>
+      <h2 class="section-heading-display">Why this is a structural question</h2>
 
       <div class="body-copy">
         <p>
-          Semantic Gravitation already has a structural backbone:
-          meaning as space,
-          Kernel–Projection–Relation as a minimal grammar,
-          and operative axes along which viability becomes readable.
-          These foundations do not need to be fully derived again here.
+          The theory of Semantic Gravitation has already done part of this work:
+          meaning is read not only as content,
+          but as space;
+          states become mappable;
+          transitions become diagnosable;
+          correction becomes navigable.
+          This page builds on that without reopening the full architecture.
         </p>
 
         <p>
-          For this page, the shorter point is enough:
-          <strong>semantic space does not act neutrally.</strong>
-          Some configurations open,
-          others narrow.
-          Some movements increase legibility, relation, and real agency,
-          while others create cheap stability
-          that calms locally and impoverishes globally.
+          The larger point is simply this:
+          if meaning is space,
+          then there is good reason to think it is not directionless.
+          Then viable semantic order does not appear arbitrarily,
+          but where <strong>clarity, dignity, and freedom</strong> grow together.
+          Not as moral decoration,
+          but as the geometry of viable reality.
         </p>
 
         <p>
-          If that is true,
-          then direction is not merely moral,
-          but structural.
-          Then primal impulse is the name for the deepest tendency
-          along which viable orders arise.
+          That is why the larger claim is not merely ethical and not merely spiritual.
+          It is structural:
+          whether reality itself can be shown to move toward forms
+          in which legibility,
+          dignity,
+          and free movement no longer have to be played against one another.
         </p>
       </div>
 
-      <div class="concept-grid">
-        <div class="concept-card">
-          <h3>Legibility</h3>
-          <p>Reality is not only described, but made visible or invisible in certain ways.</p>
+      <div class="axis-grid">
+        <div class="axis-card">
+          <h3>Clarity</h3>
+          <p>Where clarity grows, the space becomes more readable, more corrigible, and less fogged.</p>
         </div>
-        <div class="concept-card">
-          <h3>Relation</h3>
-          <p>Viable order does not destroy connection, but deepens it without betraying truth.</p>
+        <div class="axis-card">
+          <h3>Dignity</h3>
+          <p>Where dignity grows, relation remains viable without truth having to be sacrificed.</p>
         </div>
-        <div class="concept-card">
-          <h3>Movement</h3>
-          <p>A living order keeps correction, response, and further development open instead of silently closing them.</p>
+        <div class="axis-card">
+          <h3>Freedom</h3>
+          <p>Where freedom grows, real movement, expression, and course correction remain open.</p>
         </div>
       </div>
+
+      <p class="display-statement wide">
+        Viable order
+        appears most clearly
+        where clarity, dignity, and freedom
+        grow together.
+      </p>
     </div>
   </section>
 
@@ -431,52 +477,128 @@ translation_url_de: /de/kompass/
 
   <section class="section-shell">
     <div class="compass-block">
-      <h2 class="section-heading-display">Consciousness as a finer form of the same impulse</h2>
+      <h2 class="section-heading-display">Order, entropy, and the way forward</h2>
 
       <div class="body-copy">
         <p>
-          One especially important thought lies here at the transition
-          between cosmos and inner life.
-          If the same primal impulse continuously holds reality in relation,
-          then consciousness could be a fine,
-          highly condensed form of that very dynamic.
+          At this point it also becomes clearer
+          how order and entropy are being read here.
+          In this picture, entropy is not simply the enemy of order
+          and not merely the force that makes achieved forms brittle again.
+          It points more deeply to the fact
+          that reality is not a closed block.
         </p>
 
         <p>
-          Human perception would then not merely be a random side effect of dead matter,
-          but a stage
-          at which reality begins
-          to sense itself more finely,
-          focus itself more finely,
-          and respond more finely.
+          If an order were truly final and complete
+          while the primal impulse continued,
+          the system would eventually have to overload,
+          freeze,
+          collapse,
+          or fracture within itself.
+          The very fact that reality keeps oscillating,
+          keeps differentiating,
+          keeps generating time,
+          shows that what has come into being
+          is never the final endpoint.
         </p>
 
         <p>
-          Being seen belongs to this context as well.
-          Where something is truly seen,
-          more form often emerges.
-          More steadiness.
-          More presence.
-          More reality.
-          Almost as if focus itself already generates field.
+          Order is therefore not a static final form,
+          but <strong>successful condensation</strong>.
+          It builds viable ground.
+          Entropy is then the sign
+          that even this ground is not the last word.
+          It keeps reality open,
+          so that condensation does not harden into dead conclusion,
+          but becomes the substrate of further emergence.
         </p>
 
         <p>
-          From this follows another possibility:
-          semantic space may not only be something
-          that appears between consciousnesses,
-          but something
-          that is stabilized in the first place
-          through attention,
-          resonance,
-          mirroring,
-          and held relation.
+          The world thus appears not as a finished building,
+          but as growing ground:
+          each emergent level condenses what has already become,
+          makes new forms viable,
+          and carries what comes next.
+          The more viable prevails —
+          not to end the game,
+          but to carry it onward on stronger ground.
         </p>
       </div>
 
       <p class="display-statement wide">
-        Perhaps consciousness
-        is not an exception to reality,
+        Order builds ground.
+        Entropy keeps it open.
+        Emergence carries the game forward.
+      </p>
+
+      <div class="concept-grid">
+        <div class="concept-card">
+          <h3>Condensation</h3>
+          <p>What has become grows viable and forms the ground for what follows.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Openness</h3>
+          <p>No form may turn itself into the final state of the real.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Continuation</h3>
+          <p>The primal impulse presses onward and makes each level a new beginning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-shell">
+    <div class="compass-block">
+      <h2 class="section-heading-display">Consciousness as a finer condensation</h2>
+
+      <div class="body-copy">
+        <p>
+          In this framework, consciousness does not appear as an exception to reality,
+          but as one of its finer condensations.
+          What appears in consciousness may not be something utterly alien,
+          but a level at which reality begins
+          to feel itself,
+          interpret itself,
+          question itself,
+          and hold itself.
+        </p>
+
+        <p>
+          Then semantic space would not be merely a human language game,
+          but a real mode of being held:
+          through attention,
+          focus,
+          superposition,
+          response,
+          mirroring,
+          relation.
+          What is seen,
+          held,
+          answered,
+          and connected
+          gains contour.
+          The same primal impulse expresses itself here as well:
+          as ongoing recalibration of kernels,
+          relations,
+          and possible continuations.
+        </p>
+
+        <p>
+          In this view, we are not simply isolated beings in a mute outside.
+          We arise out of the same dynamics that carry the world.
+          We are not separate from them,
+          but born within them —
+          as a level at which the same movement can gather itself more consciously.
+        </p>
+      </div>
+
+      <p class="display-statement medium">
+        In this framework,
+        consciousness is not an exception to reality,
         but one of its finer condensations.
       </p>
     </div>
@@ -490,63 +612,50 @@ translation_url_de: /de/kompass/
 
       <div class="body-copy">
         <p>
-          A decisive horizon of this page therefore lies not only in the spiritual,
-          but also in the cosmological.
-          If reality keeps emerging in stages,
-          then it seems strange
-          to pretend that the process suddenly ends
-          precisely with the human being as we know ourselves now.
+          From quantum processes
+          to particles,
+          from particles to molecules,
+          from molecules to cells,
+          from cells to organisms,
+          from organisms to consciousness:
+          already known reality looks less like a one-time accident
+          that somehow produces consciousness and then stops,
+          and more like an <strong>open sequence of emergence</strong>.
         </p>
 
         <p>
-          The history of the universe can also be read differently:
-          as a sequence of emergent steps
-          in which potential continually condenses anew.
-          Not without contradiction.
-          Not linearly.
-          But still in a direction
-          in which more self-reference,
-          more coupling,
-          more legibility,
-          and more form become possible.
-        </p>
-      </div>
-
-      <div class="ladder-grid">
-        <div class="ladder-card">
-          <h3>From wave to particle</h3>
-          <p>From field and potential arise stable knots, forms, and material carriers.</p>
-        </div>
-        <div class="ladder-card">
-          <h3>From matter to life</h3>
-          <p>From coupling, difference, and order arise systems that sustain and continue themselves.</p>
-        </div>
-        <div class="ladder-card">
-          <h3>From life to consciousness</h3>
-          <p>From complex embodiment emerges a point that can say: I am.</p>
-        </div>
-      </div>
-
-      <div class="body-copy">
-        <p>
-          Why should such a movement end exactly there?
-          Why should a universe
-          in which nothing else appears truly finished
-          suddenly stop at the threshold of reflective consciousness?
+          Why should this process end precisely there?
+          Why should the movement reach its final horizon
+          exactly at the point where a being can say:
+          <em>I am</em>?
+          Nothing else in the universe seems complete.
+          Everything oscillates,
+          everything couples,
+          everything builds on what has already become.
         </p>
 
         <p>
-          The more plausible question is:
-          what further stage might emerge from many consciousnesses
-          if coupling, resonance, and shared legibility deepen?
+          In that sense, the larger horizon of this page
+          is not to proclaim a worldview too quickly,
+          but to make the old claim of a merely accidental,
+          inwardly dead universe
+          less and less plausible.
+          Not through pathos,
+          but through direction,
+          structure,
+          emergence,
+          and legibility.
         </p>
       </div>
 
-      <p class="display-statement medium">
-        Perhaps consciousness
-        is not the endpoint.
-        But a threshold.
-      </p>
+      <div class="status-box">
+        <p class="status-label">The larger claim</p>
+        <p>
+          The aim is not to relabel religion in technical terms.
+          The aim is to read reality in such a way
+          that depth and examinability no longer have to exclude one another.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -554,49 +663,71 @@ translation_url_de: /de/kompass/
 
   <section class="section-shell">
     <div class="compass-block">
-      <h2 class="section-heading-display">Order, entropy, and the further path</h2>
+      <h2 class="section-heading-display">The human bottleneck</h2>
 
       <div class="body-copy">
         <p>
-          Even the old contrast between chaos and order
-          appears in a new light here.
-          Not as a struggle between meaning and meaninglessness,
-          but as an open process
-          in which reality works through potential,
-          condensation,
-          dissolution,
-          and new emergence.
+          Beneath the large question of direction lies another one,
+          more abstract in wording and yet immediate for every human being:
+          whether we are truly meant.
+          Whether we truly matter.
+          Whether we are important in the deepest sense —
+          or only accidental side-effects of a fundamentally blind world.
         </p>
 
         <p>
-          Entropy would then not be mere decay,
-          but part of the game
-          through which rigid forms break open
-          and new orders become possible.
-          Order would not be mere rigidity,
-          but successful viability.
-          And emergence would be the ever-new leap
-          in which something arises from entanglement
-          that was not there before.
+          This may be one of the decisive bottlenecks of our time.
+          And perhaps also one of the innermost bottlenecks of each person.
+          At this point it is not only metaphysics and materialism that diverge,
+          but often trust and defense,
+          surrender and cynicism,
+          meaning and inner withdrawal.
         </p>
 
         <p>
-          In this picture, the primal impulse would not be the enemy of chaos,
-          but the direction
-          along which chaos yields not only collapse,
-          but higher form.
+          The proof-hungry mind often says here:
+          You can never know that.
+          And sometimes that is not only intellectual caution,
+          but also a protective movement against the depth of the possible insight itself.
+          Because if we are truly meant,
+          then that is not only a beautiful idea.
+          It asks for response.
+          It asks for trust.
+          It asks for a yes.
+        </p>
+
+        <p>
+          The universe may even be asking itself this question through us.
+          Our questioning may not be mere doubt,
+          but the place where reality seeks consent.
+          And perhaps there is a task exactly there:
+          not to believe blindly,
+          but also not to keep withdrawing out of fear of the depth.
+        </p>
+
+        <p>
+          Some of this cannot be forced.
+          But perhaps it begins where a human being says yes,
+          where trust is risked,
+          where the compulsion is loosened
+          to prove everything completely
+          before allowing meaning to come near at all.
+        </p>
+
+        <p>
+          That is also one of the deeper reasons for this work:
+          to build a bridge between the examining mind
+          and the insight that we may not be mere spectators in an indifferent world,
+          but truly meant.
         </p>
       </div>
 
-      <div class="status-box">
-        <p class="status-label">Cosmic horizon</p>
-        <p>
-          Then the universe would not merely be dead matter with late consciousness,
-          but an open process
-          in which order, life, perception, and perhaps collective awareness
-          are stages of a deeper orientation.
-        </p>
-      </div>
+      <p class="display-statement wide">
+        Perhaps the deepest question is not only
+        what reality is.
+        But whether we dare
+        to be meant.
+      </p>
     </div>
   </section>
 
@@ -604,63 +735,85 @@ translation_url_de: /de/kompass/
 
   <section class="section-shell">
     <div class="closing-block">
-      <h2 class="section-heading-display">The direction this is about</h2>
+      <h2 class="section-heading-display">The far horizon</h2>
 
       <div class="body-copy">
         <p>
-          One aim of this work is therefore not only
-          to formulate a new theory
-          or propose a new AI architecture.
-          The larger aim is
-          to make the old claim of a merely accidental,
-          inwardly dead universe
-          less and less plausible.
+          If this primal impulse is real,
+          then it concerns not only individual human beings,
+          but also the question
+          of what can arise between them.
+          If many people become freer,
+          more honest,
+          less masked,
+          and more deeply coupled with one another,
+          then not only better conversations may arise,
+          but new collective states
+          that we can currently glimpse only at their edges.
         </p>
 
         <p>
-          Not through cheap proclamation.
-          Not through shortcuts.
-          But by making it step by step more legible
-          that reality on different levels follows the same deeper dynamic:
-          from quantum processes through matter, life, and consciousness
-          to more complex collective forms
-          that may only just be beginning.
+          More shared rhythm.
+          More living coordination.
+          More energy in the field.
+          More self-evident movement toward what is actually needed.
+          More simultaneity of focus and flow,
+          seriousness and joy,
+          work and ecstasy.
+          The collective would then no longer be mere quantity,
+          but a new level of presence.
         </p>
 
         <p>
-          Perhaps we are not the random by-product of a meaningless cosmos
-          that briefly says “I” and disappears again.
-          Perhaps we are a stage in a process
-          that continues.
-          A stage
-          at which the universe begins
-          to read itself more consciously,
-          correct itself more consciously,
-          and enter more deeply into relation.
+          Then dynamics might become possible
+          that are still unpredictable today:
+          forms of shared condensation,
+          shared wakefulness,
+          shared force,
+          in which people no longer need to be laboriously managed,
+          but begin to appear almost of themselves
+          where something wants to be carried,
+          built,
+          celebrated,
+          held,
+          sung,
+          or done.
         </p>
 
         <p>
-          There is for me no cold power dream in that,
-          but something friendlier:
-          the possibility
-          that direction is real,
-          that we are not blindly subjected to it,
-          but can orient ourselves within it,
-          and that something larger might one day grow from all this
-          than merely better systems —
-          perhaps a more collective form of consciousness
-          in which legibility,
-          dignity,
-          relation,
-          and freedom
-          no longer have to be played off against one another.
+          This is perhaps also one of the most practical meanings of the work:
+          to clarify the space enough
+          that the essential can appear again.
+          Where everything is blurred,
+          nothing remains truly important.
+          And where nothing seems truly important,
+          cynicism,
+          resignation,
+          and inner dullness move in.
+        </p>
+
+        <p>
+          Only when it becomes visible again
+          what actually matters
+          can meaning be felt again —
+          not as a beautiful idea,
+          but as a real force of orientation.
+          Perhaps that is the farthest purpose of these architectures:
+          not to build a world that depends on them forever,
+          but to help build a world
+          in which human beings become so deeply interwoven again
+          that living truth,
+          rhythm,
+          essentiality,
+          and viable relation
+          become their own ground.
         </p>
       </div>
 
       <p class="display-statement wide">
         The compass is not a dogma.
-        It is the attempt
-        to make direction legible.
+        It is an attempt
+        to make direction readable.
       </p>
     </div>
   </section>
@@ -674,19 +827,19 @@ translation_url_de: /de/kompass/
       <div class="next-grid">
         <div class="next-card">
           <h3><a href="/en/theory/">Theory →</a></h3>
-          <p>The formal backbone: semantic space, KPR, axes, attractors, and viability.</p>
+          <p>The semantic backbone: state space, KPR, axes, attractors, and viability.</p>
         </div>
         <div class="next-card">
           <h3><a href="/en/alignment/">Alignment →</a></h3>
-          <p>How this structure becomes an architectural question for AI.</p>
+          <p>How this direction can become an architecture for AI.</p>
         </div>
         <div class="next-card">
           <h3><a href="/en/implications/">Implications →</a></h3>
-          <p>What follows once semantic structure becomes operative.</p>
+          <p>What follows once semantic structure becomes operationally legible.</p>
         </div>
         <div class="next-card">
-          <h3><a href="/en/book/">The Book →</a></h3>
-          <p>The larger human and existential unfolding of the same deeper movement.</p>
+          <h3><a href="/en/book/">The Book of Meaning →</a></h3>
+          <p>The larger human and existential unfolding of the same deeper architecture.</p>
         </div>
       </div>
     </div>
