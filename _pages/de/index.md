@@ -3,7 +3,7 @@ layout: default
 title: Semantische Gravitation
 permalink: /de/
 lang: de
-description: "Semantische Gravitation – Bedeutung als navigierbarer Raum, KPR als minimale Grammatik und eine neue Grundlage für KI-Alignment."
+description: "Semantische Gravitation – Bedeutung als navigierbarer Raum, KPR als minimale Grammatik und ein neues geometrisches Grundgerüst für KI-Alignment."
 translation_url_en: /en/
 ---
 
@@ -14,8 +14,6 @@ translation_url_en: /en/
     --sg-dim: rgba(255,255,255,0.64);
     --sg-line: rgba(255,255,255,0.10);
     --sg-line-strong: rgba(255,255,255,0.16);
-    --sg-panel: rgba(255,255,255,0.035);
-    --sg-panel-strong: rgba(255,255,255,0.05);
     --sg-max: 1120px;
     --sg-copy: 880px;
     --sg-wide: 980px;
@@ -65,9 +63,7 @@ translation_url_en: /en/
     border: 0;
   }
 
-  .home-journey .intro-copy,
   .home-journey .hero-research,
-  .home-journey .free-text-block,
   .home-journey .section-card {
     max-width: var(--sg-max);
     margin: 0 auto;
@@ -131,19 +127,19 @@ translation_url_en: /en/
     line-height: 0.9;
     letter-spacing: -0.065em;
     max-width: 8.8ch;
-    margin: 0 auto 1.15rem;
+    margin: 0 auto 1.1rem;
     text-wrap: balance;
-    overflow-wrap: normal;
     word-break: normal;
+    overflow-wrap: normal;
   }
 
   .home-journey .home-lead {
     display: block;
-    max-width: 34rem;
+    max-width: 42rem;
     margin: 0 auto;
-    font-size: clamp(1.16rem, 2.2vw, 1.6rem);
-    line-height: 1.22;
-    font-weight: 580;
+    font-size: clamp(1.12rem, 2vw, 1.42rem);
+    line-height: 1.3;
+    font-weight: 560;
     text-wrap: balance;
   }
 
@@ -271,16 +267,20 @@ translation_url_en: /en/
     color: var(--sg-dim);
   }
 
-  .home-journey .section-heading-display {
+  .home-journey .section-heading-display,
+  .home-journey .section-head h2 {
     margin: 0 auto 1.25rem;
     max-width: 13ch;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-    font-size: clamp(2.3rem, 5.5vw, 4.35rem);
+    font-size: clamp(2.2rem, 5.2vw, 4.2rem);
     font-weight: 800;
-    line-height: 0.95;
+    line-height: 0.96;
     letter-spacing: -0.06em;
     text-wrap: balance;
     text-align: center;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: auto;
   }
 
   .home-journey .section-opening {
@@ -373,17 +373,6 @@ translation_url_en: /en/
     text-align: center;
   }
 
-  .home-journey .section-head h2 {
-    margin: 0 auto;
-    max-width: 14ch;
-    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-    font-size: clamp(2.1rem, 4.6vw, 3.7rem);
-    font-weight: 800;
-    line-height: 0.96;
-    letter-spacing: -0.055em;
-    text-wrap: balance;
-  }
-
   .home-journey .section-intro {
     max-width: 50rem;
     margin: 0 auto 1.15rem;
@@ -424,10 +413,11 @@ translation_url_en: /en/
     margin: 0 0 0.45rem;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
     font-size: 1.42rem;
-    line-height: 1.04;
+    line-height: 1.06;
     letter-spacing: -0.04em;
     font-weight: 760;
     text-wrap: balance;
+    hyphens: auto;
   }
 
   .home-journey .concept-card-text,
@@ -569,9 +559,9 @@ translation_url_en: /en/
     }
 
     .home-journey .home-lead {
-      font-size: 1.05rem;
-      max-width: 19rem;
-      line-height: 1.28;
+      font-size: 1.02rem;
+      max-width: 21rem;
+      line-height: 1.34;
     }
 
     .home-journey .hero-problem {
@@ -618,9 +608,15 @@ translation_url_en: /en/
       padding-inline: 0.2rem;
     }
 
-    .home-journey .section-heading-display {
-      font-size: 2.35rem;
-      max-width: 10ch;
+    .home-journey .section-heading-display,
+    .home-journey .section-head h2 {
+      font-size: 2rem;
+      max-width: 8.8ch;
+      line-height: 0.98;
+      text-wrap: pretty;
+      overflow-wrap: anywhere;
+      hyphens: auto;
+      margin-bottom: 1.1rem;
     }
 
     .home-journey .display-statement,
@@ -659,11 +655,14 @@ translation_url_en: /en/
 
     .home-journey .concept-card-title,
     .home-journey .axis-card h3 {
-      font-size: 1.28rem;
+      font-size: 1.22rem;
+      line-height: 1.08;
+      overflow-wrap: anywhere;
+      hyphens: auto;
     }
 
     .home-journey .proof-card h3 {
-      font-size: 1.16rem;
+      font-size: 1.14rem;
     }
 
     .home-journey .section-divider {
@@ -683,12 +682,8 @@ translation_url_en: /en/
     <div class="hero-inner">
       <h1 class="display-wordmark">Semantische<br>Gravitation</h1>
       <p class="home-lead home-lead-plain">
-        Bedeutung ist nicht nur Inhalt.
-        Sie ist Raum.
-      </p>
-      <p class="home-lead home-lead-plain" style="margin-top:0.65rem;">
-        Und wenn Bedeutung Raum ist,
-        wird KI zur Architekturfrage.
+        Eine Theorie des Bedeutungsraums — und ein neues geometrisches Koordinatensystem für KI-Alignment:
+        Kern, Projektion, Relation und die drei Tragfähigkeitsachsen semantischer Zustände.
       </p>
     </div>
   </section>
@@ -791,17 +786,14 @@ translation_url_en: /en/
         </p>
 
         <p>
-          Edge Alignment ist die KI-architektonische Konsequenz dieser Behauptung.
-          Es fragt nicht nur, ob ein System sicher wirkende Outputs erzeugt,
-          sondern ob seine inneren Übergänge tragfähig,
-          reparierbar
-          und an diesen Achsen ausgerichtet bleiben.
+          Genau dadurch wird KI-Alignment auf eine neue,
+          wesentlich schärfere und strukturell klarere Weise möglich als bisher.
         </p>
       </div>
 
       <p class="display-statement medium">
         Nicht nur neue Antworten.
-        Ein neuer Lesemodus.
+        Ein neues Koordinatensystem.
       </p>
     </div>
   </section>
