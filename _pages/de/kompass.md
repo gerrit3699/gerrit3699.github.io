@@ -527,7 +527,7 @@ translation_url_en: /en/compass/
         <p>
           In der Sprache der Theorie lässt sich dieses Muster
           entlang dreier Achsen lesen:
-          <strong>Kohärenz (Klarheit), Bindung (Würde) und Handlungsfreiheit (Freiheit)</strong>.
+          <strong>Kohärenz (Klarheit), Bindung (Würde) und Handlungsfähigkeit (Freiheit)</strong>.
           Gemeint ist damit nicht in erster Linie Moral,
           sondern Tragfähigkeit.
         </p>
