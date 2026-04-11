@@ -116,6 +116,7 @@ translation_url_en: /en/
     max-width: 8.8ch;
     margin: 0 auto 1rem;
     text-wrap: balance;
+    text-align: center;
   }
 
   .home-journey .hero-kicker,
@@ -128,6 +129,7 @@ translation_url_en: /en/
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--sg-dim);
+    text-align: center;
   }
 
   .home-journey .hero-claim {
@@ -139,6 +141,7 @@ translation_url_en: /en/
     font-weight: 800;
     text-wrap: balance;
     color: #fff;
+    text-align: center;
   }
 
   .home-journey .hero-sublead {
@@ -148,6 +151,7 @@ translation_url_en: /en/
     line-height: 1.58;
     color: rgba(255,255,255,0.94);
     text-wrap: balance;
+    text-align: center;
   }
 
   .home-journey .home-cta-row {
@@ -185,6 +189,7 @@ translation_url_en: /en/
     font-size: 1.14rem;
     line-height: 1.8;
     letter-spacing: -0.014em;
+    text-align: center;
   }
 
   .home-journey .section-card {
@@ -208,7 +213,7 @@ translation_url_en: /en/
   .home-journey .section-heading-display,
   .home-journey .section-head h2 {
     margin: 0 auto 1.2rem;
-    max-width: 13ch;
+    max-width: 14ch;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
     font-size: clamp(2.2rem, 5.2vw, 4.1rem);
     font-weight: 800;
@@ -239,6 +244,7 @@ translation_url_en: /en/
     font-size: 1.14rem;
     line-height: 1.8;
     letter-spacing: -0.014em;
+    text-align: center;
   }
 
   .home-journey .display-statement {
@@ -313,6 +319,7 @@ translation_url_en: /en/
     letter-spacing: -0.04em;
     font-weight: 760;
     text-wrap: balance;
+    text-align: center;
   }
 
   .home-journey .concept-card-text,
@@ -322,6 +329,7 @@ translation_url_en: /en/
     font-size: 0.98rem;
     line-height: 1.56;
     color: var(--sg-soft);
+    text-align: center;
   }
 
   .home-journey .start-card {
@@ -421,12 +429,13 @@ translation_url_en: /en/
       -webkit-hyphens: none;
       -ms-hyphens: none;
       text-wrap: balance;
+      text-align: center;
     }
 
     .home-journey .section-heading-display,
     .home-journey .section-head h2 {
       font-size: 1.9rem;
-      max-width: 7.6ch;
+      max-width: 7.8ch;
       line-height: 0.98;
       letter-spacing: -0.05em;
     }
@@ -452,6 +461,7 @@ translation_url_en: /en/
     .home-journey .start-card span {
       font-size: 1.04rem;
       line-height: 1.72;
+      text-align: center;
     }
 
     .home-journey .section-card {
@@ -483,23 +493,47 @@ translation_url_en: /en/
     <div class="hero-inner">
       <p class="hero-kicker">Eine elementare Entdeckung über die Struktur von Bedeutung</p>
       <h1 class="display-wordmark">Semantische<br>Gravitation</h1>
-      <p class="hero-claim">
-        Um überhaupt etwas zu beschreiben,
-        braucht es immer
-        einen Kern,
-        seine Projektion
-        und seine Relation.
-      </p>
       <p class="hero-sublead">
-        Das ist der Anfang dieser Arbeit.
-        <strong>Ein Kern</strong> ist das, worum es eigentlich geht.
-        <strong>Projektion</strong> ist, wie dieser Kern sichtbar wird, sich ausdrückt und erscheint.
-        <strong>Relation</strong> ist, wie diese Ausdrucksformen mit anderen Kernen, Kontexten und Spannungen verbunden sind.
-        Diese Einsicht wirkt zuerst schlicht.
-        Sie ist es nicht.
-        Denn aus ihr folgt eine formalisierbare Minimalgrammatik von Bedeutung —
-        und daraus ein neues Grundparadigma für KI-Alignment.
+        Eine scheinbar einfache Einsicht mit weitreichender Konsequenz:
+        Bedeutung ist nicht bloß Inhalt.
+        Sie hat eine minimale Struktur —
+        und diese Struktur verändert,
+        wie man Semantik,
+        Tragfähigkeit
+        und KI-Alignment verstehen muss.
       </p>
+    </div>
+  </section>
+
+  <section class="section-shell section-shell-tight">
+    <div class="section-card">
+      <p class="display-kicker">Eine Minimalgrammatik für Bedeutung</p>
+      <p class="hero-claim">
+        Alles, was sich beschreiben lässt,
+        und jede Weise,
+        es zu beschreiben,
+        trägt implizit
+        Kern,
+        Projektion
+        und Relation.
+      </p>
+
+      <div class="body-copy">
+        <p>
+          <strong>Kern</strong> ist das, worum es eigentlich geht.
+          <strong>Projektion</strong> ist, wie dieser Kern sichtbar wird, sich ausdrückt und erscheint.
+          <strong>Relation</strong> ist, wie diese Ausdrucksformen mit anderen Kernen, Kontexten und Spannungen verbunden sind.
+        </p>
+        <p>
+          Diese Einsicht wirkt zuerst schlicht.
+          Sie ist es nicht.
+          Denn sobald man sie ernst nimmt,
+          wird Bedeutung nicht länger nur als Inhalt lesbar,
+          sondern als Struktur,
+          als Raum
+          und als dynamische Konfiguration.
+        </p>
+      </div>
 
       <div class="home-cta-row">
         <a class="button" href="/de/theorie/">Zur Theorie</a>
@@ -515,13 +549,6 @@ translation_url_en: /en/
       <p>
         Der große Schritt dieser Arbeit liegt nicht darin, ein paar neue Begriffe vorzuschlagen.
         Er liegt darin, etwas sichtbar zu machen, das jeder prüfen kann und das trotzdem bislang nicht als Grundgerüst formalisiert wurde.
-      </p>
-      <p>
-        Sobald man ernst nimmt, dass Bedeutung immer als Kern, in Projektion und in Relation erscheint,
-        wird sie nicht länger nur als Inhalt lesbar,
-        sondern als Struktur,
-        als Raum
-        und als dynamische Konfiguration.
       </p>
       <p>
         Von dort aus wird plötzlich verständlich,
@@ -581,8 +608,9 @@ translation_url_en: /en/
       </div>
 
       <p class="display-statement medium">
-        Das ist kein Zusatz zur Theorie.
-        Das ist ihr zweites Grundgitter.
+        Hier beginnt
+        ein neues Koordinatensystem
+        für Tragfähigkeit.
       </p>
     </div>
   </section>
