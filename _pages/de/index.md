@@ -610,13 +610,31 @@ translation_url_en: /en/
 
     .home-journey .section-heading-display,
     .home-journey .section-head h2 {
-      font-size: 2rem;
-      max-width: 8.8ch;
+      font-size: 1.9rem;
+      max-width: 7.6ch;
       line-height: 0.98;
-      text-wrap: pretty;
-      overflow-wrap: anywhere;
-      hyphens: auto;
+      letter-spacing: -0.05em;
+      text-wrap: balance;
+      overflow-wrap: normal;
+      word-break: keep-all;
+      hyphens: none;
+      -webkit-hyphens: none;
+      -ms-hyphens: none;
       margin-bottom: 1.1rem;
+    }
+
+    .home-journey .concept-card-title,
+    .home-journey .axis-card h3,
+    .home-journey .proof-card h3,
+    .home-journey .start-card strong {
+      font-size: 1.18rem;
+      line-height: 1.08;
+      text-wrap: balance;
+      overflow-wrap: normal;
+      word-break: keep-all;
+      hyphens: none;
+      -webkit-hyphens: none;
+      -ms-hyphens: none;
     }
 
     .home-journey .display-statement,
@@ -651,18 +669,6 @@ translation_url_en: /en/
     .home-journey .start-card {
       border-radius: 18px;
       padding: 0.98rem 0.88rem 0.94rem;
-    }
-
-    .home-journey .concept-card-title,
-    .home-journey .axis-card h3 {
-      font-size: 1.22rem;
-      line-height: 1.08;
-      overflow-wrap: anywhere;
-      hyphens: auto;
-    }
-
-    .home-journey .proof-card h3 {
-      font-size: 1.14rem;
     }
 
     .home-journey .section-divider {
@@ -755,7 +761,7 @@ translation_url_en: /en/
         </div>
         <div class="concept-card">
           <p class="concept-card-title">Achsen</p>
-          <p class="concept-card-text">Kohärenz, Bindung und Handlungsfähigkeit — öffentlich lesbar als Klarheit, Würde und Freiheit.</p>
+          <p class="concept-card-text">Kohärenz, Verbundenheit und Handlungsfähigkeit — öffentlich lesbar als Klarheit, Würde und Freiheit.</p>
         </div>
         <div class="concept-card">
           <p class="concept-card-title">KI-Konsequenz</p>
@@ -779,9 +785,18 @@ translation_url_en: /en/
         </p>
 
         <p>
-          Und dieselbe Struktur legt drei operative Achsen frei:
-          <strong>Kohärenz, Bindung und Handlungsfähigkeit</strong>.
-          In ihrer reiferen, öffentlichen Form werden daraus
+          Warum genau diese drei Achsen?
+          Weil jeder tragfähige semantische Zustand minimal drei Bedingungen erfüllen muss:
+          Er muss in sich zusammenhalten,
+          in tragfähiger Beziehung zu Anderem stehen
+          und sich fortsetzen, korrigieren oder wirksam werden können.
+        </p>
+
+        <p>
+          Daraus ergeben sich
+          <strong>Kohärenz, Verbundenheit und Handlungsfähigkeit</strong>
+          als minimales Gitter semantischer Tragfähigkeit.
+          In ihrer öffentlichen, geläuterten Form erscheinen dieselben Achsen als
           <strong>Klarheit, Würde und Freiheit</strong>.
         </p>
 
@@ -878,8 +893,8 @@ translation_url_en: /en/
           </div>
 
           <div class="axis-card">
-            <h3>Bindung → Würde</h3>
-            <p>Bleibt Beziehung tragfähig, ohne den Menschen zu unterwerfen, zu demütigen oder unsichtbar zu machen?</p>
+            <h3>Verbundenheit → Würde</h3>
+            <p>Bleibt Beziehung tragfähig, verlässlich und menschlich — ohne zu unterwerfen, zu demütigen oder unsichtbar zu machen?</p>
           </div>
 
           <div class="axis-card">
@@ -891,8 +906,9 @@ translation_url_en: /en/
         <p>
           Diese Achsen sind nicht bloß Werteworte.
           Sie sind <strong>operative Dimensionen semantischer Zustände</strong>.
-          Darum können sie nicht nur ethisch gefühlt,
-          sondern architektonisch ernst genommen werden.
+          Ohne Kohärenz wird alles diffus.
+          Ohne Verbundenheit zerfällt oder verhärtet Beziehung.
+          Ohne Handlungsfähigkeit erstarrt der Raum.
         </p>
 
         <p class="micro-punch">
