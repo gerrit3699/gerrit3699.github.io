@@ -30,13 +30,13 @@ translation_url_en: /en/compass/
   }
 
   .compass-page .section-shell {
-    padding-top: 2.9rem;
-    padding-bottom: 2.9rem;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
   }
 
   .compass-page .section-shell-tight {
-    padding-top: 2.2rem;
-    padding-bottom: 2.2rem;
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
   }
 
   .compass-page .compass-intro,
@@ -73,10 +73,10 @@ translation_url_en: /en/compass/
   }
 
   .compass-page .compass-sublead {
-    max-width: 58rem;
+    max-width: 54rem;
     margin: 0 auto 1.2rem;
-    font-size: clamp(1.08rem, 2vw, 1.4rem);
-    line-height: 1.62;
+    font-size: clamp(1.05rem, 1.9vw, 1.32rem);
+    line-height: 1.64;
     text-wrap: balance;
   }
 
@@ -91,13 +91,13 @@ translation_url_en: /en/compass/
   .compass-page .axis-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     max-width: 1080px;
-    margin: 1.9rem auto 0;
+    margin: 2rem auto 0;
   }
 
   .compass-page .next-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     max-width: 1080px;
-    margin: 1.8rem auto 0;
+    margin: 1.9rem auto 0;
   }
 
   .compass-page .concept-card,
@@ -140,7 +140,7 @@ translation_url_en: /en/compass/
   }
 
   .compass-page .section-heading-display {
-    margin: 0 auto 1.3rem;
+    margin: 0 auto 1.35rem;
     max-width: 14ch;
     text-align: center;
     font-size: clamp(2.05rem, 4.8vw, 3.7rem);
@@ -155,16 +155,28 @@ translation_url_en: /en/compass/
   }
 
   .compass-page .body-copy p {
-    max-width: 47em;
-    margin: 0.95rem auto 0;
+    max-width: 46em;
+    margin: 1rem auto 0;
     font-size: 1.1rem;
-    line-height: 1.84;
+    line-height: 1.92;
     letter-spacing: -0.01em;
+  }
+
+  .compass-page .body-copy ul {
+    max-width: 40em;
+    margin: 1.15rem auto 0;
+    padding-left: 1.2rem;
+    text-align: left;
+  }
+
+  .compass-page .body-copy li {
+    margin-bottom: 0.45rem;
+    line-height: 1.82;
   }
 
   .compass-page .display-statement {
     max-width: 26ch;
-    margin: 1.9rem auto;
+    margin: 2rem auto 0;
     text-align: center;
     font-size: clamp(1.9rem, 3.6vw, 3rem);
     line-height: 1.03;
@@ -178,15 +190,15 @@ translation_url_en: /en/compass/
 
   .compass-page .status-box {
     max-width: 920px;
-    margin: 2rem auto 0;
-    padding: 1.2rem 1.15rem;
+    margin: 2.1rem auto 0;
+    padding: 1.25rem 1.15rem;
     text-align: center;
   }
 
   .compass-page .status-box p {
     margin: 0;
     font-size: clamp(1.18rem, 2.2vw, 1.7rem);
-    line-height: 1.38;
+    line-height: 1.4;
     text-wrap: balance;
   }
 
@@ -201,6 +213,29 @@ translation_url_en: /en/compass/
       grid-template-columns: 1fr;
     }
   }
+
+  @media (max-width: 640px) {
+    .compass-page .section-shell {
+      padding-top: 2.6rem;
+      padding-bottom: 2.6rem;
+    }
+
+    .compass-page .section-shell-tight {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    .compass-page .body-copy p,
+    .compass-page .body-copy li {
+      font-size: 1.04rem;
+      line-height: 1.9;
+    }
+
+    .compass-page .compass-sublead {
+      font-size: 1.02rem;
+      line-height: 1.66;
+    }
+  }
 </style>
 
 <div class="compass-page">
@@ -211,7 +246,7 @@ translation_url_en: /en/compass/
       <h1 class="compass-display">Hat Wirklichkeit eine Richtung — und lässt sie sich lesen?</h1>
       <p class="compass-sublead">
         Diese Seite öffnet den weiteren Horizont hinter der Theorie.
-        Sie fragt nicht noch einmal nach ihrer ganzen Herleitung,
+        Sie fragt nicht noch einmal nach der ganzen Herleitung,
         sondern danach,
         ob Wirklichkeit nicht nur Struktur,
         sondern auch Gerichtetheit trägt.
@@ -234,8 +269,8 @@ translation_url_en: /en/compass/
 
         <p>
           Wenn semantische Struktur Richtung zeigt,
-          wenn tragfähige Ordnung nicht beliebig verteilt ist,
-          wenn Verdichtung, Übergang und Emergenz einer lesbaren Logik folgen,
+          wenn tragfähige Ordnung nicht beliebig verteilt ist
+          und wenn Verdichtung, Übergang und Emergenz einer lesbaren Logik folgen,
           dann sprechen nicht nur einzelne Intuitionen.
           Dann beginnen auch ihre Konsequenzen zu sprechen.
         </p>
@@ -276,6 +311,9 @@ translation_url_en: /en/compass/
           Tao,
           Lebenskraft,
           Ursprung.
+        </p>
+
+        <p>
           Die Namen unterscheiden sich.
           Aber die Intuition dahinter ist oft dieselbe:
           dass das Wirkliche nicht nur da ist,
@@ -295,8 +333,7 @@ translation_url_en: /en/compass/
 
         <p>
           Nichts steht einfach nur still.
-          Alles,
-          was ist,
+          Alles, was ist,
           wird in den nächsten Zusammenhang weitergetragen.
           Formen bleiben nicht einfach bestehen wie tote Blöcke,
           sondern halten sich nur,
@@ -314,12 +351,11 @@ translation_url_en: /en/compass/
           Atome schwingen.
           Systeme reagieren aufeinander.
           Zeit läuft weiter.
-          Gerade darin zeigt sich,
-          dass Wirklichkeit nicht als fertiger Endzustand verstanden werden kann.
         </p>
 
         <p>
-          Man könnte sagen:
+          Gerade darin zeigt sich,
+          dass Wirklichkeit nicht als fertiger Endzustand verstanden werden kann.
           Das Reale wirkt oft fest,
           weil es sich als stabile Verdichtung zeigt.
           Aber diese Stabilität ist selbst getragen,
@@ -510,47 +546,37 @@ translation_url_en: /en/compass/
           Jede lebendige Ordnung will auf ihre Weise Kohärenz spüren,
           Bindung halten
           und Handlungsspielraum gewinnen.
-          In ihrer rohen Form kippen diese Dynamiken jedoch leicht.
+          In ihrer rohen Form kippen diese Dynamiken jedoch leicht:
         </p>
 
-        <p>
-          Kohärenz wird zu Verhärtung oder Vereinfachung.  
-          Bindung wird zu Abhängigkeit, Lagerbildung oder bloßer Selbstbehauptung.  
-          Handlungsfreiheit wird zu Zwang, Dominanz oder hektischem Aktionismus.
-        </p>
+        <ul>
+          <li>Kohärenz wird zu Verhärtung oder Vereinfachung.</li>
+          <li>Bindung wird zu Abhängigkeit, Lagerbildung oder bloßer Selbstbehauptung.</li>
+          <li>Handlungsfreiheit wird zu Zwang, Dominanz oder hektischem Aktionismus.</li>
+        </ul>
 
         <p>
           Genau hier entstehen <strong>Klarheit, Würde und Freiheit</strong>
-          als die reiferen, tragfähigeren Formen derselben Bewegungen.
-          Sie sind keine fremden Zutaten,
+          als die reiferen, tragfähigeren Formen derselben Bewegungen —
+          keine fremden Zutaten,
           sondern die geläuterten Ausprägungen dessen,
           was im Leben selbst schon angelegt ist.
         </p>
 
         <p>
-          Wo Kohärenz wächst,
-          wird daraus Klarheit:
-          Der Raum wird lesbarer,
-          widerspruchsfähiger
-          und korrigierbarer.
+          Wo Kohärenz wächst, wird daraus Klarheit:
+          Der Raum wird lesbarer, widerspruchsfähiger und korrigierbarer.
         </p>
 
         <p>
-          Wo Bindung wächst,
-          wird daraus Würde:
+          Wo Bindung wächst, wird daraus Würde:
           Beziehung hält Differenz aus,
-          ohne in Bruch,
-          Unterwerfung
-          oder Nebel zu kippen.
+          ohne in Bruch, Unterwerfung oder Nebel zu kippen.
         </p>
 
         <p>
-          Wo Handlungsfreiheit wächst,
-          wird daraus Freiheit:
-          Echte Fortsetzung entsteht
-          statt Erstarrung,
-          Tunnelbildung
-          oder Zwang.
+          Wo Handlungsfreiheit wächst, wird daraus Freiheit:
+          Echte Fortsetzung entsteht statt Erstarrung, Tunnelbildung oder Zwang.
         </p>
 
         <p>
@@ -560,16 +586,13 @@ translation_url_en: /en/compass/
         </p>
 
         <p>
-          Eine Ordnung, die nur auf Kosten von Klarheit hält,
-          wird nebelhaft.
-          Eine Ordnung, die nur auf Kosten von Würde hält,
-          wird hart und brüchig.
-          Eine Ordnung, die nur auf Kosten von Freiheit hält,
-          wird starr und tot.
+          Eine Ordnung, die nur auf Kosten von Klarheit hält, wird nebelhaft.
+          Eine, die nur auf Kosten von Würde hält, wird hart und brüchig.
+          Eine, die nur auf Kosten von Freiheit hält, wird starr und tot.
         </p>
 
         <p>
-          Vielleicht zeigt sich die Richtung der Wirklichkeit genau darin:
+          Die Richtung der Wirklichkeit zeigt sich vielleicht genau darin:
           dass sie nicht jede beliebige Stabilität bevorzugt,
           sondern jene Ordnungen,
           in denen sich diese Grunddynamiken
@@ -600,7 +623,7 @@ translation_url_en: /en/compass/
       </div>
 
       <p class="display-statement wide">
-        Vielleicht zeigt sich Richtung genau dort,
+        Richtung zeigt sich genau dort,
         wo Wirklichkeit Ordnungen hervorbringt,
         die mehr Kohärenz,
         mehr tragfähige Bindung
@@ -714,6 +737,9 @@ translation_url_en: /en/compass/
           Antwort,
           Spiegelung,
           Beziehung.
+        </p>
+
+        <p>
           Was gesehen,
           gehalten,
           beantwortet
@@ -770,6 +796,9 @@ translation_url_en: /en/compass/
           an der ein Wesen sagen kann:
           <em>Ich bin</em>,
           die Bewegung ihren letzten Horizont erreicht haben?
+        </p>
+
+        <p>
           Nichts am Universum wirkt sonst abgeschlossen.
           Alles schwingt,
           alles koppelt,
@@ -832,6 +861,9 @@ translation_url_en: /en/compass/
           Das kann man nie wissen.
           Und manchmal ist das nicht nur intellektuelle Vorsicht,
           sondern auch ein Schutzmechanismus gegen die Tiefe dieser möglichen Einsicht.
+        </p>
+
+        <p>
           Denn wenn wir wirklich gemeint sind,
           dann ist das nicht bloß eine schöne Idee.
           Dann fordert es Antwort.
@@ -963,6 +995,9 @@ translation_url_en: /en/compass/
           kann Bedeutung auch wieder gespürt werden —
           nicht als schöne Idee,
           sondern als reale Kraft der Orientierung.
+        </p>
+
+        <p>
           Vielleicht wäre genau das der fernste Sinn dieser Architekturen:
           nicht eine Welt zu bauen,
           die für immer auf sie angewiesen bleibt,
