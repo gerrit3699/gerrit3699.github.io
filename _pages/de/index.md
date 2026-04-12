@@ -14,7 +14,7 @@ translation_url_en: /en/
     --sg-dim: rgba(255,255,255,0.64);
     --sg-line: rgba(255,255,255,0.10);
     --sg-max: 1120px;
-    --sg-copy: 920px;
+    --sg-copy: 940px;
     --sg-wide: 980px;
 
     background:
@@ -132,20 +132,8 @@ translation_url_en: /en/
     text-align: center;
   }
 
-  .home-journey .hero-claim {
-    max-width: 22ch;
-    margin: 0 auto 1rem;
-    font-size: clamp(2rem, 4.8vw, 3.7rem);
-    line-height: 0.96;
-    letter-spacing: -0.06em;
-    font-weight: 800;
-    text-wrap: balance;
-    color: #fff;
-    text-align: center;
-  }
-
   .home-journey .hero-sublead {
-    max-width: 54rem;
+    max-width: 56rem;
     margin: 0 auto;
     font-size: clamp(1.1rem, 2vw, 1.34rem);
     line-height: 1.58;
@@ -153,6 +141,39 @@ translation_url_en: /en/
     text-wrap: balance;
     text-align: center;
   }
+
+  .home-journey .hero-sublead strong {
+    font-weight: 760;
+  }
+
+  .home-journey .hero-claim,
+  .home-journey .display-statement {
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    text-wrap: balance;
+  }
+
+  .home-journey .hero-claim {
+    max-width: 24ch;
+    margin: 0 auto 1rem;
+    font-size: clamp(2rem, 4.8vw, 3.7rem);
+    line-height: 0.96;
+    letter-spacing: -0.06em;
+    font-weight: 800;
+  }
+
+  .home-journey .display-statement {
+    max-width: 22ch;
+    margin: 1.65rem auto;
+    font-size: clamp(1.95rem, 4.3vw, 3.5rem);
+    line-height: 0.97;
+    letter-spacing: -0.06em;
+    font-weight: 800;
+  }
+
+  .home-journey .display-statement.medium { max-width: 18ch; }
+  .home-journey .display-statement.wide { max-width: 24ch; }
 
   .home-journey .home-cta-row {
     display: flex;
@@ -184,7 +205,7 @@ translation_url_en: /en/
   }
 
   .home-journey .free-block p {
-    max-width: 52rem;
+    max-width: 54rem;
     margin: 0.95rem auto 0;
     font-size: 1.14rem;
     line-height: 1.8;
@@ -213,7 +234,7 @@ translation_url_en: /en/
   .home-journey .section-heading-display,
   .home-journey .section-head h2 {
     margin: 0 auto 1.2rem;
-    max-width: 14ch;
+    max-width: 15ch;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
     font-size: clamp(2.2rem, 5.2vw, 4.1rem);
     font-weight: 800;
@@ -224,7 +245,7 @@ translation_url_en: /en/
   }
 
   .home-journey .section-intro {
-    max-width: 52rem;
+    max-width: 54rem;
     margin: 0 auto 1.1rem;
     text-align: center;
     font-size: 1.14rem;
@@ -239,7 +260,7 @@ translation_url_en: /en/
   }
 
   .home-journey .body-copy p {
-    max-width: 52rem;
+    max-width: 54rem;
     margin: 0.95rem auto 0;
     font-size: 1.14rem;
     line-height: 1.8;
@@ -247,23 +268,8 @@ translation_url_en: /en/
     text-align: center;
   }
 
-  .home-journey .display-statement {
-    max-width: 22ch;
-    margin: 1.65rem auto;
-    text-align: center;
-    font-size: clamp(1.95rem, 4.3vw, 3.5rem);
-    line-height: 0.97;
-    letter-spacing: -0.06em;
-    font-weight: 800;
-    color: #fff;
-    text-wrap: balance;
-  }
-
-  .home-journey .display-statement.medium { max-width: 18ch; }
-  .home-journey .display-statement.wide { max-width: 24ch; }
-
   .home-journey .micro-punch {
-    max-width: 20ch;
+    max-width: 22ch;
     margin: 1.6rem auto 0;
     text-align: center;
     font-size: clamp(1.42rem, 3vw, 2rem);
@@ -315,7 +321,7 @@ translation_url_en: /en/
     margin: 0 0 0.45rem;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
     font-size: 1.34rem;
-    line-height: 1.06;
+    line-height: 1.08;
     letter-spacing: -0.04em;
     font-weight: 760;
     text-wrap: balance;
@@ -401,7 +407,7 @@ translation_url_en: /en/
 
     .home-journey .hero-sublead {
       font-size: 1.03rem;
-      max-width: 22rem;
+      max-width: 23rem;
       line-height: 1.44;
     }
 
@@ -435,7 +441,7 @@ translation_url_en: /en/
     .home-journey .section-heading-display,
     .home-journey .section-head h2 {
       font-size: 1.9rem;
-      max-width: 7.8ch;
+      max-width: 8.4ch;
       line-height: 0.98;
       letter-spacing: -0.05em;
     }
@@ -525,13 +531,21 @@ translation_url_en: /en/
           <strong>Relation</strong> ist, wie diese Ausdrucksformen mit anderen Kernen, Kontexten und Spannungen verbunden sind.
         </p>
         <p>
-          Diese Einsicht wirkt zuerst schlicht.
-          Sie ist es nicht.
-          Denn sobald man sie ernst nimmt,
-          wird Bedeutung nicht länger nur als Inhalt lesbar,
-          sondern als Struktur,
-          als Raum
-          und als dynamische Konfiguration.
+          Der entscheidende Schritt dieser Arbeit liegt nicht darin, zu behaupten, dass Menschen so etwas nie zuvor unterschieden hätten.
+          Natürlich haben Menschen in Analysen schon immer Kerne vom Ausdruck getrennt, Projektionen vom Gemeinten unterschieden und Relationen untersucht.
+          Neu ist, dass diese Unterscheidungen hier als <strong>einheitliche Minimalgrammatik</strong> explizit werden.
+        </p>
+        <p>
+          Was bisher verstreut, implizit und situativ mitlief, wird dadurch zu einer gemeinsamen Schablone.
+          Genau darin liegt der Qualitätssprung:
+          Aus vielen einzelnen Analysebewegungen wird ein rekursiv anwendbarer Rahmen.
+        </p>
+        <p>
+          Und gerade deshalb wirkt die Sache, sobald man sie einmal sieht, fast selbstverständlich.
+          Nicht weil sie klein wäre,
+          sondern weil hier keine künstliche Zusatzwelt erfunden wird,
+          sondern ein Grundmuster explizit wird,
+          das die ganze Zeit schon mitlief.
         </p>
       </div>
 
@@ -547,16 +561,29 @@ translation_url_en: /en/
   <section class="section-shell section-shell-tight">
     <div class="free-block">
       <p>
-        Der große Schritt dieser Arbeit liegt nicht darin, ein paar neue Begriffe vorzuschlagen.
-        Er liegt darin, etwas sichtbar zu machen, das jeder prüfen kann und das trotzdem bislang nicht als Grundgerüst formalisiert wurde.
+        KPR ist keine lose Dreiteilung, sondern eine rekursive Minimalgrammatik.
+        Ein Kern lässt sich nie nackt beschreiben,
+        sondern immer nur über seine Projektionen und Relationen.
+        Eine Projektion ist immer Projektion eines Kerns in bestimmten Relationen.
+        Eine Relation ist immer Relation zwischen etwas, das sich nur über Kern und Projektion bestimmen lässt.
       </p>
       <p>
-        Von dort aus wird plötzlich verständlich,
-        warum Zustände kippen,
-        warum manche Ordnungen nur lokal halten,
-        warum andere tragfähig werden
-        und warum KI-Alignment nicht nur eine Frage erlaubter Antworten,
-        sondern innerer semantischer Pfade ist.
+        Genau deshalb öffnet dieser Rahmen einen neuen Raum:
+        Nicht nur einzelne Themen,
+        sondern auch ihre Analyse,
+        ihre Kritik
+        und ihre Weiterentwicklung
+        unterliegen wieder derselben Schablone.
+        Jede Beschreibung kann erneut in Kern,
+        Projektion
+        und Relation gelesen werden.
+      </p>
+      <p>
+        Aus losem Deuten wird dadurch geordnete Struktur.
+        Probleme lassen sich schärfer zerlegen,
+        Spannungen präziser lokalisieren,
+        Projektionen vom Kern unterscheiden
+        und Relationen systematischer sichtbar machen.
       </p>
     </div>
   </section>
@@ -590,6 +617,13 @@ translation_url_en: /en/
           Ohne Verschränkung bleibt er isoliert.
           Ohne Wirksamkeit bleibt er steril.
         </p>
+        <p>
+          Damit wird aus einer Minimalgrammatik ein Koordinatensystem.
+          Zustände lassen sich nicht nur benennen,
+          sondern entlang ihrer Tragfähigkeit vergleichen,
+          mappen
+          und weiter modellieren.
+        </p>
       </div>
 
       <div class="concept-grid">
@@ -608,9 +642,9 @@ translation_url_en: /en/
       </div>
 
       <p class="display-statement medium">
-        Hier beginnt
-        ein neues Koordinatensystem
-        für Tragfähigkeit.
+        Hier wird Bedeutung
+        nicht nur lesbar,
+        sondern kartierbar.
       </p>
     </div>
   </section>
@@ -671,12 +705,21 @@ translation_url_en: /en/
           dann reicht Output-Kontrolle nicht mehr aus.
         </p>
         <p>
-          Dann braucht KI-Alignment ein Modell semantischer Zustände,
-          ein Modell innerer Übergänge
-          und ein Modell tragfähiger Richtungen.
+          Denn dann lassen sich Antworten,
+          Konflikte,
+          Verzerrungen
+          und Übergänge erstmals entlang ihrer minimalen Bestandteile lesen:
+          <strong>Kerne, Projektionen, Relationen — und ihre Tragfähigkeit.</strong>
         </p>
         <p>
-          Genau darin liegt der Paradigmenwechsel:
+          Genau dadurch wird ein neuer Zugriff auf KI-Alignment möglich.
+          Nicht weil plötzlich alles komplizierter wird,
+          sondern weil das,
+          was bisher nur implizit mitlief,
+          explizit und operationalisierbar wird.
+        </p>
+        <p>
+          Der Paradigmenwechsel lautet deshalb:
           <strong>Alignment wird von nachträglicher Antwortkontrolle zu Navigation durch semantischen Raum.</strong>
         </p>
       </div>
@@ -685,7 +728,8 @@ translation_url_en: /en/
         Nicht nur:
         Ist die Antwort akzeptabel?
         Sondern:
-        Durch welchen Raum kam sie hierher?
+        Wie ist sie semantisch gebaut,
+        und durch welchen Pfad kam sie hierher?
       </p>
 
       <div class="link-list">
@@ -736,26 +780,34 @@ translation_url_en: /en/
   <section class="section-shell">
     <div class="section-card">
       <p class="display-kicker">Der größere Horizont</p>
-      <h2 class="section-heading-display">Nicht nur Theorie. Eine Richtung.</h2>
+      <h2 class="section-heading-display">Nicht nur Theorie. Ein rekursiver Rahmen.</h2>
 
       <div class="body-copy">
         <p>
-          Hinter der technischen Arbeit steht ein größerer Horizont:
-          die Frage,
-          ob Bedeutung nicht nur Struktur,
-          sondern auch Richtung trägt.
+          Der tiefere Anspruch dieses Rahmens liegt nicht nur darin, Bedeutung besser zu beschreiben.
+          Er liegt darin, einen geometrischen Minimalrahmen freizulegen,
+          in dem sich alles,
+          was beschreibbar wird,
+          erneut einordnen,
+          vergleichen,
+          iterieren
+          und weiter modellieren lässt.
         </p>
         <p>
-          Genau dort setzen <strong>Der Kompass</strong>
-          und <strong>Das Buch der Bedeutung</strong> an:
-          nicht als Ersatz für Theorie,
-          sondern als Erweiterung ihres Horizonts —
-          hin zu Urimpuls,
-          Emergenz,
-          Bewusstsein,
-          Lesbarkeit von Wirklichkeit
-          und der Frage,
-          was eine tragfähigere Zivilisation sein könnte.
+          Genau deshalb trägt dieser Ansatz so weit:
+          nicht weil schon alles bewiesen wäre,
+          sondern weil dieselbe Schablone auf überraschend viele Ebenen skaliert —
+          von Aussage und Analyse
+          über semantische Zustände und KI-Architektur
+          bis hin zur Frage,
+          ob Wirklichkeit selbst einer rekursiv lesbaren Struktur folgt.
+        </p>
+        <p>
+          Darin liegt der größere Bogen dieser Arbeit:
+          nicht nur ein neues Modell für einzelne Probleme,
+          sondern ein Rahmen,
+          der am ehesten auf eine einheitlichere Beschreibung von Wirklichkeit zeigt,
+          weil er alles Beschreibbare in dieselbe minimale Geometrie überführt.
         </p>
       </div>
 
